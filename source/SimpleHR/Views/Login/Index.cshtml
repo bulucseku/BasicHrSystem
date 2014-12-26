@@ -1,0 +1,170 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<!--[if IE 8]>         <html class="ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	   <title>Simple HRM</title>
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+	   <!-- Open Sans font from Google CDN -->
+	   <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+
+       <!-- Pixel Admin's stylesheets -->	        
+        @Styles.Render("~/Content/pixeladmin/bootstrap.min.css")
+        @Styles.Render("~/Content/pixeladmin/pixel-admin.min.css")
+        @Styles.Render("~/Content/pixeladmin/pages.min.css")
+        @Styles.Render("~/Content/pixeladmin/rtl.min.css")
+        @Styles.Render("~/Content/pixeladmin/themes.min.css")
+
+       <!--[if lt IE 9]>
+		   <script src="~/Scripts/pixeladmin/ie.min.js"></script>
+	   <![endif]-->
+                
+        @Styles.Render("~/Content/hrstyle.css")
+        @Scripts.Render("~/bundles/modernizr")
+</head>
+<body class="theme-clean page-signin">
+    <!-- Page background -->
+	<div id="page-signin-bg">
+		<!-- Background overlay -->
+		<div class="overlay"></div>
+		<!-- Replace this with your bg image -->
+		<img src="Images/signin-bg-1.jpg" alt="">
+	</div>
+	<!-- / Page background -->
+
+	<!-- Container -->
+	<div class="signin-container">
+
+		<!-- Left side -->
+		<div class="signin-info">
+			<a href="#" class="logo">
+				<img alt="Simple HRM" src="Images/icon_128.png" style="margin-top: -5px; width:24px; height:24px;" >&nbsp;
+				Simple HRM
+			</a> <!-- / .logo -->
+			<div class="slogan">
+				Simple. Flexible. Powerfull.
+			</div> <!-- / .slogan -->
+			<ul>
+				<li>
+					<i class="fa fa-thumbs-o-up signin-icon"></i> Friendly to user
+				</li>
+				<li>
+					<i class="fa fa-sitemap signin-icon"></i> Modular structure
+				</li>
+				<li>
+					<i class="fa fa-bullseye signin-icon"></i> Comprehensive
+				</li>
+				<li>
+					<i class="fa  fa-bar-chart-o signin-icon"></i> Precise results
+				</li>
+			</ul> <!-- / Info list -->
+		</div>
+		<!-- / Left side -->
+
+		<!-- Right side -->
+		<div class="signin-form">
+
+			<!-- Form -->
+			<form action="index.html" id="signin-form_id">
+				<div class="signin-text">
+					<span>Sign In to your account</span>
+				</div> <!-- / .signin-text -->
+
+				<div class="form-group w-icon">
+					<input type="text" name="signin_username" id="username_id" class="form-control input-lg" placeholder="Username or email">
+					<span class="fa fa-user signin-form-icon"></span>
+				</div> <!-- / Username -->
+
+				<div class="form-group w-icon">
+					<input type="password" name="signin_password" id="password_id" class="form-control input-lg" placeholder="Password">
+					<span class="fa fa-lock signin-form-icon"></span>
+				</div> <!-- / Password -->
+
+				<div class="form-actions">
+					<input type="submit" value="SIGN IN" class="signin-btn bg-primary">
+					<a href="#" class="forgot-password" id="forgot-password-link">Forgot your password?</a>
+				</div> <!-- / .form-actions -->
+			</form>
+			<!-- / Form -->			
+
+			<!-- Password reset form -->
+			<div class="password-reset-form" id="password-reset-form">
+				<div class="header">
+					<div class="signin-text">
+						<span>Password reset</span>
+						<div class="close">&times;</div>
+					</div> <!-- / .signin-text -->
+				</div> <!-- / .header -->
+				
+				<!-- Form -->
+				<form action="index.html" id="password-reset-form_id">
+					<div class="form-group w-icon">
+						<input type="text" name="password_reset_email" id="p_email_id" class="form-control input-lg" placeholder="Enter your email">
+						<span class="fa fa-envelope signin-form-icon"></span>
+					</div> <!-- / Email -->
+
+					<div class="form-actions">
+						<input type="submit" value="SEND PASSWORD RESET LINK" class="signin-btn bg-primary">
+					</div> <!-- / .form-actions -->
+				</form>
+				<!-- / Form -->
+			</div>
+			<!-- / Password reset form -->
+		</div>
+		<!-- Right side -->
+	</div>
+	<!-- / Container -->	
+
+ <!-- Get jQuery from Google CDN -->
+<!--[if !IE]> -->
+	<script type="text/javascript"> window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js">' + "<" + "/script>"); </script>
+<!-- <![endif]-->
+<!--[if lte IE 9]>
+	<script type="text/javascript"> window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js">'+"<"+"/script>"); </script>
+<![endif]-->
+              
+        
+<script src="~/Scripts/pixeladmin/bootstrap.min.js"></script>
+<script src="~/Scripts/pixeladmin/pixel-admin.min.js"></script>
+
+<script type="text/javascript">
+    // Resize BG
+    init.push(function () {
+        var $ph = $('#page-signin-bg'),
+		    $img = $ph.find('> img');
+
+        $(window).on('resize', function () {
+            $img.attr('style', '');
+            if ($img.height() < $ph.height()) {
+                $img.css({
+                    height: '100%',
+                    width: 'auto'
+                });
+            }
+        });
+    });
+
+    // Show/Hide password reset form on click
+    init.push(function () {
+        $('#forgot-password-link').click(function () {
+            $('#password-reset-form').fadeIn(400);
+            return false;
+        });
+        $('#password-reset-form .close').click(function () {
+            $('#password-reset-form').fadeOut(400);
+            return false;
+        });
+    });  
+
+    window.PixelAdmin.start(init);
+</script>
+</body>
+</html>
