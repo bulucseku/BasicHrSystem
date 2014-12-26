@@ -13,5 +13,17 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
+       [HttpPost]
+       public ActionResult LogOn()
+       {
+           if (ModelState.IsValid)
+           {
+               return RedirectToAction("Index", "Home");               
+           }
+
+           // If we got this far, something failed, redisplay form
+           return View();
+       }
+
     }
 }

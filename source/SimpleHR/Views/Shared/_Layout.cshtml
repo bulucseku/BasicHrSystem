@@ -70,231 +70,12 @@
 						</li>
                         <li>
 							<a href="#">Accounts</a>
-						</li>
-                        <li>
-							<a href="#">User Manager</a>
-						</li>
-                        <li>
-							<a href="#">Reports</a>
-						</li>
-						@*<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">First item</a></li>
-								<li><a href="#">Second item</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Third item</a></li>
-							</ul>
-						</li>*@
+						</li>                      					
 					</ul> <!-- / .navbar-nav -->
 
 					<div class="right clearfix">
 						<ul class="nav navbar-nav pull-right right-navbar-nav">
-
-<!-- 3. $NAVBAR_ICON_BUTTONS =======================================================================
-
-							Navbar Icon Buttons
-
-							NOTE: .nav-icon-btn triggers a dropdown menu on desktop screens only. On small screens .nav-icon-btn acts like a hyperlink.
-
-							Classes:
-							* 'nav-icon-btn-info'
-							* 'nav-icon-btn-success'
-							* 'nav-icon-btn-warning'
-							* 'nav-icon-btn-danger' 
--->
-							<li class="nav-icon-btn nav-icon-btn-danger dropdown">
-								<a href="#notifications" class="dropdown-toggle" data-toggle="dropdown">
-									<span class="label">5</span>
-									<i class="nav-icon fa fa-bullhorn"></i>
-									<span class="small-screen-text">Notifications</span>
-								</a>
-
-								<!-- NOTIFICATIONS -->
-								
-								<!-- Javascript -->
-								<script>
-								    init.push(function () {
-								        $('#main-navbar-notifications').slimScroll({ height: 250 });
-								    });
-								</script>
-								<!-- / Javascript -->
-
-								<div class="dropdown-menu widget-notifications no-padding" style="width: 300px">
-									<div class="notifications-list" id="main-navbar-notifications">
-
-										<div class="notification">
-											<div class="notification-title text-danger">SYSTEM</div>
-											<div class="notification-description"><strong>Error 500</strong>: Syntax error in index.php at line <strong>461</strong>.</div>
-											<div class="notification-ago">12h ago</div>
-											<div class="notification-icon fa fa-hdd-o bg-danger"></div>
-										</div> <!-- / .notification -->
-
-										<div class="notification">
-											<div class="notification-title text-info">STORE</div>
-											<div class="notification-description">You have <strong>9</strong> new orders.</div>
-											<div class="notification-ago">12h ago</div>
-											<div class="notification-icon fa fa-truck bg-info"></div>
-										</div> <!-- / .notification -->
-
-										<div class="notification">
-											<div class="notification-title text-default">CRON DAEMON</div>
-											<div class="notification-description">Job <strong>"Clean DB"</strong> has been completed.</div>
-											<div class="notification-ago">12h ago</div>
-											<div class="notification-icon fa fa-clock-o bg-default"></div>
-										</div> <!-- / .notification -->
-
-										<div class="notification">
-											<div class="notification-title text-success">SYSTEM</div>
-											<div class="notification-description">Server <strong>up</strong>.</div>
-											<div class="notification-ago">12h ago</div>
-											<div class="notification-icon fa fa-hdd-o bg-success"></div>
-										</div> <!-- / .notification -->
-
-										<div class="notification">
-											<div class="notification-title text-warning">SYSTEM</div>
-											<div class="notification-description"><strong>Warning</strong>: Processor load <strong>92%</strong>.</div>
-											<div class="notification-ago">12h ago</div>
-											<div class="notification-icon fa fa-hdd-o bg-warning"></div>
-										</div> <!-- / .notification -->
-
-									</div> <!-- / .notifications-list -->
-									<a href="#" class="notifications-link">MORE NOTIFICATIONS</a>
-								</div> <!-- / .dropdown-menu -->
-							</li>
-							<li class="nav-icon-btn nav-icon-btn-success dropdown">
-								<a href="#messages" class="dropdown-toggle" data-toggle="dropdown">
-									<span class="label">10</span>
-									<i class="nav-icon fa fa-envelope"></i>
-									<span class="small-screen-text">Income messages</span>
-								</a>
-
-								<!-- MESSAGES -->
-								
-								<!-- Javascript -->
-								<script>
-								    init.push(function () {
-								        $('#main-navbar-messages').slimScroll({ height: 250 });
-								    });
-								</script>
-								<!-- / Javascript -->
-
-								<div class="dropdown-menu widget-messages-alt no-padding" style="width: 300px;">
-									<div class="messages-list" id="main-navbar-messages">
-
-										<div class="message">
-											<img src="Images/pixel-admin/2.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-											<div class="message-description">
-												from <a href="#">Robert Jang</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/3.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
-											<div class="message-description">
-												from <a href="#">Michelle Bortz</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/4.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet.</a>
-											<div class="message-description">
-												from <a href="#">Timothy Owens</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/5.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
-											<div class="message-description">
-												from <a href="#">Denise Steiner</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/2.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet.</a>
-											<div class="message-description">
-												from <a href="#">Robert Jang</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/2.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a>
-											<div class="message-description">
-												from <a href="#">Robert Jang</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/3.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
-											<div class="message-description">
-												from <a href="#">Michelle Bortz</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/4.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet.</a>
-											<div class="message-description">
-												from <a href="#">Timothy Owens</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											<img src="Images/pixel-admin/5.jpg" alt="" class="message-avatar">
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</a>
-											<div class="message-description">
-												from <a href="#">Denise Steiner</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-										<div class="message">
-											@*<img src="Images/pixel-admin/2.jpg" alt="" class="message-avatar">*@
-											<a href="#" class="message-subject">Lorem ipsum dolor sit amet.</a>
-											<div class="message-description">
-												from <a href="#">Robert Jang</a>
-												&nbsp;&nbsp;·&nbsp;&nbsp;
-												2h ago
-											</div>
-										</div> <!-- / .message -->
-
-									</div> <!-- / .messages-list -->
-									<a href="#" class="messages-link">MORE MESSAGES</a>
-								</div> <!-- / .dropdown-menu -->
-							</li>
-<!-- /3. $END_NAVBAR_ICON_BUTTONS -->
-
-						@*	<li>
-								<form class="navbar-form pull-left">
-									<input type="text" class="form-control" placeholder="Search">
-								</form>
-							</li>*@
-
-							<li class="dropdown">
+                            <li class="dropdown">
 								<a href="#" class="dropdown-toggle user-menu" data-toggle="dropdown">
 									<img src="Images/pixel-admin/1.jpg" alt="">
 									<span>John Doe</span>
@@ -322,43 +103,11 @@
 		
 		Notes:
 		* to make the menu item active, add a class 'active' to the <li>
-		  example: <li class="active">...</li>
-		* multilevel submenu example:
-			<li class="mm-dropdown">
-			  <a href="#"><span class="mm-text">Submenu item text 1</span></a>
-			  <ul>
-				<li>...</li>
-				<li class="mm-dropdown">
-				  <a href="#"><span class="mm-text">Submenu item text 2</span></a>
-				  <ul>
-					<li>...</li>
-					...
-				  </ul>
-				</li>
-				...
-			  </ul>
-			</li>
+		  example: <li class="active">...</li>					
 -->
-	<div id="main-menu" role="navigation">
-		<div id="main-menu-inner">
-			@*<div class="menu-content top" id="menu-content-demo">
-				<!-- Menu custom content demo
-					 CSS:        styles/pixel-admin-less/demo.less or styles/pixel-admin-scss/_demo.scss
-					 Javascript: html/assets/demo/demo.js
-				 -->
-				<div>
-					<div class="text-bg"><span class="text-slim">Welcome,</span> <span class="text-semibold">John</span></div>
 
-					<img src="Images/pixel-admin/1.jpg" alt="" class="">
-					<div class="btn-group">
-						<a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-envelope"></i></a>
-						<a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-user"></i></a>
-						<a href="#" class="btn btn-xs btn-primary btn-outline dark"><i class="fa fa-cog"></i></a>
-						<a href="#" class="btn btn-xs btn-danger btn-outline dark"><i class="fa fa-power-off"></i></a>
-					</div>
-					<a href="#" class="close">&times;</a>
-				</div>
-			</div>*@
+	<div id="main-menu" role="navigation">
+		<div id="main-menu-inner">			
 			<ul class="navigation">
 				<li>
 					<a href="index.html"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text">Dashboard</span></a>
@@ -546,49 +295,14 @@
 						</li>
 					</ul>
 				</li>
-			</ul> <!-- / .navigation -->
-			@*<div class="menu-content">
-				<a href="pages-invoice.html" class="btn btn-primary btn-block btn-outline dark">Create Invoice</a>
-			</div>*@
+			</ul> <!-- / .navigation -->			
 		</div> <!-- / #main-menu-inner -->
 	</div> <!-- / #main-menu -->
 <!-- /4. $MAIN_MENU -->
 
 	<div id="content-wrapper">
-		@*<ul class="breadcrumb breadcrumb-page">
-			<div class="breadcrumb-label text-light-gray">You are here: </div>
-			<li><a href="#">Home</a></li>
-			<li class="active"><a href="#">Dashboard</a></li>
-		</ul>*@
-		@*<div class="page-header">
-			
-			<div class="row">
-          	 <!-- Page header, center on small screens -->
-				<h1 class="col-xs-12 col-sm-4 text-center text-left-sm"><i class="fa fa-dashboard page-header-icon"></i>&nbsp;&nbsp;Dashboard</h1>
-
-				<div class="col-xs-12 col-sm-8">
-					<div class="row">
-						<hr class="visible-xs no-grid-gutter-h">
-						<!-- "Create project" button, width=auto on desktops -->
-						<div class="pull-right col-xs-12 col-sm-auto"><a href="#" class="btn btn-primary btn-labeled" style="width: 100%;"><span class="btn-label icon fa fa-plus"></span>Create project</a></div>
-
-						<!-- Margin -->
-						<div class="visible-xs clearfix form-group-margin"></div>
-
-						<!-- Search field -->
-						<form action="" class="pull-right col-xs-12 col-sm-6">
-							<div class="input-group no-margin">
-								<span class="input-group-addon" style="border:none;background: #fff;background: rgba(0,0,0,.05);"><i class="fa fa-search"></i></span>
-								<input type="text" placeholder="Search..." class="form-control no-padding-hr" style="border:none;background: #fff;background: rgba(0,0,0,.05);">
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div> <!-- / .page-header -->*@
-
-
-		@*<div class="row">*@
+		
+		<div class="row">
          @RenderSection("featured", required: false)
          @RenderBody()   
 		</div>
