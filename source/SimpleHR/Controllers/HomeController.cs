@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MvcApplication1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -15,18 +16,19 @@ namespace MvcApplication1.Controllers
             return View();
         }
 
-        public ActionResult About()
+        [ChildActionOnly]
+        public ActionResult RenderModules()
         {
-            ViewBag.Message = "Your app description page.";
-
-            return View();
+            return PartialView();
         }
 
-        public ActionResult Contact()
+        [ChildActionOnly]
+        public ActionResult Modules()
         {
-            ViewBag.Message = "Your contact page.";
 
-            return View();
+            var modules = new SystemModule().GetModules();
+            return PartialView(modules);
         }
+               
     }
 }
