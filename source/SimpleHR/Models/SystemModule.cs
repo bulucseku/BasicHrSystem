@@ -5,36 +5,51 @@ using System.Web;
 
 namespace MvcApplication1.Models
 {
+    public abstract class BaseViewModel{
+        public List<SystemModule> modues { 
+            set{}
+            get {
+                var modules = new List<SystemModule>();
+
+                var module = new SystemModule();
+                module.Id = "organization";
+                module.Name = "Organization";
+                modules.Add(module);
+
+                module = new SystemModule();
+                module.Id = "hr";
+                module.Name = "Human Resource";
+                modules.Add(module);
+
+                module = new SystemModule();
+                module.Id = "pr";
+                module.Name = "Payroll";
+                modules.Add(module);
+
+                module = new SystemModule();
+                module.Id = "accounts";
+                module.Name = "Accounts";
+                modules.Add(module);
+
+                return modules;
+            }
+        }        
+    }
+
+    public class ChildViewModel: BaseViewModel
+    {
+        public List<ModuleMenu> Menus { set; get; }
+        public ChildViewModel(string moduleId)
+        {
+             this.Menus = new ModuleMenu().GetMenus(moduleId);
+        }
+    }
+
     public class SystemModule
     {
         public string Id{get;set;}
-        public string Name { get; set;}
-        public List<ModuleMenu> Menus { get; set; }
-        public List<SystemModule> GetModules() {
-            var modules = new List<SystemModule>();
-
-            var module= new SystemModule();
-            module.Id = "organization";
-            module.Name = "Organization";
-            modules.Add(module);
-
-            module = new SystemModule();
-            module.Id = "hr";
-            module.Name = "Human Resource";
-            modules.Add(module);
-
-            module = new SystemModule();
-            module.Id = "pr";
-            module.Name = "Payroll";
-            modules.Add(module);
-
-            module = new SystemModule();
-            module.Id = "accounts";
-            module.Name = "Accounts";
-            modules.Add(module);
-
-            return modules;
-        }
+        public string Name { get; set;}        
+      
     }
 
     public class ModuleMenu

@@ -12,23 +12,9 @@ namespace MvcApplication1.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
-            return View();
+            var model = new ChildViewModel("organization");
+            return View(model);
         }
-
-        [ChildActionOnly]
-        public ActionResult RenderModules()
-        {
-            return PartialView();
-        }
-
-        [ChildActionOnly]
-        public ActionResult Modules()
-        {
-
-            var modules = new SystemModule().GetModules();
-            return PartialView(modules);
-        }
-               
+       
     }
 }

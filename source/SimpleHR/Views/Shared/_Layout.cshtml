@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿
+@model MvcApplication1.Models.ChildViewModel
+
+<!DOCTYPE html>
 <!--[if IE 8]>         <html class="ie8"> <![endif]-->
 <!--[if IE 9]>         <html class="ie9 gt-ie8"> <![endif]-->
 <!--[if gt IE 9]><!--> <html class="gt-ie8 gt-ie9 not-ie"> <!--<![endif]-->
@@ -59,18 +62,12 @@
 			<div id="main-navbar-collapse" class="collapse navbar-collapse main-navbar-collapse">
 				<div>
 					<ul class="nav navbar-nav">
-						<li>
-							<a href="#">Organization</a>
-						</li>
-                        <li>
-							<a href="#">Human Resource</a>
-						</li>
-                        <li>
-							<a href="#">Payroll</a>
-						</li>
-                        <li>
-							<a href="#">Accounts</a>
-						</li>                      					
+							@foreach (var module in Model.modues)
+                            {
+                                <li>
+			                         @Html.ActionLink(module.Name, "someaction", "Home", null, new { id = "mylink" })
+		                        </li>
+                            }                      					
 					</ul> <!-- / .navbar-nav -->
 
 					<div class="right clearfix">
@@ -109,7 +106,16 @@
 	<div id="main-menu" role="navigation">
 		<div id="main-menu-inner">			
 			<ul class="navigation">
-				<li>
+				
+                @foreach (var menu in Model.Menus)
+                   {
+                        <li>
+			                   @*@Html.ActionLink(menu.Name, "someaction", "Home", null, new { id = "mylink" })*@
+                               <a href="index.html"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>
+		                </li>
+                    }  
+                
+                <li>
 					<a href="index.html"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text">Dashboard</span></a>
 				</li>
 				<li class="mm-dropdown">
