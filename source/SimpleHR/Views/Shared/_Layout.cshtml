@@ -110,8 +110,7 @@
                 @foreach (var menu in Model.Menus)
                    {
                         <li>
-			                   @*@Html.ActionLink(menu.Name, "someaction", "Home", null, new { id = "mylink" })*@
-                               <a href="index.html"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>
+			                   <a href="@Url.Action("Index", "Home1")"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>                                
 		                </li>
                     }  
                 
