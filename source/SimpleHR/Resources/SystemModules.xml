@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<systemModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modules>
+    <module id="organization" name="Organization">
+    </module>
+    <module id="hr" name="Human Resource">
+    </module>
+    <module id="pr" name="Payroll">
+    </module>
+    <module id="accounts" name="Accounts">
+    </module>
+  </modules>
+</systemModule>

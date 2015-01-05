@@ -167,6 +167,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\SystemModule.cs" />
+    <Compile Include="Models\Utility\XmlManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -205,6 +206,7 @@
     <Content Include="Images\pixel-admin\main-navbar-bg.png" />
     <Content Include="Images\pixel-admin\main-navbar-logo.png" />
     <Content Include="Images\signin-bg-1.jpg" />
+    <Content Include="Resources\SystemModules.xml" />
     <Content Include="Scripts\pixeladmin\bootstrap.min.js" />
     <Content Include="Scripts\pixeladmin\demo.js" />
     <Content Include="Scripts\pixeladmin\ie.min.js" />

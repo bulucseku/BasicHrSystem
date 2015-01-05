@@ -1,7 +1,9 @@
-﻿using System;
+﻿using MvcApplication1.Models.Utility;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Xml;
 
 namespace MvcApplication1.Models
 {
@@ -9,29 +11,8 @@ namespace MvcApplication1.Models
         public List<SystemModule> modues { 
             set{}
             get {
-                var modules = new List<SystemModule>();
-
-                var module = new SystemModule();
-                module.Id = "organization";
-                module.Name = "Organization";
-                modules.Add(module);
-
-                module = new SystemModule();
-                module.Id = "hr";
-                module.Name = "Human Resource";
-                modules.Add(module);
-
-                module = new SystemModule();
-                module.Id = "pr";
-                module.Name = "Payroll";
-                modules.Add(module);
-
-                module = new SystemModule();
-                module.Id = "accounts";
-                module.Name = "Accounts";
-                modules.Add(module);
-
-                return modules;
+               
+                return new XmlManager("SystemModules.xml").LoadModules();
             }
         }        
     }
@@ -48,8 +29,49 @@ namespace MvcApplication1.Models
     public class SystemModule
     {
         public string Id{get;set;}
-        public string Name { get; set;}        
-      
+        public string Name { get; set;}
+        public List<ModuleMenu> Menus { set; get; }
+        public SystemModule()
+        {
+            this.Menus = new List<ModuleMenu>();
+        }
+
+        public SystemModule(string id, string name)
+        {
+            this.Menus = new List<ModuleMenu>();
+            this.Id = id;
+            this.Name = name;
+        }
+
+        private static SystemModule CreateModule(XmlNode node)
+        {
+            return new SystemModule(node.Attributes["id"].Value, node.Attributes["name"].Value);
+        }
+
+        public static List<SystemModule> CreateSystemModule(XmlNode mdRoot)
+        {
+            var modules = mdRoot.SelectNodes("module").Cast<XmlNode>()
+                .Select(node => CreateModule(node))
+                .ToList();
+
+
+            //var facts = mdRoot["facts"].SelectNodes("fact").Cast<XmlNode>()
+            //    .Select(node => CreateFact(node))
+            //    .ToArray();
+
+            //var metricsNode = mdRoot["metrics"];
+            //var simpleMetrics = metricsNode["simpleMetrics"].SelectNodes("simpleMetric").Cast<XmlNode>()
+            //    .Select(node => CreateSimpleMetric(node))
+            //    .ToArray();
+
+            //var compositeMetrics = metricsNode["compositeMetrics"] == null ? new Metric[0] : metricsNode["compositeMetrics"].ChildNodes.Cast<XmlNode>()
+            //    .Select(node => CreateCompositeMetric(node))
+            //    .ToArray();
+
+            //var metricGroups = GetMetricGroups(mdRoot, simpleMetrics.Concat(compositeMetrics));
+
+            return modules;
+        }
     }
 
     public class ModuleMenu
