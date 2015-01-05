@@ -88,6 +88,14 @@ namespace MvcApplication1.Models
                     smenu.Controller = "ThisSystem";
                     smenu.Method = "EmployeeSType";
 
+                    var smenu1 = new ModuleMenu();
+                    smenu1.Id = "empS1Type";
+                    smenu1.Name = "Employee S1 Type";
+                    smenu1.Controller = "ThisSystem";
+                    smenu1.Method = "EmployeeS1Type";
+
+                    smenu.Menus.Add(smenu1);
+
                     menu.Menus.Add(smenu);
 
                     menus.Add(menu);
