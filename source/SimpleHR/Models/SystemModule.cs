@@ -100,6 +100,41 @@ namespace MvcApplication1.Models
 
                     menus.Add(menu);
                     break;
+
+                case "hr":
+
+                    menu = new ModuleMenu();
+                    menu.Id = "Abc";
+                    menu.Name = "Abc";
+                    menu.Controller = "ThisSystem";
+                    menu.Method = "EmployeeType";
+
+                    smenu = new ModuleMenu();
+                    smenu.Id = "Abcc";
+                    smenu.Name = "Acc";
+                    smenu.Controller = "ThisSystem";
+                    smenu.Method = "EmployeeSType";
+
+                    smenu1 = new ModuleMenu();
+                    smenu1.Id = "BBC";
+                    smenu1.Name = "BBC";
+                    smenu1.Controller = "ThisSystem";
+                    smenu1.Method = "EmployeeS1Type";
+
+                    smenu.Menus.Add(smenu1);
+
+                    menu.Menus.Add(smenu);
+
+                    menus.Add(menu);
+
+                    menu = new ModuleMenu();
+                    menu.Id = "hr";
+                    menu.Name = "Hr settings";
+                    menu.Controller = "ThisSystem";
+                    menu.Method = "SystemSettings";
+                    menus.Add(menu);
+                    
+                    break;
                 default:
                     break;
             }

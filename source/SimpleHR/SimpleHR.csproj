@@ -238,6 +238,18 @@
   <ItemGroup>
     <Content Include="Views\Home\LoginUserInfo.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\organization.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\hr.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\pr.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\accounts.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

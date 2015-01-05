@@ -49,8 +49,8 @@
 			<div class="navbar-header">
 
 				<!-- Logo -->
-				<a href="#" class="navbar-brand">
-					<div><img alt="Simple HRM" src="Images/icon_128.png"></div>
+				<a href="@Url.Action("Index", "Home")" class="navbar-brand">
+					<div><img alt="Simple HRM" src="/Images/icon_128.png"></div>
 					Simple HRM
 				</a>
 
@@ -65,7 +65,7 @@
 						@foreach (var module in Model.modues)
                         {
                            <li>
-			                  @Html.ActionLink(module.Name, "someaction", "Home", null, new { id = "mylink" })
+			                  @Html.ActionLink(module.Name, "Module", "Home", new { moduleId = module.Id }, null)
 		                    </li>
                         }                      					
 					</ul> <!-- / .navbar-nav -->
@@ -94,10 +94,8 @@
 	<div id="main-menu" role="navigation">
 		<div id="main-menu-inner">			
 			<ul class="navigation">
-
                 @helper ShowTree(IEnumerable<ModuleMenu> menus)
-                    {
-                     
+                    {                     
                         foreach (var menu in menus)
                         {
                             if (menu.Menus.Any())
@@ -107,8 +105,7 @@
 					                <ul>
 						                @ShowTree(menu.Menus)				
 					                </ul>
-				                </li>
-                    
+				                </li>                    
                             }
                             else
                             {                            
@@ -116,14 +113,11 @@
 			                        <a href="@Url.Action("Index", "Home1")"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>                                
 		                        </li>
                             }
-                        } 
-                        
+                        }                         
                     }
 
-                 @ShowTree(Model.Menus)				
-            
-             
-			</ul> <!-- / .navigation -->			
+                 @ShowTree(Model.Menus)				          
+            </ul> <!-- / .navigation -->			
 		</div> <!-- / #main-menu-inner -->
 	</div> <!-- / #main-menu -->
 <!-- /4. $MAIN_MENU -->

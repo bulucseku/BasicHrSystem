@@ -16,10 +16,16 @@ namespace MvcApplication1.Controllers
             return View(model);
         }
 
-        //[ChildActionOnly]
+        [ChildActionOnly]
         public ActionResult LoginUserInfo()
         {
             return PartialView();
+        }
+
+        public ActionResult Module(string moduleId)
+        {
+            var model = new ChildViewModel(moduleId);
+            return View(moduleId, model);
         }
        
     }
