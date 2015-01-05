@@ -58,6 +58,12 @@ namespace MvcApplication1.Models
         public string Name { get; set; }
         public string Controller { get; set; }
         public string Method { get; set; }
+        public List<ModuleMenu> Menus { set; get; }
+
+        public ModuleMenu() {
+            this.Menus = new List<ModuleMenu>();
+        }
+
         public List<ModuleMenu> GetMenus(string moduleId) {
             var menus = new List<ModuleMenu>();
             switch (moduleId)
@@ -75,6 +81,15 @@ namespace MvcApplication1.Models
                     menu.Name = "Employee Type";
                     menu.Controller = "ThisSystem";
                     menu.Method = "EmployeeType";
+
+                    var smenu = new ModuleMenu();
+                    smenu.Id = "empSType";
+                    smenu.Name = "Employee S Type";
+                    smenu.Controller = "ThisSystem";
+                    smenu.Method = "EmployeeSType";
+
+                    menu.Menus.Add(smenu);
+
                     menus.Add(menu);
                     break;
                 default:

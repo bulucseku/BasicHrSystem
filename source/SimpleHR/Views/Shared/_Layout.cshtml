@@ -1,5 +1,5 @@
-﻿
-@model MvcApplication1.Models.ChildViewModel
+﻿@using MvcApplication1.Models
+@model ChildViewModel
 
 <!DOCTYPE html>
 <!--[if IE 8]>         <html class="ie8"> <![endif]-->
@@ -63,11 +63,11 @@
 				<div>
 					<ul class="nav navbar-nav">
 							@foreach (var module in Model.modues)
-                            {
+       {
                                 <li>
 			                         @Html.ActionLink(module.Name, "someaction", "Home", null, new { id = "mylink" })
 		                        </li>
-                            }                      					
+       }                      					
 					</ul> <!-- / .navbar-nav -->
 
 					<div class="right clearfix">
@@ -106,13 +106,35 @@
 	<div id="main-menu" role="navigation">
 		<div id="main-menu-inner">			
 			<ul class="navigation">
-				
-                @foreach (var menu in Model.Menus)
-                   {
-                        <li>
-			                   <a href="@Url.Action("Index", "Home1")"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>                                
-		                </li>
-                    }  
+
+                @helper ShowTree(IEnumerable<ModuleMenu> menus)
+                    {
+                        
+                        foreach (var menu in menus)
+                        {
+                            if (menu.Menus.Any())
+                            {
+                                <li class="mm-dropdown">
+					                <a href="#"><i class="menu-icon fa fa-th"></i><span class="mm-text">@menu.Name</span></a>
+					                <ul>
+						                @ShowTree(menu.Menus)				
+					                </ul>
+				                </li>
+                    
+                            }
+                            else
+                            {
+                            
+                                <li>
+			                        <a href="@Url.Action("Index", "Home1")"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text"> @menu.Name </span></a>                                
+		                        </li>
+                            }
+                        } 
+                        
+                    }
+
+                 @ShowTree(Model.Menus)				
+            
                 
                 <li>
 					<a href="index.html"><i class="menu-icon fa fa-dashboard"></i><span class="mm-text">Dashboard</span></a>
