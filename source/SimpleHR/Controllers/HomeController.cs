@@ -15,6 +15,12 @@ namespace MvcApplication1.Controllers
             var model = new ChildViewModel("organization");
             return View(model);
         }
+
+        //[ChildActionOnly]
+        public ActionResult LoginUserInfo()
+        {
+            return PartialView();
+        }
        
     }
 }
