@@ -34,9 +34,19 @@ namespace MvcApplication1.Models.Utility
             var root = OpenDefinition();
 
             var modulesNode = root["modules"];
-            var modules = SystemModule.CreateSystemModule(modulesNode);
+            var modules = SystemModule.CreateSystemModules(modulesNode);
 
             return modules;
+        }
+
+        public List<ModuleMenu> LoadMenus(string moduleId)
+        {
+            var root = OpenDefinition();
+            var moduleNode = root.SelectSingleNode("modules").Cast<XmlNode>()
+                .Where(node => node.Attributes["id"].Value == moduleId).FirstOrDefault();
+            
+            return ModuleMenu.CreateModuleMenus(moduleNode);
+
         }
     }
 }

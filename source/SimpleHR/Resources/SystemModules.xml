@@ -2,6 +2,16 @@
 <systemModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modules>
     <module id="organization" name="Organization">
+      <menus>
+        <menu id="m1" name="m1" controller="" method=""> </menu>
+        <menu id="m2" name="m2" controller="" method=""> </menu>
+        <menu id="m3" name="m3" controller="" method="">
+          <menus>
+            <menu id="m21" name="m21" controller="" method=""> </menu>
+            <menu id="m22" name="m22" controller="" method=""> </menu>
+          </menus>
+        </menu>
+      </menus>
     </module>
     <module id="hr" name="Human Resource">
     </module>
