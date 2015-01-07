@@ -3,21 +3,98 @@
   <modules>
     <module id="organization" name="Organization">
       <menus>
-        <menu id="m1" name="m1" controller="" method=""> </menu>
-        <menu id="m2" name="m2" controller="" method=""> </menu>
-        <menu id="m3" name="m3" controller="" method="">
+        <menu id="SystemSettings" name="System Settings" controller="" method=""> </menu>
+        <menu id="CompanyInformation" name="Company Information" controller="" method=""> </menu>
+        <menu id="OrganizationalPolicies" name="Organizational Policies" controller="" method="">
           <menus>
-            <menu id="m21" name="m21" controller="" method=""> </menu>
-            <menu id="m22" name="m22" controller="" method=""> </menu>
+            <menu id="HRPolicies" name="HR Policy" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+        <menu id="ResourceManagement" name="Resource  Management" controller="" method="">
+          <menus>
+            <menu id="ResourceType" name="Resource Type" controller="" method=""> </menu>
+            <menu id="ResourceBooking" name="Resource Booking" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="ProjectManagement" name="Project Management" controller="" method="">
+          <menus>
+            <menu id="IssueTracker" name="Issue Tracker" controller="" method=""> </menu>
+            <menu id="TimeTracker" name="Time Tracker" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="HolidayCalendar" name="Holiday Calendar" controller="" method=""> </menu>
+        <menu id="Meetings" name="Meetings" controller="" method=""> </menu>
+        <menu id="Notice Board" name="Notice Board" controller="" method="">
+          <menus>
+            <menu id="News" name="News" controller="" method=""> </menu>
+            <menu id="Announcement" name="Announcement" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="OrgStructure" name="Organization Strucutre" controller="" method="">
+          <menus>
+            <menu id="Location" name="Location" controller="" method=""> </menu>
+            <menu id="Department" name="Department" controller="" method=""> </menu>
+            <menu id="Grade" name="Grade" controller="" method=""> </menu>
+            <menu id="Designation" name="Designation" controller="" method=""> </menu>
+            <menu id="CostCenter" name="Cost Center" controller="" method=""> </menu>
+            <menu id="Relgion" name="Religion" controller="" method=""> </menu>
+            <menu id="Bank" name="Bank" controller="" method=""> </menu>
+            <menu id="Branch" name="Branch" controller="" method=""> </menu>
+            <menu id="EmpType" name="Employee Type" controller="" method=""> </menu>
+            <menu id="EmpCategory" name="Employee Category" controller="" method=""> </menu>
           </menus>
         </menu>
       </menus>
     </module>
-    <module id="hr" name="Human Resource">
+    <module id="hr" name="HR">
+      <menus>
+        <menu id="Employee" name="Employee" controller="" method="">
+          <menus>
+            <menu id="BasicInformation" name="Basic Information" controller="" method=""> </menu>
+            <menu id="JoiningInformation" name="Joining Information" controller="" method=""> </menu>
+            <menu id="Confirmation" name="Confirmation" controller="" method=""> </menu>
+            <menu id="LifeCycle" name="Employee Life Cycle" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="Organogram" name="Organogram" controller="" method=""> </menu>
+        <menu id="Training" name="Training" controller="" method=""> </menu>
+        <menu id="PMP" name="Performance Evaluation" controller="" method=""> </menu>
+        <menu id="Resignation" name="Resignation" controller="" method=""> </menu>
+        <menu id="Attendance" name="Attendance" controller="" method="">
+          <menus>
+            <menu id="AttendanceEntry" name="Attendance Entry" controller="" method=""> </menu>
+            <menu id="MonthlyAttendance" name="Attendance Information" controller="" method=""> </menu>
+            <menu id="ExtraHour" name="Extra Working Hour" controller="" method=""> </menu>
+            <menu id="LessHour" name="Less Working Hour" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="Leave" name="Leave" controller="" method="">
+          <menus>
+            <menu id="LeaveType" name="Leave Type" controller="" method=""> </menu>
+            <menu id="LeaveSettings" name="Leave Settings" controller="" method=""> </menu>
+            <menu id="LeaveApplication" name="Leave Application" controller="" method=""> </menu>
+            <menu id="EmployeesLeaveStatus" name="Employees Leave Status" controller="" method=""> </menu>
+            <menu id="Unauthorizeleave" name="Unauthorized leave" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="OverTime" name="Over Time" controller="" method="">
+          <menus>
+            <menu id="OverTimeType" name="Over Time Type" controller="" method=""> </menu>
+            <menu id="OverTimeSettings" name="Over Time Settings" controller="" method=""> </menu>
+            <menu id="OverTimeEntry" name="Over Time Entry" controller="" method=""> </menu>
+            <menu id="MonthlyOverTime" name="Monthly Over Time" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+      </menus>
     </module>
     <module id="pr" name="Payroll">
+      <menus></menus>
     </module>
     <module id="accounts" name="Accounts">
+      <menus></menus>
+    </module>
+    <module id="um" name="User Manager">
+      <menus></menus>
     </module>
   </modules>
 </systemModule>
