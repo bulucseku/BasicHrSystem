@@ -54,6 +54,9 @@
             <menu id="JoiningInformation" name="Joining Information" controller="" method=""> </menu>
             <menu id="Confirmation" name="Confirmation" controller="" method=""> </menu>
             <menu id="LifeCycle" name="Employee Life Cycle" controller="" method=""> </menu>
+            <menu id="CostCenterAllocation" name="Cost Center Allocation" controller="" method=""> </menu>
+            <menu id="BankAccount" name="Employee Bank Account" controller="" method=""> </menu>
+            
           </menus>
         </menu>
         <menu id="Organogram" name="Organogram" controller="" method=""> </menu>
@@ -85,16 +88,159 @@
             <menu id="MonthlyOverTime" name="Monthly Over Time" controller="" method=""> </menu>            
           </menus>
         </menu>
+        <menu id="PF" name="PF" controller="" method="">
+          <menus>
+            <menu id="PF Membership" name="PF Membership" controller="" method=""> </menu>
+            <menu id="YearlyRevenue" name="Yearly Revenue" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+        <menu id="Gratuity" name="Gratuity" controller="" method="">
+          <menus>
+            <menu id="GratuitySettings" name="GratuitySettings" controller="" method=""> </menu>
+            <menu id="EmployeeGratuity" name="Employee Wise Gratuity" controller="" method=""> </menu>            
+          </menus>
+        </menu>
       </menus>
     </module>
     <module id="pr" name="Payroll">
-      <menus></menus>
-    </module>
-    <module id="accounts" name="Accounts">
-      <menus></menus>
-    </module>
+      <menus>
+        <menu id="AllowanceAndDeduction" name="Salary Items" controller="" method="">
+          <menus>
+            <menu id="DefineAllowanceDeduction" name="Salary Item Type" controller="" method=""> </menu>
+            <menu id="ADSettings" name="Salary Item Settings" controller="" method=""> </menu>
+            <menu id="EmployeeWiseOnceOffEntry" name="Once Off Item Entry" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="Bonus" name="Bonus" controller="" method="">
+          <menus>
+            <menu id="BonusType" name="Bonus Type" controller="" method=""> </menu>
+            <menu id="BonusSettings" name="Bonus Settings" controller="" method=""> </menu>
+            <menu id="BonusPaymentWizard" name="Bonus Payment Wizard" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="IncomeTax" name="Income Tax" controller="" method="">
+          <menus>
+            <menu id="IncomeTaxSettings" name="Income Tax Settings" controller="" method=""> </menu>
+            <menu id="InvestmentEntry" name="Investment Entry" controller="" method=""> </menu>
+            <menu id="TaxCalculator" name="Tax Calculator" controller="" method=""> </menu>
+            <menu id="EmpTax" name="Employee Wise Tax" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="LoanAndAdvance" name="Loan And Advance" controller="" method="">
+          <menus>
+            <menu id="LoanType" name="Loan Type" controller="" method=""> </menu>
+            <menu id="LoanSettings" name="Loan Settings" controller="" method=""> </menu>
+            <menu id="LoanIssue" name="Loan Issue Module" controller="" method=""> </menu>
+            <menu id="WithheldInstallment" name="Withheld Installment" controller="" method=""> </menu>
+            <menu id="EmpLoanStatus" name="Employee Loan Status" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="MonthlySalary" name="Monthly Salary" controller="" method="">
+          <menus>
+            <menu id="SalaryCalculator" name="Salary Calculator" controller="" method=""> </menu>
+            <menu id="SalarySheet" name="Monthly Salary Sheet" controller="" method=""> </menu>
+            <menu id="MonthEnd" name="Finalyze Salary" controller="" method=""> </menu>
+          </menus>
+        </menu>        
+        <menu id="OPI" name="Outside Salary Payment" controller="" method=""> 
+           <menus>
+            <menu id="OPICalculator" name="OPI Payment Wizard" controller="" method=""> </menu>
+            <menu id="FinalizeOPI" name="Finalize OPI Payment" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+      <menu id="JV" name="Journal Voucher" controller="" method="">
+          <menus>
+            <menu id="JVSettings" name="JV Settings" controller="" method=""> </menu>
+            <menu id="MonthlyJournalVoucher" name="Monthly Journal Voucher" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+      </menus>
+    </module>    
     <module id="um" name="User Manager">
       <menus></menus>
+    </module>
+    <module id="accounts" name="Reports">
+      <menus>
+        <menu id="ORGReports" name="Organization" controller="" method=""> </menu>
+        <menu id="EmployeeReports" name="Employee" controller="" method="">
+          <menus>
+            <menu id="BasicInformation" name="Basic Information" controller="" method=""> </menu>
+            <menu id="JoinerInformation" name="Joiners Information" controller="" method=""> </menu>
+            <menu id="LeaverInformation" name="Leavers Information" controller="" method=""> </menu>
+            <menu id="PromotionInformation" name="Promotion Information" controller="" method=""> </menu>
+            <menu id="TransferInformation" name="Transfer Information" controller="" method=""> </menu>
+            <menu id="ConfirmationInformation" name="Confirmation Information" controller="" method=""> </menu>
+          </menus>
+        </menu>
+        <menu id="PFReport" name="PF" controller="" method="">
+          <menus>
+            <menu id="PFDetail" name="PF Detail" controller="" method=""> </menu>
+            <menu id="PFLedger" name="PF Ledger" controller="" method=""> </menu>            
+            <menu id="PFRevenue" name="PF Revenue" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+       <menu id="GratuityReport" name="Employee wise Gratuity" controller="" method=""></menu>
+       <menu id="PayrollReport" name="Payroll " controller="" method="">
+          <menus>
+            <menu id="Payslip" name="Monthly Payslip" controller="" method=""> </menu>
+            <menu id="BankAdvice" name="Bank Advice" controller="" method=""> </menu>            
+            <menu id="SalarySummary" name="Salary Summary" controller="" method=""> </menu>            
+            <menu id="SalarySheet" name="Salary Sheet" controller="" method=""> </menu>            
+            <menu id="ItemWiseReconciliation" name="Item Wise Reconciliation" controller="" method=""> </menu>            
+            <menu id="EmpWiseReconciliation" name="Emp Wise Reconciliation" controller="" method=""> </menu>            
+            <menu id="Individualitem" name="Individual Salary Item" controller="" method=""> </menu>                         
+          </menus>
+        </menu>
+       <menu id="OPIReport" name="Outside Salary Item" controller="" method=""></menu>
+       <menu id="OTReport" name="Overtime" controller="" method="">
+          <menus>
+            <menu id="MothlyOTPaymentReport" name="Monthly Overtime" controller="" method=""></menu>
+            <menu id="MothlyOTPaymentReport" name="Monthly Overtime Amount" controller="" method=""></menu>            
+          </menus>
+        </menu>
+       
+       <menu id="TaxReport" name="Income Tax" controller="" method="">
+          <menus>
+            <menu id="TaxCard" name="Tax Card" controller="" method=""> </menu>
+            <menu id="108" name="108 Form" controller="" method=""> </menu>                        
+          </menus>
+        </menu>
+        
+       <menu id="BonusReport" name="Bonus" controller="" method="">
+          <menus>
+            <menu id="BonusPaySlip" name="Bonus Pay Slip" controller="" method=""> </menu>
+            <menu id="BonusBankAdvice" name="Bonus Bank Advice" controller="" method=""> </menu>         
+            <menu id="BonusRegister" name="Bonus Register" controller="" method=""> </menu>         
+          </menus>
+        </menu>
+        
+        <menu id="LoanReport" name="Loan And Advance" controller="" method="">
+          <menus>
+            <menu id="LoanStatus" name="Loan Status" controller="" method=""> </menu>
+            <menu id="NewLoan" name="New Loan" controller="" method=""> </menu>                     
+          </menus>
+        </menu>
+      
+       <menu id="LeaveReport" name="Leave" controller="" method="">
+          <menus>
+            <menu id="EmployeesLeaveStatusReport" name="Employees Leave Status" controller="" method=""> </menu>
+            <menu id="UuAthLeaveStatusReport" name="Un Authorized Leave" controller="" method=""> </menu>
+          </menus>
+        </menu>
+       <menu id="AttendanceReport" name="Attendance" controller="" method="">
+          <menus>
+            <menu id="MonthlyAttendanceReport" name="Monthly Attendance" controller="" method=""> </menu>
+            <menu id="TimesheetReport" name="Monthly Times heet" controller="" method=""> </menu>
+            <menu id="ExtraHourReport" name="Extra Working Hour" controller="" method=""> </menu>
+            <menu id="LessHourReport" name="Less Working Hour" controller="" method=""> </menu>
+          </menus>
+        </menu>
+      <menu id="JVReport" name="Journal Voucher" controller="" method="">
+          <menus>
+              <menu id="MonthlyJournalVoucher" name="Monthly Journal Voucher" controller="" method=""> </menu>            
+          </menus>
+        </menu>
+      </menus>
     </module>
   </modules>
 </systemModule>
