@@ -157,7 +157,12 @@
       </menus>
     </module>    
     <module id="um" name="User Manager">
-      <menus></menus>
+      <menus>
+        <menu id="Users" name="Users" controller="" method=""> </menu>
+        <menu id="UserGroups" name="User Groups" controller="" method=""> </menu>
+        <menu id="UserRolls" name="User Rolls" controller="" method=""> </menu>
+        <menu id="UserDataFilter" name="User Data Filters" controller="" method=""> </menu>
+      </menus>
     </module>
     <module id="accounts" name="Reports">
       <menus>
