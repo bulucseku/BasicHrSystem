@@ -1,0 +1,885 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+50 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings$$anonfun$settings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies$$anonfun$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$baseSettings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$baseSettings$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$buildDate$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$buildInfoSettings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeAssets$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeAssets$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeDocs$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeDocs$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeSources$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\SbtGit$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\SbtGit.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform$$anonfun$setPreferences$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$baseSettings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$baseSettings$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$configFile$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$mainOutputFile$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testOutputFile$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$3.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$4.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage$$anonfun$settings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Resolvers$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Resolvers.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$2.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$3.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaPlay$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaPlay.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings$$anonfun$settings$1.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings$.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings.class
+binary dependencies:
+88 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-buildinfo\jars\sbt-buildinfo-0.5.0.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-buildinfo\jars\sbt-buildinfo-0.5.0.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.3.10.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-web\jars\sbt-web-1.0.2.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-git\jars\sbt-git-0.8.5.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.ivy2\cache\org.scalariform\scalariform_2.10\jars\scalariform_2.10-0.1.7.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalariform\sbt-scalariform\jars\sbt-scalariform-1.5.1.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalastyle\scalastyle-sbt-plugin\jars\scalastyle-sbt-plugin-0.7.0.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\jars\sbt-scoverage-1.3.3.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\command\jars\command-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.3.10.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play.class
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\actions\jars\actions-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.ivy2\cache\org.scala-sbt\testing\jars\testing-0.13.8.jar
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+7 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+50 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> com.sentrana.sbt.common.BuildSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> com.sentrana.sbt.common.BuildSettings$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> com.sentrana.sbt.common.BuildSettings$$anonfun$settings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> com.sentrana.sbt.common.Dependencies
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> com.sentrana.sbt.common.Dependencies$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> com.sentrana.sbt.common.Dependencies$$anonfun$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com.sentrana.sbt.common.plugins.BuildInfo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com.sentrana.sbt.common.plugins.BuildInfo$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com.sentrana.sbt.common.plugins.BuildInfo$$anonfun$baseSettings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com.sentrana.sbt.common.plugins.BuildInfo$$anonfun$baseSettings$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com.sentrana.sbt.common.plugins.BuildInfo$$anonfun$buildDate$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$buildInfoSettings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$packageExcludeAssets$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$packageExcludeAssets$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$packageExcludeDocs$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$packageExcludeDocs$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com.sentrana.sbt.common.plugins.Play$$anonfun$packageExcludeSources$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> com.sentrana.sbt.common.plugins.SbtGit
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> com.sentrana.sbt.common.plugins.SbtGit$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> com.sentrana.sbt.common.plugins.Scalariform
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> com.sentrana.sbt.common.plugins.Scalariform$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> com.sentrana.sbt.common.plugins.Scalariform$$anonfun$setPreferences$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$baseSettings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$baseSettings$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$configFile$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$mainOutputFile$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$testOutputFile$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$testSettings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$testSettings$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$testSettings$3
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com.sentrana.sbt.common.plugins.Scalastyle$$anonfun$testSettings$4
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> com.sentrana.sbt.common.plugins.Scoverage
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> com.sentrana.sbt.common.plugins.Scoverage$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> com.sentrana.sbt.common.plugins.Scoverage$$anonfun$settings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> com.sentrana.sbt.common.Resolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> com.sentrana.sbt.common.Resolvers$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com.sentrana.sbt.common.SentranaCommon
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com.sentrana.sbt.common.SentranaCommon$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com.sentrana.sbt.common.SentranaCommon$$anonfun$commonSettings$1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com.sentrana.sbt.common.SentranaCommon$$anonfun$commonSettings$2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com.sentrana.sbt.common.SentranaCommon$$anonfun$commonSettings$3
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> com.sentrana.sbt.common.SentranaPlay
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> com.sentrana.sbt.common.SentranaPlay$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> com.sentrana.sbt.common.TestSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> com.sentrana.sbt.common.TestSettings$
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> com.sentrana.sbt.common.TestSettings$$anonfun$settings$1
+used names:
+475 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> ++=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Append
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> BuildSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> FullInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> appendN
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> appendSeq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> compilerFlags
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> scalacOptions
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> %
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> %%
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> Dependencies
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> apacheHttpClient
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> apacheHttpMime
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> apacheHttpVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> casbah
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> commonsIo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> embeddedMongo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> forceRestAPI
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> jongo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> json4sExt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> json4sMongo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> json4sNative
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> json4sVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> moduleIDConfigurable
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> mysql
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> nscalaTime
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> playMailerPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> postgresql
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> prefuse
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalaCSV
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalaReflect
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalaTestPlusPlay
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalaVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalaXml
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalikeJDBCCore
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalikeJDBCTest
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> scalikeJDBCVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> squeryl
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> toGroupID
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> twitterUtilCore
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> $p1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> AList
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> BuildInfo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> BuildInfoKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> BuildInfoKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> BuildInfoPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Date
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Def
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> InputWrapper
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> ManifestFactory
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> SimpleDateFormat
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> StringContext
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> TimeZone
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> _1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> _2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> action
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> app
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> baseBuildInfoKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> baseSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> buildDate
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> buildInfoKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> buildInfoPackage
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> classType
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> format
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> getTimeZone
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> isoDateFormat
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> java
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> macroValueI
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> name
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> normalizedName
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> organization
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> projectSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> reflect
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> s
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> sbtVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> sbtbuildinfo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> scalaVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> setTimeZone
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> text
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> tuple2
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> utcTimeZone
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> util
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> value
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> version
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> wrapInit_☃☃
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> ++=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Append
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Assets
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> BuildInfoKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> BuildInfoKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Compile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> ConfigKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> FullInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Play
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> PlayImport
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> PlayKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> SbtWeb
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> appendN
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> appendSeq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> autoImport
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> buildInfoKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> buildInfoSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> configurationToKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> doc
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> empty
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> in
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> packageDoc
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> packageExcludeAssets
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> packageExcludeDocs
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> packageExcludeSources
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> packageSrc
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> play
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> playVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> publishArtifact
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> sbtbuildinfo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> sources
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> typesafe
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> unmanagedResourceDirectories
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> unmanagedSourceDirectories
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> web
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> Def
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> SbtGit
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> SettingsDefinition
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> showCurrentGitBranch
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> typesafe
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> unwrapSettingsDefinition
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> versionWithGit
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> AlignArguments
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> AlignParameters
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> AlignSingleLineCaseStatements
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> CompactControlReadability
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> FormatXml
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> IFormattingPreferences
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> PreserveSpaceBeforeArguments
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> SbtScalariform
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> Scalariform
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> ScalariformKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> basePreferences
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> defaultPreferences
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> formatter
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> immutable
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> preferences
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> scalariform
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> scalariformSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> setPreference
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> setPreferences
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> typesafe
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> /
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Compile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> ConfigKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Def
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> File
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> InputWrapper
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Predef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Project
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Scalastyle
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> ScalastylePlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> String
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> Test
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> baseDir
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> baseDirectory
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> baseSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> configFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> configurationToKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> exists
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> fileName
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> in
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> inBaseDir
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> inBaseDir$lzy
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> inCommonDir
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> inCommonDir$lzy
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> inConfig
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> io
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> java
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> macroValueI
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> mainConfigFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> mainOutputFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> map
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> org
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> projectSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> richFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> sbtCommonDir
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> scalastyle
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> scalastyleConfig
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> scalastyleTarget
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> target
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> testConfigFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> testOutputFile
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> testSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> value
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> wrapInit_☃☃
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> Scoverage
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> ScoverageKeys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> coverageExcludedPackages
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> scoverage
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> Resolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> allResolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> at
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> forceRestAPIReleases
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> sonatypeReleases
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> toRepositoryName
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> typesafeReleases
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> ++
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> ++=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> :=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Append
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> AutoPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> BuildInfo
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> BuildSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> InitializeInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> JvmPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Resolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> SbtGit
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Scalariform
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Scalastyle
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> SentranaCommon
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> addCommandAlias
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> aliases
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> allRequirements
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> allResolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> appendN
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> appendSeq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> canBuildFrom
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> commonSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> organization
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> resolvers
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> scalaVersion
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> set
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> &&
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> AutoPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> JvmPlugin
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> Play
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> PlayScala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> SentranaPlay
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> allRequirements
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> play
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> plugins
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> +=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> <init>
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Any
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> AnyRef
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Append
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Argument
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> ConfigKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> FullInstance
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Keys
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Nothing
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> ScalaTest
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Seq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Setting
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Test
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> TestFrameworks
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> TestSettings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> Tests
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> _root_
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> append1
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> appendSeq
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> apply
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> collection
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> com
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> common
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> configurationToKey
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> in
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> package
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> pure
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> sbt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> scala
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> sentrana
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> settings
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> testOptions
+product stamps:
+50 items
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings$$anonfun$settings$1.class -> lastModified(1455692574162)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings$.class -> lastModified(1455692574148)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\BuildSettings.class -> lastModified(1455692574101)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies$$anonfun$1.class -> lastModified(1455692574189)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies$.class -> lastModified(1455692574185)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Dependencies.class -> lastModified(1455692574171)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$baseSettings$1.class -> lastModified(1455692574273)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$baseSettings$2.class -> lastModified(1455692574279)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$$anonfun$buildDate$1.class -> lastModified(1455692574287)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo$.class -> lastModified(1455692574270)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\BuildInfo.class -> lastModified(1455692574257)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$buildInfoSettings$1.class -> lastModified(1455692574312)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeAssets$1.class -> lastModified(1455692574315)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeAssets$2.class -> lastModified(1455692574320)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeDocs$1.class -> lastModified(1455692574324)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeDocs$2.class -> lastModified(1455692574329)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$$anonfun$packageExcludeSources$1.class -> lastModified(1455692574332)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play$.class -> lastModified(1455692574306)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play.class -> lastModified(1455692574294)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\SbtGit$.class -> lastModified(1455692574343)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\SbtGit.class -> lastModified(1455692574335)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform$$anonfun$setPreferences$1.class -> lastModified(1455692574366)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform$.class -> lastModified(1455692574360)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalariform.class -> lastModified(1455692574353)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$baseSettings$1.class -> lastModified(1455692574388)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$baseSettings$2.class -> lastModified(1455692574390)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$configFile$1.class -> lastModified(1455692574397)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$mainOutputFile$1.class -> lastModified(1455692574401)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testOutputFile$1.class -> lastModified(1455692574404)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$1.class -> lastModified(1455692574407)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$2.class -> lastModified(1455692574411)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$3.class -> lastModified(1455692574415)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$$anonfun$testSettings$4.class -> lastModified(1455692574417)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle$.class -> lastModified(1455692574385)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scalastyle.class -> lastModified(1455692574370)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage$$anonfun$settings$1.class -> lastModified(1455692574428)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage$.class -> lastModified(1455692574425)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Scoverage.class -> lastModified(1455692574420)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Resolvers$.class -> lastModified(1455692574199)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\Resolvers.class -> lastModified(1455692574192)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$1.class -> lastModified(1455692574224)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$2.class -> lastModified(1455692574228)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$$anonfun$commonSettings$3.class -> lastModified(1455692574231)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon$.class -> lastModified(1455692574221)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaCommon.class -> lastModified(1455692574210)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaPlay$.class -> lastModified(1455692574241)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\SentranaPlay.class -> lastModified(1455692574236)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings$$anonfun$settings$1.class -> lastModified(1455692574252)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings$.class -> lastModified(1455692574249)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\TestSettings.class -> lastModified(1455692574244)
+source stamps:
+12 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> hash(12a14643e9b0b3e2263ec73ae816e5deab2b2a36)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> hash(03b55d54918f6290ecef9ab981c08c19dee96922)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> hash(f97e9524daaf124ded7c9a385ee9e12df1279604)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> hash(6d5c9d7cd4a7694534cf66dc47c1925efaf1381c)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> hash(84bae123f784df11a041b9104c1d97883c9ac07c)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> hash(c14ca038ab9d4e01be4a821299ad21ab486c2a6d)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> hash(118178499a09f4023617c403fe70d41bf6672e62)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> hash(997798a0d6a3f9cb7afe21330217b48e581f3b53)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> hash(fc55ca0f67e0719101256e15ddefcd83a2826761)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> hash(01e0630d1ea2b4a6fc49240246f811d243efbab0)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> hash(e01fd76ed638b01788bdc4a4a1441aa008271cfc)
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> hash(51f4db60d93a8a4990d9ed49f1c329d1c21fed38)
+binary stamps:
+22 items
+C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar -> lastModified(1445766325064)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\actions\jars\actions-0.13.8.jar -> lastModified(1430155089000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar -> lastModified(1445840424492)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar -> lastModified(1430156456000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\command\jars\command-0.13.8.jar -> lastModified(1430152876000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.8.jar -> lastModified(1430156145000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> lastModified(1430156161000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar -> lastModified(1430152703000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar -> lastModified(1430151849000)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> lastModified(1445839933692)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar -> lastModified(1445840221112)
+C:\Users\ba\.ivy2\cache\org.scala-sbt\testing\jars\testing-0.13.8.jar -> lastModified(1445840249359)
+C:\Users\ba\.ivy2\cache\org.scalariform\scalariform_2.10\jars\scalariform_2.10-0.1.7.jar -> lastModified(1440722950000)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-buildinfo\jars\sbt-buildinfo-0.5.0.jar -> lastModified(1445838474707)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.3.10.jar -> lastModified(1438575385000)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-git\jars\sbt-git-0.8.5.jar -> lastModified(1445838482114)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-web\jars\sbt-web-1.0.2.jar -> lastModified(1403658972000)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalariform\sbt-scalariform\jars\sbt-scalariform-1.5.1.jar -> lastModified(1441827628000)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalastyle\scalastyle-sbt-plugin\jars\scalastyle-sbt-plugin-0.7.0.jar -> lastModified(1428231397000)
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\jars\sbt-scoverage-1.3.3.jar -> lastModified(1441995419000)
+C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> lastModified(1395179187000)
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play.class -> lastModified(1455692574294)
+class names:
+22 items
+C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar -> java.lang.Object
+C:\Users\ba\.ivy2\cache\org.scala-sbt\actions\jars\actions-0.13.8.jar -> sbt.TestOption
+C:\Users\ba\.ivy2\cache\org.scala-sbt\apply-macro\jars\apply-macro-0.13.8.jar -> sbt.appmacro.Instance$
+C:\Users\ba\.ivy2\cache\org.scala-sbt\collections\jars\collections-0.13.8.jar -> sbt.LinePosition$
+C:\Users\ba\.ivy2\cache\org.scala-sbt\command\jars\command-0.13.8.jar -> sbt.State
+C:\Users\ba\.ivy2\cache\org.scala-sbt\io\jars\io-0.13.8.jar -> sbt.PathExtra
+C:\Users\ba\.ivy2\cache\org.scala-sbt\ivy\jars\ivy-0.13.8.jar -> sbt.MavenRepository
+C:\Users\ba\.ivy2\cache\org.scala-sbt\main-settings\jars\main-settings-0.13.8.jar -> sbt.Def$
+C:\Users\ba\.ivy2\cache\org.scala-sbt\main\jars\main-0.13.8.jar -> sbt.ProjectExtra
+C:\Users\ba\.ivy2\cache\org.scala-sbt\sbt\jars\sbt-0.13.8.jar -> sbt.package$
+C:\Users\ba\.ivy2\cache\org.scala-sbt\task-system\jars\task-system-0.13.8.jar -> sbt.Task
+C:\Users\ba\.ivy2\cache\org.scala-sbt\testing\jars\testing-0.13.8.jar -> sbt.TestFrameworks$
+C:\Users\ba\.ivy2\cache\org.scalariform\scalariform_2.10\jars\scalariform_2.10-0.1.7.jar -> scalariform.formatter.preferences.PreserveSpaceBeforeArguments$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.eed3si9n\sbt-buildinfo\jars\sbt-buildinfo-0.5.0.jar -> sbtbuildinfo.BuildInfoKeys
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.play\sbt-plugin\jars\sbt-plugin-2.3.10.jar -> play.PlayImport$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-git\jars\sbt-git-0.8.5.jar -> com.typesafe.sbt.SbtGit$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\com.typesafe.sbt\sbt-web\jars\sbt-web-1.0.2.jar -> com.typesafe.sbt.web.SbtWeb$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalariform\sbt-scalariform\jars\sbt-scalariform-1.5.1.jar -> com.typesafe.sbt.SbtScalariform$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scalastyle\scalastyle-sbt-plugin\jars\scalastyle-sbt-plugin-0.7.0.jar -> org.scalastyle.sbt.ScalastylePlugin$
+C:\Users\ba\.ivy2\cache\scala_2.10\sbt_0.13\org.scoverage\sbt-scoverage\jars\sbt-scoverage-1.3.3.jar -> scoverage.ScoverageKeys$
+C:\Users\ba\.sbt\boot\scala-2.10.4\lib\scala-library.jar -> scala.collection.Seq
+D:\git\biq\project\sbt-common\target\scala-2.10\sbt-0.13\classes\com\sentrana\sbt\common\plugins\Play.class -> com.sentrana.sbt.common.plugins.Play
+internal apis:
+12 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDPddFgAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEIU2YV0AAZub3RpZnlzcQB+AAy/zoNMdAAEd2FpdHNxAH4ADM5qTmV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMIgMdj3QABmVxdWFsc3NxAH4ADIO0/wJ0AAxhc0luc3RhbmNlT2ZzcQB+AAzug/YpdAAMc3luY2hyb25pemVkc3EAfgAMuJN12XQADSRpc0luc3RhbmNlT2ZzcQB+AAyoMsMDdAAJbm90aWZ5QWxsc3EAfgAMk9V9EHQADGlzSW5zdGFuY2VPZnNxAH4ADJhOo4R0AA1jb21waWxlckZsYWdzc3EAfgAM3Sqx0nQAAj09c3EAfgAM2M/rj3QABWNsb25lc3EAfgAM1riUeHQACHRvU3RyaW5nc3EAfgAMvFQxdnQAAiE9c3EAfgAMaojH1HQACGdldENsYXNzc3EAfgAMQTR7fXQADUJ1aWxkU2V0dGluZ3NzcQB+AAw3Z8WWdAACbmVzcQB+AAxHaKLmdAACZXFzcQB+AAwEurGVdAAIc2V0dGluZ3NzcQB+AAwbslpHdAACIyNzcQB+AAxhGX2/dAAIZmluYWxpemVzcQB+AAwCo5BNdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAlY29tLnNlbnRyYW5hLnNidC5jb21tb24uQnVpbGRTZXR0aW5nc3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFx4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFsAcHNxAH4AYHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGRzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVxAH4APgAAAABzcQB+AFsAcHNxAH4AYHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AY3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AY3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AgXNxAH4AdHQAA0FueXNxAH4AeHNxAH4Ae3VxAH4AfgAAAAJzcQB+AIB0AAVzY2FsYXEAfgCHdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAARzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAXY29tLnNlbnRyYW5hLnNidC5jb21tb25zcQB+AJF0AAxjb20uc2VudHJhbmFzcQB+AJF0AANjb21zcQB+AJF0ABBjb20uc2VudHJhbmEuc2J0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFS7gmQT3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEBEOlxnaXRcYmlxXHByb2plY3Rcc2J0LWNvbW1vblx0YXJnZXRcc2NhbGEtMi4xMFxzYnQtMC4xM1xjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUEqFGQ+mws+ImPsc66Bbl3qsrKjY=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCeyF9OAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJJDEQB0AAZub3RpZnlzcQB+AAzytSFadAAIc2NhbGFYbWxzcQB+AAymkywjdAAHc3F1ZXJ5bHNxAH4ADNNP8990ABJzY2FsaWtlSkRCQ1ZlcnNpb25zcQB+AAxxq+zDdAAEd2FpdHNxAH4ADKDNbjl0AAVqb25nb3NxAH4ADI+6pt90AAZjYXNiYWhzcQB+AAxow9hCdAANJGFzSW5zdGFuY2VPZnNxAH4ADO+nhr10AAxzY2FsYVJlZmxlY3RzcQB+AAx9IF+0dAAQYXBhY2hlSHR0cENsaWVudHNxAH4ADLFczVF0AAZlcXVhbHNzcQB+AAwpgwIpdAARc2NhbGFUZXN0UGx1c1BsYXlzcQB+AAwxP1BtdAALanNvbjRzTW9uZ29zcQB+AAw6Y5CTdAAMYXNJbnN0YW5jZU9mc3EAfgAMtjfgZHQADHN5bmNocm9uaXplZHNxAH4ADKj6TzR0AAxEZXBlbmRlbmNpZXNzcQB+AAyFcZoMdAANJGlzSW5zdGFuY2VPZnNxAH4ADKdF6350AAxqc29uNHNOYXRpdmVzcQB+AAyh6jLJdAAQcGxheU1haWxlclBsdWdpbnNxAH4ADK2bF9B0AAlub3RpZnlBbGxzcQB+AAyb947YdAAKcG9zdGdyZXNxbHNxAH4ADEsDAEF0AAxpc0luc3RhbmNlT2ZzcQB+AAytlMw2dAANZW1iZWRkZWRNb25nb3NxAH4ADK8D0Wx0AApuc2NhbGFUaW1lc3EAfgAMnct723QAAj09c3EAfgAMQ1X62nQADmFwYWNoZUh0dHBNaW1lc3EAfgAM/o72oHQABWNsb25lc3EAfgAMw6CdwHQACHNjYWxhQ1NWc3EAfgAMRom9+HQACHRvU3RyaW5nc3EAfgAM22obrHQACWpzb240c0V4dHNxAH4ADBg3KlB0ABFhcGFjaGVIdHRwVmVyc2lvbnNxAH4ADGKjhml0AA90d2l0dGVyVXRpbENvcmVzcQB+AAyxLkOmdAAFbXlzcWxzcQB+AAxRDnTRdAACIT1zcQB+AAx5ztPodAAPc2NhbGlrZUpEQkNUZXN0c3EAfgAMfKvaeXQACGdldENsYXNzc3EAfgAMwVnInnQACWNvbW1vbnNJb3NxAH4ADBwhlNF0AAxmb3JjZVJlc3RBUElzcQB+AAytpSRSdAACbmVzcQB+AAyJw8UrdAANanNvbjRzVmVyc2lvbnNxAH4ADBlQ3zt0AAdwcmVmdXNlc3EAfgAM5B1mDXQAAmVxc3EAfgAMeJn/3XQAD3NjYWxpa2VKREJDQ29yZXNxAH4ADJwZ9jh0AAIjI3NxAH4ADPA/Njh0AAhmaW5hbGl6ZXNxAH4ADPvXBnt0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHN4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACRjb20uc2VudHJhbmEuc2J0LmNvbW1vbi5EZXBlbmRlbmNpZXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCMeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgCLAHBzcQB+AJBzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4Ac0wACWluaGVyaXRlZHEAfgBzTAAHcGFyZW50c3EAfgBzeHEAfgCUc3EAfgCLAHBzcQB+AJB1cQB+AG4AAAAAc3EAfgCLAHBzcQB+AJB1cQB+AG4AAAAAc3EAfgCLAHBzcQB+AJB1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJN0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AJNzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+ALB0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+ALFzcQB+AKR0AANBbnlzcQB+AKhzcQB+AKt1cQB+AK4AAAACc3EAfgCwdAAFc2NhbGFxAH4At3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAF2NvbS5zZW50cmFuYS5zYnQuY29tbW9uc3EAfgDBdAAMY29tLnNlbnRyYW5hc3EAfgDBdAADY29tc3EAfgDBdAAQY29tLnNlbnRyYW5hLnNidHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUu4JkE91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABARDpcZ2l0XGJpcVxwcm9qZWN0XHNidC1jb21tb25cdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAO1XVSRj2KQ7O+auYHAjBne6Wki
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA+9ZYmAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFCzyUV0AAZub3RpZnlzcQB+AAwc1rbsdAAEd2FpdHNxAH4ADGzFagV0AA0kYXNJbnN0YW5jZU9mc3EAfgAMfDWzSXQABmVxdWFsc3NxAH4ADI/VLiV0AAxhc0luc3RhbmNlT2ZzcQB+AAxFarlwdAARYmFzZUJ1aWxkSW5mb0tleXNzcQB+AAzpxCO+dAAMc3luY2hyb25pemVkc3EAfgAMZ5yThHQADSRpc0luc3RhbmNlT2ZzcQB+AAwspD1BdAAJQnVpbGRJbmZvc3EAfgAMlHLWY3QACW5vdGlmeUFsbHNxAH4ADP6Y6Al0AAxpc0luc3RhbmNlT2ZzcQB+AAzpcIfBdAAMYmFzZVNldHRpbmdzc3EAfgAMlQz6EnQAAj09c3EAfgAMkx2jxnQABWNsb25lc3EAfgAMpdc+4XQACHRvU3RyaW5nc3EAfgAM7MszPnQAAiE9c3EAfgAMVjuEkHQACGdldENsYXNzc3EAfgAMyjzWnXQACWJ1aWxkRGF0ZXNxAH4ADOhoB9N0AAJuZXNxAH4ADC8z3rJ0AAJlcXNxAH4ADKLyiax0AAhzZXR0aW5nc3NxAH4ADJPB47t0AAIjI3NxAH4ADFm6NqB0AAhmaW5hbGl6ZXNxAH4ADI9Idy10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACljb20uc2VudHJhbmEuc2J0LmNvbW1vbi5wbHVnaW5zLkJ1aWxkSW5mb3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZ3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZ3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AhHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhXNxAH4AeHQAA0FueXNxAH4AfHNxAH4Af3VxAH4AggAAAAJzcQB+AIR0AAVzY2FsYXEAfgCLdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAXY29tLnNlbnRyYW5hLnNidC5jb21tb25zcQB+AJV0AB9jb20uc2VudHJhbmEuc2J0LmNvbW1vbi5wbHVnaW5zc3EAfgCVdAAMY29tLnNlbnRyYW5hc3EAfgCVdAADY29tc3EAfgCVdAAQY29tLnNlbnRyYW5hLnNidHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUu4JkE91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABARDpcZ2l0XGJpcVxwcm9qZWN0XHNidC1jb21tb25cdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPl+lSTarxJN7XyaOF7p4S3xJ5YE
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBStvTCAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cK/fUEh0AAZub3RpZnlzcQB+AAyyzi1rdAAEd2FpdHNxAH4ADLMHAxh0AA0kYXNJbnN0YW5jZU9mc3EAfgAM2fAygnQABmVxdWFsc3NxAH4ADG9taO90AAxhc0luc3RhbmNlT2ZzcQB+AAym9LB3dAAUcGFja2FnZUV4Y2x1ZGVBc3NldHNzcQB+AAzBfb+CdAAMc3luY2hyb25pemVkc3EAfgAMrsKwNHQADSRpc0luc3RhbmNlT2ZzcQB+AAxm8JnJdAAJbm90aWZ5QWxsc3EAfgAMvbfnV3QAEnBhY2thZ2VFeGNsdWRlRG9jc3NxAH4ADOuOcFZ0AAxpc0luc3RhbmNlT2ZzcQB+AAxf24E3dAAEUGxheXNxAH4ADASs40R0AAI9PXNxAH4ADBD8r6x0AAVjbG9uZXNxAH4ADICWvjl0ABFidWlsZEluZm9TZXR0aW5nc3NxAH4ADIKloF10AAh0b1N0cmluZ3NxAH4ADIeCSjt0AAIhPXNxAH4ADAmNaiV0AAhnZXRDbGFzc3NxAH4ADJQGKAB0ABVwYWNrYWdlRXhjbHVkZVNvdXJjZXNzcQB+AAyQKoNwdAACbmVzcQB+AAxyUteDdAACZXFzcQB+AAx+kT4zdAAIc2V0dGluZ3NzcQB+AAyr4REodAANYnVpbGRJbmZvS2V5c3NxAH4ADGDMohV0AAIjI3NxAH4ADJX3+8d0AAhmaW5hbGl6ZXNxAH4ADArcHo10AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACRjb20uc2VudHJhbmEuc2J0LmNvbW1vbi5wbHVnaW5zLlBsYXl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBkeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBjAHBzcQB+AGhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AS0wACWluaGVyaXRlZHEAfgBLTAAHcGFyZW50c3EAfgBLeHEAfgBsc3EAfgBjAHBzcQB+AGh1cQB+AEYAAAAAc3EAfgBjAHBzcQB+AGh1cQB+AEYAAAAAc3EAfgBjAHBzcQB+AGh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGt0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGtzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIh0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIlzcQB+AHx0AANBbnlzcQB+AIBzcQB+AIN1cQB+AIYAAAACc3EAfgCIdAAFc2NhbGFxAH4Aj3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAF2NvbS5zZW50cmFuYS5zYnQuY29tbW9uc3EAfgCZdAAfY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2luc3NxAH4AmXQADGNvbS5zZW50cmFuYXNxAH4AmXQAA2NvbXNxAH4AmXQAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRtXJ181KdpRTTPZtxHwZJe+vE4HA==
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHC9dz7nAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAlTnPh0AAZub3RpZnlzcQB+AAyhhC3PdAAEd2FpdHNxAH4ADBuH0gN0AA0kYXNJbnN0YW5jZU9mc3EAfgAManNninQABmVxdWFsc3NxAH4ADArZnNF0AAxhc0luc3RhbmNlT2ZzcQB+AAyqAVkQdAAMc3luY2hyb25pemVkc3EAfgAMOUu2W3QADSRpc0luc3RhbmNlT2ZzcQB+AAxEBs36dAAJbm90aWZ5QWxsc3EAfgAM9VAqeXQADGlzSW5zdGFuY2VPZnNxAH4ADKuKqNB0AAI9PXNxAH4ADHQxYq10AAVjbG9uZXNxAH4ADL2aFkx0AAh0b1N0cmluZ3NxAH4ADIwo7FJ0AAZTYnRHaXRzcQB+AAxdXKKwdAACIT1zcQB+AAwvvxqwdAAIZ2V0Q2xhc3NzcQB+AAyrEgWZdAACbmVzcQB+AAw+pfYldAACZXFzcQB+AAxHYy8KdAAIc2V0dGluZ3NzcQB+AAzfMg8qdAACIyNzcQB+AAzNx8DWdAAIZmluYWxpemVzcQB+AAzRuN75dAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAmY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2lucy5TYnRHaXR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAF2NvbS5zZW50cmFuYS5zYnQuY29tbW9uc3EAfgCPdAAfY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2luc3NxAH4Aj3QADGNvbS5zZW50cmFuYXNxAH4Aj3QAA2NvbXNxAH4Aj3QAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSEuuEj94TfEaBBuRBMHZeIPJrAfA==
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDmFWq8AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cCh5J6N0AAZub3RpZnlzcQB+AAz8aCJhdAAEd2FpdHNxAH4ADH08D7R0AA0kYXNJbnN0YW5jZU9mc3EAfgAMTjWrt3QABmVxdWFsc3NxAH4ADJR1PfZ0AAxhc0luc3RhbmNlT2ZzcQB+AAwUGHUUdAAMc3luY2hyb25pemVkc3EAfgAMyiWcE3QADSRpc0luc3RhbmNlT2ZzcQB+AAyqcAoLdAAJbm90aWZ5QWxsc3EAfgAMVw4SiXQADGlzSW5zdGFuY2VPZnNxAH4ADPijLx10AA9iYXNlUHJlZmVyZW5jZXNzcQB+AAxWsDTrdAACPT1zcQB+AAypLH2EdAAOc2V0UHJlZmVyZW5jZXNzcQB+AAwwJ6EzdAAFY2xvbmVzcQB+AAyxkc3gdAAIdG9TdHJpbmdzcQB+AAy1lthXdAACIT1zcQB+AAy3N2m2dAAIZ2V0Q2xhc3NzcQB+AAwD596+dAACbmVzcQB+AAyoIqEodAALU2NhbGFyaWZvcm1zcQB+AAz72a4odAACZXFzcQB+AAy5NP3odAAIc2V0dGluZ3NzcQB+AAyV/JZ4dAACIyNzcQB+AAx1iuQMdAAIZmluYWxpemVzcQB+AAyB75bDdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAArY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2lucy5TY2FsYXJpZm9ybXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF54cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF0AcHNxAH4AYnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGZzcQB+AF0AcHNxAH4AYnVxAH4AQAAAAABzcQB+AF0AcHNxAH4AYnVxAH4AQAAAAABzcQB+AF0AcHNxAH4AYnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AgnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ag3NxAH4AdnQAA0FueXNxAH4AenNxAH4AfXVxAH4AgAAAAAJzcQB+AIJ0AAVzY2FsYXEAfgCJdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAVzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAXY29tLnNlbnRyYW5hLnNidC5jb21tb25zcQB+AJN0AB9jb20uc2VudHJhbmEuc2J0LmNvbW1vbi5wbHVnaW5zc3EAfgCTdAAMY29tLnNlbnRyYW5hc3EAfgCTdAADY29tc3EAfgCTdAAQY29tLnNlbnRyYW5hLnNidHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUu4JkE91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABARDpcZ2l0XGJpcVxwcm9qZWN0XHNidC1jb21tb25cdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFMFMoDirnU4BvkqCEpmtIatIbCpt
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBM/4StAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPilXQB0AAZub3RpZnlzcQB+AAy61mMydAAEd2FpdHNxAH4ADFetD8h0AA0kYXNJbnN0YW5jZU9mc3EAfgAMJIuFvnQADnRlc3RPdXRwdXRGaWxlc3EAfgAM7GjV7HQABmVxdWFsc3NxAH4ADMOvl610AA50ZXN0Q29uZmlnRmlsZXNxAH4ADH0TNcd0AAxhc0luc3RhbmNlT2ZzcQB+AAyiR+ixdAAMdGVzdFNldHRpbmdzc3EAfgAMerRLKnQADHN5bmNocm9uaXplZHNxAH4ADDKIR8l0AA0kaXNJbnN0YW5jZU9mc3EAfgAMaPUelnQACmNvbmZpZ0ZpbGVzcQB+AAyihB89dAAJbm90aWZ5QWxsc3EAfgAMqkvufXQADGlzSW5zdGFuY2VPZnNxAH4ADAb27Gl0AAxiYXNlU2V0dGluZ3NzcQB+AAyh5xI1dAACPT1zcQB+AAwN4JVhdAAFY2xvbmVzcQB+AAy3fKq4dAAObWFpbkNvbmZpZ0ZpbGVzcQB+AAx7vJjVdAAIdG9TdHJpbmdzcQB+AAwOMHSVdAAMc2J0Q29tbW9uRGlyc3EAfgAMd5u5G3QAAiE9c3EAfgAMDzOv9nQACGdldENsYXNzc3EAfgAMLxpiM3QADm1haW5PdXRwdXRGaWxlc3EAfgAMFJqPonQAAm5lc3EAfgAM2+XFOnQAAmVxc3EAfgAMg/ch73QACHNldHRpbmdzc3EAfgAMgPyca3QAAiMjc3EAfgAMhbq3dHQACGZpbmFsaXplc3EAfgAMvqNqWHQACGhhc2hDb2Rlc3EAfgAMroGe8nQAClNjYWxhc3R5bGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBReHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAqY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2lucy5TY2FsYXN0eWxldXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4Aanhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AaQBwc3EAfgBuc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFFMAAlpbmhlcml0ZWRxAH4AUUwAB3BhcmVudHNxAH4AUXhxAH4AcnNxAH4AaQBwc3EAfgBudXEAfgBMAAAAAHNxAH4AaQBwc3EAfgBudXEAfgBMAAAAAHNxAH4AaQBwc3EAfgBudXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBxdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBxc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgCOdAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCPc3EAfgCCdAADQW55c3EAfgCGc3EAfgCJdXEAfgCMAAAAAnNxAH4AjnQABXNjYWxhcQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABdjb20uc2VudHJhbmEuc2J0LmNvbW1vbnNxAH4An3QAH2NvbS5zZW50cmFuYS5zYnQuY29tbW9uLnBsdWdpbnNzcQB+AJ90AAxjb20uc2VudHJhbmFzcQB+AJ90AANjb21zcQB+AJ90ABBjb20uc2VudHJhbmEuc2J0c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFS7gmQT3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEBEOlxnaXRcYmlxXHByb2plY3Rcc2J0LWNvbW1vblx0YXJnZXRcc2NhbGEtMi4xMFxzYnQtMC4xM1xjbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUEYF4SZoJ9AI2F8QD/nDUG/ZnLmI=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBzOkuoAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDdoxFJ0AAZub3RpZnlzcQB+AAzWHa5sdAAEd2FpdHNxAH4ADCe9IS50AA0kYXNJbnN0YW5jZU9mc3EAfgAMhsujMXQABmVxdWFsc3NxAH4ADJrA0t50AAxhc0luc3RhbmNlT2ZzcQB+AAxoUp0odAAJU2NvdmVyYWdlc3EAfgAMi58fG3QADHN5bmNocm9uaXplZHNxAH4ADIsiDER0AA0kaXNJbnN0YW5jZU9mc3EAfgAMroy31HQACW5vdGlmeUFsbHNxAH4ADPYylcV0AAxpc0luc3RhbmNlT2ZzcQB+AAxI/+eNdAACPT1zcQB+AAzJLMmhdAAFY2xvbmVzcQB+AAzmBtc+dAAIdG9TdHJpbmdzcQB+AAxGlUytdAACIT1zcQB+AAwAq72ZdAAIZ2V0Q2xhc3NzcQB+AAyVbMF9dAACbmVzcQB+AAy7NE5SdAACZXFzcQB+AAxCLxgUdAAIc2V0dGluZ3NzcQB+AAwzjjCOdAACIyNzcQB+AAx4GL57dAAIZmluYWxpemVzcQB+AAzvuGMUdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAApY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2lucy5TY292ZXJhZ2V1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBaeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBZAHBzcQB+AF5zcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AQUwACWluaGVyaXRlZHEAfgBBTAAHcGFyZW50c3EAfgBBeHEAfgBic3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cQB+ADwAAAAAc3EAfgBZAHBzcQB+AF51cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGF0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AH50AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AH9zcQB+AHJ0AANBbnlzcQB+AHZzcQB+AHl1cQB+AHwAAAACc3EAfgB+dAAFc2NhbGFxAH4AhXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAF2NvbS5zZW50cmFuYS5zYnQuY29tbW9uc3EAfgCPdAAfY29tLnNlbnRyYW5hLnNidC5jb21tb24ucGx1Z2luc3NxAH4Aj3QADGNvbS5zZW50cmFuYXNxAH4Aj3QAA2NvbXNxAH4Aj3QAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSZd5ig1qP5y3r+ITMCF7SOWB87Uw==
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAVpF4kAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOfFi0B0AAZub3RpZnlzcQB+AAxGA+pVdAAEd2FpdHNxAH4ADK4sMix0AA0kYXNJbnN0YW5jZU9mc3EAfgAMrY5bWXQABmVxdWFsc3NxAH4ADM3xUCx0ABRmb3JjZVJlc3RBUElSZWxlYXNlc3NxAH4ADMhSexh0AAxhc0luc3RhbmNlT2ZzcQB+AAwSkkK9dAAMc3luY2hyb25pemVkc3EAfgAMACZYj3QADGFsbFJlc29sdmVyc3NxAH4ADJiKu7x0AA0kaXNJbnN0YW5jZU9mc3EAfgAM7lNok3QACW5vdGlmeUFsbHNxAH4ADMUxK+V0AAxpc0luc3RhbmNlT2ZzcQB+AAwUf/fndAAJUmVzb2x2ZXJzc3EAfgAMUc17DHQAEHNvbmF0eXBlUmVsZWFzZXNzcQB+AAwuX/PqdAACPT1zcQB+AAxVQKzfdAAFY2xvbmVzcQB+AAxRfXkFdAAIdG9TdHJpbmdzcQB+AAxPM2dQdAACIT1zcQB+AAzd8XVTdAAIZ2V0Q2xhc3NzcQB+AAz3SpHCdAACbmVzcQB+AAwQieiEdAAQdHlwZXNhZmVSZWxlYXNlc3NxAH4ADIz02Wd0AAJlcXNxAH4ADPPWbNx0AAIjI3NxAH4ADL6YvjV0AAhmaW5hbGl6ZXNxAH4ADFBZejB0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACFjb20uc2VudHJhbmEuc2J0LmNvbW1vbi5SZXNvbHZlcnN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBgeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBfAHBzcQB+AGRzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBoc3EAfgBfAHBzcQB+AGR1cQB+AEIAAAAAc3EAfgBfAHBzcQB+AGR1cQB+AEIAAAAAc3EAfgBfAHBzcQB+AGR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AGd0AAZPYmplY3RzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAANzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABGphdmFzcQB+AIR0AARsYW5nc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIVzcQB+AHh0AANBbnlzcQB+AHxzcQB+AH91cQB+AIIAAAACc3EAfgCEdAAFc2NhbGFxAH4Ai3VyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAF2NvbS5zZW50cmFuYS5zYnQuY29tbW9uc3EAfgCVdAAMY29tLnNlbnRyYW5hc3EAfgCVdAADY29tc3EAfgCVdAAQY29tLnNlbnRyYW5hLnNidHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUu4JkE91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABARDpcZ2l0XGJpcVxwcm9qZWN0XHNidC1jb21tb25cdGFyZ2V0XHNjYWxhLTIuMTBcc2J0LTAuMTNcY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFPxVyg9n4HGRASVuFd3vzYOigmdh
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBfyM/xAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cDGtXAJ0AAdhbGlhc2Vzc3EAfgAMwo3tFXQABmlzUm9vdHNxAH4ADGmqrQV0AAZub3RpZnlzcQB+AAxmB7+pdAAVcHJvamVjdENvbmZpZ3VyYXRpb25zc3EAfgAM6F45FXQABHdhaXRzcQB+AAyXfb6gdAANJGFzSW5zdGFuY2VPZnNxAH4ADJiUMo10AAVlbXB0eXNxAH4ADPUPlaB0AAZlcXVhbHNzcQB+AAwvuw9xdAAJbm9UcmlnZ2Vyc3EAfgAMDMT1unQADGFzSW5zdGFuY2VPZnNxAH4ADLEp7mZ0AAxzeW5jaHJvbml6ZWRzcQB+AAzG15N1dAAHdW5hcnlfIXNxAH4ADHXTx6B0AAVsYWJlbHNxAH4ADHYmwpV0AA5jb21tb25TZXR0aW5nc3NxAH4ADPhjNoZ0AA0kaXNJbnN0YW5jZU9mc3EAfgAMsPx9v3QAD2FsbFJlcXVpcmVtZW50c3NxAH4ADAlNvBJ0AA9pc0Fsd2F5c0VuYWJsZWRzcQB+AAxL70VxdAAJbm90aWZ5QWxsc3EAfgAM/qkRWnQADGlzSW5zdGFuY2VPZnNxAH4ADEzD8T90AA5nbG9iYWxTZXR0aW5nc3NxAH4ADKg2S2l0AA9wcm9qZWN0U2V0dGluZ3NzcQB+AAx/dgdddAACPT1zcQB+AAz6u0AwdAAFY2xvbmVzcQB+AAzDOjLldAAIdG9TdHJpbmdzcQB+AAznWMgOdAAIcmVxdWlyZXNzcQB+AAzT8kLGdAACIT1zcQB+AAwLqG4+dAACJiZzcQB+AAxru/fIdAAIZ2V0Q2xhc3NzcQB+AAyS//FydAACbmVzcQB+AAyURlsidAANYnVpbGRTZXR0aW5nc3NxAH4ADFzS8st0AAJlcXNxAH4ADD2qYzV0AA5TZW50cmFuYUNvbW1vbnNxAH4ADHlT8JN0AAIjI3NxAH4ADKFyp810AAhmaW5hbGl6ZXNxAH4ADLfCN650AAhoYXNoQ29kZXNxAH4ADGRUXWh0AAd0cmlnZ2Vyc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AX3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAJmNvbS5zZW50cmFuYS5zYnQuY29tbW9uLlNlbnRyYW5hQ29tbW9udXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AeHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AdwBwc3EAfgB8c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AF9MAAlpbmhlcml0ZWRxAH4AX0wAB3BhcmVudHNxAH4AX3hxAH4AgHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXEAfgBaAAAAAHNxAH4AdwBwc3EAfgB8dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB/dAAKQXV0b1BsdWdpbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Af3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADc2J0c3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJB0ABBQbHVnaW5zRnVuY3Rpb25zcQB+AJZzcQB+AJB0AAVCYXNpY3NxAH4AkHQAB1BsdWdpbnNxAH4AlnNxAH4AkHQAB1BsdWdpbnNxAH4AlnNxAH4AkHQABk9iamVjdHNxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJx0AARqYXZhc3EAfgCcdAAEbGFuZ3EAfgChc3EAfgCQdAADQW55c3EAfgCUc3EAfgCXdXEAfgCaAAAAAnNxAH4AnHQABXNjYWxhcQB+AKF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABdjb20uc2VudHJhbmEuc2J0LmNvbW1vbnNxAH4AvHQADGNvbS5zZW50cmFuYXNxAH4AvHQAA2NvbXNxAH4AvHQAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQB4GMNHqK0pvxJJAJG+BHSQ++6sA==
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAwmj5sAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cNSYtrF0AAZpc1Jvb3RzcQB+AAzpmqq1dAAGbm90aWZ5c3EAfgAMLp9ANXQAFXByb2plY3RDb25maWd1cmF0aW9uc3NxAH4ADKWmEQR0AAR3YWl0c3EAfgAMEfzqcnQADSRhc0luc3RhbmNlT2ZzcQB+AAwpv6CFdAAFZW1wdHlzcQB+AAyx6jOndAAGZXF1YWxzc3EAfgAMODElbXQACW5vVHJpZ2dlcnNxAH4ADCnCMdx0AAxhc0luc3RhbmNlT2ZzcQB+AAzw6MuLdAAMc3luY2hyb25pemVkc3EAfgAMa6avrnQAB3VuYXJ5XyFzcQB+AAwdD4xAdAAFbGFiZWxzcQB+AAwsKoFydAANJGlzSW5zdGFuY2VPZnNxAH4ADAPaZSJ0AA9hbGxSZXF1aXJlbWVudHNzcQB+AAyw7CkndAAPaXNBbHdheXNFbmFibGVkc3EAfgAMurcIkXQACW5vdGlmeUFsbHNxAH4ADJWN3pd0AAxpc0luc3RhbmNlT2ZzcQB+AAwEPjVodAAOZ2xvYmFsU2V0dGluZ3NzcQB+AAyOB3AldAAMU2VudHJhbmFQbGF5c3EAfgAMPUng9HQAD3Byb2plY3RTZXR0aW5nc3NxAH4ADN3dNbJ0AAI9PXNxAH4ADMR6Idp0AAVjbG9uZXNxAH4ADFQ45KN0AAh0b1N0cmluZ3NxAH4ADHnF5n50AAhyZXF1aXJlc3NxAH4ADB/jzVt0AAIhPXNxAH4ADJohbqx0AAImJnNxAH4ADLN603Z0AAhnZXRDbGFzc3NxAH4ADINj9D10AAJuZXNxAH4ADGh6QDR0AA1idWlsZFNldHRpbmdzc3EAfgAMyeniq3QAAmVxc3EAfgAMlzbFbHQAAiMjc3EAfgAMGp12aXQACGZpbmFsaXplc3EAfgAML/gC1nQACGhhc2hDb2Rlc3EAfgAMEnapfHQAB3RyaWdnZXJzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAkY29tLnNlbnRyYW5hLnNidC5jb21tb24uU2VudHJhbmFQbGF5dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AdHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AcwBwc3EAfgB4c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AFtMAAlpbmhlcml0ZWRxAH4AW0wAB3BhcmVudHNxAH4AW3hxAH4AfHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXEAfgBWAAAAAHNxAH4AcwBwc3EAfgB4dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgB7dAAKQXV0b1BsdWdpbnNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADc2J0c3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJlzcQB+AIx0ABBQbHVnaW5zRnVuY3Rpb25zcQB+AJJzcQB+AIx0AAVCYXNpY3NxAH4AjHQAB1BsdWdpbnNxAH4AknNxAH4AjHQAB1BsdWdpbnNxAH4AknNxAH4AjHQABk9iamVjdHNxAH4AkHNxAH4Ak3VxAH4AlgAAAANzcQB+AJh0AARqYXZhc3EAfgCYdAAEbGFuZ3EAfgCdc3EAfgCMdAADQW55c3EAfgCQc3EAfgCTdXEAfgCWAAAAAnNxAH4AmHQABXNjYWxhcQB+AJ11cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABdjb20uc2VudHJhbmEuc2J0LmNvbW1vbnNxAH4AuHQADGNvbS5zZW50cmFuYXNxAH4AuHQAA2NvbXNxAH4AuHQAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTgH9du1jiwF4i9xKShRBqgCCcc/A==
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAwV9tSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOUd4790AAZub3RpZnlzcQB+AAzxO+nidAAEd2FpdHNxAH4ADEfFRSZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMZ+6N6HQABmVxdWFsc3NxAH4ADGvvAUh0AAxhc0luc3RhbmNlT2ZzcQB+AAwvSKySdAAMc3luY2hyb25pemVkc3EAfgAMB5TjuXQADSRpc0luc3RhbmNlT2ZzcQB+AAwOL/5XdAAJbm90aWZ5QWxsc3EAfgAML2fF3nQADGlzSW5zdGFuY2VPZnNxAH4ADBLls1R0AAI9PXNxAH4ADNKTHbx0AAVjbG9uZXNxAH4ADCKMTgN0AAxUZXN0U2V0dGluZ3NzcQB+AAywb7/ddAAIdG9TdHJpbmdzcQB+AAyQyAdzdAACIT1zcQB+AAzDOtBudAAIZ2V0Q2xhc3NzcQB+AAzrtuDmdAACbmVzcQB+AAy0GWOudAACZXFzcQB+AAx1+yMQdAAIc2V0dGluZ3NzcQB+AAymGn73dAACIyNzcQB+AAzJxKa2dAAIZmluYWxpemVzcQB+AAzHoknMdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBBeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAkY29tLnNlbnRyYW5hLnNidC5jb21tb24uVGVzdFNldHRpbmdzdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB+dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/c3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABdjb20uc2VudHJhbmEuc2J0LmNvbW1vbnNxAH4Aj3QADGNvbS5zZW50cmFuYXNxAH4Aj3QAA2NvbXNxAH4Aj3QAEGNvbS5zZW50cmFuYS5zYnRzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVLuCZBPdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRR9Ntg2TqKSZDZ7UnxwynRwh/tOA==
+external apis:
+0 items
+source infos:
+12 items
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\BuildSettings.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Dependencies.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\BuildInfo.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Play.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\SbtGit.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalariform.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scalastyle.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\plugins\Scoverage.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\Resolvers.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaCommon.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\SentranaPlay.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\project\sbt-common\src\main\scala\com\sentrana\sbt\common\TestSettings.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUu4JkE91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQEQ6XGdpdFxiaXFccHJvamVjdFxzYnQtY29tbW9uXHRhcmdldFxzY2FsYS0yLjEwXHNidC0wLjEzXGNsYXNzZXN0AAEv
