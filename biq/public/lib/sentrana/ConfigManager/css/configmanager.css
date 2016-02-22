@@ -1,0 +1,160 @@
+﻿.configuration-manager-content {
+    /*padding: 0 11px 0 11px;*/
+}
+
+.config-group-list {
+    padding:5px 5px;
+}
+
+.config-editor-container {
+    padding: 5px 5px 5px 0px;
+}
+
+.config-groups {
+    padding: 5px;
+}
+
+.panel-title .panel-head-link {
+  padding-left: 8px;
+  width: 100%;
+  display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.configuration-manager-content .sideBarCollapsibleContainer {
+    border: 1px solid #dddddd;
+    border-bottom: 0;
+}
+
+.add-new-configuration {
+    cursor: pointer;
+}
+
+.delete-configuration-file {
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+}
+
+.close-tab {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    font-size: 17px;
+
+}
+
+.close-tab:hover {
+    color: red;
+}
+
+.input-config-group-error {
+    margin-top: 40px;
+}
+
+.input-new-config-error, .input-duplicate-config-group-error {
+    margin-top: 20px;
+}
+
+.config-type-chooser {
+    margin: 10px 0 20px -8px;
+}
+
+.config-editor-panel {
+    padding: 5px;
+}
+.panel-selected {
+    border: 1px solid #67cea6 !important;
+}
+
+.panel-selected .panel-heading {
+    background-color: #67cea6 !important;
+}
+.panel-selected .panel-title {
+    color: #ffffff;
+}
+
+.uploadconfigform-label {
+    padding: 10px 0;
+}
+
+#input-config-file-validation-msg {
+    padding:6px 0px;
+    color:#d11
+}
+
+/* Search and Replace box in ace editor*/
+.config-editor-search-container {
+    padding-top: 10px;
+    padding-bottom:10px;
+    margin: 20px 0;
+}
+
+.ae-search-box-container {
+    position: relative;
+    width: 250px;
+}
+.ae-search-box-container input {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*.ae-search-box-container i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}*/
+.ae-search-box-container .glyphicon-search {
+    position: absolute;
+    left: 7px;
+    top: 9px;
+}
+.ae-search-box-container .glyphicon-remove-circle {
+    position: absolute;
+    right: 7px;
+    top: 9px;
+}
+
+.ace-search-btn-left{
+    cursor:pointer;
+    margin-left:10px;
+}
+.ace-search-btn-right{
+    cursor:pointer;
+}
+.find-replace-container{
+    padding-left: 10px;
+}
+.ace-sarch{
+    float: left;
+}
+#btnReplace{
+    margin-left: 10px;
+}
+#btnReplaceAll{
+    margin-left: 10px;
+}
+#txtReplace{
+    padding-left: 15px !important;
+}
+.replace-box-close, .search-box-close{
+    cursor: pointer;
+}
+/* End */
+#createBy-label, #updateBy-label, #createDate-label, #updateDate-label{
+    font-weight: bold;    
+}
+#createBy-value, #updateBy-value, #createDate-value, #updateDate-value{   
+    font-style: italic;
+    padding-left: 5px;
+}
+
+
+.add-config-group{
+    padding-right: 10px;
+}
+
+.class-msie .ace_editor {
+    height: 600px !important;
+}

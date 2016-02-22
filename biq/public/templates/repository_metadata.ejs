@@ -1,0 +1,73 @@
+﻿<div class="repository-data-dictionary">
+    <button class="btn btn-default btn-show-repository-metadata" value="show">Show Repository Metadata</button>
+</div>
+
+<div class="repository-metadata-info-loading" style="display: none;">
+    <img class="dw-loading-animation" src="images/loader.gif" />
+    Loading repository metadata. Please wait
+</div>
+
+<div class="repository-metadata-info" style="display: none;">
+
+    <div class="repository-basic-info">
+        <div>
+            <span>Create Date:</span>
+            <span class="repo-create-date"></span>
+        </div>
+        <div>
+            <span>Last Update Date:</span>
+            <span class="repo-last-update-date"></span>
+        </div>
+        <div>
+            <span>Next Update Date:</span>
+            <span class="repo-next-update-date"></span>
+        </div>
+    </div>
+
+    <span class="lbl-repository-metadata label label-default">Table information</span>
+
+    <div class="repository-table-info">
+        <table class="tbl-repository-table-info table table-bordered" width="100%"></table>
+    </div>
+</div>
+
+<div class="user-management-filter">
+  <span class="lbl-repository-metadata label label-default">Implicit Filters</span>
+  <table class="table table-default tbl-user-management-filter">
+    <thead>
+      <tr>
+        <th>Filter</th>
+        <th>Value Included</th>
+        <th>Value Excluded</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>
+
+<% if (showDataDictionary) {%>
+  <div class="repository-data-dictionary">
+    <button class="btn btn-default btn-show-data-dictionary" value="show">Show Data Dictionary</button>
+  </div>
+<% }%>
+
+<div class="data-dictionary-definition tbl-data-dictionary-definition">
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>
+          Column Name
+        </th>
+        <th>
+          Column Description
+        </th>
+        <th>
+          Column Type
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,7 @@
+<% if (totals) { %>
+<tr>
+	<% can.each(totals.cells, function(cell, i) {%>
+	<th><%= cell.fmtValue%></th>
+	<% }); %>
+</tr>
+<% } %>

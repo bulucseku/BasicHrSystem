@@ -1,0 +1,9 @@
+﻿ <% can.each(myReports, function(report, i) { %>
+<div class="mover-box-item" id="<%= report.id%>" title="<%= report.name%>" >
+<span class="mover-box-item-name"> <%= report.name%></span>
+<div class="moverbox-item-removebutton">
+    <div class="remove-icon">&nbsp;</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<% }); %>

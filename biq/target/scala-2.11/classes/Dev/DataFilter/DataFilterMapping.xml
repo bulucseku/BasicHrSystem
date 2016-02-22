@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dataFilterMapping>
+  <repository id="MMIB">
+    <attributeForm id="FiscalQuarterId">
+        <dataFilter id="City"/>
+    </attributeForm>
+  </repository>
+  <repository id="farmland">
+    <attributeForm id="cal_year_id">
+      <dataFilter id="Year"/>
+    </attributeForm>
+  </repository>
+</dataFilterMapping>

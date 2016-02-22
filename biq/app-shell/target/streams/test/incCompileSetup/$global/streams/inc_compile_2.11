@@ -1,0 +1,533 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> D:\git\biq\app-shell\target\scala-2.11\test-classes
+compile options:
+9 items
+0 -> -unchecked
+1 -> -deprecation
+2 -> -feature
+3 -> -Xlint
+4 -> -Xlint:-missing-interpolator
+5 -> -deprecation
+6 -> -unchecked
+7 -> -encoding
+8 -> utf8
+javac options:
+3 items
+0 -> -encoding
+1 -> utf8
+2 -> -g
+compiler version:
+1 items
+0 -> 2.11.7
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+27 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB$$anonfun$stop$1.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB$$anonfun$stop$2.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$1$$anonfun$apply$1.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$1.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$2$$anonfun$apply$2.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$2.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$class.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithAppConfig.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithBaseConfig$class.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithBaseConfig.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithConfigSubFolderLocation$class.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$$anonfun$config$1.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$$anonfun$config$2.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$class.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMySqlConfig$class.class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMySqlConfig.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$1.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$2.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$1.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$2.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$3.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$class.class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.class
+binary dependencies:
+23 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.mongo\bundles\de.flapdoodle.embed.mongo-1.47.3.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.process\bundles\de.flapdoodle.embed.process-1.41.1.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.0.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.3.10.jar
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.0.jar
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> C:\Users\ba\.ivy2\cache\org.scalatestplus\play_2.11\jars\play_2.11-1.2.0.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+9 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+6 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala
+inheritance external dependencies:
+0 items
+class names:
+27 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.EmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.EmbeddedMongoDB$$anonfun$stop$1
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.EmbeddedMongoDB$$anonfun$stop$2
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB$$anonfun$beforeAll$1
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB$$anonfun$beforeAll$1$$anonfun$apply$1
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB$$anonfun$beforeAll$2
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB$$anonfun$beforeAll$2$$anonfun$apply$2
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com.sentrana.appshell.mongo.WithEmbeddedMongoDB$class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> com.sentrana.appshell.play.config.WithAppConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> com.sentrana.appshell.play.config.WithBaseConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> com.sentrana.appshell.play.config.WithBaseConfig$class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> com.sentrana.appshell.play.config.WithConfigSubFolderLocation
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> com.sentrana.appshell.play.config.WithConfigSubFolderLocation$class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> com.sentrana.appshell.play.config.WithMongoDBConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> com.sentrana.appshell.play.config.WithMongoDBConfig$$anonfun$config$1
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> com.sentrana.appshell.play.config.WithMongoDBConfig$$anonfun$config$2
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> com.sentrana.appshell.play.config.WithMongoDBConfig$class
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> com.sentrana.appshell.play.config.WithMySqlConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> com.sentrana.appshell.play.config.WithMySqlConfig$class
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$$anonfun$1
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$$anonfun$2
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$1
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$2
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$3
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com.sentrana.usermanagement.mongo.WithUMEmbeddedMongoDB$class
+used names:
+280 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> ->
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> :+
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> <init>
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> AnyRef
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Array
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> BasicDBObject
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Boolean
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> ClassTag
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> EmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Int
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> JavaConversions
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongoClient
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongoImportConfigBuilder
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongoImportProcess
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongoImportStarter
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongodConfigBuilder
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongodProcess
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> MongodStarter
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Net
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Network
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Option
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Seq
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Unit
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> Version
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> apply
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> boolean2Boolean
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> build
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> canBuildFrom
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> cmd
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> collection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> command
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> createCollection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> database
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> db
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> dbName
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> de
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> distribution
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> drop
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> dropCollection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> embed
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> flapdoodle
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> foreach
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> getDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> getDefaultInstance
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> importFile
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> jsonArray
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> jsonFile
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> localhostIsIPv6
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mapAsJavaMap
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> materializeClassTag
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongo
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoClient
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoHost
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoImportConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoImportExecutable
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoImportProcess
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoImportProcesses
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoImportProcesses_=
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoPort
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongoVersion
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongodConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongodExecutable
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongodProcess
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongodProcess_=
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> mongodb
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> net
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> package
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> password
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> port
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> prepare
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> process
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> runtime
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> start
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> startMongoImport
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> startMongod
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> stop
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> upsert
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> username
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> version
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> <init>
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> BeforeAndAfterAll
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> EmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> Seq
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> Suite
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> Unit
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> WithEmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> WithMongoDBConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> _1
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> _2
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> addAdminUser
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> collection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> collections
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> collectionsToCreate
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> collectionsToImport
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> createCollection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> dbName
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> embeddedMongo
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> foreach
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> importCollection
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> jsonFile
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> mongo
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> mongoHost
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> mongoPassword
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> mongoPort
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> mongoUsername
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> ne
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> org
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> package
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> scalatest
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> start
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> stop
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> Any
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> AnyRef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> Any
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> WithAppConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> apply
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> +
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> ->
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> Any
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> WithAppConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> WithConfigSubFolderLocation
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> configSubFolderLocation
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> super$config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> ++
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> ->
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> Any
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> Int
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> List
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> StringContext
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> WithAppConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> WithMongoDBConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> apply
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> canBuildFrom
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> db
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> immutable
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> mongoDatabases
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> mongoHost
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> mongoPassword
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> mongoPort
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> mongoUsername
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> package
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> reduce
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> s
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> super$config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> ++
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> ->
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> Any
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> StringContext
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> WithAppConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> WithMySqlConfig
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> apply
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> mySqlDriver
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> mySqlPrefix
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> mySqlURL
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> s
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> super$config
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> +
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> ->
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> ::
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> <init>
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> File
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> IllegalStateException
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Int
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Map
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Nil
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> OneAppPerSuite
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Predef
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Seq
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> ServerSocket
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> String
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> StringContext
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Suite
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> Try
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> WithBaseConfig
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> WithEmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> WithMongoDBConfig
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> WithUMEmbeddedMongoDB
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> additionalCollectionsToCreate
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> additionalCollectionsToImport
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> additionalMongoDatabases
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> app
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> apply
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> appshell
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> close
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> collection
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> com
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> config
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> findAvailablePort
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> foreach
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> getAbsolutePath
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> getLocalPort
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> getOrElse
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> immutable
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> io
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> java
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> lang
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> map
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> mongo
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> mongoHost
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> mongoPassword
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> mongoUsername
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> net
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> org
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> package
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> path
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> play
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> port
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> s
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> scala
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> scalatest
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> scalatestplus
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> sentrana
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> setReuseAddress
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> socket
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> umDatabaseName
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> usermanagement
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> util
+product stamps:
+27 items
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB$$anonfun$stop$1.class -> lastModified(1448442651422)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB$$anonfun$stop$2.class -> lastModified(1448442651426)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\EmbeddedMongoDB.class -> lastModified(1448442651417)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$1$$anonfun$apply$1.class -> lastModified(1448442651469)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$1.class -> lastModified(1448442651454)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$2$$anonfun$apply$2.class -> lastModified(1448442651490)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$$anonfun$beforeAll$2.class -> lastModified(1448442651475)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB$class.class -> lastModified(1448442651505)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.class -> lastModified(1448442651434)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithAppConfig.class -> lastModified(1448442651509)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithBaseConfig$class.class -> lastModified(1448442651582)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithBaseConfig.class -> lastModified(1448442651569)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithConfigSubFolderLocation$class.class -> lastModified(1448442651598)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.class -> lastModified(1448442651589)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$$anonfun$config$1.class -> lastModified(1448442651638)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$$anonfun$config$2.class -> lastModified(1448442651645)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig$class.class -> lastModified(1448442651650)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMongoDBConfig.class -> lastModified(1448442651629)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMySqlConfig$class.class -> lastModified(1448442651781)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\appshell\play\config\WithMySqlConfig.class -> lastModified(1448442651761)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$1.class -> lastModified(1448442651825)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$2.class -> lastModified(1448442651837)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$1.class -> lastModified(1448442651841)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$2.class -> lastModified(1448442651847)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$$anonfun$findAvailablePort$3.class -> lastModified(1448442651852)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB$class.class -> lastModified(1448442651880)
+D:\git\biq\app-shell\target\scala-2.11\test-classes\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.class -> lastModified(1448442651807)
+source stamps:
+8 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> hash(5a4ffe09bf65535011943b8cbd0c792b0fc16b0e)
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> hash(aaacfac1dd5e690191eaff826a40395f3827a98c)
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> hash(fa6ea164821d2e3f2b4585769a40a95b56410b79)
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> hash(35e84a6b21c3ef99a5c13b0f5fb5dbe1fb71f98e)
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> hash(9e24c842d1c92cc73ea2fbef4a4cf070b56b1936)
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> hash(92648f561d114bf662b4b8a26ff06fd6c6706bb1)
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> hash(939d1e786ec55a283ef2b661c6b5bd0844071f4e)
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> hash(2a943cddc569f02702ecc8eb71b23081a6864b36)
+binary stamps:
+8 items
+C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar -> lastModified(1445766325064)
+C:\Users\ba\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.3.10.jar -> lastModified(1438575022000)
+C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.mongo\bundles\de.flapdoodle.embed.mongo-1.47.3.jar -> lastModified(1429727657000)
+C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.process\bundles\de.flapdoodle.embed.process-1.41.1.jar -> lastModified(1428763277000)
+C:\Users\ba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar -> lastModified(1422540463000)
+C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> lastModified(1435004218000)
+C:\Users\ba\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.0.jar -> lastModified(1402127447000)
+C:\Users\ba\.ivy2\cache\org.scalatestplus\play_2.11\jars\play_2.11-1.2.0.jar -> lastModified(1404184594000)
+class names:
+8 items
+C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar -> java.lang.Object
+C:\Users\ba\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.3.10.jar -> play.api.test.FakeApplication
+C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.mongo\bundles\de.flapdoodle.embed.mongo-1.47.3.jar -> de.flapdoodle.embed.mongo.config.Net
+C:\Users\ba\.ivy2\cache\de.flapdoodle.embed\de.flapdoodle.embed.process\bundles\de.flapdoodle.embed.process-1.41.1.jar -> de.flapdoodle.embed.process.runtime.AbstractProcess
+C:\Users\ba\.ivy2\cache\org.mongodb\mongo-java-driver\jars\mongo-java-driver-2.13.0.jar -> com.mongodb.MongoClient
+C:\Users\ba\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.7.jar -> scala.collection.immutable.Nil$
+C:\Users\ba\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.0.jar -> org.scalatest.Suite$
+C:\Users\ba\.ivy2\cache\org.scalatestplus\play_2.11\jars\play_2.11-1.2.0.jar -> org.scalatestplus.play.OneAppPerSuite
+internal apis:
+8 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDKEQUiAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAI3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMweBb90AAZub3RpZnlzcQB+AAyQ3ObfdAAMYWRkQWRtaW5Vc2Vyc3EAfgAMNgAyrnQABHdhaXRzcQB+AAxD7fbOdAANJGFzSW5zdGFuY2VPZnNxAH4ADKq2qN90AAZlcXVhbHNzcQB+AAxzA52jdAAQc3RhcnRNb25nb0ltcG9ydHNxAH4ADJ7XIZF0AAxhc0luc3RhbmNlT2ZzcQB+AAx/O9PIdAALbW9uZ29DbGllbnRzcQB+AAwQgi8IdAAMc3luY2hyb25pemVkc3EAfgAMIeYCBHQAGnN0YXJ0TW9uZ29JbXBvcnQkZGVmYXVsdCQ1c3EAfgAMjzsDlXQADSRpc0luc3RhbmNlT2ZzcQB+AAwWLaVrdAAQaW1wb3J0Q29sbGVjdGlvbnNxAH4ADIeTbQR0ABpzdGFydE1vbmdvSW1wb3J0JGRlZmF1bHQkNnNxAH4ADMpobGh0AARzdG9wc3EAfgAMIA2oHnQACW5vdGlmeUFsbHNxAH4ADCAt2aJ0AAxpc0luc3RhbmNlT2ZzcQB+AAy8+kIpdAAGPGluaXQ+c3EAfgAMsAQLCnQAC3N0YXJ0TW9uZ29kc3EAfgAMS0cmrnQAFG1vbmdvSW1wb3J0UHJvY2Vzc2Vzc3EAfgAMxEYJvnQAAj09c3EAfgAMmkm77HQADG1vbmdvVmVyc2lvbnNxAH4ADEbfc1R0AAVjbG9uZXNxAH4ADF81VUl0ABpzdGFydE1vbmdvSW1wb3J0JGRlZmF1bHQkN3NxAH4ADBJn9mx0ABBjcmVhdGVDb2xsZWN0aW9uc3EAfgAMH8+hinQACHRvU3RyaW5nc3EAfgAMKpF+hHQAAiE9c3EAfgAMz7C9BnQACGdldENsYXNzc3EAfgAMWz0hA3QABXN0YXJ0c3EAfgAMveld4XQAAm5lc3EAfgAMrbXeX3QADW1vbmdvZFByb2Nlc3NzcQB+AAynepCXdAACZXFzcQB+AAwjdmAydAAPRW1iZWRkZWRNb25nb0RCc3EAfgAMQeGZ1XQAAiMjc3EAfgAMk3Jv2HQACGZpbmFsaXplc3EAfgAMJ7BPX3QACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AXXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAK2NvbS5zZW50cmFuYS5hcHBzaGVsbC5tb25nby5FbWJlZGRlZE1vbmdvREJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AdQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AXUwACWluaGVyaXRlZHEAfgBdTAAHcGFyZW50c3EAfgBdeHEAfgB8c3EAfgB1AXVxAH4AWAAAAABwc3EAfgB1AXVxAH4AWAAAAABwc3EAfgB1AXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ae3QABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4Ae3NyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AlHQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AlXNxAH4AiHQAA0FueXNxAH4AjHNxAH4Aj3VxAH4AkgAAAAJzcQB+AJR0AAVzY2FsYXEAfgCbcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABtjb20uc2VudHJhbmEuYXBwc2hlbGwubW9uZ29zcQB+AKV0ABVjb20uc2VudHJhbmEuYXBwc2hlbGxzcQB+AKV0AAxjb20uc2VudHJhbmFzcQB+AKV0AANjb21zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVE96AIHdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFFpP/gm/ZVNQEZQ7jL0MeSsPwWsO
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD856bqAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPZ0frl0AAZub3RpZnlzcQB+AAzEaPIpdAAEd2FpdHNxAH4ADBIvSdJ0AAt0ZXN0RGF0YUZvcnNxAH4ADBHpsUJ0AAlzdHlsZU5hbWVzcQB+AAySo3SldAANJGFzSW5zdGFuY2VPZnNxAH4ADGJdc9V0AAZlcXVhbHNzcQB+AAwWhB/1dAAEdGFnc3NxAH4ADD7gWd90AAxhc0luc3RhbmNlT2ZzcQB+AAzziRYLdAADcnVuc3EAfgAMgdxQXnQACWJlZm9yZUFsbHNxAH4ADDczpCp0AAxzeW5jaHJvbml6ZWRzcQB+AAz0SwQ6dAANJGlzSW5zdGFuY2VPZnNxAH4ADNS/OBl0ABNjb2xsZWN0aW9uc1RvSW1wb3J0c3EAfgAM38WuwHQAE1dpdGhFbWJlZGRlZE1vbmdvREJzcQB+AAzVXgvadAAJbm90aWZ5QWxsc3EAfgAMKHSVy3QAC3dpdGhGaXh0dXJlc3EAfgAMYwjQ7HQAB3J1blRlc3RzcQB+AAxPEsjHdAAMaXNJbnN0YW5jZU9mc3EAfgAM8oBZvHQADWVtYmVkZGVkTW9uZ29zcQB+AAzFJD1cdAAPcnVuTmVzdGVkU3VpdGVzc3EAfgAMaFLKAHQAE2NvbGxlY3Rpb25zVG9DcmVhdGVzcQB+AAy7/iuBdAACPT1zcQB+AAywMd05dAAFY2xvbmVzcQB+AAxLrSKsdAAMbmVzdGVkU3VpdGVzc3EAfgAMp+/57nQABiRpbml0JHNxAH4ADB3NDLV0AAh0b1N0cmluZ3NxAH4ADLyNjvx0AAl0ZXN0TmFtZXNzcQB+AAwhjZFYdAACIT1zcQB+AAxWws75dAAyaW52b2tlQmVmb3JlQWxsQW5kQWZ0ZXJBbGxFdmVuSWZOb1Rlc3RzQXJlRXhwZWN0ZWRzcQB+AAwrxLsydAAIZ2V0Q2xhc3NzcQB+AAzVLlKudAAIcnVuVGVzdHNzcQB+AAy2h5VUdAAIYWZ0ZXJBbGxzcQB+AAy0d9I1dAARZXhwZWN0ZWRUZXN0Q291bnRzcQB+AAys7dpKdAAIcmVydW5uZXJzcQB+AAwab4AWdAACbmVzcQB+AAxv/9TtdAACZXFzcQB+AAxVpPQBdAACIyNzcQB+AAyEpRM0dAAIZmluYWxpemVzcQB+AAz95nqzdAAIaGFzaENvZGVzcQB+AAy2uprpdAAHc3VpdGVJZHNxAH4ADJeyJGt0AAlzdWl0ZU5hbWVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBpeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAvY29tLnNlbnRyYW5hLmFwcHNoZWxsLm1vbmdvLldpdGhFbWJlZGRlZE1vbmdvREJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AgQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AaUwACWluaGVyaXRlZHEAfgBpTAAHcGFyZW50c3EAfgBpeHEAfgCIc3EAfgCBAXVxAH4AZAAAAABwc3EAfgCBAXVxAH4AZAAAAABwc3EAfgCBAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAEc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4Ah3QAEUJlZm9yZUFuZEFmdGVyQWxsc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCHc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+AKB0AAlzY2FsYXRlc3RzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AoXNxAH4AlHQAClN1aXRlTWl4aW5xAH4AmnNxAH4AlHQABk9iamVjdHNxAH4AmHNxAH4Am3VxAH4AngAAAANzcQB+AKB0AARqYXZhc3EAfgCgdAAEbGFuZ3EAfgCnc3EAfgCUdAADQW55c3EAfgCYc3EAfgCbdXEAfgCeAAAAAnNxAH4AoHQABXNjYWxhcQB+AKdwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAG2NvbS5zZW50cmFuYS5hcHBzaGVsbC5tb25nb3NxAH4AvHQAFWNvbS5zZW50cmFuYS5hcHBzaGVsbHNxAH4AvHQADGNvbS5zZW50cmFuYXNxAH4AvHQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT3oAgd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzRDpcZ2l0XGJpcVxhcHAtc2hlbGxcdGFyZ2V0XHNjYWxhLTIuMTFcdGVzdC1jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUqqz6wd1eaQGR6v+CakA5XzgnqYw=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCDA+ZFAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAzRYzF0AAZub3RpZnlzcQB+AAwbLsmfdAAEd2FpdHNxAH4ADNpDmlR0AA0kYXNJbnN0YW5jZU9mc3EAfgAMMKsWjnQADVdpdGhBcHBDb25maWdzcQB+AAyHbsdFdAAGZXF1YWxzc3EAfgAMt2pPlXQADGFzSW5zdGFuY2VPZnNxAH4ADO9icrt0AAxzeW5jaHJvbml6ZWRzcQB+AAz3e6CJdAANJGlzSW5zdGFuY2VPZnNxAH4ADJcGEZ50AAZjb25maWdzcQB+AAwCLTFYdAAJbm90aWZ5QWxsc3EAfgAMdtdzPHQADGlzSW5zdGFuY2VPZnNxAH4ADNtEXM90AAI9PXNxAH4ADO5m/1x0AAVjbG9uZXNxAH4ADCveQf90AAh0b1N0cmluZ3NxAH4ADFSKUJd0AAIhPXNxAH4ADMPEln90AAhnZXRDbGFzc3NxAH4ADJXLHpx0AAJuZXNxAH4ADE/aDDd0AAJlcXNxAH4ADOiOuYt0AAIjI3NxAH4ADGlP1uR0AAhmaW5hbGl6ZXNxAH4ADDs2FWh0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0AC9jb20uc2VudHJhbmEuYXBwc2hlbGwucGxheS5jb25maWcuV2l0aEFwcENvbmZpZ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAHBzcQB+AFkBdXEAfgA8AAAAAHBzcQB+AFkBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBfdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB4dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB5c3EAfgBsdAADQW55c3EAfgBwc3EAfgBzdXEAfgB2AAAAAnNxAH4AeHQABXNjYWxhcQB+AH9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAGmNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5c3EAfgCJdAAVY29tLnNlbnRyYW5hLmFwcHNoZWxsc3EAfgCJdAAMY29tLnNlbnRyYW5hc3EAfgCJdAAhY29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnc3EAfgCJdAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRPegCB3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlxnaXRcYmlxXGFwcC1zaGVsbFx0YXJnZXRcc2NhbGEtMi4xMVx0ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABT6bqFkgh0uPytFhXaaQKlbVkELeQ==
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDLXubvAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIpg6FB0AAZub3RpZnlzcQB+AAwooIeFdAAEd2FpdHNxAH4ADElPFeN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMKznE73QABmVxdWFsc3NxAH4ADKgwj0h0AA5XaXRoQmFzZUNvbmZpZ3NxAH4ADP7NXmx0AAxhc0luc3RhbmNlT2ZzcQB+AAx2kGSNdAAMc3luY2hyb25pemVkc3EAfgAMM2BzP3QADSRpc0luc3RhbmNlT2ZzcQB+AAw/pf6hdAAGY29uZmlnc3EAfgAMD1yBFHQACW5vdGlmeUFsbHNxAH4ADPrimG10AAxpc0luc3RhbmNlT2ZzcQB+AAz8IzWgdAACPT1zcQB+AAxlm4t/dAAFY2xvbmVzcQB+AAyTQfKkdAAGJGluaXQkc3EAfgAM0+/DIHQACHRvU3RyaW5nc3EAfgAMXr0FZHQAAiE9c3EAfgAMlfwK5HQACGdldENsYXNzc3EAfgAMMYcPyHQAAm5lc3EAfgAMzo2wfXQAAmVxc3EAfgAMjA0vaXQAAiMjc3EAfgAMbO6Hs3QACGZpbmFsaXplc3EAfgAM7w6onHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQ3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAXQAMGNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5LmNvbmZpZy5XaXRoQmFzZUNvbmZpZ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBbAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBDTAAJaW5oZXJpdGVkcQB+AENMAAdwYXJlbnRzcQB+AEN4cQB+AGJzcQB+AFsBdXEAfgA+AAAAAHBzcQB+AFsBdXEAfgA+AAAAAHBzcQB+AFsBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAANV2l0aEFwcENvbmZpZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADY29tc3EAfgB6dAAIc2VudHJhbmFzcQB+AHp0AAhhcHBzaGVsbHNxAH4AenQABHBsYXlzcQB+AHp0AAZjb25maWdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ae3NxAH4AbnQABk9iamVjdHNxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgCHc3EAfgBudAADQW55c3EAfgByc3EAfgB1dXEAfgB4AAAAAnNxAH4AenQABXNjYWxhcQB+AIdwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAGmNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5c3EAfgCadAAVY29tLnNlbnRyYW5hLmFwcHNoZWxsc3EAfgCadAAMY29tLnNlbnRyYW5hc3EAfgCadAAhY29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnc3EAfgCadAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRPegCB3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlxnaXRcYmlxXGFwcC1zaGVsbFx0YXJnZXRcc2NhbGEtMi4xMVx0ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ16EprIcPvmaXBOw9ftdvh+3H5jg==
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBy9s1pAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPVmlA50AAZub3RpZnlzcQB+AAzLbMkhdAAEd2FpdHNxAH4ADDzIJBB0AA0kYXNJbnN0YW5jZU9mc3EAfgAMykySlHQABmVxdWFsc3NxAH4ADBeYDux0AAxhc0luc3RhbmNlT2ZzcQB+AAx2E/ULdAAMc3luY2hyb25pemVkc3EAfgAM569TkXQADSRpc0luc3RhbmNlT2ZzcQB+AAyAK8qQdAAGY29uZmlnc3EAfgAMso38EHQACW5vdGlmeUFsbHNxAH4ADN6wkUF0AAxpc0luc3RhbmNlT2ZzcQB+AAzgBtLwdAACPT1zcQB+AAzcuiKzdAAFY2xvbmVzcQB+AAw64+GwdAAGJGluaXQkc3EAfgAMOi0dqHQAF2NvbmZpZ1N1YkZvbGRlckxvY2F0aW9uc3EAfgAMHXAla3QACHRvU3RyaW5nc3EAfgAMa3k3LHQAAiE9c3EAfgAM+MHuhHQADHN1cGVyJGNvbmZpZ3NxAH4ADPGe7GB0AAhnZXRDbGFzc3NxAH4ADJ792cd0AAJuZXNxAH4ADMD7vXJ0AAJlcXNxAH4ADPrIHfZ0AAIjI3NxAH4ADEe7hnZ0AAhmaW5hbGl6ZXNxAH4ADK1e5l90AAhoYXNoQ29kZXNxAH4ADCufNvh0ABtXaXRoQ29uZmlnU3ViRm9sZGVyTG9jYXRpb25zcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAA9Y29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnLldpdGhDb25maWdTdWJGb2xkZXJMb2NhdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBfAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGZzcQB+AF8BdXEAfgBCAAAAAHBzcQB+AF8BdXEAfgBCAAAAAHBzcQB+AF8BdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBldAANV2l0aEFwcENvbmZpZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADY29tc3EAfgB+dAAIc2VudHJhbmFzcQB+AH50AAhhcHBzaGVsbHNxAH4AfnQABHBsYXlzcQB+AH50AAZjb25maWdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3NxAH4AcnQABk9iamVjdHNxAH4AdnNxAH4AeXVxAH4AfAAAAANzcQB+AH50AARqYXZhc3EAfgB+dAAEbGFuZ3EAfgCLc3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AItwcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAGmNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5c3EAfgCedAAVY29tLnNlbnRyYW5hLmFwcHNoZWxsc3EAfgCedAAMY29tLnNlbnRyYW5hc3EAfgCedAAhY29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnc3EAfgCedAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRPegCB3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlxnaXRcYmlxXGFwcC1zaGVsbFx0YXJnZXRcc2NhbGEtMi4xMVx0ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSeJMhC0cksxz6i++9KTPBwtWsZNg==
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD4gnZ8AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLyTVLF0AAZub3RpZnlzcQB+AAw5/rwTdAAEd2FpdHNxAH4ADGHiPgJ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMWZ9LU3QABmVxdWFsc3NxAH4ADIOGdO90AA1tb25nb1Bhc3N3b3Jkc3EAfgAMPgdk1nQADGFzSW5zdGFuY2VPZnNxAH4ADEtxVWN0AAxzeW5jaHJvbml6ZWRzcQB+AAxMwiPwdAAJbW9uZ29Ib3N0c3EAfgAM9zAJU3QADSRpc0luc3RhbmNlT2ZzcQB+AAyWBxW1dAARV2l0aE1vbmdvREJDb25maWdzcQB+AAylCjLydAAGY29uZmlnc3EAfgAMi3tGCHQACW5vdGlmeUFsbHNxAH4ADEiolel0AA1tb25nb1VzZXJuYW1lc3EAfgAMYZitV3QADGlzSW5zdGFuY2VPZnNxAH4ADNATggh0AAltb25nb1BvcnRzcQB+AAxUbFuCdAACPT1zcQB+AAwqdVLTdAAFY2xvbmVzcQB+AAxFd93gdAAGJGluaXQkc3EAfgAMm69AZnQACHRvU3RyaW5nc3EAfgAMiIuIKXQADm1vbmdvRGF0YWJhc2Vzc3EAfgAMhUHiCXQAAiE9c3EAfgAMPuhe4HQADHN1cGVyJGNvbmZpZ3NxAH4ADKETM7d0AAhnZXRDbGFzc3NxAH4ADASrjwR0AAJuZXNxAH4ADBHevsB0AAJlcXNxAH4ADC5hJz90AAIjI3NxAH4ADMBON2R0AAhmaW5hbGl6ZXNxAH4ADJ8fCuZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AE94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ADNjb20uc2VudHJhbmEuYXBwc2hlbGwucGxheS5jb25maWcuV2l0aE1vbmdvREJDb25maWd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAVUcmFpdHVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AZwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AT0wACWluaGVyaXRlZHEAfgBPTAAHcGFyZW50c3EAfgBPeHEAfgBuc3EAfgBnAXVxAH4ASgAAAABwc3EAfgBnAXVxAH4ASgAAAABwc3EAfgBnAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AbXQADVdpdGhBcHBDb25maWdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AG1zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAZzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAA2NvbXNxAH4AhnQACHNlbnRyYW5hc3EAfgCGdAAIYXBwc2hlbGxzcQB+AIZ0AARwbGF5c3EAfgCGdAAGY29uZmlnc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIdzcQB+AHp0AAZPYmplY3RzcQB+AH5zcQB+AIF1cQB+AIQAAAADc3EAfgCGdAAEamF2YXNxAH4AhnQABGxhbmdxAH4Ak3NxAH4AenQAA0FueXNxAH4AfnNxAH4AgXVxAH4AhAAAAAJzcQB+AIZ0AAVzY2FsYXEAfgCTcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABpjb20uc2VudHJhbmEuYXBwc2hlbGwucGxheXNxAH4ApnQAFWNvbS5zZW50cmFuYS5hcHBzaGVsbHNxAH4ApnQADGNvbS5zZW50cmFuYXNxAH4ApnQAIWNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5LmNvbmZpZ3NxAH4ApnQAA2NvbXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT3oAgd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzRDpcZ2l0XGJpcVxhcHAtc2hlbGxcdGFyZ2V0XHNjYWxhLTIuMTFcdGVzdC1jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUkmSPVh0RS/ZitLiib/Bv1sZwa7E=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDbgmDhAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cP2w0fd0AAZub3RpZnlzcQB+AAzNkidMdAAEd2FpdHNxAH4ADJa/Ahl0AA0kYXNJbnN0YW5jZU9mc3EAfgAMwdXoU3QABmVxdWFsc3NxAH4ADKxYLh90AAhteVNxbFVSTHNxAH4ADF/LPMB0AAxhc0luc3RhbmNlT2ZzcQB+AAwYSMSJdAAMc3luY2hyb25pemVkc3EAfgAM2m40tnQADSRpc0luc3RhbmNlT2ZzcQB+AAyKDhU4dAAGY29uZmlnc3EAfgAMEB0QdnQACW5vdGlmeUFsbHNxAH4ADEPv5qZ0AAxpc0luc3RhbmNlT2ZzcQB+AAzmRE19dAACPT1zcQB+AAx1sloBdAALbXlTcWxEcml2ZXJzcQB+AAwOyU5sdAAFY2xvbmVzcQB+AAxU7VmDdAAGJGluaXQkc3EAfgAMr4kgSnQACHRvU3RyaW5nc3EAfgAM9DaqfnQAAiE9c3EAfgAMMtZ+p3QADHN1cGVyJGNvbmZpZ3NxAH4ADATEAcp0AAhnZXRDbGFzc3NxAH4ADPtt/lJ0AAJuZXNxAH4ADJepNWR0AAtteVNxbFByZWZpeHNxAH4ADB18TTJ0AAJlcXNxAH4ADK2tpQd0AAIjI3NxAH4ADPsgt+p0AAhmaW5hbGl6ZXNxAH4ADILhBUl0AAhoYXNoQ29kZXNxAH4ADGC4UQt0AA9XaXRoTXlTcWxDb25maWdzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBLeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHABdAAxY29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnLldpdGhNeVNxbENvbmZpZ3VyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABVRyYWl0dXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBjAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBLTAAJaW5oZXJpdGVkcQB+AEtMAAdwYXJlbnRzcQB+AEt4cQB+AGpzcQB+AGMBdXEAfgBGAAAAAHBzcQB+AGMBdXEAfgBGAAAAAHBzcQB+AGMBdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBpdAANV2l0aEFwcENvbmZpZ3NyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAABnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAADY29tc3EAfgCCdAAIc2VudHJhbmFzcQB+AIJ0AAhhcHBzaGVsbHNxAH4AgnQABHBsYXlzcQB+AIJ0AAZjb25maWdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ag3NxAH4AdnQABk9iamVjdHNxAH4AenNxAH4AfXVxAH4AgAAAAANzcQB+AIJ0AARqYXZhc3EAfgCCdAAEbGFuZ3EAfgCPc3EAfgB2dAADQW55c3EAfgB6c3EAfgB9dXEAfgCAAAAAAnNxAH4AgnQABXNjYWxhcQB+AI9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAFc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAGmNvbS5zZW50cmFuYS5hcHBzaGVsbC5wbGF5c3EAfgCidAAVY29tLnNlbnRyYW5hLmFwcHNoZWxsc3EAfgCidAAMY29tLnNlbnRyYW5hc3EAfgCidAAhY29tLnNlbnRyYW5hLmFwcHNoZWxsLnBsYXkuY29uZmlnc3EAfgCidAADY29tc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFRPegCB3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADNEOlxnaXRcYmlxXGFwcC1zaGVsbFx0YXJnZXRcc2NhbGEtMi4xMVx0ZXN0LWNsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSTnR54bsVaKD7ytmHGtb0IRAcfTg==
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCb0+5VAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAM3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLgz21Z0AAZub3RpZnlzcQB+AAwIBjsIdAAEd2FpdHNxAH4ADL1zTDF0AAt0ZXN0RGF0YUZvcnNxAH4ADMfOka10AAlzdHlsZU5hbWVzcQB+AAx2nfEgdAANJGFzSW5zdGFuY2VPZnNxAH4ADNnPPOV0AAZlcXVhbHNzcQB+AAysgYF/dAANbW9uZ29QYXNzd29yZHNxAH4ADFPP7Z10AB1hZGRpdGlvbmFsQ29sbGVjdGlvbnNUb0ltcG9ydHNxAH4ADCWp7MZ0AAR0YWdzc3EAfgAM3L/TGHQADGFzSW5zdGFuY2VPZnNxAH4ADHVO7050AANydW5zcQB+AAwj3YjfdAAJYmVmb3JlQWxsc3EAfgAMvjmkdnQADHN5bmNocm9uaXplZHNxAH4ADMOinSd0AA51bURhdGFiYXNlTmFtZXNxAH4ADJe758p0AAltb25nb0hvc3RzcQB+AAwXqKS3dAANJGlzSW5zdGFuY2VPZnNxAH4ADH0uvHF0ABNjb2xsZWN0aW9uc1RvSW1wb3J0c3EAfgAMuNIqYHQABmNvbmZpZ3NxAH4ADOBHkBB0AAlub3RpZnlBbGxzcQB+AAyBWe8cdAALd2l0aEZpeHR1cmVzcQB+AAzRaxZ0dAAHcnVuVGVzdHNxAH4ADB834Ul0AA1tb25nb1VzZXJuYW1lc3EAfgAMwApx8nQADGlzSW5zdGFuY2VPZnNxAH4ADOj7YJR0AAltb25nb1BvcnRzcQB+AAxgkX7ZdAAPcnVuTmVzdGVkU3VpdGVzc3EAfgAMyvH1x3QAHWFkZGl0aW9uYWxDb2xsZWN0aW9uc1RvQ3JlYXRlc3EAfgAMHvILmnQAE2NvbGxlY3Rpb25zVG9DcmVhdGVzcQB+AAyp8nK9dAACPT1zcQB+AAx5LOemdAAFY2xvbmVzcQB+AAxLSC51dAAMbmVzdGVkU3VpdGVzc3EAfgAM0DJZMXQABiRpbml0JHNxAH4ADAp4HuN0AAh0b1N0cmluZ3NxAH4ADOaHKSt0AAl0ZXN0TmFtZXNzcQB+AAxnZF3CdAAObW9uZ29EYXRhYmFzZXNzcQB+AAwldGdDdAACIT1zcQB+AAyLxNaVdAARZmluZEF2YWlsYWJsZVBvcnRzcQB+AAyz6e7udAAyaW52b2tlQmVmb3JlQWxsQW5kQWZ0ZXJBbGxFdmVuSWZOb1Rlc3RzQXJlRXhwZWN0ZWRzcQB+AAwuTp3LdAAYYWRkaXRpb25hbE1vbmdvRGF0YWJhc2Vzc3EAfgAMPsSG/nQACGdldENsYXNzc3EAfgAM6edFu3QACHJ1blRlc3Rzc3EAfgAMOcM9ZHQACGFmdGVyQWxsc3EAfgAMRFpu8XQAEWV4cGVjdGVkVGVzdENvdW50c3EAfgAMDko9ZHQACHJlcnVubmVyc3EAfgAMBuvyT3QAAm5lc3EAfgAMV+VtlXQAAmVxc3EAfgAMhuzvAnQAAiMjc3EAfgAMAxjmcnQACGZpbmFsaXplc3EAfgAM8IshSHQACGhhc2hDb2Rlc3EAfgAMZH/8IHQAB3N1aXRlSWRzcQB+AAw4zcRrdAAJc3VpdGVOYW1lc3EAfgAMW5CxgHQAFVdpdGhVTUVtYmVkZGVkTW9uZ29EQnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AH14cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ADdjb20uc2VudHJhbmEudXNlcm1hbmFnZW1lbnQubW9uZ28uV2l0aFVNRW1iZWRkZWRNb25nb0RCdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAFVHJhaXR1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AJUBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AH1MAAlpbmhlcml0ZWRxAH4AfUwAB3BhcmVudHNxAH4AfXhxAH4AnHNxAH4AlQF1cQB+AHgAAAAAcHNxAH4AlQF1cQB+AHgAAAAAcHNxAH4AlQF1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAB3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AJt0ABNXaXRoRW1iZWRkZWRNb25nb0RCc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgCbc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAFc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANjb21zcQB+ALR0AAhzZW50cmFuYXNxAH4AtHQACGFwcHNoZWxsc3EAfgC0dAAFbW9uZ29zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AtXNxAH4AqHQAEUJlZm9yZUFuZEFmdGVyQWxsc3EAfgCsc3EAfgCvdXEAfgCyAAAAA3NxAH4AtHQAA29yZ3NxAH4AtHQACXNjYWxhdGVzdHEAfgC/c3EAfgCodAAKU3VpdGVNaXhpbnEAfgDCc3EAfgCodAARV2l0aE1vbmdvREJDb25maWdzcQB+AKxzcQB+AK91cQB+ALIAAAAGc3EAfgC0dAADY29tc3EAfgC0dAAIc2VudHJhbmFzcQB+ALR0AAhhcHBzaGVsbHNxAH4AtHQABHBsYXlzcQB+ALR0AAZjb25maWdxAH4Av3NxAH4AqHQADVdpdGhBcHBDb25maWdxAH4AzXNxAH4AqHQABk9iamVjdHNxAH4ArHNxAH4Ar3VxAH4AsgAAAANzcQB+ALR0AARqYXZhc3EAfgC0dAAEbGFuZ3EAfgC/c3EAfgCodAADQW55c3EAfgCsc3EAfgCvdXEAfgCyAAAAAnNxAH4AtHQABXNjYWxhcQB+AL9wcHVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAEc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQAIWNvbS5zZW50cmFuYS51c2VybWFuYWdlbWVudC5tb25nb3NxAH4A7nQADGNvbS5zZW50cmFuYXNxAH4A7nQAA2NvbXNxAH4A7nQAG2NvbS5zZW50cmFuYS51c2VybWFuYWdlbWVudHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT3oAgd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAAzRDpcZ2l0XGJpcVxhcHAtc2hlbGxcdGFyZ2V0XHNjYWxhLTIuMTFcdGVzdC1jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUKpQ83cVp8CcC7MjrcbIwgaaGSzY=
+external apis:
+0 items
+source infos:
+8 items
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\EmbeddedMongoDB.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\mongo\WithEmbeddedMongoDB.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithAppConfig.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithBaseConfig.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithConfigSubFolderLocation.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMongoDBConfig.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\appshell\play\config\WithMySqlConfig.scala -> 
+AAAAAAAAAAA=
+D:\git\biq\app-shell\test\com\sentrana\usermanagement\mongo\WithUMEmbeddedMongoDB.scala -> 
+AAAAAAAAAAA=
+compilations:
+6 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUTlttml1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT1r8Lh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT1ukfd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT1xGtZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT2XF3d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABUT3oAgd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAM0Q6XGdpdFxiaXFcYXBwLXNoZWxsXHRhcmdldFxzY2FsYS0yLjExXHRlc3QtY2xhc3Nlc3QAAS8=

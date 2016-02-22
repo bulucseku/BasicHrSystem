@@ -1,0 +1,1 @@
+steal('lib/sentrana/TreeWidget/Tree.js', 'lib/external/jstree/themes/default/style.css', 'lib/sentrana/TreeWidget/css/style.css');

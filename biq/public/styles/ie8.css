@@ -1,0 +1,174 @@
+/***********************************************************************/
+/*                         IE8 STYLE SHEET                            */
+/***********************************************************************/
+/* --------------------------------------------------------------
+
+   ie8.css
+   * Sets up some Internet Explorer8 Specific styles.
+   
+
+-------------------------------------------------------------- */
+
+
+/* Vertical Font AntiAliasing Fix 
+--------------------------------------------------------------** This is just a temporary fix. Dose not work when you have gradient backgrounds... */
+.highcharts-axis > span,
+.highcharts-axis-labels > span {
+    background-color: #fff;
+}
+
+/* Dark Grey Header gradient style
+-------------------------------------------------------------- */
+div.navigationPane-left,
+div.navigationPane-right {
+    background: url("../images/app_images/grad_header_v.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_header_v.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_header_v.png', sizingMethod='scale')";
+}
+
+div.docPanelTitle {
+    background: url("../images/app_images/grad_header.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_header.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_header.png', sizingMethod='scale')";
+}
+
+.collapsibleContainerTitle,
+.booklet-view-panel-header {
+    background: url("../images/app_images/grad_header.png") repeat-x 0 -1px !important;
+}
+
+/* Disabled button gradient style
+-------------------------------------------------------------- */
+.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled {
+    width: auto !important;
+    background: url("../images/app_images/grad_but_30.png") repeat-x !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)" !important;
+        filter: "Alpha(Opacity=50)" !important;
+}
+
+.buttonBar .ui-state-disabled {
+    filter: Alpha(Opacity=35) !important;
+}
+
+/* Split button gradient style
+-------------------------------------------------------------- */
+.login-button span,
+.ui-button-text,
+.login-dw-selector-bar,
+.booklet-button-container,
+.btn-gradient,
+.comments-menu,
+.comment-button-container,
+.formula-column-button,
+.butWrap,
+.report-chart .ui-slider-handle,
+.tu .tu-metric,
+.summary .cancel-btn,
+.reusable-columns-list-popup-item-edit-button,
+.reusable-columns-list-popup-item-remove-button,
+.column-base-filter-container .filter-sort-buttons .asc,
+.column-base-filter-container .filter-sort-buttons .dsc,
+.column-base-filter-container .filter-submit-buttons,
+.grid-util-container .filter-submit-buttons,
+.grid-util-container .column-util-hide-button {
+    background: url("../images/app_images/grad_but.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale')";
+}
+
+.login-button span:hover,
+.booklet-button-container:hover,
+.summary .cancel-btn:hover {
+    background: url("../images/app_images/grad_but_h.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but_h.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but_h.png', sizingMethod='scale')";
+}
+
+/* Warning!!! This is not supported in IE and the workaround for this is add/remove class in Java Script or jQuery------------- */
+
+.contentwrapper .navbar-container,
+.reusable-columns-list-popup-header {
+    background: url("../images/app_images/grad_but.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale')";
+}
+
+.dual-list-move-button,
+.order-button,
+.view-navigation-button {
+    background: url("../images/app_images/grad_but.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale')";
+}
+
+.menu,
+.booklet-menu,
+.tu .controls .forms {
+    background: url("../images/app_images/grad_but_18.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but_18.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but_18.png', sizingMethod='scale')";
+}
+
+.mover-box-left .moverbox-item-removebutton {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)" !important ;
+}/* Hide the X button---------------- */
+
+.tu .tu-close-container,
+.fu .fu-close-container,
+.range-close,
+.filmstrip-item-removebutton,
+.moverbox-item-removebutton,
+.btn-show-hide-range-filter,
+.btn-reset-range-filter {
+    background: url("../images/app_images/grad_but.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/grad_but.png', sizingMethod='scale')";
+}
+
+
+/* Selected Button flat-color style
+-------------------------------------------------------------- */
+.report-chart .ui-state-active .ui-button-text {
+    background: #7d7d7d !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.summary .butWrap.sab-selected {
+    background: #7d7d7d !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+/* Dark Grey Header flat-color style
+-------------------------------------------------------------- */
+.saved-reports-list .collapsibleContainerTitle,
+.saved-booklets-list .collapsibleContainerTitle,
+.metrics-panel .collapsibleContainerTitle,
+.dimension .collapsibleContainerTitle {
+    background: #686868 !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+/* Table Footer gradient style
+-------------------------------------------------------------- */
+.report_grid_footer {
+    background: url("../images/app_images/tbl_foot_grad.png") repeat-x;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/tbl_foot_grad.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/app_images/tbl_foot_grad.png', sizingMethod='scale')";
+}
+
+.input-login {
+    width: 150px;
+}

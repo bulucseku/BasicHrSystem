@@ -1,0 +1,19 @@
+﻿<div class="panel panel-default config-group-panel" id="configgroup-<%=group.id%>">
+  <div class="panel-heading" role="tab">
+        <h4 class="panel-title">
+            <div class="panel-head-link collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse<%=group.id%>" aria-expanded="false">
+              <%= group.name%>
+            </div>
+        </h4>
+      </div>
+      <div id="collapse<%=group.id%>" class="panel-collapse collapse<%=group.id%>" role="tabpanel">
+        <div class="panel-body">
+          <div class="menu">
+            <span id="download_<%= group.id%>" action="download" class="item btn btn-xs">Download</span>
+            <span id="upload_<%= group.id%>" action="upload" class="item btn btn-xs">Upload</span>
+            <span id="duplicate_<%= group.id%>" action="duplicate" class="item btn btn-xs">Duplicate</span>
+            <span id="delete_<%= group.id%>" action="delete" class="item btn btn-xs">Delete</span>
+          </div>
+        </div>
+      </div>
+ </div>

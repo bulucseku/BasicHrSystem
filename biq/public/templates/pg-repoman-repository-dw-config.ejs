@@ -1,0 +1,75 @@
+<p class="section-header">Repository Data Warehouse Definition</p>
+<div class="section">
+  <table class="form-table">
+    <tbody>
+      <tr>
+        <td>                          Repository ID:                      </td>
+        <td>
+          <div class="repository-id">
+            <input type="text" value="default_id">
+          </div>
+        </td>
+        <td>                          Repository Name:                      </td>
+        <td>
+          <div class="repository-name">
+            <input type="text" value="Default Repository Name">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>                          Database Type                      </td>
+        <td>
+          <div class="db-type">
+            <select class="select-db-type">
+              <option value="MSSqlServer" <% if (dataWarehouse.connection.dbType == "MSSqlServer") {%>selected<% }%>>MSSqlServer</option>
+              <option value="MySQL" <% if (dataWarehouse.connection.dbType == "MySQL") {%>selected<% }%>>MySQL</option>
+              <option value="PostgreSQL" <% if (dataWarehouse.connection.dbType == "PostgreSQL") {%>selected<% }%>>PostgreSQL</option>
+            </select>
+          </div>
+        </td>
+        <td>                          Database Server IP:                      </td>
+        <td>
+          <div class="db-server-ip">
+            <input type="text" value="<%= dataWarehouse.connection.ip%>">
+          </div>
+        </td>
+        <td>                          Port:                      </td>
+        <td>
+          <div class="db-server-port">
+            <input type="text" value="<%= dataWarehouse.connection.port%>">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>                            Instance Name:                        </td>
+        <td>
+          <div class="db-instance-name">
+            <input type="text" value="<%= dataWarehouse.connection.instance%>">
+          </div>
+        </td>
+        <td>                            User Name:                        </td>
+        <td>
+          <div class="db-user-name">
+            <input type="text" value="<%= dataWarehouse.connection.userName%>">
+          </div>
+        </td>
+        <td>                            Password:                        </td>
+        <td>
+          <div class="db-password">
+            <input type="text" value="<%= dataWarehouse.connection.password%>">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <% if (dataWarehouse.connection.dbType == "MSSqlServer") {%>
+        <td>                            Schema Name:                        </td>
+        <td>
+          <div class="schema-name">
+            <input type="text" value="<%= dataWarehouse.tableInfo.schemaName%>">
+          </div>
+        </td>
+        <% }%>
+      </tr>
+    </tbody>
+  </table>
+</div>

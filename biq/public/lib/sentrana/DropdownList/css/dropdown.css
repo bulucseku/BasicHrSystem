@@ -1,0 +1,156 @@
+﻿body {
+}
+.dropdownHeader{
+    width: 180px;
+    height: 30px;
+    padding-left: 5px;
+    border-bottom: 1px solid #29313A;
+    border-left:3px solid #23272D;
+}
+
+.dropdownHeader:hover{
+    border-left:3px solid #1A7AB9;
+    cursor: pointer;
+    background-color: #222;
+}
+.dropdownHeader:hover .text
+{
+    color: #fff;
+}
+.dropdownHeader .text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: auto !important;
+    max-width: 170px;
+    text-decoration: none;
+
+    /*font-family: Arial;
+    font-size: 11px;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(182, 194, 204);*/
+
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #808b9c;
+}
+.dropdownHeader .text:hover{
+    /*text-decoration: underline;*/
+    /*font-weight: bold;*/
+    color: #fff;
+}
+.text-underline {
+    text-decoration: underline !important;
+}
+.cascade-indent{
+    vertical-align: middle;
+    display: inline;
+    float: left;
+    padding-right: 2px;
+}
+.icon-down {
+	float: right;
+	vertical-align: middle;
+    display: inline;
+    background-image: url('../../../images/arrow_dn_off.png');
+	background-position: 0px 4px;
+    background-repeat: no-repeat;
+    height: 22px !important;
+    width: 18px !important;
+    position: relative;
+    top: 3px;
+}
+.no-touch .icon-down {
+    display: none;
+}
+.no-touch .icon-down:hover{
+    background-image: url('../../../../images/arrow_dn_on.png');
+	cursor:pointer;
+}
+
+.itemList{
+    width: 200px;
+    padding: 2px 1px 4px 6px;
+    border: 1px solid #000000;
+    background-color: #23272D;
+    /*background-image: url('../../../../images/dropdown_back.png');*/
+    background-repeat: repeat;
+    display: none;
+    z-index: 10000 !important;
+    max-height: 240px;
+    position: absolute;
+    cursor: default;
+	box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.6);
+}
+
+.itemListitems{
+    width: 100%;
+    max-height: 200px;
+    overflow-x: hidden;
+    cursor: default;
+    overflow-y: auto;
+    margin-top: 3px;
+}
+
+.search-text {
+    width: 100%;
+    font-style: italic;
+    font-size: .875em;
+    color: gray;
+}
+
+.dropdown-list-margin-left {
+    margin-left: 80px;
+}
+.dropdownHeader span {
+    display: inline-block;
+    padding-top: 6px !important;
+    vertical-align: baseline;
+}
+.checkbox-label{
+    position: relative;
+    top: -2px;
+    cursor: pointer;
+    line-height: 15px;
+    font-family: Arial;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    color: rgb(182, 194, 204);
+    margin: 0px !important;
+    display: inline !important;
+}
+.checkboxItem{
+    margin: 0px !important;
+}
+.no-touch .checkbox-label:hover{
+     color: #fff;
+}
+.single-dd-label{
+    color: #fff;
+}
+.dd-item-selected{
+    color: #fff; /*#72BAF3;*/
+}
+.ipad_icon_down
+{
+    /*
+    background-image: url('../../../../images/arrow_dn_on.png');
+	cursor:pointer;
+*/
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+{
+
+/*
+.search-text {
+   height: 1.7em;
+}*/
+
+
+}

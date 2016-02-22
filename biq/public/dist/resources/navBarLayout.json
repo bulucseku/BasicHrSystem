@@ -1,0 +1,57 @@
+[
+	{
+		"btnName": "Reports and Booklets",
+		"btnID": "saved",
+		"iconImage": "report.png",
+		"iconImageOn": "report_on.png",
+		"controllerInfo": {
+			"controllerHelperName": "sentrana_saved_reports"
+		}
+	}, {
+		"btnName": "Builder",
+		"btnID": "bldr",
+		"iconImage": "builder.png",
+		"iconImageOn": "builder_on.png",
+		"controllerInfo": {
+			"controllerHelperName": "sentrana_builder_page"
+		}
+	}, {
+		"btnName": "Repository Manager",
+		"btnID": "repoman",
+		"iconImage": "repo_man.png",
+		"iconImageOn": "repo_man_on.png",
+		"controllerInfo": {
+			"controllerHelperName": "sentrana_repository_manager"
+		},
+		"children": [
+			{
+				"btnName": "Edit Config",
+				"btnID": "edit_config",
+				"controllerInfo": {
+					"controllerHelperName": "sentrana_configuration_manager"
+				}
+			},
+			{
+				"btnName": "Create Repository",
+				"btnID": "create_repo",
+				"controllerInfo": {
+					"controllerHelperName": "sentrana_create_repository"
+				}
+			},
+			{
+				"btnName": "Edit Repository",
+				"btnID": "edit_repo",
+				"controllerInfo": {
+					"controllerHelperName": "sentrana_edit_repository"
+				}
+			},
+			{
+				"btnName": "Composite Repository",
+				"btnID": "composite_repo",
+				"controllerInfo": {
+					"controllerHelperName": "sentrana_composite_repository"
+				}
+			}
+		]
+	}
+]

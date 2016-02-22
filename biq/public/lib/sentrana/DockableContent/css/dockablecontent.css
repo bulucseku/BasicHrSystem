@@ -1,0 +1,82 @@
+/* For main layout*/
+.dock-container {
+    overflow: hidden;
+    height: 100%;
+}
+.dock-right {
+    float: right;
+    height: 100%;
+}
+.dock-left {
+    float: left;
+    height: 100%;
+}
+.dock-middle {
+    height: 100%;
+}
+
+
+/* FOr side bar items*/
+.dock-content-sidebar-dockablePanel
+{
+    border: none;
+    background: #fff;
+    z-index: 1;
+}
+
+.dock-content-sidebar-docPanelTitle
+{
+    font-size:16px;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    background-color: #613474;
+    color: #fff;
+}
+
+.dock-content-sidebar-docPanelTitleText
+{
+    width: 80%;
+    float: left;
+    padding: 6px 0px 6px 7px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.dock-content-sidebar-button-wrapper {
+    text-align: right;
+    padding: 6px 6px 6px 0px;
+}
+
+.dock-content-sidebar-close-icon, .dock-content-sidebar-move-icon{
+    cursor: pointer;
+}
+
+.dock-content-sidebar-scrollable-panel
+{
+    cursor: default;
+    overflow: auto;
+    height: 100%;
+}
+
+.dock-content-sidebar-header-icon, .dock-content-sidebar-collapse-icon{
+    padding-right: 2px;
+}
+
+.dock-content-sidebar-position-left{
+    left: 0;
+}
+
+.dock-content-sidebar-position-right{
+    right: 0;
+}
+.dock-content-panel-heading {
+    background: #fafafa;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    position: relative;
+}

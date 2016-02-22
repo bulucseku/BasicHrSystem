@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<toc>
+  <item>
+    <title><![CDATA[Getting Started]]></title>
+    <tooltip><![CDATA[Getting Started]]></tooltip>
+    <item url="Documents/accessingbusinessiq.htm">
+      <title><![CDATA[Accessing BusinessIQ]]></title>
+      <tooltip><![CDATA[Accessing BusinessIQ]]></tooltip>
+    </item>
+    <item url="Documents/changingyourpassword.htm">
+      <title><![CDATA[Changing your password]]></title>
+      <tooltip><![CDATA[Changing your password]]></tooltip>
+    </item>
+    <item url="Documents/loggingoutandsessiontimeout.htm">
+      <title><![CDATA[Logging out and Session Timeout]]></title>
+      <tooltip><![CDATA[Logging out and Session Timeout]]></tooltip>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Introduction to BusinessIQ]]></title>
+    <tooltip><![CDATA[Introduction to BusinessIQ]]></tooltip>
+    <item url="Documents/whatisbusinessiqsupposedtodo.htm">
+      <title><![CDATA[What is BusinessIQ supposed to do?]]></title>
+      <tooltip><![CDATA[What is BusinessIQ supposed to do?]]></tooltip>
+    </item>
+    <item url="Documents/mybusinessdataisinseveralsystemsdoesbusinessiqfixthat.htm">
+      <title><![CDATA[My business’ data is in several systems. Does BusinessIQ fix that?]]></title>
+      <tooltip><![CDATA[My business’ data is in several systems. Does BusinessIQ fix that?]]></tooltip>
+    </item>
+    <item url="Documents/forwhomisthistoolintended.htm">
+      <title><![CDATA[For whom is this tool intended?]]></title>
+      <tooltip><![CDATA[For whom is this tool intended?]]></tooltip>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Creating Reports]]></title>
+    <tooltip><![CDATA[Creating Reports]]></tooltip>
+    <item url="Documents/whatarereportsandbooklets.htm">
+      <title><![CDATA[What are Reports and Booklets?]]></title>
+      <tooltip><![CDATA[What are Reports and Booklets?]]></tooltip>
+    </item>
+    <item url="Documents/selectingarepository.htm">
+      <title><![CDATA[Selecting a Repository]]></title>
+      <tooltip><![CDATA[Selecting a Repository]]></tooltip>
+    </item>
+    <item url="Documents/navigation.htm">
+      <title><![CDATA[Navigation]]></title>
+      <tooltip><![CDATA[Navigation]]></tooltip>
+    </item>
+    <item url="Documents/creatingandmodifyingareportdefinition.htm">
+      <title><![CDATA[Creating and Modifying a Report Definition]]></title>
+      <tooltip><![CDATA[Creating and Modifying a Report Definition]]></tooltip>
+    </item>
+    <item url="Documents/metricattributemappingrestriction.htm">
+      <title><![CDATA[Metric Attribute Mapping Restriction]]></title>
+      <tooltip><![CDATA[Metric Attribute Mapping Restriction]]></tooltip>
+    </item>
+    <item url="Documents/runningapivotanalysis.htm">
+      <title><![CDATA[Running a Pivot Analysis]]></title>
+      <tooltip><![CDATA[Running a Pivot Analysis]]></tooltip>
+      <item url="Documents/configuringapivotanalysis.htm">
+        <title><![CDATA[Configuring a Pivot Analysis]]></title>
+        <tooltip><![CDATA[Configuring a Pivot Analysis]]></tooltip>
+      </item>
+      <item url="Documents/addingfields.htm">
+        <title><![CDATA[Adding Fields]]></title>
+        <tooltip><![CDATA[Adding Fields]]></tooltip>
+      </item>
+      <item url="Documents/definingtheaggregation.htm">
+        <title><![CDATA[Defining the Aggregation]]></title>
+        <tooltip><![CDATA[Defining the Aggregation]]></tooltip>
+      </item>
+      <item url="Documents/exploringthepivottable.htm">
+        <title><![CDATA[Exploring the Pivot Table]]></title>
+        <tooltip><![CDATA[Exploring the Pivot Table]]></tooltip>
+      </item>
+      <item url="Documents/expandingandcollapsingrows.htm">
+        <title><![CDATA[Expanding and Collapsing Rows]]></title>
+        <tooltip><![CDATA[Expanding and Collapsing Rows]]></tooltip>
+      </item>
+      <item url="Documents/applypivotfilters.htm">
+        <title><![CDATA[Apply Pivot Filters]]></title>
+        <tooltip><![CDATA[Apply Pivot Filters]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/reorderingcolumnsinthereportdefinition.htm">
+      <title><![CDATA[Re-ordering Columns in the Report Definition]]></title>
+      <tooltip><![CDATA[Re-ordering Columns in the Report Definition]]></tooltip>
+    </item>
+    <item url="Documents/selectingfrommultipleattributeforms.htm">
+      <title><![CDATA[Selecting from Multiple Attribute Forms]]></title>
+      <tooltip><![CDATA[Selecting from Multiple Attribute Forms]]></tooltip>
+    </item>
+    <item url="Documents/addingmetricstoareport.htm">
+      <title><![CDATA[Adding Metrics to a Report]]></title>
+      <tooltip><![CDATA[Adding Metrics to a Report]]></tooltip>
+      <item url="Documents/standardmetrics.htm">
+        <title><![CDATA[Standard Metrics]]></title>
+        <tooltip><![CDATA[Standard Metrics]]></tooltip>
+      </item>
+      <item url="Documents/metricswithuserdefinedaggregations.htm">
+        <title><![CDATA[Metrics with User Defined Aggregations]]></title>
+        <tooltip><![CDATA[Metrics with User Defined Aggregations]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/derivedmetrics.htm">
+      <title><![CDATA[Derived Metrics]]></title>
+      <tooltip><![CDATA[Derived Metrics]]></tooltip>
+      <item url="Documents/conditionalmetricsonlywhen.htm">
+        <title><![CDATA[Conditional Metrics: Only When]]></title>
+        <tooltip><![CDATA[Conditional Metrics: Only When]]></tooltip>
+      </item>
+      <item url="Documents/formulaexpressionstransform.htm">
+        <title><![CDATA[Formula Expressions: Transform]]></title>
+        <tooltip><![CDATA[Formula Expressions: Transform]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/selectingdimensionsandattributes.htm">
+      <title><![CDATA[Selecting Dimensions and Attributes]]></title>
+      <tooltip><![CDATA[Selecting Dimensions and Attributes]]></tooltip>
+      <item url="Documents/metricdimensioncompatibility.htm">
+        <title><![CDATA[Metric-Dimension Compatibility]]></title>
+        <tooltip><![CDATA[Metric-Dimension Compatibility]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/applyingfilterstoareport.htm">
+      <title><![CDATA[Applying Filters to a Report]]></title>
+      <tooltip><![CDATA[Applying Filters to a Report]]></tooltip>
+      <item url="Documents/standardfilters.htm">
+        <title><![CDATA[Standard Filters]]></title>
+        <tooltip><![CDATA[Standard Filters]]></tooltip>
+      </item>
+      <item url="Documents/howfiltersareappliedtothereport.htm">
+        <title><![CDATA[How Filters Are Applied to the Report]]></title>
+        <tooltip><![CDATA[How Filters Are Applied to the Report]]></tooltip>
+      </item>
+      <item url="Documents/metricfilters.htm">
+        <title><![CDATA[Metric Filters]]></title>
+        <tooltip><![CDATA[Metric Filters]]></tooltip>
+      </item>
+      <item url="Documents/columnfiltersresultstransformation.htm">
+        <title><![CDATA[Column Filters: Results Transformation]]></title>
+        <tooltip><![CDATA[Column Filters: Results Transformation]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/executingareport.htm">
+      <title><![CDATA[Executing a Report]]></title>
+      <tooltip><![CDATA[Executing a Report]]></tooltip>
+    </item>
+    <item url="Documents/modifyingareportafterexecution.htm">
+      <title><![CDATA[Modifying a Report after Execution]]></title>
+      <tooltip><![CDATA[Modifying a Report after Execution]]></tooltip>
+    </item>
+  </item>
+  <item url="Documents/viewingandinteractingwithreportresults.htm">
+    <title><![CDATA[Viewing and Interacting with Report Results]]></title>
+    <tooltip><![CDATA[Viewing and Interacting with Report Results]]></tooltip>
+    <item url="Documents/exportresultstocsv.htm">
+      <title><![CDATA[Export Results to CSV]]></title>
+      <tooltip><![CDATA[Export Results to CSV]]></tooltip>
+    </item>
+    <item url="Documents/hidingcolumns.htm">
+      <title><![CDATA[Hiding Columns]]></title>
+      <tooltip><![CDATA[Hiding Columns]]></tooltip>
+    </item>
+    <item url="Documents/drilldownintotheresultsgrid.htm">
+      <title><![CDATA[Drill-down into the Results Grid]]></title>
+      <tooltip><![CDATA[Drill-down into the Results Grid]]></tooltip>
+      <item url="Documents/navigatingthedrillpath.htm">
+        <title><![CDATA[Navigating the Drill Path]]></title>
+        <tooltip><![CDATA[Navigating the Drill Path]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/applyingrangebasedfilters.htm">
+      <title><![CDATA[Applying Range Based Filters]]></title>
+      <tooltip><![CDATA[Applying Range Based Filters]]></tooltip>
+    </item>
+    <item url="Documents/usingchartsinbiq.htm">
+      <title><![CDATA[Using Charts in BIQ]]></title>
+      <tooltip><![CDATA[Using Charts in BIQ]]></tooltip>
+      <item url="Documents/chartbasics.htm">
+        <title><![CDATA[Chart Basics]]></title>
+        <tooltip><![CDATA[Chart Basics]]></tooltip>
+      </item>
+      <item url="Documents/togglingbetweencharttypes.htm">
+        <title><![CDATA[Toggling between Chart Types]]></title>
+        <tooltip><![CDATA[Toggling between Chart Types]]></tooltip>
+      </item>
+      <item url="Documents/adjustingthenumberofrowstodisplayusingtherowslider.htm">
+        <title><![CDATA[Adjusting the Number of Rows to Display (Using the Row Slider)]]></title>
+        <tooltip><![CDATA[Adjusting the Number of Rows to Display (Using the Row Slider)]]></tooltip>
+      </item>
+      <item url="Documents/adjustingchartsettings.htm">
+        <title><![CDATA[Adjusting Chart Settings]]></title>
+        <tooltip><![CDATA[Adjusting Chart Settings]]></tooltip>
+      </item>
+      <item url="Documents/exportthechart.htm">
+        <title><![CDATA[Export the Chart]]></title>
+        <tooltip><![CDATA[Export the Chart]]></tooltip>
+      </item>
+      <item url="Documents/drilldownintoachart.htm">
+        <title><![CDATA[Drill Down into a Chart]]></title>
+        <tooltip><![CDATA[Drill Down into a Chart]]></tooltip>
+      </item>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Reports and Booklets]]></title>
+    <tooltip><![CDATA[Reports and Booklets]]></tooltip>
+    <item url="Documents/savingareport.htm">
+      <title><![CDATA[Saving a Report]]></title>
+      <tooltip><![CDATA[Saving a Report]]></tooltip>
+      <item url="Documents/creatingreportswithdynamictimehorizons.htm">
+        <title><![CDATA[Creating Reports with Dynamic Time Horizons]]></title>
+        <tooltip><![CDATA[Creating Reports with Dynamic Time Horizons]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/thesavedreportsandbookletscatalog.htm">
+      <title><![CDATA[The Saved Reports and Booklets Catalog]]></title>
+      <tooltip><![CDATA[The Saved Reports and Booklets Catalog]]></tooltip>
+    </item>
+    <item url="Documents/reportpermissions.htm">
+      <title><![CDATA[Report Permissions]]></title>
+      <tooltip><![CDATA[Report Permissions]]></tooltip>
+    </item>
+    <item url="Documents/viewingexecutingsavedreports.htm">
+      <title><![CDATA[Viewing (Executing) Saved Reports]]></title>
+      <tooltip><![CDATA[Viewing (Executing) Saved Reports]]></tooltip>
+      <item url="Documents/commentingonsavedreports.htm">
+        <title><![CDATA[Commenting on Saved Reports]]></title>
+        <tooltip><![CDATA[Commenting on Saved Reports]]></tooltip>
+      </item>
+      <item url="Documents/applyingrangebasedfilters1.htm">
+        <title><![CDATA[Applying Range-Based Filters]]></title>
+        <tooltip><![CDATA[Applying Range-Based Filters]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/copyingsavedreports.htm">
+      <title><![CDATA[Copying Saved Reports]]></title>
+      <tooltip><![CDATA[Copying Saved Reports]]></tooltip>
+    </item>
+    <item url="Documents/editingsavedreports.htm">
+      <title><![CDATA[Editing Saved Reports]]></title>
+      <tooltip><![CDATA[Editing Saved Reports]]></tooltip>
+    </item>
+    <item url="Documents/sharingreports.htm">
+      <title><![CDATA[Sharing Reports]]></title>
+      <tooltip><![CDATA[Sharing Reports]]></tooltip>
+    </item>
+  </item>
+  <item>
+    <title><![CDATA[Creating and Using Booklets]]></title>
+    <tooltip><![CDATA[Creating and Using Booklets]]></tooltip>
+    <item url="Documents/whatarebooklets.htm">
+      <title><![CDATA[What are Booklets?]]></title>
+      <tooltip><![CDATA[What are Booklets?]]></tooltip>
+    </item>
+    <item url="Documents/creatinganewbooklet.htm">
+      <title><![CDATA[Creating a New Booklet]]></title>
+      <tooltip><![CDATA[Creating a New Booklet]]></tooltip>
+      <item url="Documents/settingthereportorderinabooklet.htm">
+        <title><![CDATA[Setting the Report Order in a Booklet]]></title>
+        <tooltip><![CDATA[Setting the Report Order in a Booklet]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/previewingabooklet.htm">
+      <title><![CDATA[Previewing a Booklet]]></title>
+      <tooltip><![CDATA[Previewing a Booklet]]></tooltip>
+    </item>
+    <item url="Documents/editabooklet.htm">
+      <title><![CDATA[Edit a Booklet]]></title>
+      <tooltip><![CDATA[Edit a Booklet]]></tooltip>
+      <item url="Documents/editingthebookletcomposition.htm">
+        <title><![CDATA[Editing the Booklet Composition]]></title>
+        <tooltip><![CDATA[Editing the Booklet Composition]]></tooltip>
+      </item>
+      <item url="Documents/editinganindividualreportthatispartofasavedbooklet.htm">
+        <title><![CDATA[Editing an Individual Report that is Part of a Saved Booklet]]></title>
+        <tooltip><![CDATA[Editing an Individual Report that is Part of a Saved Booklet]]></tooltip>
+      </item>
+    </item>
+    <item url="Documents/viewingasavedbooklet.htm">
+      <title><![CDATA[Viewing a Saved Booklet]]></title>
+      <tooltip><![CDATA[Viewing a Saved Booklet]]></tooltip>
+    </item>
+    <item url="Documents/sharingbooklets.htm">
+      <title><![CDATA[Sharing Booklets]]></title>
+      <tooltip><![CDATA[Sharing Booklets]]></tooltip>
+    </item>
+  </item>
+</toc>

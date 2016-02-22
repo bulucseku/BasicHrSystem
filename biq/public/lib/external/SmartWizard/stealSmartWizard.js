@@ -1,0 +1,1 @@
+steal('lib/external/SmartWizard/js/jquery.smartWizard-2.0.min.js', 'lib/external/SmartWizard/styles/smart_wizard.css');

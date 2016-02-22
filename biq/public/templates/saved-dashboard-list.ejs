@@ -1,0 +1,32 @@
+<div>
+
+  <ul class="dashboard-items">
+    
+    <% can.each(dashboardList, function(item, i) { %>
+
+
+    <li class="dashboard-item">
+      <a class="dashboard-name" id="<%=item.name%>">
+        <i class="menu-icon fa fa-dashboard"></i>
+        <span class="mm-text">
+          <%=item.name%>
+        </span>
+      </a>
+    </li>
+      
+    <!--<div><a class="dashboard-name" id="<%=item.name%>"><%=item.name%></a></div>-->
+    <% }); %>
+
+  </ul>
+</div>
+
+<!--<div>
+  <% can.each(dashboardList, function(item, i) { %>
+
+  <div>
+    <a class="dashboard-name" id="<%=item.name%>">
+      <%=item.name%>
+    </a>
+  </div>
+  <% }); %>
+</div>-->

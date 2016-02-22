@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>reportchart</title>
+    <script type='text/javascript' src='js/jquery/jquery-1.7.1.js'></script>
+    <script type='text/javascript' src='js/jquery-ui/jquery-ui-1.8.17.custom.js'></script>
+    <script type='text/javascript' src='js/jquerymx/jquerymx-3.2.custom.js'></script>
+    <script type='text/javascript' src='js/Highcharts/highcharts.src.js'></script>
+    <script type='text/javascript' src='js/Highcharts/modules/exporting.src.js'></script>
+    <style type='text/css'>
+        body {
+            font-family: verdana
+        }
+        .error {
+            border: solid 1px red;
+        }
+        .error_text {
+            color: red;
+            font-size: 10px;
+        }
+        td {
+            padding: 3px;
+        }
+    </style>
+    <!-- Load in the jQuery CSS styles. -->
+    <link rel="stylesheet" type="text/css" href="js/jquery-ui/css/smoothness/jquery-ui-1.8.13.custom.css">
+
+</head>
+
+<body>
+    JSON Input:
+    <p>
+        <textarea name="json_input" class="json-input" rows=20 cols=150>
+            { "cached" : false, "cacheid" : "ab55d61d-16a3-44af-b4a0-00c835b59c0b", "colInfos" : [{ "attrValueType" : 0, "colType" : 0, "dataType" : 0, "just" : 0, "title" : "Fiscal Year", "width" : 11 }, { "attrValueType" : 3, "colType" : 1, "dataType" : 2, "just" : 1, "title" : "Sales", "width" : 12 }], "execTime" : "5\/17\/2012 4:36:52 PM", "exptMsg" : null, "rows" : [{ "cells" : [{ "fmtValue" : "2009", "rawValue" : 2009, "subttlHdr" : false }, { "fmtValue" : "$82,300,930", "rawValue" : 82300930.00, "subttlHdr" : false }], "subtotalRow" : false }, { "cells" : [{ "fmtValue" : "2010", "rawValue" : 2010, "subttlHdr" : false }, { "fmtValue" : "$172,529,497", "rawValue" : 172529496.75, "subttlHdr" : false }], "subtotalRow" : false }, { "cells" : [{ "fmtValue" : "2011", "rawValue" : 2011, "subttlHdr" : false }, { "fmtValue" : "$169,194,745", "rawValue" : 169194744.51, "subttlHdr" : false }], "subtotalRow" : false }, { "cells" : [{ "fmtValue" : "2012", "rawValue" : 2012, "subttlHdr" : false }, { "fmtValue" : "$110,308,885", "rawValue" : 110308884.50, "subttlHdr" : false }], "subtotalRow" : false }], "sql" : "SELECT
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;B.fiscal_yr_id AS \"Fiscal Year\",
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;SUM(A.sales) AS \"Sales\"
+            <br/>FROM
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;dm.a_product_sales_fm A
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN dm.d_fiscal_month B ON A.fiscal_month_key=B.fiscal_mth_key
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;INNER JOIN dm.d_product C ON A.product_key=C.product_key
+            <br/>WHERE
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;C.category_id=104
+            <br/>GROUP BY
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;B.fiscal_yr_id
+            <br/>ORDER BY
+            <br/>&nbsp;&nbsp;&nbsp;&nbsp;B.fiscal_yr_id ASC, \"Sales\" ASC", "timing" : { "query" : 3452, "sqlgen" : 0 }, "totals" : null }
+
+        </textarea>
+        <div class="report-chart" style="font-size: 75%">
+            <div class="chart-option"></div>
+            <div class="report-chart-cntr"></div>
+        </div>
+        <button class="update-chart">Update Chart</button>
+        <script type='text/javascript' src='js/ReportChart/ReportChart.js'></script>
+        <script type='text/javascript' src='js/ReportChart/ReportChartOptions.js'></script>
+        <script type='text/javascript' src='js/ReportChart/SentranaEnums.js'></script>
+        <script type='text/javascript'>
+            // Specific implementation
+
+             //new Sentrana.ReportChart($('.chart'));
+             //$(".report-chart").html('templates/rc_mainBody.tmpl', {});
+
+             // $(".report-chart").sentrana_report_chart({
+             // reportData : $(".json-input").val(),
+             // userConfiguration : { 
+             // chart : {
+             // renderTo : $(".report-chart")[0],
+             // height : 300,
+             // width : 200
+             // },
+             // showOptions : true,
+             // optionDialogWidth : 460,
+             // allowDrill : true
+             // }
+             // });
+            var chartData = new Sentrana.Models.ChartData();
+            chartData.attr("chartCollapseItemName", "OtherValues");
+            chartData.attr("chartCollapseRowLimit", 2);
+            updateChart();
+            $(".update-chart").click(function() {
+                updateChart();
+            });
+
+            function updateChart() {
+                $(".report-chart").sentrana_report_chart({
+                    chartData: chartData,
+                    reportData: jQuery.parseJSON($(".json-input").val()),
+                    chart: {
+                        renderTo: $(".report-chart-cntr")[0],
+                        chartType: 'scatter'
+                    },
+                    showOptions: true,
+                    optionDialogWidth: 320,
+                    allowDrill: true
+                });
+            }
+        </script>
+</body>
+
+</html>

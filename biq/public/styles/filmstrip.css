@@ -1,0 +1,134 @@
+.jcarousel,
+.filmstrip-jcarousel {
+    position: relative;
+    overflow: hidden;
+    /* You need at least a height, adjust this to your needs */
+
+    height: 50px;
+}
+
+.jcarousel ul {
+    position: absolute;
+    width: 20000px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.jcarousel li {
+    float: left;
+    padding-right: 10px;
+}
+
+.jcarousel li:last-child {
+    padding-right: 0;
+}
+
+.filstripitem {
+    width: 40px;
+    height: 41px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+
+
+.filmstrip-container .prev-navigation,
+.filmstrip-container .next-navigation {
+    line-height: 41px;
+    width: 20px;
+    height: 41px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.filmstrip-container .prev-navigation {
+    float: left;
+    margin-right: 5px;
+    background-image: url(../images/filmstrip_nav_l.png);
+    background-repeat: no-repeat;
+}
+
+.filmstrip-container .next-navigation {
+    float: right;
+    margin-left: 5px;
+    background-image: url(../images/filmstrip_nav_r.png);
+    background-repeat: no-repeat;
+}
+
+.barchart {
+    background-image: url(../images/bar_graph.png);
+}
+
+.barchart.selected {
+    background-image: url(../images/bar_graph_on.png);
+}
+
+.columnchart {
+    background-image: url(../images/column_graph.png);
+}
+
+.columnchart.selected {
+    background-image: url(../images/column_graph_on.png);
+}
+
+.linechart {
+    background-image: url(../images/line_graph.png);
+}
+
+.linechart.selected {
+    background-image: url(../images/line_graph_on.png);
+}
+
+.emptychart {
+    background-image: url(../images/no_graph.png);
+}
+
+.emptychart.selected {
+    background-image: url(../images/no_graph_on.png);
+}
+
+.piechart {
+    background-image: url(../images/pie_graph.png);
+}
+
+.piechart.selected {
+    background-image: url(../images/pie_graph_on.png);
+}
+
+.scatterchart {
+    background-image: url(../images/scatter_graph.png);
+}
+
+.scatterchart.selected {
+    background-image: url(../images/scatter_graph_on.png);
+}
+
+.stackedbarchart {
+    background-image: url(../images/stk_bar_graph.png);
+}
+
+.stackedbarchart.selected {
+    background-image: url(../images/stk_bar_graph_on.png);
+}
+
+.stackedcolumnchart {
+    background-image: url(../images/stk_col_graph.png);
+}
+
+.stackedcolumnchart.selected {
+    background-image: url(../images/stk_col_graph_on.png);
+}
+
+.filmstrip-drag-placeholder {
+    float: left;
+    margin: .25em .25em 0 0;
+    padding: .5em .5em;
+    border: 1px solid #c0c0c0;
+    background-color: #fff;
+}
+
+.filmstrip-item-removebutton {
+    margin-top: -4px;
+    margin-right: -4px;
+}

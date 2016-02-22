@@ -1,0 +1,7 @@
+﻿<% can.each(items, function(item, i) { %>
+<li>
+    <a> <label class="checkbox-labelL checkbox" title="<%= item.displayText%>">
+        <input type="checkbox" class="px checkboxItem"  key="<%= item.key%>" value="<%= item.value%>">
+        </input> <span class="lbl"><%= item.displayText%></span></label> </a>
+</li>
+<% }); %>

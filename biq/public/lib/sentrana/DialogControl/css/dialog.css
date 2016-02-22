@@ -1,0 +1,49 @@
+.status-bar{
+	float: left;
+    position: relative;
+    top: 5px;
+}
+.action-buttons{
+    float: right;
+}
+.status-bar-loading {
+	background-image: url("../images/loading_15px.gif");
+	background-repeat: no-repeat;
+	width: 1.25em;
+	height: 15px;
+	vertical-align: middle;
+}
+/* Alert Box Sprite Style */
+.sprite_alert_icon {
+    background: url("../images/sprite_alert_icons.png") no-repeat top left;
+}
+.sprite_confirm_icon {
+    background-position: 0 0;
+    width: 16px;
+    height: 16px;
+}
+.sprite_error_icon {
+    background-position: 0 -21px;
+    width: 16px;
+    height: 16px;
+}
+.sprite_alert_info_icon {
+    background-position: 0 -42px;
+    width: 16px;
+    height: 16px;
+}
+.sprite_question_icon {
+    background-position: 0 -63px;
+    width: 16px;
+    height: 16px;
+}
+.sprite_stop_icon {
+    background-position: 0 -84px;
+    width: 16px;
+    height: 16px;
+}
+.sprite_warning_icon {
+    background-position: 0 -105px;
+    width: 16px;
+    height: 16px;
+}

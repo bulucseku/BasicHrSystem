@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<settings>
+ <general>
+   <rightToLeft>false</rightToLeft>
+   <favicon>images/d2h-favicon1.ico</favicon>
+ </general>
+ <theme>
+   <predefined>true</predefined>
+ </theme>
+ <topic>
+   <strings>
+     <notfoundText>Topic not found</notfoundText>
+     <notfoundTitle>Topic not found</notfoundTitle>
+   </strings>
+   <breadcrumbs>
+     <label></label>
+     <separator>&amp;nbsp;/&amp;nbsp;</separator>
+   </breadcrumbs>
+   <collapsibleSections>
+     <expandAll>
+       <label>Expand All</label>
+     </expandAll>
+     <collapseAll>
+       <label>Collapse All</label>
+     </collapseAll>
+   </collapsibleSections>
+   <spinner>
+     <messageText></messageText>
+   </spinner>
+ </topic>
+ <toc>
+   <label>Contents</label>
+   <backButton>
+     <label>Back</label>
+   </backButton>
+ </toc>
+ <index>
+   <label>Index</label>
+   <strings>
+     <filterTooltip>Filter keywords</filterTooltip>
+     <filterPlaceholder>Filter...</filterPlaceholder>
+     <notfound>No keywords found.</notfound>
+     <found>#{count} keyword(s) found.</found>
+   </strings>
+ </index>
+ <search>
+   <label>Search</label>
+   <strings>
+     <filterTooltip>Search topics</filterTooltip>
+     <filterPlaceholder>Search...</filterPlaceholder>
+     <loading>Loading search engine...</loading>
+     <loaderror>Error: Search engine failed to load.</loaderror>
+     <disabled>Search is disabled.</disabled>
+     <notfound>No topics found.</notfound>
+     <found>#{count} topic(s) found.</found>
+     <correcting>Did you mean: #{query}</correcting>
+   </strings>
+   <operators>
+     <and>AND</and>
+     <or>OR</or>
+     <not>NOT</not>
+   </operators>
+ </search>
+ <favorites>
+   <label>Favorites</label>
+   <strings>
+     <filterPlaceholder>Filter favorites...</filterPlaceholder>
+     <remove>Delete</remove>
+   </strings>
+ </favorites>
+ <contextSensitive>
+   <strings>
+     <title>Topics for &quot;#{key}&quot;: &quot;#{value}&quot;</title>
+     <notfound>No topics found.</notfound>
+     <notsupported>The key &quot;#{key}&quot; is not supported.</notsupported>
+   </strings>
+ </contextSensitive>
+ <buttons>
+   <prev>
+     <label>Previous</label>
+   </prev>
+   <next>
+     <label>Next</label>
+   </next>
+   <home>
+     <label>Home</label>
+   </home>
+   <print>
+     <label>Print</label>
+   </print>
+   <email>
+     <label>Email</label>
+   </email>
+   <twitter>
+     <label>Twitter</label>
+   </twitter>
+   <facebook>
+     <label>Facebook</label>
+   </facebook>
+   <favorites>
+     <label>Favorites</label>
+   </favorites>
+   <sidePanel>
+     <label>Side panel</label>
+   </sidePanel>
+   <actions>
+     <label>Actions</label>
+   </actions>
+   <poweredBy>
+     <label>Created&amp;nbsp;with&amp;nbsp;Doc-To-Help&amp;nbsp;®</label>
+   </poweredBy>
+ </buttons>
+ <accessibility>
+   <akLinksMenuHeader>#{count} topics found</akLinksMenuHeader>
+   <toc>
+     <closedBook>Closed book without topic</closedBook>
+     <openBook>Open book without topic</openBook>
+     <closedBookTopic>Closed book with topic</closedBookTopic>
+     <openBookTopic>Open book with topic</openBookTopic>
+     <topic>Topic</topic>
+   </toc>
+   <collapsibleSections>
+     <collapsed>Click to expand</collapsed>
+     <expanded>Click to collapse</expanded>
+   </collapsibleSections>
+ </accessibility>
+ <toolbars>
+   <right>
+     <content>home, prev, next | print | favorites | actions</content>
+   </right>
+ </toolbars>
+</settings>

@@ -1,0 +1,35 @@
+<div style="padding: 15px;" class="<%= id%>_padding"/>
+<div class="<%= id%>">
+	<select class="select-dtable" style="float: left;">
+		<% can.each(tables, function(table, i) { %>
+		<option value="<%= table%>"><%= table%></option>
+		<% }); %>
+	</select>
+	<select class="select-join-type" style="float: left;">
+		<% can.each(joins, function(join, i) { %>
+		<option value="<%= i%>"><%= join%></option>
+		<% }); %>
+	</select>
+	<select class="select-lcompare" style="float: left;">
+		<% can.each(lcolumns, function(column, i) { %>
+		<option value="<%= column%>"><%= column%></option>
+		<% }); %>
+	</select>
+	<select class="select-compare" style="float: left;">
+		<% can.each(compares, function(compare, i) { %>
+		<option value="<%= i%>"><%= compare%></option>
+		<% }); %>
+	</select>
+	<select class="select-rcompare" style="float: left;">
+		<% can.each(rcolumns, function(column, i) { %>
+		<option value="<%= column%>"><%= column%></option>
+		<% }); %>
+	</select>
+	<div class="button-add-segments" style="float: right">Add Attributes</div>
+	<div class="button-add-filter" style="float: right;">Add Filter</div>
+	<div class="button-add-comparison" style="float: right;">Add Comparison</div>
+	<div class="button-add-join" style="float: right;">Add Join</div>
+	<div class="button-delete" style="float: right;">Delete</div>
+	<div class="<%= id%>_compchild" style="padding-top: 10px; padding-left:10px;"/>
+	<div class="<%= id%>_joinchild" style="padding-top: 10px; padding-left:30px;"/>
+</div>

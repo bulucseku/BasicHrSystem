@@ -1,0 +1,119 @@
+﻿.page-tab a input{
+    color: black;
+    width: 100px;
+}
+.page-tab .titleInput{
+    display: none;
+}
+.titleLabel{
+    cursor: pointer;
+}
+.titleLabel, .titleInput{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 22px !important;
+    font-weight: normal;
+    position: relative;
+    top: 2px;  
+    color: #000;    
+}
+
+.titleLabel:hover{    
+    color: #fff;
+    /*font-weight: bold;*/
+}
+.nav-tabs > li > a > input {
+    height: 18px;
+}
+.tabs-container > .nav > li > a{
+    padding: 6px 15px !important;   
+    text-align: center !important;
+    display: inline-block !important;
+}
+.tabs-container > .nav > li > .add-page{
+    padding: 8px 15px !important;    
+}
+.nav-tabs > li .close {
+    position: relative;
+    right: -10px;
+    font-size: 18px;
+    top: 1px;
+}
+.ui-state-active{
+    border: none !important;
+}
+.ui-state-default{
+    border: none !important;
+}
+.page-tab{
+    height: 35px !important;
+}
+.tab-pane{
+    padding: 5px;
+}
+
+
+/* Tab color */
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: rgb(166,166,162) !important;
+    border-bottom: 2px solid rgb(166,166,162) !important;  
+    color: #fff;
+    font-weight: 700 !important;
+}
+.nav-tabs>li:focus, .nav-tabs>li>a:focus {
+    background: #808080 !important;
+    border-bottom: 2px solid rgb(166,166,162);    
+    font-weight: normal !important;
+    color: #fff;
+}
+.nav-tabs>li>a:hover {
+    background: #808080 !important;
+    border-bottom: 2px solid rgb(166,166,162);    
+    font-weight: bold !important;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-tabs > li > a > label:hover {
+    cursor: pointer;
+    color: #fff;
+}
+.nav-tabs > li > a {
+    margin: 0 2px -1px 0 !important;    
+}
+
+
+/* Property window */
+.tbl-property-window tr td{
+    padding: 3px;
+}
+.page-property-container{
+    display: none;
+}
+.page-property{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}
+
+
+
+/*-------------- Override Page Item height & padding --------------*/
+.page-item{
+    height:28px !important;
+    /*overflow: auto;*/
+}
+.page-tab{
+        height:28px !important;
+}
+.page-tab > a{
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+}
+.tabs-container > .nav > li > a {
+    padding: 2px 15px !important;
+    display: inline-block !important;
+}
+.tabs-container > .nav > li > .add-page {
+    padding: 4px 15px !important;
+}
+/*---------------------------- End -------------------------------*/

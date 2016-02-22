@@ -1,0 +1,22 @@
+{
+    "maxerr"        : 100000,
+    "enforceall"    : true,
+    "camelcase"     : false,
+    "freeze"        : false,
+    "nocomma"       : false,
+    "singleGroups"  : false,
+    "eqnull"        : true,
+    "browser"       : true,
+    "devel"         : true,
+    "jquery"        : true,
+    "nonstandard"   : true,
+    "globals"       : {
+        "app_resources" : true,
+        "can"           : true,
+        "Highcharts"    : true,
+        "JSON"          : true,
+        "Sentrana"      : true,
+        "steal"         : true,
+        "tinycolor"     : true
+    }
+}

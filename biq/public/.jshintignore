@@ -1,0 +1,9 @@
+node_modules
+bower_components
+lib/external
+vendor
+help
+steal
+funcunit
+**/*.min.js
+**/production.js

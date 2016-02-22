@@ -1,0 +1,56 @@
+<div class="row">
+			<div class="dual-table-leftPart col-sm-4">
+				<div class="dualTable-Chart-Container">
+					<table class="kpi-table">
+						<thead>
+							<tr>
+								<% can.each(headerTitles, function(header, i) { %>
+									<th><%= header%></th>
+								<% }); %>
+							</tr>
+						</thead>
+						<tbody>
+							<% can.each(data.rows, function(row, i) { %>
+								<tr row="<%= i%>" class="kpi-name" style="cursor:pointer;">
+                                    <% can.each(row.cells, function(cell, j) { %>
+                                        <% if (data.colInfos[j].display ) {%>
+                                                <% if (j === chartIndex ) {%>
+                                                    <td align="center">
+												        <div id="<%= reportElementId%>_chart_<%= i%>_<%= j%>" class="mini-chart kpi-name" row="<%= i%>"></div>
+                                <div class="dummy-shed-container">
+                                  <div class="dummy-shed"></div>
+                                </div>
+											        </td>
+										        <% } else {%>
+											        <td <% if (data.colInfos[j].just === 0) {%> align=left <% } else {%> align=right class=text-right<% }%>>
+												        <% if (j === 0 ) {%>
+													        <a row="<%= i%>" class="kpi-name"><%= cell.fmtValue%></a>
+												        <% } else {%>
+													        <% if (cell.fmtValue !== 'NULL' ) {%>
+														        <%= cell.fmtValue%>
+													        <% }%>
+												        <% }%>
+											        </td>
+										        <% }%>
+                                          <% }%>
+									 <% }); %>
+								</tr>
+
+								<!--Separator-->
+								<% if (i !== rowCount-1 ) {%>
+                                    <tr>
+										<td colspan="<%= colCount%>">
+                                        	<hr class="separator" />
+										</td>
+									</tr>
+								<% }%>
+
+							<% }); %>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="dual-table-rightPart col-sm-8">
+				<div class="kpi_zoom_graph dualTable-Chart-Container"></div>
+			</div>
+  </div>

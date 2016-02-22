@@ -1,0 +1,41 @@
+<table class="form-table">
+  <tr>
+    <td><strong>Table Name</strong></td>
+    <td><strong>Column Name</strong></td><td><strong>Name</strong></td><td><strong>Type</strong></td><td><strong>Data Type</strong></td>
+    <td><strong>Default</strong></td>
+  </tr>
+  <% can.each(colInfos, function(colInfo, i) { %>
+  <tr class="<%= colInfo.id%>">
+    <td class="table-name">
+    </td>
+    <td>
+      <input type="text" class="input-column-name" value="<%= colInfo.columnName%>"/>
+    </td>
+    <td>
+      <input type="text" class="input-name" value="<%= colInfo.name%>"/>
+    </td>
+    <td>
+      <select class="select-row-type">
+        <option value="0" <% if (colInfo.formType === 0) {%>selected<% }%>>Attribute Form</option>
+        <option value="1" <% if (colInfo.formType === 1) {%>selected<% }%>>Fact</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-data-type">
+        <option value="0" <% if (colInfo.dataType === 0) {%>selected<% }%>>Datetime</option>
+        <option value="1" <% if (colInfo.dataType === 1) {%>selected<% }%>>String</option>
+        <option value="2" <% if (colInfo.dataType === 2) {%>selected<% }%>>Currency</option>
+        <option value="3" <% if (colInfo.dataType === 3) {%>selected<% }%>>Number</option>
+        <option value="4" <% if (colInfo.dataType === 4) {%>selected<% }%>>Percentage</option>
+        <option value="5" <% if (colInfo.dataType === 5) {%>selected<% }%>>Boolean</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-default" <% if (colInfo.formType === 1) {%>style= display:none; <% }%>>
+        <option value="True" selected>True</option>
+        <option value="False">False</option>
+      </select>
+    </td>
+  </tr>
+  <% }); %>
+</table>

@@ -1,0 +1,1 @@
+﻿steal("lib/external/gridster/css/jquery.gridster.css", "lib/external/gridster/js/jquery.gridster.js");

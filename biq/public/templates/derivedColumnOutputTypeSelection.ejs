@@ -1,0 +1,5 @@
+﻿<% can.each(outputtypes, function(outputtype, i) { %>
+   <label class="output-type-label checkbox-inline" for="derived-column-outputtype-<%= outputtype.id %>" title="<%= outputtype.name%>"> 
+    <input id="derived-column-outputtype-<%= outputtype.id %>" class="px" type="radio" name="derived-column-outputtype" outputType="<%= outputtype.id%>" value="<%= outputtype.id%>" title="<%= outputtype.name%>"  <% if (derivedColumn.outputType === outputtype.id) {%> checked="checked" <% }%>  ></input>			
+        <span class="lbl"><%= outputtype.name%></span></label>
+<% }); %>

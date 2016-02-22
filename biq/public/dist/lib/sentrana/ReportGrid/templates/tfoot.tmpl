@@ -1,0 +1,7 @@
+{{if totals}}
+<tr>
+	{{each(j,cell) totals.cells}}
+	<th>${cell.fmtValue}</th>
+	{{/each}}
+</tr>
+{{/if}}

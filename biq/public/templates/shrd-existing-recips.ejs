@@ -1,0 +1,49 @@
+<% can.each(recipModel.existingRecipsArray, function(recipInfo, index) { %>
+<tr class=<%= (index % 2 == 0) ? "even-row" : "odd-row"%>>
+	<td><%= userInfoMap[Sentrana.Models.ReportRecipients.toUserKey(recipInfo.userID)].fullName%></td>
+	<% if (recipInfo.partStatus === "AC") {%>
+	<td>Accepted</td>
+	<td userid="<%= recipInfo.userID%>">
+		
+	 <div class="checkbox-wrapper">
+	    <label class="checkbox" for="id-revoke-euser-action-<%= id%>-<%= recipInfo.userID%>">
+            <input type="checkbox" class="revoke-euser-action px" id="id-revoke-euser-action-<%= id%>-<%= recipInfo.userID%>"/>
+            <span class="lbl">Revoke access</span>
+        </label>
+      </div>
+
+	</td>
+	<% } else if (recipInfo.partStatus === "RJ") { %>
+	<td>Rejected</td>
+	<td userid="<%= recipInfo.userID%>">
+		
+	  <div class="checkbox-wrapper">
+	    <label class="checkbox" for="id-remove-euser-action-<%= id%>-<%= recipInfo.userID%>">
+            <input type="checkbox" class="remove-euser-action px" id="id-remove-euser-action-<%= id%>-<%= recipInfo.userID%>"/>
+            <span class="lbl">Remove from the list</span>
+        </label>
+      </div>
+
+	</td>
+	<% } else if (recipInfo.partStatus === "RV") { %>
+	<td>Revoked</td>
+	<td userid="<%= recipInfo.userID%>">
+	  
+	  <div class="checkbox-wrapper">
+        <label class="radio" for="id-regrant-remove-euser-action-<%= id%>-<%= recipInfo.userID%>">
+        <input type="radio" name="euser-action-<%= recipInfo.userID%>" class="regrant-remove-euser-action px" value="AC" id="id-regrant-remove-euser-action-<%= id%>-<%= recipInfo.userID%>"/>
+        <span class="lbl">Regrant access</span>
+        </label>
+      </div>
+
+	  <div class="checkbox-wrapper">
+	    <label class="radio" for="id-ex-regrant-remove-euser-action-<%= id%>-<%= recipInfo.userID%>">
+        <input type="radio" name="euser-action-<%= recipInfo.userID%>" class="regrant-remove-euser-action px" value="EX" id="id-ex-regrant-remove-euser-action-<%= id%>-<%= recipInfo.userID%>"/>
+        <span class="lbl">Remove from the list</span>
+        </label>
+      </div>
+
+	</td>
+	<% }%>
+</tr>
+<% }); %>

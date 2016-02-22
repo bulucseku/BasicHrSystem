@@ -1,0 +1,58 @@
+﻿<div class="booklet-entry" booklet-id="<%= bookletInfo.id%>">
+  <div class="booklet-entry-table">
+    <div class="booklet-entry-row">
+      <div class="booklet-entry-icon">
+        <% if (!bookletInfo.shared) {%>
+        <img src="images/booklet_base.png" class="icon-file"></img>
+        <% } else if (bookletInfo.createUser === userInfo.fullName) { %>
+        <img src="images/booklet_shared.png" class="icon-file"></img>
+        <% } else if (bookletInfo.createUser !== userInfo.fullName) { %>
+        <img src="images/booklet_received.png" class="icon-file"></img>
+        <% }%>
+
+      </div>
+      <div class="booklet-entry-name">
+        <span class="name text-semibold"><%= bookletInfo.name%></span>
+        </br>
+        <span class="createUser">by <%= bookletInfo.createUser%></span>
+      </div>
+      <div class="booklet-entry-createdate">
+        <span class="createDate"><%= Sentrana.formatDateValue(new Date(bookletInfo.createDate),"MM/dd/yyyy")%></span>
+      </div>
+
+	   <div class="booklet-entry-menus fa fa-chevron-down">
+		<ul class="dropdown-menu" style="display: none;">            
+            <li class="container-button-menu booklet-entry-menu" action="details"><a>Details</a></li>            		
+
+			<% if (bookletInfo.createUser === userInfo.fullName) {%>
+				<li class="container-button-menu booklet-entry-menu" action="edit"><a>Edit</a></li>            
+			<% }%>            
+			
+			<li class="container-button-menu booklet-entry-menu" action="copy"><a>Copy</a></li>            
+			<% if (bookletInfo.createUser === userInfo.fullName) {%>
+				<li class="container-button-menu booklet-entry-menu" action="share"><a>Share</a></li>            
+			<% }%>            			
+			<li class="container-button-menu booklet-entry-menu" action="delete"><a>Delete</a></li>            
+        </ul>
+	  </div>
+
+    </div>
+  </div>
+
+  <div class="booklet-details" style="display: none;">
+    <table>
+      <tr>
+        <td class="booklet-details-caption">Created:</td>
+        <td><%= Sentrana.formatDate(new Date(bookletInfo.createDate))%> (<%= bookletInfo.createUser%>)</td>
+      </tr>
+      <tr>
+        <td class="booklet-details-caption">Modified:</td>
+        <td class="booklet-details-last-mod"><%= bookletInfo.formatModified()%></td>
+      </tr>
+      <tr>
+        <td class="booklet-details-caption">Reports:</td>
+        <td class="booklet-details-last-total-report"> <%= bookletInfo.numberOfReports%></td>
+      </tr>     
+    </table>
+  </div>
+</div>

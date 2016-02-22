@@ -1,0 +1,78 @@
+﻿<div class="config-editor-panel">
+  <div class="row">
+    <div class="col-md-6">
+      <span id="createBy-label">Created By:</span><span id="createBy-value"></span> &nbsp; <span id="createDate-label">Create Date:</span><span id="createDate-value"></span><br>
+      <span id="updateBy-label">Last Modifier:</span><span id="updateBy-value"></span> &nbsp; <span id="updateDate-label">Last Modify Date:</span><span id="updateDate-value"></span>
+    </div>
+    <div class="col-md-6">
+      <button class="publish-config btn bg-primary" style="float: right;" >Publish</button>
+      <button class="save-all-config btn bg-primary" style="float: right;">Save All</button>
+      <button class="save-config btn bg-primary" style="float: right;">Save</button>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+
+  <div class="row config-editor-search-container">
+    <div class="col-md-12">
+      <div class="ae-search-box-container ace-sarch">
+        <i class="glyphicon glyphicon-search"></i>
+        <i class="glyphicon glyphicon-remove-circle search-box-close"></i>
+        <input id="txtSearch" type="text" class="form-control search-box" placeholder="Search" />
+      </div>
+      <button type="button" class="btn btn-primary ace-search-btn-left ace-sarch glyphicon glyphicon-chevron-left"></button>
+      <button type="button" class="btn btn-primary ace-search-btn-right ace-sarch glyphicon glyphicon-chevron-right"></button>
+      <div class="ae-search-box-container find-replace-container ace-sarch">
+        <i class="glyphicon glyphicon-remove-circle replace-box-close"></i>
+        <input id="txtReplace" type="text" class="form-control search-box replace-box" placeholder="Replace Text" />
+      </div>
+      <button id="btnReplace" type="button" class="btn btn-primary ace-sarch">Replace</button>
+      <button id="btnReplaceAll" type="button" class="btn btn-primary ace-sarch">Replace all in section</button>
+    </div>
+  </div>
+
+  <div class="row config-group-<%= groupId %>">
+    <div class="col-md-12 tabs-container">
+      <div role="tabpanel">
+        <ul class="nav nav-tabs" role="tablist">
+
+          <% can.each(configs, function(config, i) { %>
+
+            <li role="presentation" class="config-editor-tab <%= config.isSelected ? 'active':'' %>" >
+              <a href="#config-tab-<%= groupId %>-<%= config.id %>" key="config-tab-<%= groupId %>-<%= config.id %>" data-toggle="tab"><%= config.name %>
+
+                <% if(isFixed === false){%>
+                  <span class="close-tab close fa fa-times" id="close-tab-<%= groupId %>-<%= config.id %>" ></span>
+                <%}%>
+
+                </a>
+            </li>
+
+          <% }); %>
+
+          <% if(isFixed === false){%>
+            <li role="presentation">
+              <a class="add-new-configuration" title="Add new configuration">
+                <span class="fa fa-plus"></span>
+              </a>
+            </li>
+          <%}%></ul>
+
+
+        <div class="tab-content">
+
+          <% can.each(configs, function(config, i) { %>
+
+          <div role="tabpanel" class="tab-pane fade in  <%= config.isSelected ? 'active':'' %>" id="config-tab-<%= groupId %>-<%= config.id %>">
+            <div id="editor-<%= groupId %>-<%= config.id %>" class=""></div>
+          </div>
+
+          <% }); %>
+
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

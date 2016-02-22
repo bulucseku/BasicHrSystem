@@ -1,0 +1,23 @@
+﻿<div class="layout-page-wrapper">
+  <div class="layout-page-main-menu">
+    <div class="layout-page-main-menu-inner">
+      <ul class="navigation">
+        <% can.each(menus, function(menu, i) { %>
+               <%== caller.renderMenu(menu); %> 
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="layout-page-main-menu-bg"></div>
+
+  <div class="layout-page-main-menu-toggle">
+      <i class="navbar-icon fa"></i>
+  </div>
+  
+  <div class="layout-page-content-wrapper" >
+    <div class ="layout-page-content"></div>
+    <div class="clear"></div>
+  </div>
+  
+</div>

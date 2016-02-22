@@ -1,0 +1,70 @@
+<div class="repository-edit">
+  <div class="col1">
+    <div class="xmlrepository-list clickable-menu">
+      <h1>XML Repository List</h1>
+      <ul>
+        <% can.each(choices, function(repository, i) { %>
+        <li class="<%= repository.oid%>"><%= repository.name%></li>
+        <% }); %>
+      </ul>
+    </div>
+    <div class="jsonrepository-list clickable-menu">
+      <h1>JSON Repository List</h1>
+      <ul>
+        <% can.each(jsonchoices, function(repository, i) { %>
+        <li class="<%= repository.oid%>"><%= repository.name%></li>
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+  <div class="col2">
+    <div class="metadata"></div>
+    <p class="section-header">Organization Access Control</p>
+      <div class="section">
+        <div class="organization-list">
+          <div style="overflow: auto; width: 300px; height: 80px; border: 1px solid #336699; padding-left: 5px">
+              <input type="checkbox" name="organizations" value="English" checked>Sentrana Inc.<br>
+              <input type="checkbox" name="organizations" value="Hindi">Sysco<br>
+              <input type="checkbox" name="organizations" value="Italian" checked>General Mills<br>
+          </div>
+        </div>
+      </div>
+    <br>
+    <div class="button-save-changes">Save Changes</div>
+    <div class="button-delete-repository">Delete Selected Repository</div>
+  </div>
+</div>
+<div class="table-metadata">
+  <p class="section-header">Review Data and Configure Repository</p>
+  <div class="section" style="overflow:scroll;">
+    <div class="table-content-review">
+    </div>
+    <br/>
+  </div>  
+  <p class="section-header">Tables:</p>
+  <div class="section">
+    <div class="tables">
+    </div>
+    <br>
+  </div>
+  <p class="section-header">Form to Column Mapping Configuration:</p>
+  <div class="section">
+    <div class="form-mapping-information">
+    </div>
+    <br>
+  </div>
+  <p class="section-header">Column Mapping Configuration:</p>
+  <div class="section">
+    <div class="column-mapping-information">
+    </div>
+    <br>
+  </div>
+  <p class="section-header">Composite Metrics:</p>
+  <div class="section">
+    <div class="composite-metrics">
+    </div>
+    <br>
+  </div>
+  <div class="testing"></div>
+</div>
+<div>

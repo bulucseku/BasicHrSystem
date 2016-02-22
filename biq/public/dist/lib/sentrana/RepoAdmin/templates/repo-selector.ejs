@@ -1,0 +1,27 @@
+<div class="login-db-selector-container">
+	<div class="login-db-selector-header">
+		<p>
+			Please select the dashboard you want to access:
+		<p>
+	</div>
+
+	<div class="login-db-selector-wrapper">
+		<div class="login-db-selector db-selector-in-login">
+
+			<div class="input-group">
+				<select class="form-control dashboard-select-box">
+					<% can.each(choices, function(choice, i) { %>
+					<option value="<%= choice.oid %>"><%= choice.name %></option>
+					<% }); %>
+				</select><span class="input-group-btn">
+					<button class="btn btn-primary login-db-selector-access-button" type="button">
+						ACCESS
+					</button></span>
+			</div>
+		</div>
+
+
+
+  </div>
+  <div style="clear: both;"></div>
+</div>

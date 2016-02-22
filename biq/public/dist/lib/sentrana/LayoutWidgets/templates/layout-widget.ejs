@@ -1,0 +1,47 @@
+﻿<div class="layout-widget-wrapper">
+  <% if(leftMenus && leftMenus.length){ %>
+
+  <div class="layout-widget-menu layout-widget-menu-left">
+    <div class="layout-widget-menu-inner">
+      <ul class="navigation">
+        <% can.each(leftMenus, function(menu, i) { %>
+               <%== caller.renderMenu(menu); %> 
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="layout-widget-menu-bg layout-widget-menu-bg-left"></div>
+
+  <div class="layout-widget-menu-toggle layout-widget-menu-toggle-left">
+      <i class="navbar-icon fa"></i>
+  </div>
+
+  <% } %>
+
+  <% if(rightMenus && rightMenus.length){ %>
+
+  <div class="layout-widget-menu layout-widget-menu-right">
+    <div class="layout-widget-menu-inner">
+      <ul class="navigation">
+        <% can.each(rightMenus, function(menu, i) { %>
+               <%== caller.renderMenu(menu); %> 
+        <% }); %>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="layout-widget-menu-bg layout-widget-menu-bg-right"></div>
+
+  <div class="layout-widget-menu-toggle layout-widget-menu-toggle-right">
+      <i class="navbar-icon fa"></i>
+  </div>
+
+  <% } %>
+  
+  <div class="layout-widget-content-wrapper" >
+    <div class ="layout-widget-content"></div>
+    <div class="clear"></div>
+  </div>
+  
+</div>

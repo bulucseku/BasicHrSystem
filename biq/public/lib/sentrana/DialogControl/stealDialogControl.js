@@ -1,0 +1,9 @@
+steal(
+    "lib/sentrana/DialogControl/SentranaDialog.js",
+    "lib/sentrana/DialogControl/css/dialog.css"
+).then(
+    "lib/sentrana/DialogControl/ContentPluginDialog.js",
+    "lib/sentrana/DialogControl/ConfirmDialog.js",
+    "lib/sentrana/DialogControl/AlertDialog.js",
+    "lib/sentrana/DialogControl/ConfirmDialogYNC.js"
+);

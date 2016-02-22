@@ -1,0 +1,6 @@
+﻿<% can.each(items, function(item, i) { %>
+<div class="drop-item" rel="<%= item.displayText.toLowerCase()%>">
+	<input type="checkbox" class="checkboxItem" key="<%= item.key%>" value="<%= item.value%>" style="<% if (isMultiSelect) {%> display:''; <% } else {%> display:none; <% }%>"></input>
+	<label class="checkbox-label" title="<%= item.displayText%>"><%= item.displayText%></label>
+</div>
+<% }); %>

@@ -1,0 +1,9 @@
+﻿<% can.each(filmstripItems, function(filmstripItem, i) { %>
+<li rid="<%= filmstripItem.id%>" pos=<%= i%>>
+  <div rid="<%= filmstripItem.id%>" pos=<%= i%> title="<%= filmstripItem.name%>" class="filstripitem  <% if (filmstripItem.chartOptions) {%> <%= Sentrana.getChartTypeClass(filmstripItem.chartOptions.chartType)%> <% } else {%> emptychart <% }%>">
+    <div class="filmstrip-item-removebutton" style="display:none;" title="Remove this report from the booklet" rid="<%= filmstripItem.id%>" pos=<%= i%>>
+      <img class="remove-icon"  src="images/smallx12.png" />
+    </div>
+  </div>
+</li>
+<% }); %>

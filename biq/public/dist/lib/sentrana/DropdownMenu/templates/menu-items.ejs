@@ -1,0 +1,55 @@
+﻿<div class="layout-widget-menu">
+  <div class="layout-widget-menu-inner">
+    <ul class="navigation">
+
+      <% if (menu.menus && menu.menus.length) {%>
+          <li id="<%= menu.id %>" class="mm-dropdown mm-dropdown-root">
+				      <a><i class="menu-icon fa <%= menu.cssClass %>"></i><span class="mm-text"> <%= menu.text %></span></a>
+				      <ul>
+                <% can.each(menu.menus, function(cmenu, i) { %>
+            
+                  <% if (cmenu.menus && cmenu.menus.length) {%>
+                      <li id="<%= cmenu.id %>" class="mm-dropdown">
+				                  <a><i class="menu-icon fa <%= cmenu.cssClass %>"></i><span class="mm-text"> <%= cmenu.text %></span></a>
+				                  <ul>
+							        <% can.each(cmenu.menus, function(gcmenu, i) { %>
+
+								        <% if (gcmenu.menus && gcmenu.menus.length) {%>
+										      <li id="<%= gcmenu.id %>" class="mm-dropdown">
+													      <a><i class="menu-icon fa <%= gcmenu.cssClass %>"></i><span class="mm-text"> <%= gcmenu.text %></span></a>
+													      <ul>
+											        <% can.each(gcmenu.menus, function(ggcmenu, i) { %>
+											        <li id="<%= ggcmenu.id %>">
+												      <a><i class="menu-icon fa <%= ggcmenu.cssClass %>"></i><span class="mm-text"> <%= ggcmenu.text %></span></a>                                
+													         </li>
+											        <% }); %>
+													      </ul>
+											      </li>
+									      <%} else{%> 
+										      <li id="<%= gcmenu.id %>">
+											         <a><i class="menu-icon fa <%= cmenu.cssClass %>"></i><span class="mm-text"> <%= gcmenu.text %> </span></a>                                
+										        </li>
+									      <%}%>
+
+							        <% }); %>
+				               </ul>
+		                  </li>
+                  <%} else{%> 
+                      <li id="<%= cmenu.id %>">
+		                     <a><i class="menu-icon fa <%= cmenu.cssClass %>"></i><span class="mm-text"> <%= cmenu.text %> </span></a>                                
+	                    </li>
+                  <%}%>
+          
+                <% }); %>
+				      </ul>
+		      </li>
+      <%} else{%> 
+          <li id="<%= menu.id %>">
+		         <a><i class="menu-icon fa <%= menu.cssClass %>"></i><span class="mm-text"> <%= menu.text %> </span></a>                                
+	        </li>
+      <%}%>
+
+	  </ul>
+	</div>
+</div>
+          

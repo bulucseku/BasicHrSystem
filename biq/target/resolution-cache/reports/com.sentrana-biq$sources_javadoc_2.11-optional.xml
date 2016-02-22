@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="com.sentrana"
+		module="biq$sources_javadoc_2.11"
+		revision="3.3.2-1944024af7e1a2307b787227e74e88e0938017b7-SNAPSHOT"
+		conf="optional"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20160217130354"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

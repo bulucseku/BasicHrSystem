@@ -1,0 +1,40 @@
+.pure-text-view-container{
+    display: table;
+    width: 100%;
+}
+
+.pure-text-value{
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-break: break-all;
+}
+
+.pure-text-container{
+    display: table-cell;
+    vertical-align: top;
+}
+
+.pure-text-mouseover{
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.pure-text-edit-action-container{
+    display: table-cell;
+    background-color: #f0f0f0;
+    border: 1px solid#CCC;
+    visibility: hidden;
+    cursor: pointer;
+    width: 24px;
+    vertical-align: top;
+}
+
+.pure-text-edit-action-container button{
+    border:0 !important;
+    border-radius: 0 !important;
+}
+
+.note-editor.panel{
+    margin-bottom: 0 !important;
+}

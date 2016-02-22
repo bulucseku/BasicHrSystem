@@ -1,0 +1,94 @@
+<div class="booklet-composition-panel panel panel-default">
+  <div class="booklet-composition-panel-header panel-heading">
+      <div class="panel-heading-controls float-left">
+        <i class="indicator text-xs fa fa-minus-square"></i>
+      </div>
+    <span class="booklet-composition-panel-header-title panel-title">Booklet Composition</span>
+  </div>
+  <div class="booklet-composition-container">
+    <div class="booklet-composition-panel-body panel-body">
+      <div class="dual-list">
+        <table>
+          <tbody>
+            <tr>
+              <td class="col1">
+                <span class="dual-list-label left-box-label">My Saved Reports</span>
+                <div class="form-horizontal pull-right">
+                <div class="report-search-container-booklet row form-group">
+                  <div class="col-sm-8">
+                  <input class="report-search-input-booklet form-control" placeholder="Search" type="text" size="25"></input>
+                  </div>
+                </div>
+                </div>
+                <div class="mover-box-left mover-box">
+                  <% can.each(myReports, function(report, i) { %>
+                  <div class="mover-box-item" id="<%= report.id%>" title="<%= report.name%>" >
+                    <span class="mover-box-item-name"> <%= report.name%></span>
+                    <div style="clear: both;"></div>
+                  </div>
+                  <% }); %>
+                </div>
+                <div class="booklet-save-execution-message-div">
+                  <div class="small-waitingwheel">
+                  <img src="images/loading_15px.gif" class="spinner"/>
+                  <span class="execution-message"></span>
+                  <span class="booklet-save-execution-message"></span>
+                  </div>
+                </div>
+              </td>
+              <td align="center" class="buttonTD col2">
+                <div class="dual-list-move-button btn">
+                  <i class="fa fa-caret-right" />
+                </div>
+              </td>
+              <td class="col3">
+                <span class="dual-list-label right-box-label">Booklet Structure</span>
+                <div class="mover-box-right mover-box">
+                </div>
+                <div class="order-buttons">
+                <div class="btn-group">
+				    <div id="order-button-top" title="Move selected report top"  class="order-button-top order-button btn"  style="float:left">
+						TOP
+					</div>
+                    <div id="order-button-bottom" title="Move selected report bottom"  class="order-button-bottom order-button btn" style="float:left">
+                        BOTTOM
+                    </div>
+                  </div>
+                  <div class="btn-group pull-right">
+                      <div id="order-button-dn" title="Move selected report down" class="order-button-dn order-button btn">
+                        <i class="fa fa-caret-down" />
+                      </div>
+                      <div id="order-button-up" title="Move selected report up" class="order-button-up order-button btn">
+                        <i class="fa fa-caret-up" />
+                      </div>
+                   </div>
+                  <div style="clear: both;"></div>
+
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+  <div class="booklet-composition-panel-footer panel-footer clearfix">
+        <div class="pull-right">
+          <button class="booklet-clear-button btn">CLOSE</button>
+          <button class="booklet-view-button btn">PREVIEW</button>
+          <button class="booklet-save-button btn">SAVE</button>
+          <button class="booklet-save-as-button btn">SAVE AS</button>
+          <button class="booklet-share-button btn">SHARE</button>
+        </div>
+  </div>
+</div>
+<div id="save-update-booklet-dialog" class="form-horizontal">
+    <div class="row form-group">
+        <label class="col-sm-3 control-label">Name:</label>
+        <div class="col-sm-9">
+            <input type="text" name="booklet-name" class="form-control">
+        </div>
+    </div>
+</div>
+

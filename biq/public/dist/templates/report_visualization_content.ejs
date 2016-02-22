@@ -1,0 +1,22 @@
+﻿<div class="report_visualization-container">
+  <% can.each(visualizations, function(item, i) { %>
+     <div class="report_visualization_element <%= item.cls %>" type="<%= item.type %>" title="<%= item.title %>">
+     <table>
+       <tr>
+         <td>
+           <img class="img-icon" src="images/<%= item.iconImage %>" />
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <div class="visualization-control-container">
+             <div title="<%= item.title %>" class="visualization-title"><%= item.title %></div>
+           </div>
+         </td>
+       </tr>
+     </table>     
+     </div>     
+  <% }); %>
+    
+  <div style="clear: both;"></div>    
+</div>

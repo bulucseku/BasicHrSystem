@@ -1,0 +1,20 @@
+<button class="dropdownChecklist form-control text-left">
+  <div class="dropdownHeaderL">
+    <div class="text"></div>
+    <input type="hidden" value="" lookupFor="dropdownCheckList" class="lookupLocal"></input>
+  </div>
+
+  <span class="fa fa-caret-down form-control-feedback"></span>
+</button>
+  <ul class="itemListL dropdown-menu">
+    <li><a>
+        <label class="checkbox-labelL checkbox" title="All"><input type="checkbox" class="checkboxAll px" name="" value="All"></input>
+        <span class="lbl">All</span></label></a>
+    </li>
+    <% can.each(lookupData, function(item, i) { %>
+    <li><a>
+      <input type="checkbox" class="checkboxItem" key="<%= item.key %>" value="<%= item.value%>"><%=item.value%>
+      </input>
+    </li>
+    <% }); %>
+  </ul>

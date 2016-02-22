@@ -1,0 +1,31 @@
+<% can.each(this, function(comment, i) { %>
+<div class="comment">
+	<div class="comment-user-date"> 
+		<div class="comment-user"> 
+			<i class="comment-user-img fa fa-comments"/>
+			<span class="comment-user-span"><%= comment.userName%></span> 
+		</div>
+		<div class="comment-date"> 
+			<% if (comment.editable===true) {%>
+			<div class="comment-buttons btn-group">
+                <div class="comment-button-container edit btn btn-xs" id="<%= comment.cid%>">
+                     <i class="comment-button-icon btn-comment-edit fa fa-edit"  title="Edit this comment" />
+                </div>
+      			<div class="comment-button-container delete btn btn-xs" id="<%= comment.cid%>">
+    				 <i class="comment-button-icon btn-comment-delete fa fa-times text-danger"  title="Delete this comment" />
+    			</div>
+			</div>	
+			<% }%>
+
+			<span class="comment-date-span text-xs">
+				<span class="comment-date-span-date"><%= comment.formatDate()%></span> <br/>
+				<span class="comment-date-span-time"><%= comment.formatTime()%></span> 				
+			</span>
+				
+		</div>
+		<div style="clear: both;"></div>
+	
+	</div>	
+	<div class="comment-msg text-sm"><%= comment.msg%></div>
+</div>
+<% }); %>

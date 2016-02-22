@@ -1,0 +1,187 @@
+<div class="builder-page">
+  <div class="contentwrapper">
+    <div class="contentcolumn">
+      <div class="innertube">
+        <div class="center">
+          <div class="report-info panel" style="display: none;">
+             <div class="panel-body">
+               <div class="note note-info">
+                  To save changes back to this report, click the <strong>SAVE</strong> button. To save changes as a new report, click the <strong>SAVE AS</strong> button.
+                  To detach the report from this page (so that you can create new reports), click the <strong>CLOSE</strong> button.
+                </div>
+                <div class="pg-builder-report-info-selector-wrapper pull-right">
+                <div class="form-inline">
+                  <label for="pg-builder-report-info-selector" title="Don't show again" class="checkbox">
+                    <input id="pg-builder-report-info-selector" type="checkbox" title="Don't show again" class="report-info-selector px"></input>
+                    <span class="lbl">Don't show again</span>
+                  </label>
+                  <button class="report-info-selector-btn btn">DISMISS</button>
+                </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="report-definition-container panel panel-default">
+            <div class="report-definition-header-bar panel-heading">
+              <!--<img src="images/arrow_dn.png" />-->
+              <div class="panel-heading-controls float-left">
+                <i class="indicator text-xs fa fa-minus-square"></i>
+              </div>
+              <span class="report-definition-title panel-title">Report Definition</span>
+              <div class="clear"></div>
+            </div>
+            <div class="report-definition">
+            <div class="panel-body no-padding">
+              <div class="report-zone-collapsibleContainer">
+                <div class="report-definition-desc">
+                </div>
+                <div class="report-zone" style="display: none;"></div>
+              </div>
+
+              <div class="summary clearfix">
+                <div style="display: none;" class="execution-monitor">
+                        <div class="small-waitingwheel">
+                          <img src="images/loading_15px.gif" class="spinner"/>
+                          <span class="execution-message"></span>
+                          <span class="save-execution-message"></span>
+
+                          <div class="cancel-btn btn btn-primary pull-right">CANCEL</div>
+                          <div class="num-rows-display-btns">
+                            <span class="show-as">Show As:</span>
+                            <span class="butWrap" display-type="grid" >
+                              <div class="show-as-btn show-as-btn-grid">
+                                &nbsp;
+                              </div>
+                            </span>
+                            <span class="butWrap" display-type="chart">
+                              <div  class="show-as-btn show-as-btn-chart">
+                                &nbsp;
+                              </div>
+                            </span>
+                          </div>
+                          <div class="num-rows"></div>
+                          <div class="separator">|</div>
+                          <div class="elapsed-time"></div>
+
+                        </div>
+                  <div class="exception-info" style="width: 100%; left:0px; padding-top: 5px; position: absolute;"></div>
+                  <div class="drill-path"></div>
+                </div>
+                  <div class="panel-footer clearfix actionbar" style="display: none;">
+
+                      <div class="show-total">
+                          <input type="checkbox" id="chk-show-total" style="float:left;"></input>
+                          <label for="chk-show-total">Totals</label>
+                      </div>
+
+                      <div class="pull-right actionButtonContainer">
+                          <button style="display:none;" type="button" class="btn pivot-button">PIVOT ANALYSIS</button>
+                          <button type="button" class="btn clear-button">CLEAR</button>
+                          <button class="btn view-button">VIEW</button>
+                          <button class="btn btn-primary disabled save-button">SAVE</button>
+                          <button style="display:none;" class="btn btn-primary disabled save-as-button">SAVE AS</button>
+                          <button style="display:none;" class="btn btn-primary disabled share-button">SHARE</button>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+            </div>
+          </div>
+
+          <div class="pivot-table-element"></div>
+
+          <div id="builderPageReportViewContainer" style="display: none;">
+          </div>
+
+          <div class="drill-menu" style="display: none;">
+            <div class="hdr">Drill Menu</div>
+            <div class="selection"></div>
+            <div class="buttons">
+              <div class="drill-up btn btn-sm">
+                <img src="images/roll_up.png" class="drill-up-image" />
+                Roll Up
+              </div>
+              <div class="drill-down btn btn-sm">
+                <img src="images/drill_dn.png" class="drill-down-image"/>
+                Drill Down
+              </div>
+              <div class="drill-down-to"></div>
+              <div style="clear: both;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="leftcolumn">
+    <div class="left">
+      <p class="side-bar-title">Select a set of metrics and attributes to add to the report. Select again to remove.</p>
+      <div class="global-column-search">
+          <input class="form-control global-column-search-input" type="text" size="25" placeholder="Search column"></input>
+      </div>
+      <div class="metrics-panel">
+      </div>
+      <div class="reusable-columns-list-popup" style="display:none;"></div>
+      <div class="saved-filter-list-popup" style="display:none;"></div>
+      <div class="dimension">
+      </div>
+      <fieldset style="display: none;" class="fs-diagnostics">
+        <legend>Diagnostics: </legend>
+        <div class="diagnostics">
+          <div class="timing-info"></div>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="right">
+      <p class="side-bar-title">Select a set of attribute elements to filter the report. Select again to remove.</p>
+      <div class="attribute-elements"></div>
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+  <div style="clear: both;"></div>
+</div>
+
+<div id="save-update-report-dialog" class="form-horizontal" style="display:none;">
+    <div class="row form-group">
+        <label class="col-sm-3 control-label">Name:</label>
+        <div class="col-sm-9">
+            <input type="text" name="report-name" class="form-control">
+        </div>
+    </div>
+</div>
+
+<div id="save-update-as-report-dialog" class="form-horizontal" style="display:none;">
+    <div class="row form-group">
+        <label class="col-sm-3 control-label">Name:</label>
+        <div class="col-sm-9">
+            <input type="text" name="report-name" class="form-control">
+        </div>
+    </div>
+</div>
+
+<div class="formula-column-dialog" style="display:none;">
+</div>
+
+<div id="delete-reusable-column-dialog" style="display:none;">
+  <p>Please confirm that you would like to delete the derived column:</p>
+  <div class="reusable-column-name"></div>
+</div>
+
+<div class="column-filter-element" style="display:none"></div>
+<div class="column-sort-element" style="display:none"></div>
+<div class="onlywhen-column-dialog" style="display:none;"></div>
+<div class="column-util-element" style="display:none"></div>
+<div class="saved-filters-dialog" style="display:none;" title="Saved Filters"></div>
+<div id="delete-saved-filter-dialog" style="display:none;" title="Delete saved filter">
+  <p>Please confirm that you would like to delete the saved filter:</p>
+  <div class="delete-saved-filter-name"></div>
+</div>
+<div id="result-definition-dialog" style="display:none;">
+  <div class="result-definition-element">
+  </div>
+</div>

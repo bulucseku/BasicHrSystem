@@ -1,0 +1,27 @@
+﻿<div class="conditionalmetric-filter-attr sideBarCollapsibleContainerTitle">
+  <%= attr %>
+</div>
+
+<% can.each(filters, function(filter, i) { %>
+    <div class="conditionalmetric-filters">
+              
+       <div class="fu" dim="<%= filter.dim%>" hid="<%= filter.hid%>">
+
+         <div class="fu-header">
+          <span class="name filter-name">
+            <%= filter.name%>
+           </span>
+          
+          <div class="fu-close-container">
+            <i class="close fa fa-times text-danger" />
+          </div>
+          
+          <div style="clear: both;"></div>
+        </div>
+
+      </div>
+
+    </div>
+<% }); %>
+  
+<div style="clear: both;"></div>

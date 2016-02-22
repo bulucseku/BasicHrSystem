@@ -1,0 +1,24 @@
+<% if (cached) {%>
+<p>Cached Result:</p>
+<ul>
+<li>Originally executed (and cached) at <%= execTime%></li>
+<li>To clear this cache entry, click <a href="#" cid="<%= cacheid%>" class="drop-cache">here</a>.</li>
+</ul>
+<% } else {%>
+<% if (timing) {%>
+<p>Timing Information:</p>
+<ul>
+<li>SQL Generation Time: <%= timing.sqlgen%>ms</li> 
+<li>Database Query Time: <%= timing.query%>ms</li>
+</ul>
+<% }%>
+<% }%>
+<% if (sql) {%>
+<p>Generated SQL:</p>
+<ul>
+<li>To see the generated SQL, click <a href="#" class="view-sql">here</a>.</li>
+</ul>
+<div class="sql" style="display: none;">
+	<%== sql%>
+</div>
+<% }%>

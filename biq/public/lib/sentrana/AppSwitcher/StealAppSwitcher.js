@@ -1,0 +1,1 @@
+steal('lib/sentrana/AppSwitcher/AppSwitcherController.js', 'lib/sentrana/AppSwitcher/css/appSwitcher.css');

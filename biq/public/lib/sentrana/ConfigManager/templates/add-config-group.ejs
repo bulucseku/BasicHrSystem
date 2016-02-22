@@ -1,0 +1,20 @@
+﻿<div class="">
+  <input type="text" class="form-control input-config-group-name" maxlength="100" name="input-config-group-name"  placeholder="Enter <%= groupName %> name" value=""/>
+  <div class="config-type-chooser">
+    <label class="control-label col-sm-4">Configuration format:</label>
+    <div class="col-sm-8">
+
+      <label class="config-type-label checkbox-inline" for="config-type-xml" title="XML">
+        <input id="config-type-xml" class="px" type="radio" name="config-editor-format" value="xml" title="XML" checked="checked"></input>
+        <span class="lbl">XML</span>
+      </label>
+
+      <label class="config-type-label checkbox-inline" for="config-type-json" title="JSON">
+        <input id="config-type-json" class="px" type="radio" name="config-editor-format" value="json" title="JSON" ></input>
+        <span class="lbl">JSON</span>
+      </label>
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-danger input-config-group-error"></div>

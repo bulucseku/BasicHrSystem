@@ -1,0 +1,151 @@
+<configuration>
+
+    <conversionRule conversionWord="coloredLevel" converterClass="play.api.Logger$ColoredLevel" />
+
+    <property name="LOG_HOME" value="${application.home}/logs" />
+    <property name="LOG_ARCHIVE_SUFFIX" value="-log-%d{yyyy-MM-dd}.gz" />
+
+    <property name="CONSOLE_LOG_PATTERN" value="%coloredLevel %logger{15} - %message%n%xException{5}" />
+    <property name="FILE_LOG_PATTERN" value="%date - [%level] - from %logger in %thread \
+        %replace(%n%message%n){'[\r\n]+', '\n'}%xException%n" />
+
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>${CONSOLE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/application.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>application${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 30 days worth of history -->
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/error.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>ERROR</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>error${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="LOGIN" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/login.log</file>
+        <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+            <level>INFO</level>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>login${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="SQL" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/sql.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>sql${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="CACHE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/cache.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>cache${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="INIT" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/init.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>init${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="REQUEST" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/request.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!-- Daily rollover with compression -->
+            <fileNamePattern>request${LOG_ARCHIVE_SUFFIX}</fileNamePattern>
+            <!-- keep 1 week worth of history -->
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${FILE_LOG_PATTERN}</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="play" level="INFO" />
+    <logger name="application" level="DEBUG" />
+
+    <logger name="loggerForSql" level="DEBUG" >
+        <appender-ref ref="SQL" />
+    </logger>
+    <logger name="loggerForCache" level="DEBUG" >
+        <appender-ref ref="CACHE" />
+    </logger>
+    <logger name="loggerForInit" level="DEBUG" >
+        <appender-ref ref="INIT" />
+    </logger>
+    <logger name="loggerForRequest" level="INFO" >
+        <appender-ref ref="REQUEST" />
+    </logger>
+
+    <logger name="com.sentrana.biq.controllers.SecurityService" level="DEBUG" >
+        <appender-ref ref="LOGIN" />
+    </logger>
+    <logger name="com.sentrana.biq.controllers.ActivityTrackingService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.BIQServiceUtil" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.BookletService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.BookletSharingService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.DerivedColumnService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.MetadataService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.ReportingService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.ReportService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.ReportSharingService" level="DEBUG" />
+    <logger name="com.sentrana.biq.controllers.SqlGenService" level="DEBUG" />
+    <logger name="com.sentrana.usermanagement.controllers.SalesforceService" level="DEBUG" />
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="FILE" />
+        <appender-ref ref="ERROR" />
+    </root>
+</configuration>

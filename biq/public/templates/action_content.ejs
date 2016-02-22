@@ -1,0 +1,10 @@
+﻿<div class="btn-action-container ">
+  <% can.each(buttons, function(btn, i) { %>
+  <div>
+    <button class="btn-action btn <%= btn.cls %>" action="<%= btn.action %>">
+         <%= btn.text %>
+      </button>
+  </div>
+  <% }); %>
+  <div style="clear: both;"></div>
+</div>

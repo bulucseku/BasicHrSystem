@@ -1,0 +1,39 @@
+.app-switcher {
+        left: 0;
+        top: 0;
+        padding: 0;
+        position: absolute;
+        z-index: 1035;
+        font-size: 14px;
+        width: 56px !important;
+        height: 46px !important;
+    }
+
+.app-switcher .navbar-nav {
+    margin: 0;
+}
+
+.app-switcher .navbar-nav .open .dropdown-menu {
+    position: absolute;
+}
+
+.app-switcher .dropdown-menu {
+    background-color: #f6f6f6 !important;
+    color: #262626 !important;
+        border: 2px solid #ccc !important;
+}
+
+.app-switcher .navbar-nav > li > a.dropdown-toggle:hover, .app-switcher .navbar-nav > li.open > a.dropdown-toggle  {
+    background-color: #080808 !important;
+}
+
+.app-switcher .navbar-nav > li > a.dropdown-toggle{
+    color: #fff !important;
+    background-color: #3D4A5D !important;
+    padding: 14px 15px 14px 15px!important;
+    width: 56px !important;
+}
+
+.app-switcher .left-navbar-nav li > a {
+    color: #262626 !important;
+}

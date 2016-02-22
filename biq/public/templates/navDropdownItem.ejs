@@ -1,0 +1,6 @@
+<ul class="dropdown-menu" role="menu">
+    <% can.each(children, function(navItem, key) { %>
+        <li class="nav-page-link">
+        <a href="#!<%= navItem.btnID %>"><%= navItem.btnName %></a></li>
+    <% }) %>
+</ul>

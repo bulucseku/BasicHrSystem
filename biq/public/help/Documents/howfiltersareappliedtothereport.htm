@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml"><head><title>How Filters Are Applied to the Report</title>
+<meta charset="utf-8" />
+<script src="../js/nethelp.redirector.js" type="text/javascript"></script>
+<link rel="prev" href="standardfilters.htm" /><link rel="next" href="metricfilters.htm" />
+<meta name="Generator" content="ComponentOne Doc-To-Help v.2014.1.0.925" />
+</head>
+<body data-c1-topic-id="28162eae-5690-4ca3-be4b-63771588b2bb">
+<h3>How Filters Are Applied to the Report</h3>
+<p class="MsoNormal">Knowing how to apply filters to get the result you expect is 
+a critical aspect of BIQ. Before you read any other section of this manual, make 
+sure that you understand these two concepts completely:</p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt">17. Within a 
+dimension, filter values that you select will be joined by an OR clause in your 
+report definition.</p>
+<p class="MsoNormal" style="MARGIN-LEFT: 36pt; TEXT-INDENT: -18pt; tab-stops: 36.0pt">18. Across 
+different dimensions, filter values you select will be joined by an AND 
+clause</p>
+<p class="MsoNormal">An example will help clarify:</p>
+<p class="MsoNormal"><img src="../ImagesExt/image10_38.jpg" alt="" /></p>
+<p class="MsoNormal">The report definition specified here will be read by BIQ as, 
+“Find all shipments to either Chicago OR Charlotte where the product type was 
+‘Beverages’.</p>
+<p class="MsoNormal">Algebraically, we could represent this as:</p>
+<p class="MsoNormal" style="TEXT-INDENT: 36pt"> (Chicago OR Charlotte) AND 
+Beverages. </p>
+<p class="MsoNormal">If we added ‘Breads &amp; Rolls’ as another product filter, 
+we would then have:</p>
+<p class="MsoNormal" style="TEXT-INDENT: 36pt">(Chicago OR Charlotte) AND 
+(Beverages OR Breads &amp; Rolls)</p>
+<p class="MsoNormal">As you begin working in BIQ more and more, this will become 
+second nature. However, it is important to understand this at the outset so that 
+you can anticipate how the application will interpret your instructions. </p>
+<p class="MsoNormal"> </p><span id="related-topics"></span></body></html>

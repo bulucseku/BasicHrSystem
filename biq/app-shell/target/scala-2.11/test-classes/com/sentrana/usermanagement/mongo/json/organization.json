@@ -1,0 +1,168 @@
+[
+    {
+        "id" : "1",
+        "name" : "Sentrana, Inc.",
+        "desc" : "Sentrana, where the magic happens!",
+        "status" : "A",
+        "isDeleted" : false,
+        "userGroups" : [
+            {
+                "id" : "1",
+                "name" : "Sentrana Inc.",
+                "desc" : "Sentrana Inc.",
+                "appRoles" : [],
+                "dataFilterInstances" : [],
+                "orgId" : "1"
+            },
+            {
+                "id" : "2",
+                "name" : "Sentrana Inc. Dev",
+                "desc" : "Sentrana Inc. Dev",
+                "appRoles" : [],
+                "dataFilterInstances" : [],
+                "orgId" : "1"
+            }
+        ],
+        "applications" : [
+            {
+                "id" : "11",
+                "name" : "DashBoard",
+                "appRoles" : [
+                    {
+                        "id" : "DASHBOARD_USER",
+                        "name" : "DashBoard User"
+                    },
+                    {
+                        "id" : "DASHBOARD_ADMIN",
+                        "name" : "DashBoard Administrator"
+                    }
+                ]
+            },
+            {
+                "id" : "14",
+                "name" : "ACRM",
+                "appRoles" : []
+            },
+            {
+                "id" : "13",
+                "name" : "Business IQ",
+                "appRoles" : [
+                    {
+                        "id" : "BIQ_USER",
+                        "name" : "BIQ User"
+                    },
+                    {
+                        "id" : "BIQ_ADMIN",
+                        "name" : "BIQ Administrator"
+                    }
+                ]
+            },
+            {
+                "id" : "12",
+                "name" : "UserManagement",
+                "appRoles" : [
+                    {
+                        "id" : "RESTRICTED_USER_ADMIN",
+                        "name" : "Restricted User Administrator"
+                    },
+                    {
+                        "id" : "UNRESTRICTED_USER_ADMIN",
+                        "name" : "Unrestricted User Administrator"
+                    }
+                ]
+            }
+        ],
+        "dataFilterInstances" : [],
+        "groupTypes" : [],
+        "users" : [
+            {
+                "id" : "1",
+                "userName" : "sentrana",
+                "password" : "2710:39hcvxzVTRYPGBjU8eG48AbLXT3ubZG7:NuJPlNq+jPc8wlsWgiay6VCac1jmRSr8",
+                "email" : "support@sentrana.com",
+                "firstName" : "Sentrana",
+                "lastName" : "User",
+                "status" : "A",
+                "createDate" : "2013-08-01T16:00:00.000Z",
+                "loginFailureCount" : 0,
+                "loginSuccessCount" : 0,
+                "isDeleted" : false,
+                "dataFilterInstances" : [
+                    {
+                        "id" : "9b70ebef-7a33-4383-91c4-2e0a1058f8b1",
+                        "dataFilterId" : "23",
+                        "operator" : "=",
+                        "value" : "Sentrana Inc_1"
+                    },
+                    {
+                      "id" : "9b70ebef-7a33-4383-91c4-2e0a1058f8b2",
+                      "dataFilterId" : "20",
+                      "operator" : "IN",
+                      "value" : "(MMIB, farmland)"
+                    }
+                ],
+                "appRoles" : [
+                    {
+                        "id" : "BIQ_ADMIN",
+                        "name" : "BIQ Administrator"
+                    },
+                    {
+                        "id" : "DASHBOARD_ADMIN",
+                        "name" : "DashBoard Administrator"
+                    },
+                    {
+                        "id" : "BIQ_USER",
+                        "name" : "BIQ User"
+                    },
+                    {
+                        "id" : "DASHBOARD_USER",
+                        "name" : "DashBoard User"
+                    },
+                    {
+                        "id" : "UNRESTRICTED_USER_ADMIN",
+                        "name" : "Unrestricted User Administrator"
+                    }
+                ],
+                "userGroupIds" : [
+                    "1"
+                ],
+                "organizationId" : "1"
+            },
+            {
+                "id" : "2",
+                "userName" : "biq",
+                "password" : "monday1",
+                "email" : "biq@sentrana.com",
+                "firstName" : "BIQ",
+                "lastName" : "User",
+                "status" : "A",
+                "createDate" : "2013-08-01T16:00:00.000Z",
+                "loginFailureCount" : 0,
+                "loginSuccessCount" : 0,
+                "isDeleted" : false,
+                "dataFilterInstances" : [
+                  {
+                    "id" : "9b70ebef-7a33-4383-91c4-2e0a1058f8b2",
+                    "dataFilterId" : "20",
+                    "operator" : "IN",
+                    "value" : "(farmland)"
+                  }
+                ],
+                "appRoles" : [
+                    {
+                        "id" : "BIQ_USER",
+                        "name" : "BIQ User"
+                    },
+                    {
+                        "id" : "DASHBOARD_USER",
+                        "name" : "DashBoard User"
+                    }
+                ],
+                "userGroupIds" : [
+                    "1"
+                ],
+                "organizationId" : "1"
+            }
+        ]
+    }
+]

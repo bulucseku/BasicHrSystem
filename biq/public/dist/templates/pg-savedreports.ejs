@@ -1,0 +1,174 @@
+<div class="saved-reports">
+    <div class="contentwrapper">
+    <div class="contentcolumn">
+      <div class="innertube">
+        <div class="center">
+          <div class="saved-report-viewer-container">
+          </div>                  
+        </div>
+        <div class="booklet-compose-and-view">
+          <div class="booklet-composition-panel-container"></div>
+          <div class="booklet-view-panel-container"></div>
+        </div>
+        <div class="booklet-view-container">
+          <div class="booklet-view"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="leftcolumn">
+    <div class="left">
+      <div class="saved-reports-list"> </div>
+      <div class="saved-booklets-list"> </div>
+    </div>
+  </div>
+
+  <div class="rightcolumn">
+    <div class="right">
+      <div class="comment-stream">
+        <div class="comments-header-area">
+        <div class="total-user-comments"></div>
+        <table class="comment-text-table">
+          <tr>
+            <td class="comment-text-td">
+               <textarea name="comment-text" class="comment-text form-control"  rows="4"></textarea>
+            </td>
+            <td class="add-comment-btn-td">
+              <button class="add-comment-btn btn">ADD</button>
+            </td>
+          </tr>
+        </table>
+
+          <div class="comments-menu">
+            <div type="date" class="comments-menu-item creation-date btn btn-lg">Creation Date</div>
+            <div type="userName" class="comments-menu-item btn btn-lg">Abc</div>
+          </div> 
+        </div>
+        <div class="comments"></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="clear: both;"></div>
+</div>
+
+<div id="duplicate-report-dialog" class="form-horizontal" style="display:none;">
+    <div class="row form-group">
+        <label class="col-sm-3 control-label">Name:</label>
+        <div class="col-sm-9">
+            <input type="text" name="report-name" class="form-control">
+        </div>
+    </div>
+</div>
+
+<div id="delete-report-dialog" style="display:none;">
+  <p>Please confirm that you would like to delete the report:</p>
+  <div class="report-name"></div>
+</div>
+
+<div id="delete-comment-dialog" style="display:none;">
+  <p class="comment-item-desc"></p>
+  <div class="comment-item-msg"></div>
+</div>
+
+<div id="edit-comment-dialog" style="display:none;">
+  <p class="comment-item-desc"></p>
+  <textarea name="comment-text-edit" class="comment-text-edit"  rows="8"></textarea>
+</div>
+
+<div id="delete-booklet-dialog" style="display:none;">
+  <p>Please confirm that you would like to delete the booklet:</p>
+  <div class="booklet-name"></div>
+</div>
+
+<div id="copy-booklet-dialog" class="form-horizontal" style="display:none;">
+    <div class="row form-group">
+        <label class="col-sm-3 control-label">Name:</label>
+        <div class="col-sm-9">
+            <input type="text" name="booklet-name" class="form-control">
+        </div>
+    </div>
+</div>
+
+<div id="share-booklet-dialog" title="" style="display:none;">
+  <div class="shrd-tabs">
+    <ul id="share-booklet-tabs"  class="nav nav-tabs">
+      <li class="active">
+        <a data-toggle="tab" href="#shrd-tab-invite-booklet">New Recipients</a>
+      </li>
+      <li>
+        <a data-toggle="tab" href="#shrd-tab-existing-booklet">Existing Recipients</a>
+      </li>
+    </ul>
+    <div class="tab-content tab-content-bordered">
+    <div id="shrd-tab-invite-booklet" class="tab-pane fade active in">
+      <p>Type the names of the users you would like to share this booklet with.</p>
+      <p class="users-loading small-waitingwheel" style="display: none;">
+        <img src="images/loading_15px.gif" style="padding-right: 0.5em;" />
+        <span>Loading the list of users...</span>
+      </p>
+
+      <div class="form-horizontal">
+        <div class="users-para form-group row" style="display: none;">
+          <label class="control-label col-sm-1">Users: </label>
+          <div class="col-sm-9">
+            <input type="text" class="users-auto-complete form-control" size="40" />
+          </div>
+        </div>
+      </div>
+      
+      <div class="recipients"></div>
+      <div style="clear: both;"></div>
+      <div class="div-as-hr"></div>
+      <div class="checkbox-wrapper checkbox-wrapper-firstpage">
+        <label for="id-shrd-email-recips-new-booklet">
+        <input type="checkbox" class="shrd-email-recips-new px" id="id-shrd-email-recips-new-booklet"/>
+        <span class="lbl">Notify new recipients via email?</span></label>
+      </div>
+      <div class="email-section form-horizontal" style="display: none;">
+          <div class="row form-group">
+            <label class="control-label col-sm-2">Subject:</label>
+            <div class="col-sm-10">
+              <input type="text" class="email-subject form-control" />
+            </div>
+          </div>
+          <div class="row form-group">
+            <label class="control-label col-sm-2">Body:</label>
+            <div class="col-sm-10">
+              <textarea class="email-body form-control"  rows="8"></textarea>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div id="shrd-tab-existing-booklet" class="tab-pane fade">
+      <p>Below is a list of people you have shared this booklet with. You may edit their access to your booklet, share with additional users or unshare your booklet all together.</p>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>User</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+
+      <div class="checkbox-wrapper">
+        <label for="id-shrd-email-recips-existing-booklet">
+        <input type="checkbox" class="shrd-email-recips-existing px" id="id-shrd-email-recips-existing-booklet"/>
+        <span class="lbl">Notify existing recipients via email?</span></label>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+<div class="alert alert-info notification-sharing-updates">
+    <div class="notification"></div>
+    <div class="link-shared-report-booklet btn btn-xs btn-primary btn-outline">
+      <span class="fa fa-refresh"></span>
+      Refresh
+    </div>
+</div>

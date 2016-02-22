@@ -1,0 +1,13 @@
+<div class="metrics">
+    <% can.each(objects, function(object, i) { %>
+    <div class="object-selector-wrapper">
+        <label class="checkbox-labelL checkbox" for="<%=prefix%><%= object.hid%>" title="<%= object.desc%>">
+            <input id="<%=prefix%><%= object.hid%>" type="checkbox" title="<%= object.name%>" hid="<%= object.hid%>" class="object-selector px">
+            </input> 
+          <span class="lbl"><%= object.name%>  
+          </span>
+        </label>
+    </div>
+    <% }); %>
+</div>
+

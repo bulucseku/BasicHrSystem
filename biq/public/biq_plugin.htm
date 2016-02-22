@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--[if IE 8]>         <html class="ie8"> <![endif]-->
+<!--[if IE 9]>         <html class="ie9 gt-ie8"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html class="gt-ie8 gt-ie9 not-ie">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>MarketMover: Business IQ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <!-- Open Sans font from Google CDN -->
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin" rel="stylesheet" type="text/css">
+    <!-- ****Load IE8 and IE9 CSS styles. ****-->
+    <!--[if IE 8]>  
+            <link rel="stylesheet" href="styles/ie8.css">  
+    <![endif]-->
+    <!--[if IE 9]>  
+            <link rel="stylesheet" href="styles/ie9.css">  
+    <![endif]-->
+    <!-- APPLICATION CSS START -->
+    <!-- APPLICATION CSS END -->
+    <script>
+        Sentrana_IsPlugin = true;
+
+        window.onbeforeunload = function() {
+            return 'Please make sure you have saved your report before leaving this page if you would like to have access to it later.';
+        };
+    </script>
+
+    <style type="text/css">
+        .navbar {
+            margin-bottom: 0px !important;
+        }
+        .page-content-div>.pageContent {
+            margin-top: 36px !important;
+        }
+        .sentrana_user_options {
+            display: none !important;
+        }
+        #nav-option-list {
+            margin-top: -42px;
+            height: 40px;
+        }
+        #nav-option-list .dropdown-toggle {
+            height: 40px;
+        }
+        .navbar-brand {
+            display: none !important;
+        }
+        .navbar-inner {
+            background: #FAFAFA;
+        }
+        #page-signin-bg img {
+            display: none !important;
+        }
+        #page-signin-bg .overlay {
+            display: none !important;
+        }
+        #page-signin-bg {
+            background: #FFFFFF;
+        }
+        .signin-info {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body class="no-touch theme-clean main-navbar-fixed">
+    <div id="biq-container">
+        <div id="top-nav">
+        </div>
+        <div id="main-content">
+            <div id="saved" class="container-fluid no-padding">
+            </div>
+            <div id="bldr" class="container-fluid no-padding">
+            </div>
+            <div id="repoman" class="container-fluid no-padding">
+            </div>
+            <div id="edit_config" class="container-fluid no-padding">
+            </div>
+            <div id="create_repo" class="container-fluid no-padding">
+            </div>
+            <div id="edit_repo" class="container-fluid no-padding">
+            </div>
+            <div id="composite_repo" class="container-fluid no-padding">
+            </div>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="login-container" id="login-container" style="display: none;">
+                </div>
+                <div id="biq-main">
+                </div>
+                <div id="view-repository-metadata" title="View repository metadata">
+                    <div class="repository-metadata-container">
+                    </div>
+                </div>
+                <!--share report-->
+                <div id="share-report-dialog" title="Share Report" style="display: none">
+                    <div class="shrd-tabs">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#shrd-tab-invite">New Recipients</a>
+                            </li>
+                            <li><a data-toggle="tab" href="#shrd-tab-existing">Existing Recipients</a> 
+                            </li>
+                        </ul>
+                        <div class="tab-content tab-content-bordered">
+                            <div id="shrd-tab-invite" class="tab-pane fade active in">
+                                <p>
+                                    Type the names of the users you would like to share this report with.</p>
+                                <p class="users-loading small-waitingwheel" style="display: none;">
+                                    <img src="images/loading_15px.gif" style="padding-right: 0.5em;" />
+                                    <span>Loading the list of users...</span>
+                                </p>
+
+                                <div class="users-para form-group row" style="display: none;">
+                                    <label class="control-label users-auto-complete-label float-left">
+                                        Users:
+                                    </label>
+                                    <div class="float-left">
+                                        <input type="text" class="users-auto-complete form-control" size="40" />
+                                    </div>
+                                </div>
+
+                                <div class="recipients">
+                                </div>
+                                <div style="clear: both;">
+                                </div>
+                                <div class="div-as-hr">
+                                </div>
+                                <div class="checkbox-wrapper checkbox-wrapper-firstpage">
+                                    <label for="id-shrd-email-recips-new">
+                                        <input type="checkbox" class="shrd-email-recips-new px" id="id-shrd-email-recips-new" />
+                                        <span class="lbl">Notify new recipients via email?</span>
+                                    </label>
+                                </div>
+                                <div class="email-section form-horizontal" style="display: none;">
+                                    <div class="row form-group">
+                                        <label class="control-label col-sm-2">
+                                            Subject:</label>
+                                        <div class="col-sm-10">
+                                            <input type="text" class="email-subject form-control" />
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <label class="control-label col-sm-2">
+                                            Body:</label>
+                                        <div class="col-sm-10">
+                                            <textarea class="email-body form-control" rows="8"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="shrd-tab-existing" class="tab-pane fade">
+                                <p>
+                                    Below is a list of people you have shared this report with. You may edit their access to your report, share with additional users or unshare your report all together.</p>
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>
+                                                User
+                                            </th>
+                                            <th>
+                                                Status
+                                            </th>
+                                            <th>
+                                                Action
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                    </tbody>
+                                </table>
+                                <div class="checkbox-wrapper">
+                                    <label class="checkbox" for="id-shrd-email-recips-existing">
+                                        <input type="checkbox" class="shrd-email-recips-existing px" id="id-shrd-email-recips-existing" />
+                                        <span class="lbl">Notify existing recipients via email?</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end share report-->
+            </div>
+            <div style="clear: both;">
+            </div>
+        </div>
+
+        <div id="change-password"></div>
+    </div>
+
+    <div id="print-preview-container"></div>
+    <!-- Production.css will be included in the link tag, in production environment. Configuring steal not to search for production.css in base directory. 
+         The configuration has no effect in development environment. -->
+    <script>
+        steal = {
+            executed: ["production.css"]
+        }
+    </script>
+    <!-- STEALJS START -->
+    <script type="text/javascript" src="steal/steal.js?//main.js"></script>
+    <!-- STEALJS END -->
+</body>
+
+</html>

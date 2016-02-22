@@ -1,0 +1,22 @@
+<% can.each(navItems, function(navItem, key) { %>
+    <% if (navItem.children && navItem.children.length > 0) { %>
+        <% can.each(navItem.children, function(childItem, key) { %>
+            <div id="<%= childItem.btnID %>" class="page-content-div">
+                <div class="page-content">
+                </div>
+            </div>
+        <%})%>
+    <% } else {%>
+            <div id="<%= navItem.btnID %>" class="page-content-div">
+                <div class="page-content">
+                </div>
+            </div>
+    <% } %>
+<% }) %>
+
+
+
+
+
+
+

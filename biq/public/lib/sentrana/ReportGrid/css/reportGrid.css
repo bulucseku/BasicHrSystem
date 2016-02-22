@@ -1,0 +1,172 @@
+.report-grid-cntr {
+	margin-top: 0.75em;
+}
+.report-grid-cntr p.report-executing-msg {
+	 padding: 10em;
+}
+
+/* BORROWED FROM BatMan/CatMan! */
+.simple-table {
+	border-spacing: 0;
+	border-collapse: collapse;
+	background-color: #CAD6E8;
+	/*border: 1px dotted #A6BAD8; */
+	font-size: 0.85em;
+	width: 100% !important;
+}
+
+.simple-table tr.even-row {
+	background-color: #EEF1F7;
+}
+.simple-table tr.odd-row {
+	background-color: #DCE4EF;
+}
+.simple-table th, .simple-table td {
+	padding: 0.25em 0.5em;
+	vertical-align: middle;
+}
+.simple-table tr.odd-row, .simple-table tr.even-row {
+	border-top: 1px solid #2f4668;
+}
+.simple-table th {
+	font-weight: bold;
+	border-top: 1px solid rgb(11,70,104);
+}
+.simple-table tbody tr:first-child {
+	border-top: 3px double #2f4668;
+}
+.simple-table tfoot tr {
+	border-top: 3px double #2f4668;
+}
+.simple-table td.numeric, .simple-table tfoot th {
+	text-align: right;
+}
+.simple-table td, .simple-table th {
+	border-right: 1px dotted #aaa;
+}
+.simple-table td:last-child, .simple-table th:last-child {
+	border-right: 0;
+}
+.dataTables_length, .dataTables_length select, .dataTables_filter, .dataTables_info, .dataTables_paginate {
+	font-size: 0.8em;
+	color: #666;
+}
+.dataTables_length, .dataTables_filter {
+	margin-bottom: 0.5em;
+}
+.dataTables_length {
+	padding: 1em 0 0 0.5em;
+}
+.dataTables_filter {
+	padding: 0.5em 0.5em 0 0;
+}
+.dataTables_info, .dataTables_paginate  {
+	margin: 3px 0px 2px 0px;
+	width: auto !important;
+}
+.dataTables_info {
+	padding: 0.25em 0 0 0.5em !important;
+}
+.dataTables_paginate {
+	padding: 0px;
+}
+.dataTable {
+	width: 100%;
+}
+.dataTable th.sorting_asc, .dataTable th.sorting_desc, .dataTable th.sorting {
+	padding-right: 1.5em; /* This is to allow for sorting icons. */
+}
+.dataTables_scrollHead .simple-table {
+	border-bottom: none;
+}
+.dataTables_wrapper {
+	background-color: #eee;
+	z-index: 5;
+}
+
+.drill-menu {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	background-color: #eee;
+	border: 2px solid #00608F;
+	padding: 0.1em;
+	z-index: 100;
+}
+.drill-menu .hdr {
+	font-size: 0.8em;
+	padding: 0.25em;
+	background-color: #00608F;
+	color: #eee;
+}
+.drill-menu p {
+	font-size: 0.75em;
+	margin: 0.5em 0.5em 0 0.5em;
+}
+.drill-menu ul {
+	padding: 0 0.5em 0 1em;
+}
+.drill-menu li {
+	font-size: 0.7em;
+	margin: 0.5em 0 0 0;
+}
+.drill-menu p, .drill-menu li {
+	color: #000;
+}
+.drill-menu .buttons {
+	margin: 0.75em 0 0.25em 0.1em;
+}
+.drill-down, .drill-up, .drill-down-to {
+	float: left;
+	font-size: 0.7em;
+}
+.drill-down, .drill-up {
+	margin: 0 0.25em;
+	padding: 0.4em;
+	border: 1px solid #aaa;
+	background-color: #bbb;
+	color: #fff;
+}
+.drill-menu .buttons .available {
+	border: 1px solid #0000FF;
+	background-color: #0063DC;
+	color: #fff;
+	cursor: pointer;
+}
+.drill-down-to {
+	margin: 0.5em 0.5em 0 0.25em;
+}
+
+.grid-buttons {
+	margin: 0.5em 0 0 0;
+	font-size: 0.85em;
+}
+.grid-buttons .more-button-text {
+	font-size: 0.9em;
+	padding: 0 0 0 0.5em;
+}
+
+.pointerCursor
+{
+    cursor:pointer;
+}
+
+.defaultCursor
+{
+    cursor:default;
+}
+
+/* Overriding datatables sorting image and set table header top border*/
+.sorting {
+    background: url("../images/sort_both.png") no-repeat scroll right center transparent !important;
+}
+.sorting_asc {
+    background: url("../images/sort_asc.png") no-repeat scroll right center transparent !important;
+}
+.sorting_desc {
+    background: url("../images/sort_desc.png") no-repeat scroll right center transparent !important;
+}
+
+.dataTables_scrollFootInner{
+	width:100% !important;
+}

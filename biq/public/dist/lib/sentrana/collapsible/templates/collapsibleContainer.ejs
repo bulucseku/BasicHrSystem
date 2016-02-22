@@ -1,0 +1,12 @@
+<div class="collapsibleContainer panel panel-default" atitle="<%= panelTitle%>">
+    <div class="collapsibleContainerTitle panel-heading">
+        <span class="panel-icon"><i class="<%= iconClass%>"></i></span>
+        <span class="panel-title"><%= panelTitle%></span>
+        <div class="panel-heading-controls buttonBar">
+        	<% if (allowCollapsible) { %>
+              <i class="indicator text-xs fa"></i>
+        	<% } %>
+        </div>
+    </div>
+    <div class="collapsibleContainerContent panel-body no-padding"></div>
+</div>

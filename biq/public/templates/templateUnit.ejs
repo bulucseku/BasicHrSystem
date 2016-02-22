@@ -1,0 +1,70 @@
+<div class="tu" hid="<%= hid%>">
+  <div class="tu-header<%if(!isExpandableHeader){%> tu-header-nonexpandable <% }%>">
+  <% if (isExpandableHeader) {%>
+		<i class="tu-header-updn-img fa fa-chevron-right" />
+  <% }%>
+  <span class="name<%if(!isExpandableHeader){%> tu-header-name-nonexpandable <% }%>"><%= name%></span>
+  <div class="tu-close-container">
+      <i class="close fa fa-times text-danger" />
+  </div>
+
+
+  <div style="clear: both;"></div>
+  </div>
+    
+	<div class="controls" style="display: none;">
+    
+    <div  class="tu-sort-order">
+    <div class="column-detail">
+    
+	 <% if (showTransform) {%>
+		 <div class="transform-column text-xs">
+			Transform
+		 </div>
+	 <% }%>
+
+	 <% if (showOnlyWhen) {%>
+		 <div class="onlywhen-column text-xs">
+			Only when
+		 </div>
+	 <% }%>
+		
+      <div style="clear: both;"></div>
+
+    </div>
+      <div style="clear: both;"></div>
+    </div>
+   
+    <div class="tu-forms text-sm">
+		<% if (forms && forms.length > 1) {%>
+		<div class="forms">
+     
+    <% can.each(forms, function(form, i) { %>
+    
+      	<span oid="<%= form.oid%>" <% if (selectedForms & (1 << i) ) {%>  class=selected<% }%>><%= form.formName%></span>
+        
+		<% }) %>
+	  
+      <div style="clear: both;"></div>
+      
+    </div>
+      <% }%>
+    </div>  
+
+	<% if (showAggregate) {%>
+	<div class="aggregation-type-drop-down clearfix">
+	<span class="text-sm pull-left">Agg By: </span>
+	<select class="aggregation-type-drop-down-select form-control text-sm">
+		 <% can.each(aggTypes, function(type, i) { %>
+				<% if (aggType===type.Key) {%>
+					<option selected="selected" value="<%= type.Key %>"><%= type.Value %></option>		
+				<% }else{%>
+					<option value="<%= type.Key %>"><%= type.Value %></option>		
+				<% }%>			
+		  <% })%>		
+	</select>  
+	</div>	
+	<% }%>
+
+	</div>
+</div>

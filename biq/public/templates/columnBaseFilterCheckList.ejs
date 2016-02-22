@@ -1,0 +1,26 @@
+﻿<div>
+  <div class="object-selector-wrapper">
+        <label class="checkbox-labelL checkbox" title="All">
+            <input type="checkbox" name="" value="All" class="px checkboxAll">
+            </input> 
+          <span class="lbl">ALL
+          </span>
+        </label>
+  </div>
+</div>
+<% can.each(items, function(item, i) { %>
+<div>
+     <div class="object-selector-wrapper">
+       
+       <label class="checkbox-labelL checkbox" title="<%= item.value%>">
+            <input type="checkbox" value="<%= item.value%>" key="<%= item.key%>" class="px checkboxItem">
+            </input> 
+          <span class="lbl"><%= item.value%>  
+          </span>
+        </label>
+       
+     </div>  
+        
+</div>
+<% }); %>
+

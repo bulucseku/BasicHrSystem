@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="repository">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="metadata">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="dimensions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="dimension">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="attribute" type="attributeType">
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="facts">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="fact">
+                      <xs:complexType>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+                        <xs:attribute name="name" type="xs:string" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="metrics">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element minOccurs="0" name="simpleMetrics">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="simpleMetric">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="fact">
+                                  <xs:complexType>
+                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="desc" type="xs:string" use="required" />
+                              <xs:attribute ref="dataType" use="required" />
+                              <xs:attribute ref="operation" use="required" />
+                              <xs:attribute name="formatString" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element minOccurs="0" name="compositeMetrics">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" minOccurs="0" name="percentTotalMetric">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="metric">
+                                  <xs:complexType>
+                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="desc" type="xs:string" use="required" />
+                              <xs:attribute ref="dataType" use="required" />
+                              <xs:attribute name="formatString" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element maxOccurs="unbounded" minOccurs="0" name="perMetric">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="metric">
+                                  <xs:complexType>
+                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                              <xs:attribute name="name" type="xs:string" use="required" />
+                              <xs:attribute name="desc" type="xs:string" use="required" />
+                              <xs:attribute ref="dataType" use="required" />
+                              <xs:attribute name="formatString" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="metricGroups" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="metricGroup">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="metric" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="name" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+                <xs:unique name="metricgroupid">
+                  <xs:selector xpath="metricGroup"/>
+                  <xs:field xpath="@id"/>
+                </xs:unique>
+                <xs:unique name="metricgroupname">
+                  <xs:selector xpath="metricGroup"/>
+                  <xs:field xpath="@name"/>
+                </xs:unique>
+                <xs:unique name="metricid">
+                  <xs:selector xpath="metricGroup/metric"/>
+                  <xs:field xpath="@id"/>
+                </xs:unique>
+              </xs:element>
+              <xs:element name="constraints">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" minOccurs="0" name="pertinence">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="attribute">
+                            <xs:complexType>
+                              <xs:attribute name="id" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="requiredElements">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="attributeForm">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element maxOccurs="unbounded" name="attributeElement">
+                                        <xs:complexType>
+                                          <xs:attribute name="value" type="xs:string" use="required" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+
+          <xs:unique name="UniqueColumnName">
+            <xs:selector xpath="dimensions/dimension/attribute | dimensions/dimension/attribute/groupsBy/attribute | metrics/*/*" />
+            <xs:field xpath="@name"/>
+          </xs:unique>
+          
+        </xs:element>
+        <xs:element name="datawarehouse">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="connection">
+                <xs:complexType>
+                  <xs:attribute name="connectionString" type="xs:string" use="optional" />
+                  <xs:attribute name="connectionStringKey" type="xs:string" use="optional" />
+                  <xs:attribute name="providerName" type="xs:string" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element minOccurs="0" name="configuration">
+                <xs:complexType>
+                  <xs:attribute name="commandTimeout" type="xs:unsignedInt" use="required" />
+                  <xs:attribute name="rowLimit" type="xs:unsignedInt" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="tables">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="table" type="tableType">
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="factory" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required" />
+      <xs:attribute name="name" type="xs:string" use="required" />
+      <xs:attribute name="ShowDataDictionaryDefinition" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <!-- Follow is the definition for recursive elements-->
+  <xs:complexType name="tableType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="columns">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="datum">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="fact">
+                    <xs:complexType>
+                      <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="databaseId" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element maxOccurs="unbounded" minOccurs="0" name="segment">
+              <xs:complexType mixed="true">
+                <xs:sequence>
+                  <xs:element name="attributeForm">
+                    <xs:complexType>
+                      <xs:attribute name="id" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="databaseId" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="rootFilter">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="comparison">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="column">
+                    <xs:complexType>
+                      <xs:attribute name="databaseId" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="literal">
+                    <xs:complexType>
+                      <xs:attribute name="value" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="operator" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="joins" minOccurs="0">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="join" type="joinType">
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="databaseId" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:complexType name="attributeType">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="forms">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="attributeForm">
+              <xs:complexType>
+                <xs:attribute name="id" type="xs:string" use="required" />
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute ref="dataType" use="required" />
+                <xs:attribute name="hidden" type="xs:boolean" use="optional" />
+                <xs:attribute name="cache" type="xs:boolean">
+                  <xs:annotation>
+                    <xs:documentation xml:lang="en">
+                      If this property is false then this attribute form will not be stored in the cacheßß
+                    </xs:documentation>
+                  </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="canonicalSort" type="xs:boolean">
+                  <xs:annotation>
+                    <xs:documentation xml:lang="en">
+                      If this property is true, then all the attribute forms under this attribute will use this attribute form as the raw value to sort.
+                    </xs:documentation>
+                  </xs:annotation>
+                </xs:attribute>
+                <xs:attribute name="default" type="xs:boolean" use="optional" />
+                <xs:attribute name="defaultValue" type="xs:string" use="optional" />
+                <xs:attribute name="formatString" type="xs:string" use="optional" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="dynamicElements">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="dynamicElement">
+              <xs:complexType>
+                <xs:attribute name="value" type="xs:string" use="required" />
+                <xs:attribute name="selector" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="groupsBy">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="attribute" type="attributeType">
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element minOccurs="0" name="surrogateGroupings">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="elementGrouping">
+              <xs:complexType>
+                <xs:attribute name="id" type="xs:string" use="required" />
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute name="desc" type="xs:string" use="required" />
+                <xs:attribute name="factory" type="xs:string" use="required" />
+                <xs:attribute name="keyForm" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:string" use="required" />
+    <xs:attribute name="name" type="xs:string" use="required" />
+    <xs:attribute name="desc" type="xs:string" use="required" />
+    <xs:attribute ref="attrValueType" use="required">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          This property will be used by client side to figure out the default chart to be generated.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute ref="filterControl">
+      <xs:annotation>
+        <xs:documentation xml:lang="en">
+          This property will be used by client side to determine the UI control used to present filter elements for the current attribute form.
+        </xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+    <xs:attribute name="required" type="xs:boolean" use="optional" />
+  </xs:complexType>
+  <xs:complexType name="joinType">
+    <xs:sequence>
+      <xs:element name="condition">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element maxOccurs="unbounded" name="comparison">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element minOccurs="0" name="literal">
+                    <xs:complexType>
+                      <xs:attribute name="value" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element minOccurs="0" maxOccurs="unbounded" name="column">
+                    <xs:complexType>
+                      <xs:attribute name="databaseId" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="operator" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="table" type="tableType"></xs:element>
+      <xs:element minOccurs="0" name="rootFilter">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="comparison">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="column">
+                    <xs:complexType>
+                      <xs:attribute name="databaseId" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                  <xs:element name="literal">
+                    <xs:complexType>
+                      <xs:attribute name="value" type="xs:string" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+                <xs:attribute name="operator" type="xs:string" use="required" />
+              </xs:complexType>
+            </xs:element>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="operator" type="xs:string" use="required" />
+  </xs:complexType>
+  <xs:attribute name="filterControl">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="None"/>
+        <xs:enumeration value="Tree"/>
+        <xs:enumeration value="ListBox"/>
+        <xs:enumeration value="Calendar"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="attrValueType">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="TimeSeries"/>
+        <xs:enumeration value="DiscreteSeries"/>
+        <xs:enumeration value="Continueous_Values"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="dataType">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="String"/>
+        <xs:enumeration value="Number"/>
+        <xs:enumeration value="DateTime"/>
+        <xs:enumeration value="Currency"/>
+        <xs:enumeration value="Percentage"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+  <xs:attribute name="operation">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Sum"/>
+        <xs:enumeration value="Average"/>
+        <xs:enumeration value="Count"/>
+        <xs:enumeration value="CountDistinct"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:attribute>
+</xs:schema>

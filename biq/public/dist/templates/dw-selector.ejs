@@ -1,0 +1,21 @@
+<div class="login-dw-selector-container">
+    <div class="login-dw-selector-header">
+        <p>
+            Please select the data warehouse you want to access:
+
+        <p>
+    </div>
+    <div class="login-dw-selector-wrapper">
+            <div class="input-group">
+                <select class="form-control login-dw-selector">
+                    <% can.each(choices, function(choice, i) { %>
+                    <option value="<%= choice.oid %>"><%= choice.name %></option>
+                    <% }); %>
+                </select><span class="input-group-btn">
+					<button class="btn btn-primary login-dw-selector-access-button" type="button">
+                        ACCESS
+                    </button></span>
+            </div>
+    </div>
+    <div style="clear: both;"></div>
+</div>

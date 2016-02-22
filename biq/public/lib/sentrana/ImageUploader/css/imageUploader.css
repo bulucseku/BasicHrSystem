@@ -1,0 +1,15 @@
+.dz-preview {
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: 0 !important;
+}
+
+.dropzone-box {
+    border: 0 !important;
+    padding: 0 !important;
+}
+
+.dz-remove {
+    margin: 0 !important;
+}

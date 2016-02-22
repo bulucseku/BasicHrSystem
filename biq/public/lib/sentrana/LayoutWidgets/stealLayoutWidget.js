@@ -1,0 +1,1 @@
+steal('lib/sentrana/LayoutWidgets/LayoutWidget.js', 'lib/sentrana/LayoutWidgets/css/layout-widget.css');

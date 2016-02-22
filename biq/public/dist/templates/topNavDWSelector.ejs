@@ -1,0 +1,13 @@
+<!-- for repository selection-->
+<% if (dwModel.choices.length > 1) { %>
+<li class="nav-icon-btn nav-icon-btn-info top-nav-dw-selector">
+    <a class="dropdown-toggle" data-toggle="dropdown">
+        <i class="nav-icon fa fa-list-ul"></i>
+    </a>
+    <ul class="dropdown-menu">
+        <% can.each(dwModel.choices, function(repoItem, key) { %>
+        <li  <% if(dwModel.attr('selectedID') == repoItem.attr('oid')) {%>class="active"<% }%> ><a class="repository-options-item" style="cursor:pointer" repositoryid="<%= repoItem.attr('oid') %>"><%= repoItem.attr('name') %></a></li>
+        <%})%>
+    </ul>
+</li>
+<% } %>

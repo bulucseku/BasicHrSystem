@@ -1,0 +1,79 @@
+/* Banner Styling... */
+
+.banner {
+    font-size: 1.25em;
+    background-image: url(../images/blue_header.jpg);
+}
+
+.app-title {
+    font-size: .8em;
+    font-weight: normal;
+    float: left;
+    padding: 11px 0 0 230px;
+    color: #ccc;
+    text-shadow: #000 0 1px 1px;
+}
+
+.user-section {
+    display: inline;
+    float: right;
+    float: right;
+    height: 40px;
+    background-image: url(../images/settings_back.png);
+    background-repeat: no-repeat;
+}
+
+.user-icon {
+    display: inline;
+    /*cursor: pointer;*/
+    float: left;
+    width: 38px;
+    height: 26px;
+    margin: 7px 0 0 24px;
+    background-image: url(../images/user_icon.png);
+    background-repeat: no-repeat;
+}
+
+
+.welcome-greetings {
+    font-size: .7em;
+    float: right;
+    margin: .9em 1em 0 0;
+    color: #b7d3ee;
+}
+
+
+.lower_banner_bar_inside {
+    background: url("../images/secondary_nav_light.png") no-repeat scroll -95px 0 transparent;
+}
+
+.lower_banner_bar {
+    border-top: 1px solid #575758;
+    border-right: 1px solid #575758;
+    border-bottom: 1px solid #575758;
+    background: url(../images/secondary_nav_back.jpg);
+    background-repeat: repeat-x;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+} 
+
+/* Footer Styling... */
+
+.footer {
+    font-size: .7em;
+    clear: both;
+    padding: .5em 1em .6em;
+    background-color: #456b98;
+    /*margin: 1em 0 0 0;*/
+}
+.footer-logo {
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+.footer-text {
+    padding: 7px 0 0 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #ddd;
+}

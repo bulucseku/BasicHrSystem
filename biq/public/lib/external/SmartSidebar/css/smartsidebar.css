@@ -1,0 +1,131 @@
+﻿
+.navigation-sidebar-left, .navigation-sidebar-right
+{
+    position: relative;    
+}
+
+.ssb-vertical-text, .ssb-dummy-text
+{
+    white-space: nowrap;
+    font-size: 16px;
+    padding: 5px;
+    text-align: left;
+}
+
+.ssb-vertical-text
+{
+    writing-mode: bt-rl;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+.navigationPaneDockImage
+{
+    background-repeat: no-repeat;
+    background-image: url(../images/dock.png);
+	background-position: center;
+    width: 17px;
+    height: 11px;
+    margin: 5px 0px 0px 2px;
+}
+
+div.navigationPane-left,div.navigationPane-right
+{
+    width: 30px;
+    cursor: pointer;   
+    position: relative;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    font-weight: normal;
+}
+
+div.navigationPane-left
+{  
+    float: left;
+}
+
+div.navigationPane-right
+{
+    float: right;
+}
+
+div.dockablePanel-left,div.dockablePanel-right
+{
+    display: none;  
+    position: absolute;    
+    border: 1px solid #DDDDDD;
+    background: #fff;
+}
+
+div.dockablePanel-left
+{   
+    float: left; 
+    left: 0px;    
+}
+
+div.dockablePanel-right
+{  
+    float: right; 
+    right: 0px;
+}
+
+div.docPanelTitle
+{
+	font-size:16px;
+    width: 100%;    
+    cursor: pointer;
+    height: 35px;
+    border: 0;
+}
+
+div.docPanelTitleText
+{
+    width: 80%;
+    float: left;
+    padding: 6px 0px 6px 7px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.undockPanelTitleImage
+{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/undock.png);
+    width: 15px;
+    height: 16px;
+    margin: 3px 0px 3px 5px ;
+}
+
+.button_wrapper {
+        padding: 6px 6px 6px 0px;
+}
+
+.btn-gradient-navpane
+{
+    margin: 0px;
+}
+
+.scrollable-panel
+{
+    cursor: default;
+    overflow: auto;    
+}
+
+.dockPanelMargin {
+    margin: 5px;
+}
+
+.contentwrapper {
+    float: left;
+    width: 100%;
+    min-height: 500px;
+}
+
+.leftcolumn {
+    float: left;
+    width: 230px;
+    margin-left: -100%;
+}

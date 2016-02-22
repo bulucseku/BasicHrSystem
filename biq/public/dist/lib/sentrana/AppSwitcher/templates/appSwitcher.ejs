@@ -1,0 +1,10 @@
+<ul class="nav navbar-nav left-navbar-nav pull-left">
+	<li class="nav-icon-btn nav-icon-btn-info top-nav-dw-selector">
+		<a class="dropdown-toggle" data-toggle="dropdown"><span class="fa fa fa-bars"></span></a>
+		<ul class="dropdown-menu">
+			<% applications.forEach(function(el){ %>
+			<li class="<%= (el.id === applicationId)? 'active':'' %>"><a href="<%= el.url %>" class="cursor:pointer"><%= el.name %></a></li>
+			<% }); %>
+		</ul>
+	</li>
+</ul>

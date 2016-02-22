@@ -1,0 +1,133 @@
+.repository-create {
+    margin: 15px;
+}
+.repository-edit {
+    margin: 15px;
+}
+.section-header {
+    line-height: 14px;
+    padding: 7px;
+}
+.form-table {
+    border-spacing: 4px !important;
+    border-collapse: separate !important;
+}
+.form-table td {
+    padding: 4px;
+}
+.section {
+    padding: 1em;
+    border: 3px double #ddd;
+}
+.create-rep-status {
+    color: red;
+}
+.upload-rep-status {
+    color: red;
+}
+.clickable-menu {
+    clear: both;
+}
+.table-list {
+    overflow: auto;
+    height: 300px;
+}
+.clickable-menu ul {
+    padding-left: 0 !important;
+    list-style: none !important;
+}
+.clickable-menu ul li {
+    font-size: 1.5em;
+    position: relative;
+    padding: 5;
+    color: #a9a9a9;
+}
+.clickable-menu li:hover {
+    padding: .5em 0;
+    cursor: pointer;
+    background-color: #eee;
+}
+.viewing {
+    padding: .5em 0;
+    border: 1px solid #ddd;
+    background-color: #eee;
+}
+.repository-edit {
+    overflow: auto;
+}
+.repository-edit div.col1,
+.repository-edit div.col2 {
+    float: left;
+}
+.repository-edit div.col1 {
+    width: 24%;
+    margin: 0 1em 0 0;
+}
+.repository-edit div.col2 {
+    width: 75%;
+}
+.repository-edit li {
+    font-size: 1em !important;
+}
+
+/* Overwrite CSS for SmartWizard */
+.swMain {
+    width: 100% !important;
+}
+.swMain ul.anchor {
+    margin: 0 !important;
+}
+.swMain ul.anchor li a {
+    height: auto !important;
+}
+.swMain ul.anchor li a.selected {
+    border: 1px solid rgb(88, 177, 228) !important;
+    background: rgb(88, 177, 228) !important;
+}
+.swMain ul.anchor li a.done {
+    border: 1px solid rgb(9, 90, 136) !important;
+    background: rgb(9, 90, 136) !important;
+}
+.swMain ul.anchor li a.done:hover {
+    background: rgb(88, 177, 228) !important;
+}
+.swMain ul.anchor li a.selected:hover {
+    background: rgb(79, 124, 204) !important;
+}
+.swMain .stepContainer {
+    overflow-y: auto !important;
+    width: 100% !important;
+    min-width: 960px !important;
+    max-width: 100% !important;
+    height: 600px !important;
+    border: none !important;
+}
+.swMain div.actionBar {
+    border: none !important;
+}
+.swMain .stepContainer div.content {
+    width: 100% !important;
+    min-width: 960px !important;
+    height: auto !important;
+    border: none !important;
+}
+/* End SmartWizard */
+/* CSV Uploader */
+label.label-holder input.csv-uploader {
+	position: relative;
+	height: 100%;
+	width: auto;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+	left:-152px;top:0px;
+}
+label.label-holder {
+    /*background: url(../images/upload.png) no-repeat;*/
+    display: block;
+    overflow: hidden;
+    width: 79px;
+    height: 32px;
+    cursor: pointer;
+}
+/* End CSV Uploader */

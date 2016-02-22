@@ -1,0 +1,12 @@
+.theme-ixora .collapsibleContainerTitle{
+    background-color: rgb(124, 114, 116) !important;
+    color: white !important;
+}
+
+.theme-ixora .panel-icon{
+    color: white;
+}
+
+.theme-ixora .panel-title{
+    color: white;
+}

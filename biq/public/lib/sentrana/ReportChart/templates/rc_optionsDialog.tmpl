@@ -1,0 +1,126 @@
+<table>
+	<tbody>
+		{{if chartConfiguration.showChartOptions.chartTitle == true}}
+		<tr>
+			<td class="lbl-chart-title">Chart Title:</td>
+			<td><input class="input-chart-option-dial-title" type="text" value="${model.chartTextOptions.chartTitle}"></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartSubtitle == true}}
+		<tr>
+			<td class="lbl-chart-subtitle">Chart Subtitle:</td>
+			<td><input class="input-chart-option-dial-subtitle" type="text" value="${model.chartTextOptions.chartSubtitle}"></td>
+		</tr>
+		{{/if}}
+		{{if model.chartType !== 'pie'}}
+		{{if chartConfiguration.showChartOptions.chartXAxisLabel == true}}
+		<tr>
+			<td class="lbl-x-axis-label">X Axis Label:</td>
+			<td><input class="input-x-axis-label" type="text" value="${model.chartTextOptions.chartXAxisLabel}"></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartYAxisLabel == true}}
+		<tr>
+			<td class="lbl-y-axis-label">Y Axis Label:</td>
+			<td><input class="input-y-axis-label" type="text" value="${model.chartTextOptions.chartYAxisLabel}"></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartXAxisLabelRotation == true}}
+		<tr>
+			<td class="lbl-x-axis-label-rotation">X Axis Label Rotation:</td>
+			<td>
+				<select class="select-x-axis-label-rotation">
+					<option value="-90" {{if -90 === model.chartTextOptions.chartXLabelRotation}}selected="selected"{{/if}}>-90</option>
+					<option value="-45" {{if -45 === model.chartTextOptions.chartXLabelRotation}}selected="selected"{{/if}}>-45</option>
+					<option value="0" {{if 0 === model.chartTextOptions.chartXLabelRotation}}selected="selected"{{/if}}>0</option>
+					<option value="45" {{if 45 === model.chartTextOptions.chartXLabelRotation}}selected="selected"{{/if}}>45</option>
+					<option value="90" {{if 90 === model.chartTextOptions.chartXLabelRotation}}selected="selected"{{/if}}>90</option>
+				</select>
+			</td>
+		</tr>
+		{{/if}}
+		{{/if}}
+
+		{{if model.chartType == 'histogram' }}
+		{{if chartConfiguration.showChartOptions.chartBinCount == true}}
+		<tr>
+			<td class="lbl-bin-count">Approximate Bin Count:</td>
+			<td>
+				<select class="select-bin-count">
+					<option value="5" {{if 5 === model.binCount}}selected="selected"{{/if}}>5</option>
+					<option value="10" {{if 10 === model.binCount}}selected="selected"{{/if}}>10</option>
+					<option value="25" {{if 25 === model.binCount}}selected="selected"{{/if}}>25</option>
+					<option value="50" {{if 50 === model.binCount}}selected="selected"{{/if}}>50</option>
+					<option value="100" {{if 100 === model.binCount}}selected="selected"{{/if}}>100</option>
+				</select>
+			</td>
+		</tr>
+		{{/if}}
+		{{/if}}
+
+		{{if model.chartType == 'scatter' || model.chartType == 'bubble'}}
+		{{if chartConfiguration.showChartOptions.chartLegendAttribute == true}}
+		<tr>
+			<td class="lbl-legend-attribute">Legend Attribute</td>
+			<td>
+				<select class="select-legend-attribute">
+					<option {{if model.chartLegendAttrColumnName=="" || model.chartLegendAttrColumnName=="None"}}selected{{/if}}>None</option>
+	            {{each model.chartAttrColumnNames}}
+	                <option {{if $value==model.chartLegendAttrColumnName}}selected{{/if}}>${$value}</option>
+	            {{/each}}
+				</select>
+			</td>
+		</tr>
+		{{/if}}
+		{{/if}}
+
+		{{if model.chartType != 'scatter' && model.chartType != 'bubble' && model.chartType != 'histogram'}}
+		{{if chartConfiguration.showChartOptions.chartCollapseTail == true}}
+		<tr class="tr-collapse-tail">
+			<td class="lbl-collapse-tail">Collapse Tail:</td>
+			<td><input class="input-collapse-tail" type="checkbox" {{if model.chartCollapseTail}}checked="true"{{/if}}></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartCollapseItemName == true}}
+		<tr>
+			<td class="lbl-chart-collapse-item-name">Chart Collapse Item Name:</td>
+			<td><input class="input-chart-collapse-item-name" type="text" value="${model.chartCollapseItemName}"></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartCollapseRowLimit == true}}
+		<tr>
+			<td class="lbl-chart-collapse-row-limit">Chart Collapse Row Limit:</td>
+			<td><input class="input-chart-collapse-row-limit" type="text" value="${model.chartCollapseRowLimit}"></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartAutoSegmentation == true}}
+		<tr>
+			<td class="lbl-auto-segmentation">Auto Segmentation:</td>
+			<td><input class="input-auto-seg" type="checkbox" {{if model.chartAutoSegmentation}}checked="true"{{/if}}></td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartAttrToSegment == true}}
+		<tr class="tr-attr-to-segment">
+			<td class="lbl-attribute-to-segment">Attribute to Segment</td>
+			<td><select class="select-attr-to-segment">
+	            {{each model.chartAttrColumnNames}}
+	                <option {{if $value==model.chartSegAttrColumnName}}selected{{/if}}>${$value}</option>
+	            {{/each}}
+	            </select>
+			</td>
+		</tr>
+		{{/if}}
+		{{if chartConfiguration.showChartOptions.chartMetricToSegment == true}}
+		<tr class="tr-metric-to-segment">
+			<td class="lbl-metric-to-segment">Metric to Segment</td>
+			<td><select class="select-metric-to-segment">
+	            {{each model.chartMetricColumnNames}}
+	                <option {{if $value==model.chartSegMetricColumnName}}selected{{/if}}>${$value}</option>
+	            {{/each}}
+	            </select>
+			</td>
+		</tr>
+		{{/if}}
+		{{/if}}
+	</tbody>
+</table>

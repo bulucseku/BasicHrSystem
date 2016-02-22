@@ -1,0 +1,126 @@
+.dual-table
+{
+    width: 100%;
+}
+.dualTableChartContainer {
+    padding: 10px;
+}
+.dualTableChartContainerNoPadding {
+    padding: 0px !important;   /* dual table container  will not add padding when no local filter applied/*
+}
+.dual-table tr td
+{
+   /*padding: 10px;*/
+}
+
+.dual-table-leftPart
+{
+
+}
+.dual-table-rightPart
+{
+}
+.mini-chart{
+    height:20px;
+    width:120px;
+    margin: auto;
+}
+.kpi-table
+{
+    width: 100%;
+}
+.kpi-table table{
+    border-collapse:collapse;
+    font-family:helvetica, arial, sans-serif;
+    width:100%;
+}
+.kpi-table th{
+    font-weight:bold;
+    text-align:center;
+    padding:5px;
+    padding-right:8px;
+    padding-left:8px;
+}
+
+.kpi-table thead th{
+    border-bottom:1px solid #999;
+}
+
+.kpi-table td{
+	/*text-align:left;*/
+	vertical-align: middle;
+	padding: 5px;
+    padding-right:8px;
+    padding-left:8px;
+	color:#555;
+}
+
+.kpi-table td a{
+	text-align:left;
+	color:#555;
+    font-weight: bold;
+	text-decoration:none;
+	font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 12px !important;
+}
+
+.kpi-table td a:hover {
+	background:#f8f8f8;
+	color:#282828;
+}
+
+.dualTable-Chart-Container
+{
+    border: 1px solid #999;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	width:auto;
+	height:auto;
+	margin:5px;
+	overflow:auto;
+    height: 465px;
+}
+
+.separator {
+	margin-top: 0px;
+	margin-bottom: 0px;
+    size: 1px;
+    color: #eeeeee;
+}
+
+.hideElement{
+    display: none;
+}
+.maximize-right-section{
+    width: 100% !important;
+    float: left !important;
+}
+.maximize-chart-container{
+    border: 0px !important;
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+    margin: 0px !important;
+    height: 100% !important;
+}
+.width-100percent
+{
+    width: 100% !important;
+}
+.kpi-name{
+    cursor: pointer;
+}
+
+/*This class is using for overlap the class ".mini-chart" so that it can be clickable to view the big chart*/
+.dummy-shed-container{
+    position: relative;
+    height: 100%;
+}
+.dummy-shed{
+    height:20px;
+    width:120px;
+    background-color: green;
+    opacity: 0;
+    position: absolute;
+    top: -20px;
+}

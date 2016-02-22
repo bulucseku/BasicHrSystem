@@ -1,0 +1,81 @@
+﻿/*.page-tab a input{
+    color: black;
+    width: 100px;
+}
+.page-tab .titleInput{
+    display: none;
+}
+.titleLabel, .titleInput{
+    margin: 0px !important;
+    padding: 0px !important;
+    height: 22px !important;
+    font-weight: normal;
+    position: relative;
+    top: 2px;    
+}
+.tabs-container > .nav-tabs > li > a > input {
+    height: 18px;
+}
+.tabs-container > .nav > li > a{
+    padding: 6px 15px !important;
+    display: inline-block !important;
+}
+.tabs-container > .nav > li > .add-page{
+    padding: 8px 15px !important;
+}
+.tabs-container > .nav-tabs > li .close {
+    position: relative;
+    right: -10px;
+    font-size: 18px;
+    top: 1px;
+}
+.ui-state-active{
+    border: none !important;
+}
+.ui-state-default{
+    border: none !important;
+}
+.page-tab{
+    height: 35px !important;
+}
+.tab-pane{
+    padding: 5px;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background: #67cea6;
+    border-bottom: 2px solid #54c89b;    
+}
+.nav-tabs>li>a:focus {
+    background: green;
+    border-bottom: 2px solid darkgreen;    
+    font-weight: normal !important;
+    color: #fff;
+}
+.nav-tabs>li>a:hover {
+    background: green;
+    border-bottom: 2px solid darkgreen;    
+    font-weight: bold !important;
+    color: #fff;
+    cursor: pointer;
+}
+.nav-tabs > li > a > label:hover {
+    cursor: pointer;
+}
+.nav-tabs > li > a {
+    margin: 0 2px -1px 0 !important;    
+}
+
+
+.tbl-property-window tr td{
+    padding: 3px;
+}
+.page-property-container{
+    display: none;
+}
+.page-property{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+}*/

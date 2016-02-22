@@ -1,0 +1,8 @@
+﻿<% can.each(objects, function(object, i) { %>
+	<div class="object-selector-wrapper">
+		<label>
+			<input id="<%= object.hid%><%= tag %>" type="checkbox" title="<%= object.name%>" hid="<%= object.hid%>" class="object-selector"></input>
+			<%= object.name%>
+		</label>
+	</div>
+<% }); %>

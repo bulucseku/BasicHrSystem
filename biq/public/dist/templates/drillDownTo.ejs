@@ -1,0 +1,14 @@
+﻿<% can.each(tgtAttrCheckBoxess, function(target, i) { %>
+	<div class="checkbox-wrapper">
+		
+		<% if (target.isVisible) {%>
+			<label class="checkbox" for="<%= target.targetId%>"><input type="checkbox" class="px" id="<%= target.targetId%>" value="<%= target.targetValue%>" checked="true"/>
+			<span class="lbl"><%= target.targetValue%></span></label>
+		<% } else {%>
+			<label for="<%= target.targetId%>" class="checkbox" style="display:none;"><input type="checkbox" class="px" id="<%= target.targetId%>" value="<%= target.targetValue%>" style="display:none;"/>
+			<span class="lbl"><%= target.targetValue%></span></label>
+		<% }%>
+				
+		
+	</div>
+<% }); %>

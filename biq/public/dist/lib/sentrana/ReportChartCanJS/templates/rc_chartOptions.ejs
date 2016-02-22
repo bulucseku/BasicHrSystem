@@ -1,0 +1,38 @@
+<div class="chart-option-button"><button class="btn-chart-option">OPTIONS</button></div>
+<div class="chart-restore-button"><button class="btn-chart-restore">RESTORE</button></div>
+<div class="chart-row-range">
+	<div class="slider-desc"><label for="label-chart-row-range">Rows:</label><input type="text" class="label-chart-row-range"/></div>
+	<div class="slider-wrapper"><div class="slider-chart-row-range"></div></div>
+</div>
+<div class="chart-type btn-group" data-toggle="buttons">
+<% if (chartTypeSupported.line) {%>
+<label class="btn btn-sm" for="line-chart-button-<%= reportChartID%>">
+<input type="radio" id="line-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Line</label>
+<% }%>
+<% if (chartTypeSupported.pie) {%>
+<label class="btn btn-sm" for="pie-chart-button-<%= reportChartID%>">
+<input type="radio" id="pie-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Pie</label>
+<% }%>
+<% if (chartTypeSupported.column) {%>
+<label class="btn btn-sm" for="column-chart-button-<%= reportChartID%>"><input type="radio" id="column-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Column</label>
+<% }%>
+<% if (chartTypeSupported.bar) {%>
+<label class="btn btn-sm" for="bar-chart-button-<%= reportChartID%>"><input type="radio" id="bar-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Bar</label>
+<% }%>
+<% if (chartTypeSupported.stackedColumn) {%>
+<label class="btn btn-sm" for="stacked-column-chart-button-<%= reportChartID%>"><input type="radio" id="stacked-column-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Stacked Column</label>
+<% }%>
+<% if (chartTypeSupported.stackedBar) {%>
+<label class="btn btn-sm" for="stacked-bar-chart-button-<%= reportChartID%>"><input type="radio" id="stacked-bar-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Stacked Bar</label>
+<% }%>
+<% if (chartTypeSupported.scatter) {%>
+<label class="btn btn-sm" for="scatter-chart-button-<%= reportChartID%>"><input type="radio" id="scatter-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Scatter</label>
+<% }%>
+<% if (chartTypeSupported.bubble) {%>
+<label class="btn btn-sm" for="bubble-chart-button-<%= reportChartID%>"><input type="radio" id="bubble-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Bubble</label>
+<% }%>
+<% if (chartTypeSupported.histogram) {%>
+<label class="btn btn-sm" for="histogram-chart-button-<%= reportChartID%>"><input type="radio" id="histogram-chart-button-<%= reportChartID%>" event="chart-type-button" name="chart-type-radio-<%= reportChartID%>" />Histogram</label>
+<% }%>
+</div>
+<div class="clear"></div>

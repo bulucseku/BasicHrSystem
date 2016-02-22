@@ -1,0 +1,19 @@
+.navbar-brand {
+    padding: 0 !important;
+}
+
+@media (min-width: 768px) {
+    #main-navbar{
+        margin-left: 0;
+    }
+
+    .main-navbar-collapse{
+        margin-left: 56px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        margin-right: 56px;
+    }
+}

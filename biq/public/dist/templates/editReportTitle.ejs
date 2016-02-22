@@ -1,0 +1,5 @@
+﻿<% if (mode === "edit") {%>
+Editing Report: <span><%= report.name%> - by <%= report.createUser%></span>
+<% } else {%>
+Report Title: <span><%= report.name%> - by <%= report.createUser%></span>
+<% }%>

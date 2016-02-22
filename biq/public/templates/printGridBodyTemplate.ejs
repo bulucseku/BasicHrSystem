@@ -1,0 +1,17 @@
+﻿<div class="print-grid-body">
+  <table class="table">
+        <thead>
+        <tr>
+          <% can.each(tablecolumns, function(col, i) { %>
+          <th class="<%= col.columnClass%>"><%= col.columValue%></th>
+          <% }); %>
+        </tr>
+        </thead>
+        <tbody>
+        
+        </tbody>
+      </table>
+  <div class="print-table-pagination"></div>
+  <div class="print-table-pageno">page-1</div>
+  <div class="clear"></div>
+</div>

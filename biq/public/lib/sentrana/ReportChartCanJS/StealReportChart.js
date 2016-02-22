@@ -1,0 +1,10 @@
+steal('lib/sentrana/ReportChartCanJS/SentranaEnums.js',
+    'lib/sentrana/ReportChartCanJS/ReportChartOptions.js',
+    'lib/sentrana/ReportChartCanJS/ReportChartOptionsDialog.js',
+    'lib/sentrana/ReportChartCanJS/ReportChart.js'
+    ).then(
+    'lib/sentrana/ReportChartCanJS/PivotChart/PivotChartOptions.js',
+    'lib/sentrana/ReportChartCanJS/PivotChart/PivotChartDataAdapter.js',
+    'lib/sentrana/ReportChartCanJS/PivotChart/PivotChart.js',
+    'lib/sentrana/ReportChartCanJS/css/reportChart.css'
+    );

@@ -1,0 +1,61 @@
+<div class="report-entry" report-id="<%= reportInfo.id%>">
+  <div class="report-entry-table">
+    <div class="report-entry-row">
+      <div class="report-entry-icon">
+        <% if (!reportInfo.shared) {%>
+        <img src="images/report_base.png" class="icon-file"></img>
+        <% } else if (reportInfo.createUser === userInfo.fullName) { %>
+        <img src="images/report_shared.png" class="icon-file"></img>
+        <% } else if (reportInfo.createUser !== userInfo.fullName) { %>
+        <img src="images/report_received.png" class="icon-file"></img>
+        <% }%>
+      </div>
+      <div class="report-entry-name">
+        <span class="name text-semibold"><%= reportInfo.name%></span>
+        </br>
+        <span class="createUser">by <%= reportInfo.createUser%></span>
+      </div>
+      <div class="report-entry-createdate">
+        <span class="createDate"><%= Sentrana.formatDateValue(new Date(reportInfo.createDate),"MM/dd/yyyy")%></span>
+      </div>
+
+	  <div class="report-entry-menus fa fa-chevron-down">
+		<ul class="dropdown-menu" style="display: none;">            
+            <li class="container-button-menu report-entry-menu" action="details"><a>Details</a></li>            			
+
+			<% if (reportInfo.createUser === userInfo.fullName) {%>
+				<li class="container-button-menu report-entry-menu" action="edit"><a>Edit</a></li>            
+			<% }%>            
+			
+			<li class="container-button-menu report-entry-menu" action="copy"><a>Copy</a></li>            
+			<% if (reportInfo.createUser === userInfo.fullName) {%>
+				<li class="container-button-menu report-entry-menu" action="share"><a>Share</a></li>            
+			<% }%>            			
+			<li class="container-button-menu report-entry-menu" action="delete"><a>Delete</a></li>            
+        </ul>
+	  </div>
+
+    </div>
+  </div>
+
+  <div class="report-details" style="display: none;">
+    <table>
+      <tr>
+        <td class="report-details-caption">Created:</td>
+        <td><%= Sentrana.formatDate(new Date(reportInfo.createDate))%> (<%= reportInfo.createUser%>)</td>
+      </tr>
+      <tr>
+        <td class="report-details-caption">Modified:</td>
+        <td class="report-details-last-mod"><%= reportInfo.formatModified()%></td>
+      </tr>
+      <tr>
+        <td class="report-details-caption">Columns:</td>
+        <td class="report-details-columns"><%= reportInfo.formatColumns()%></td>
+      </tr>
+      <tr>
+        <td class="report-details-caption">Filter:</td>
+        <td class="report-details-filter"><%== reportInfo.formatFilter(true)%></td>
+      </tr>
+    </table>
+  </div>
+</div>

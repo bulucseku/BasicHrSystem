@@ -1,0 +1,30 @@
+/*
+ * Styles associated with the Selector Overlay.
+ */
+.selovl-box1, .selovl-box2 {
+	position: absolute;
+	border-color: #1C73E0;
+	border-style: solid;
+	background-color: #A7C3DA;
+	color: #333;
+}
+.selovl-box1 {
+	z-index: 100;
+	border-bottom-color: transparent;
+}
+.selovl-box2 {
+	padding: 4px;
+	z-index: 1001;
+}
+.selovl-box2 .box3 {
+	text-align: right;
+	padding: 0.25em 0.75em;
+	margin: 4px 0;
+}
+.selovl-box2 .box3:hover {
+	background-color: #85B6DD;
+	border-radius: 10px;
+	color: #fff;
+	cursor: pointer;
+}
+

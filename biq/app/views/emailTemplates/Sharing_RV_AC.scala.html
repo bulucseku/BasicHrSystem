@@ -1,0 +1,47 @@
+@(sharedObject: String, senderFirstName: String, sender: String, receiver: String, reportName: String, repositoryName: String, messageBody: String, applicationUrl: String)
+
+@objectTitle = @{
+    if(sharedObject == "report") {
+        "Report Title"
+    } else {
+        "Booklet Title"
+    }
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        @views.html.emails.EmailStyle()
+        @views.html.emailTemplates.BIQEmailStyle()
+    </head>
+    <body>
+        @views.html.emails.MailHeader()
+    <div class="body-container">
+        <p>Hi @receiver,</p>
+        <p>@sender has re-granted access the following BIQ @sharedObject with you:</p>
+        <table>
+            <tr>
+                <td> <span class="title"> @objectTitle </span></td>
+                <td>:</td>
+                <td><span> @reportName </span></td>
+            </tr>
+            <tr>
+                <td><span class="title"> Repository</span></td>
+                <td>:</td>
+                <td><span>@repositoryName</span></td>
+            </tr>
+        </table>
+
+        <p>
+            This @sharedObject will appear in your Saved Reports and Booklets page when you login next.
+            As before, you can view this @sharedObject directly in the Saved Reports and Booklets page
+            @if(sharedObject == "report") { , leave comments }
+            or delete it.
+        </p>
+
+        <p>To view the @sharedObject please click: <span> <a href="@applicationUrl">here</a> </span></p>
+
+        @views.html.emails.MailFooter()
+    </div>
+    </body>
+</html>
+

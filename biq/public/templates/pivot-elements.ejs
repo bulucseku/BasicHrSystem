@@ -1,0 +1,72 @@
+﻿<div class="pivot-elements-container">
+      <div class="pivot-fields pivot-elements pivot-fields-connected">
+        <div class="pivot-elements-header">
+          <span>FIELDS</span>
+        </div>
+
+        <% can.each(fields, function(field, index){ %>
+        <div class="pivot-element "  name="<%= field %>">
+          <%= field %>
+          </div>
+        <% }); %>
+        
+      </div>
+
+      <div class="pivot-filters pivot-elements pivot-fields-connected">
+        <div class="pivot-elements-header">
+          <span>FILTERS</span>
+        </div>
+
+        <% can.each(filters, function(filter, index){ %>
+        <div class="pivot-element "  name="<%= filter.name %>">
+          <%= filter.name %>
+          </div>
+        <% }); %>
+          
+      </div>
+
+      <div class="pivot-columns pivot-elements pivot-fields-connected">
+        <div class="pivot-elements-header">
+          <span>COLUMNS</span>
+        </div>
+
+        <% can.each(cols, function(col, index){ %>
+        <div class="pivot-element "  name="<%= col %>">
+          <%= col %>
+        </div>
+        <% }); %>
+        
+       
+      </div>
+
+      <div class="pivot-rows pivot-elements pivot-fields-connected">
+        <div class="pivot-elements-header">
+          <span>ROWS</span>
+        </div>
+
+        <% can.each(rows, function(row, index){ %>
+        <div class="pivot-element "  name="<%= row %>">
+          <%= row %>
+        </div>
+        <% }); %>
+      
+      </div>
+
+      <div class="pivot-values pivot-elements pivot-fields-connected">
+        <div class="pivot-elements-header">
+          <span>VALUES</span>
+        </div>
+
+        <% can.each(values, function(val, index){ %>
+        <div class="pivot-element "  name="<%= val.name %>" operation="<%= val.operation %>">
+          <%= val.name %>
+          </div>
+        <% }); %>
+        
+      </div>
+
+      <div class="clear"></div>
+      
+    </div>
+    
+    <div class="clear"></div>

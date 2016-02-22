@@ -1,0 +1,38 @@
+{
+  "name": "sffjs",
+  "homepage": "https://github.com/thorn0/sffjs",
+  "authors": [
+    "Daniel Mester Pirttijarvi",
+    "Georgii Dolzhykov"
+  ],
+  "description": "String.Format for JavaScript",
+  "main": "sffjs.js",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "dotnet",
+    ".net",
+    "string.format"
+  ],
+  "license": "zlib",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.10.0",
+  "_release": "1.10.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.10.0",
+    "commit": "501d4d2c7fd6b623e61851a14d8cfa556019350c"
+  },
+  "_source": "git://github.com/thorn0/sffjs.git",
+  "_target": "~1.10.0-alpha.8",
+  "_originalSource": "sffjs"
+}

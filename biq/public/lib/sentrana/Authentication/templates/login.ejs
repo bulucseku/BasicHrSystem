@@ -1,0 +1,158 @@
+<div class="container page-signin theme-clean" style="margin-top:30px">
+    <div id="page-signin-bg">
+        <!-- Background overlay -->
+        <div class="overlay"></div>
+        <!-- Replace this with your bg image -->
+        <img src="images/login-background/bg-<%= Math.round(Math.random()*2.9+0.55) %>.jpg"  alt="">
+    </div>
+
+    <div class="signin-container">
+            <div class="signin-info">
+                <a class="logo">
+                    <img src="images/sentrana_logo_white_text_small.png" class="panel-wide" width="220px"/>
+                </a> <!-- / .logo -->
+                <div class="slogan">
+                    Precision Sales and Marketing in the Cloud.
+                </div> <!-- / .slogan -->
+                <ul>
+                    <li><i class="fa fa-sitemap signin-icon"></i> Powerful analytics</li>
+                    <li><i class="fa fa-flash signin-icon"></i> Rapid deployment</li>
+                    <li><i class="fa fa-bullseye signin-icon"></i> Targeted recommendations</li>
+                    <li><i class="fa  fa-bar-chart-o signin-icon"></i> Proven results</li>
+                </ul> <!-- / Info list -->
+            </div>
+
+            <div class="signin-form">
+                <div class="login-form">
+                    <form role="form">
+                        <div class="signin-text">
+                            <span>Sign In to your account</span>
+                        </div>
+                        <div class="alert alert-danger login-error"></div>
+                        <div class="alert alert-success password-reset-message"></div>
+
+                        <div class="form-group w-icon">
+                            <input type="text" class="form-control input-lg input-username" name="username"
+                                   placeholder="Enter username" value="">
+                            <span class="fa fa-user signin-form-icon"></span>
+                        </div>
+                        <div class="form-group w-icon">
+                            <input type="password" class="form-control input-lg input-password" name="pwd"
+                                   placeholder="Enter password" value="">
+                            <span class="fa fa-lock signin-form-icon"></span>
+                        </div>
+                        <div>
+                            <label class="checkbox lbl-remember-me" for="id-chk-remember-me">
+                                <input type="checkbox" class="chk-remember-me px" id="id-chk-remember-me" checked="checked">
+                                <span class="lbl">Remember my username.</span>
+                            </label>
+                        </div>
+                        <div class="form-actions">
+                            <input type="button" id="login-submit" value="SIGN IN" class="signin-btn bg-primary login-submit">
+                            <a class="forgot-password" style="cursor:pointer" id="forgot-password-link">Trouble logging in?</a>
+                        </div>
+                    </form>
+                </div>
+                <!-- Password reset form -->
+                <div class="password-reset-form" id="password-reset-form">
+                    <div class="header">
+                        <div class="signin-text">
+                            <span>Why are you having trouble logging in?</span>
+                            <div class="close">&times;</div>
+                        </div> <!-- / .signin-text -->
+                    </div> <!-- / .header -->
+
+                    <!-- Form -->
+                    <form id="password-reset-form_id">
+
+                      <div class="alert alert-danger password-reset-error"></div>
+                      <div class="form-group">
+                        <div class="radio">
+                          <label>
+                            <input class="px" type="radio" name="forgotPassword" value="password" id="rdo-forgot-password"/>
+                            <span class="lbl">I forgot my password</span>
+                          </label>
+                        </div>
+
+                        <div class="radio">
+                          <label>
+                            <input class="px" type="radio" name="forgotPassword" value="username" id="rdo-forgot-username"/>
+                            <span class="lbl">I forgot my Username</span>
+                          </label>
+                        </div>
+                      </div>
+
+                        <div class="form-group w-icon">
+                            <input type="text" name="password_reset_email" id="p_email_id" class="form-control input-lg input-forgot-password" placeholder="Enter your email">
+                            <span class="fa fa-envelope signin-form-icon"></span>
+                        </div> <!-- / Email -->
+
+                        <div class="form-actions">
+                            <input type="button" id="password-reset-button" value="CONTINUE" class="signin-btn bg-primary">
+                        </div> <!-- / .form-actions -->
+                    </form>
+                    <!-- / Form -->
+                </div>
+                <!-- / Password reset form -->
+
+              <!-- Auto generated Password Change form -->
+              <div class="password-reset-form" id="auto-generated-password-reset-form" style="display:none;">
+
+                  <div class="header">
+                  <div class="signin-text">
+                    <span>Password reset</span>
+                  </div>
+                  <!-- / .signin-text -->
+                </div>
+                  <!-- / .header -->
+
+
+                <!-- Form -->
+                <form id="auto-generated-password-reset-form_id">
+                  <div class="alert alert-danger change-pwd-error"></div>
+                  <div class="alert alert-success change-pwd-success"></div>
+
+                    <form id="change-password-from-link-form" class="form-horizontal">
+                      <div class="form-group input-group">
+                        <span class="input-group-addon">
+                          <span class="fa fa-lock "></span>
+                        </span>
+                        <input class="form-control" name="security-code" placeholder="Security Code (Code has been sent to your email with link)"/>
+                    </div>
+
+                      <div class="form-group input-group">
+                        <span class="input-group-addon">
+                          <span class="fa fa-lock "></span>
+                        </span>
+                        <input type="password" class="form-control" name="new-password" placeholder="New Password"/>
+                    </div>
+
+                      <div class="form-group input-group">
+                        <span class="input-group-addon">
+                          <span class="fa fa-lock "></span>
+                        </span>
+                        <input type="password" class="form-control" name="confirm-password" placeholder="Confirm New Password"/>
+                    </div>
+                    <div class="pull-right">
+                        <span class="fa fa-question-circle" data-toggle="tooltip" data-placement="left"
+                              title="Valid passwords must contain at least eight characters, no spaces, both lowercase and uppercase characters, at least one numeric digit, and at least one special character (any character not 0-9, a-z, A-Z)."></span>
+                    </div>
+
+                    </form>
+
+                  <div class="form-actions">
+                    <input type="button" id="auto-generated-password-reset-button" value="Update Password" class="signin-btn bg-primary"/>
+                  </div>
+                  <!-- / .form-actions -->
+                </form>
+                <!-- / Form -->
+              </div>
+              <!-- / Auto generated Password Change form -->
+
+              <div class="login-msg"></div>
+            </div>
+        <!-- Right side -->
+            </div>
+
+</div>
+</div>

@@ -1,0 +1,18 @@
+<div style="padding: 15px;" />
+<div class="<%= id%>">
+	<select class="select-lcompare" style="float: left;">
+		<% can.each(lcolumns, function(column, i) { %>
+		<option value="<%= column%>"><%= column%></option>
+		<% }); %>
+	</select>
+	<select class="select-compare" style="float: left;">
+		<% can.each(compares, function(compare, i) { %>
+		<option value="<%= i%>"><%= compare%></option>
+		<% }); %>
+	</select>
+	<select class="select-rcompare" style="float: left;">
+		<% can.each(rcolumns, function(column, i) { %>
+		<option value="<%= column%>"><%= column%></option>
+		<% }); %>
+	</select>
+</div>

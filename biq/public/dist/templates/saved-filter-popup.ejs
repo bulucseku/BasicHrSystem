@@ -1,0 +1,19 @@
+﻿<div>
+  <div class="saved-filter-list-popup-header">
+    <div class="saved-filter-list-popup-add-button" title="Add new saved filter">ADD</div>
+  </div>
+  <div class="saved-filter-list-popup-body">
+    <% can.each(savedFilters, function(filter, i) { %>
+      <div class="saved-filter-list-popup-item" title="<%= filter.name%>">
+        <span class="saved-filter-list-popup-item-name"><%= filter.name%></span>
+        <div class="saved-filter-list-popup-item-edit-button" filterName="<%= filter.name%>" title="Edit this saved filter">
+          <img class="edit-icon"  src="images/edit12.png" />
+        </div>
+        <div class="saved-filter-list-popup-item-remove-button" filterName="<%= filter.name%>" title="Remove this saved filter">
+          <img class="remove-icon"  src="images/smallx12.png" />
+        </div>
+        <div style="clear:both"></div>
+      </div>
+    <% }); %>
+  </div>
+</div>

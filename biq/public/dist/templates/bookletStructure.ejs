@@ -1,0 +1,9 @@
+﻿<% can.each(bookletReports, function(report, i) { %>
+<div class="mover-box-item" id="<%= i%>" title="<%= report.name%>" >
+  <span class="mover-box-item-name"><%= i+1%>. <%= report.name%></span>
+  <div class="moverbox-item-removebutton btn btn-xs" title="Remove this report from the booklet" id="<%= i%>">
+    <i class="fa fa-times text-danger" />
+  </div>
+  <div style="clear: both;"></div>
+</div>
+<% }); %>

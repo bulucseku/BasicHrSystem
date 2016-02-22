@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="com.sentrana"
+		module="biq_2.11"
+		revision="3.2.2-61ab223d8b41006639a60d1e1e516bf344e53ddb-SNAPSHOT"
+		status="integration"
+		publication="20151201114437"
+	>
+		<description>
+		BIQ
+		</description>
+	</info>
+	<configurations>
+		<conf name="compile" visibility="public" description=""/>
+		<conf name="runtime" visibility="public" description="" extends="compile"/>
+		<conf name="test" visibility="public" description="" extends="runtime"/>
+		<conf name="provided" visibility="public" description=""/>
+		<conf name="optional" visibility="public" description=""/>
+		<conf name="compile-internal" visibility="private" description="" extends="compile,optional,provided"/>
+		<conf name="runtime-internal" visibility="private" description="" extends="runtime,optional"/>
+		<conf name="test-internal" visibility="private" description="" extends="test,optional,provided"/>
+		<conf name="plugin" visibility="private" description=""/>
+		<conf name="sources" visibility="public" description=""/>
+		<conf name="docs" visibility="private" description=""/>
+		<conf name="pom" visibility="public" description=""/>
+		<conf name="scala-tool" visibility="private" description=""/>
+	</configurations>
+	<publications>
+		<artifact name="biq_2.11" type="pom" ext="pom" conf="pom"/>
+		<artifact name="biq_2.11" type="jar" ext="jar" conf="compile"/>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.11.7" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.11.7" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.sentrana" name="applicationshell_2.11" rev="0.1" conf="test->test;compile->compile"/>
+		<dependency org="com.typesafe.play" name="twirl-api_2.11" rev="1.0.2" conf="compile->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-runtime_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="org.scoverage" name="scalac-scoverage-plugin_2.11" rev="1.1.1" transitive="false" conf="provided->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play_2.11" rev="2.3.10" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-test_2.11" rev="2.3.10" conf="test->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-docs_2.11" rev="2.3.10" conf="docs->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.3.6" conf="compile->default(compile)"/>
+		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.3.6" conf="compile->default(compile)"/>
+		<dependency org="org.mongodb" name="casbah_2.11" rev="2.8.0" conf="compile->default(compile)"/>
+		<dependency org="commons-io" name="commons-io" rev="2.4" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-jdbc_2.11" rev="2.3.10" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-ext_2.11" rev="3.2.11" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-mongo_2.11" rev="3.2.11" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.11" rev="3.2.11" conf="compile->default(compile)"/>
+		<dependency org="com.github.nscala-time" name="nscala-time_2.11" rev="1.6.0" conf="compile->default(compile)"/>
+		<dependency org="postgresql" name="postgresql" rev="9.1-901-1.jdbc4" conf="compile->default(compile)"/>
+		<dependency org="org.prefuse" name="prefuse" rev="beta-20071021" conf="compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.11.7" conf="compile->default(compile)"/>
+		<dependency org="org.scalatestplus" name="play_2.11" rev="1.2.0" conf="test->default(compile)"/>
+		<dependency org="com.twitter" name="util-core_2.11" rev="6.22.0" conf="compile->default(compile)"/>
+		<dependency org="com.typesafe.play" name="play-ws_2.11" rev="2.3.10" conf="compile->default(compile)"/>
+	</dependencies>
+</ivy-module>

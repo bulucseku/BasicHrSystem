@@ -1,0 +1,24 @@
+error.chooseAnotherPassword = Choose a password you haven''t previously used with this account.
+error.csvExportFailed = Failed to export in CSV; cacheId={0}, message={1}
+error.emptyCredentials = Empty credentials; user={0}, password={1}
+error.emptyLookupDataSource = Empty lookup data source
+error.emptyPassword = Password cannot be empty.
+error.failedToExportToCSV = Failed To Export in CSV
+error.failedToParseData = Error in preparing dataset for dashboard; datasource = {0}
+error.invalidCascadeId = Invalid cascade id in parameter
+error.invalidCredentials = Login information is not correct.
+error.invalidPasswordFormat = Invalid password. Valid passwords must contain at least eight characters, no spaces, both lowercase and uppercase characters, at least one numeric digit, and at least one special character (any character not 0-9, a-z, A-Z).  This message needs to be changed if ''PasswordRegExp'' changed in web.config
+error.missingDataSource = Invalid or missing data source name
+error.missingReportElement = Can''t find report element configuration; ReportElement id={0}
+error.noDataset = No dataset found to export; cacheId={0}
+error.notAuthenticated = The user is not authenticated. Please login.
+error.sessionExpired = User''s session expired.
+error.unauthorizedAccess = You have not been given access to this application.  Please contact Sentrana.
+error.unknownException = Unknown exception.
+error.wrongPassword = Wrong password.
+error.cannotFindDashboard = Can''t find Dashboard ID: {0}!
+error.notPermitted = "You are not permitted to call this service!"
+
+success.configFileSaved = Configuration file has been saved successfully!
+success.allConfigFileSaved = All Configuration files have been saved successfully!
+success.allConfigFileUpdated = All Configuration files have been updated successfully!

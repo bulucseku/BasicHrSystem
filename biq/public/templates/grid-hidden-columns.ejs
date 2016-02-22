@@ -1,0 +1,15 @@
+<div class="hidden-column-container">
+  
+<% can.each(hiddenColumns, function(column, i) { %>
+	<div class="tu tu-header-nonexpandable hidden-column" columnName="<%= column%>">
+	  <div class="tu-header">  
+		<span class="name"><%= column%></span>
+		<div class="tu-close-container">
+      <i class="close fa fa-times text-danger" />
+		</div>
+		<div style="clear: both;"></div>
+	  </div>   	
+	</div>        
+<% }); %>
+  <div style="clear: both;"></div>
+</div>

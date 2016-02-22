@@ -1,0 +1,16 @@
+<div class="fu" dim="<%= dim%>" hid="<%= hid%>">
+  <div class="fu-header<%if(isFiterGroup){%> fu-header-expandable <% }%>">
+	<%if(isFiterGroup){%> <i class="fu-header-updn-img fa fa-chevron-right" />  <% }%>
+
+    <span class="<%if(isFiterGroup){%> fu-header-name-expandable <% }%> <% if(filtered){%>name user-filter-applied<%}else{%>name<%}%>">  <%= name%></span>
+    <div class="fu-close-container">
+      <img class="close"  src="images/smallx12.png" />
+    </div>
+    <div style="clear: both;"></div>
+  </div>
+    
+	<div class="link-saved-filters" style="display: none;" >
+		SAVED FILTERS
+	</div>
+
+</div>

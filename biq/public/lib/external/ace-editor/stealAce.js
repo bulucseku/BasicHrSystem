@@ -1,0 +1,1 @@
+steal('lib/external/ace-editor/ace.js').then('lib/external/ace-editor/theme-chrome.js', 'lib/external/ace-editor/mode-xml.js');

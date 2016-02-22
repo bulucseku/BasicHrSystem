@@ -1,0 +1,20 @@
+<div class="modal-content">
+<div class="common-dlg-header modal-header">
+    <h4 class="sentrana-common-dlg-title modal-title text-left">
+      <%= headerText%>
+    </h4>
+</div>
+
+<div class="common-dlg-body modal-body">
+  <% if (status === "progress") {%>
+  <img class="dw-loading-animation" src="images/loader.gif" />
+  <% } else if (status === "error") { %>
+  <img class="dw-loading-animation" src="images/error.png" />
+  <% }%>
+  <%= bodyText%>
+</div>
+<div class="common-dlg-footer modal-footer">  
+  <button class="block-ui-btn btn"><%= buttonCaption%></button>  
+</div>
+</div>
+

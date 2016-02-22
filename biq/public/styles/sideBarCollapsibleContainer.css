@@ -1,0 +1,150 @@
+.sideBarCollapsibleContainerTitle {
+    font-size: 14px;
+    font-weight: normal;
+    padding: 6px 0 6px 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    background-color: #f5f5f5 !important;
+}
+
+
+.sideBarCollapsibleContainerTitle.child {
+    font-weight: bold;
+    padding: 6px 0 6px 0;
+    color: rgb(80, 79, 78) !important;
+    border-bottom: 0;
+    background-color: #fff !important;
+    /* padding-left: 5px !important; */
+}
+
+.sideBarCollapsibleContainerTitle.child:hover {
+    background-color: rgb(237, 242, 248) !important;
+}
+
+
+.sentrana_parameter_collapsible_container {
+    border-top: 1px solid #575758;
+    border-right: 1px solid #575758;
+    border-bottom: 1px solid #575758;
+    background: url(../images/secondary_nav_back.jpg);
+    background-repeat: repeat-x;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+}
+
+.hideParamContainer {
+    display: none;
+}
+
+.paramCollapsibleContainerTitle {
+    float: right;
+    overflow: hidden;
+    height: 25px;
+    cursor: pointer;
+    color: #393939;
+    background: #727272;
+}
+.topLevelFilterIcon {
+    float: left;
+    width: 35px;
+    height: 26px;
+    margin: 0;
+    border: 0;
+    background-image: url(../images/secondary_nav_filterIcon.png);
+    background-repeat: no-repeat;
+}
+.hideShowParams,
+.filter {
+    font-weight: bold;
+    float: left;
+    padding: .55em .75em .5em .75em;
+    border-top: 1px solid #fff;
+    border-bottom: 0;
+}
+.filter {
+    border-left: 1px solid #575758;
+}
+.no-touch .paramCollapsibleContainerTitle:hover {
+    color: #000 !important;
+}
+.sideBarCollapsibleContainerContent {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.sideBarCollapsibleContainerContent .metrics {
+    padding-top: 6px;
+}
+
+.sideBarCollapsibleContainerContent .sideBarCollapsibleContainerContent {
+    border-bottom: 0;
+}
+
+/* Added to support bootstrap styling for checkbox selections */
+.object-selector-wrapper label {
+    font-weight: normal;
+}
+
+.paramCollapsibleContainerContent {
+    padding: 5px;
+    background-image: url(../images/filter_back.jpg);
+}
+
+.sideBarCollapsibleContainerTitle .sideBarButtonBar {
+    float: right;
+}
+
+.sideBarCollapsibleContainerTitle .sideBar-cc-button {
+    display: inline-block;
+    margin: 0;
+    border: 1px solid #535353;
+}
+
+/*Collapsible panel icon indicator*/
+.sideBarIndicator {
+    float: left;
+    padding: 5px 5px;
+}
+
+.object-selector-wrapper > label {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.object-selector-wrapper > label > span.lbl {
+    display: inline !important;
+}
+
+.object-selector-wrapper label {
+    vertical-align: middle;
+}
+
+.object-selector-wrapper.right {
+    padding-left: 2%;
+}
+
+.object-selector-wrapper input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/*
+.collapsibleContainerTitle .buttonBar {
+	float: right;
+	margin: -4px -3px 0 0;
+    *margin-top: -28px;
+}*/
+
+.sideBarCollapsibleContainerTitle .cc-button {
+    margin: -2px 2px 0 0;
+}
+
+.sideBarCollapsibleContainerContent {
+    overflow: hidden;
+}
+
+.saved-reports-list .sideBarCollapsibleContainerContent,
+.saved-booklets-list .sideBarCollapsibleContainerContent {
+    overflow: visible !important;
+}

@@ -1,0 +1,65 @@
+.sidebar-dockablePanel
+{
+    display: none;
+    position: absolute;
+    border: none;
+    background: #fff;
+    z-index: 1;
+    top:0px !important;
+}
+
+.sidebar-docPanelTitle
+{
+    font-size:16px;
+    width: 100%;
+    height: 35px;
+    border: 0;
+    background-color: #613474;
+    color: #fff;
+}
+
+.sidebar-docPanelTitleText
+{
+    width: 80%;
+    float: left;
+    padding: 6px 0px 6px 7px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidebar-button-wrapper {
+    text-align: right;
+    padding: 6px 6px 6px 0px;
+}
+
+.sidebar-close-icon{
+    cursor: pointer;
+}
+
+.sidebar-scrollable-panel
+{
+    cursor: default;
+    overflow: auto;
+}
+
+.sidebar-header-icon{
+    padding-right: 2px;
+}
+
+.sidebar-position-left{
+    left: 0;
+}
+
+.sidebar-position-right{
+    right: 0;
+}
+.panel-heading {
+    background: #fafafa;
+    border-bottom: 1px solid #ececec;
+    padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    position: relative;
+}

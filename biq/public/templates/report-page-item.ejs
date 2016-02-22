@@ -1,0 +1,13 @@
+﻿<% can.each(pageList, function(page, i) { %>
+      
+  <li role="presentation" pageId="<%= page.id %>" class="page-tab page-item-<%= page.id %>">
+    <a href="#<%= page.id %>" data-toggle="tab"><%= page.title %></a>
+  </li>
+
+<% }); %>
+      
+<li role="presentation">
+  <a class="add-page" title="Add new configuration">
+    <span class="fa fa-plus"></span>
+  </a>
+</li>

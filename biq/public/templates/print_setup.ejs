@@ -1,0 +1,56 @@
+﻿<div class="print-options-setup">
+    <div class="print-options-outputtype-container form-horizontal">
+      <div class="print-options-column-num-chooser form-group">
+        <div class="row">
+          <label class="col-sm-4 control-label">Maximum: </label>
+          <div class="col-sm-2">
+            <input type="text" inputfor="column" class="print-options-maximum-columns decimal-place-num" value="<%= cols %>"></input>
+            <div class="decimal-place-indicator">
+              <div class="increase-value fa fa-caret-up" type="column"/>
+              <div class="decrease-value fa fa-caret-down" type="column"/>
+            </div>
+          </div>
+          <label class="col-sm-3 control-label" style="text-align:left; margin-left:-20px;">columns in a page.</label>
+        </div>
+      </div>
+
+      <div class="print-options-row-num-chooser form-group">
+        <div class="row">
+          <label class="col-sm-4 control-label">Maximum: </label>
+          <div class="col-sm-2">
+            <input type="text" class="print-options-maximum-rows decimal-place-num" inputfor="row" value="<%= rows %>"></input>
+            <div class="decimal-place-indicator">
+              <div class="increase-value fa fa-caret-up" type="row" />
+              <div class="decrease-value fa fa-caret-down" type="row"/>
+            </div>
+          </div>
+          <label class="col-sm-3 control-label" style="text-align:left; margin-left:-20px;">rows in a page.</label>
+        </div>
+      </div>
+      
+      
+          <div class="form-group">
+              <div class="row">
+                <label class="control-label col-sm-4">Print item:</label>
+                <div class="print-options-output-type-chooser col-sm-6">
+
+                <label class="output-type-label checkbox-inline" for="print-options-outputtype-both" title="Both">
+                  <input id="print-options-outputtype-both" class="px" type="radio" name="print-options-outputtype" value="both" title="Both" checked="checked" ></input>
+                  <span class="lbl">Both</span>
+                </label>
+                
+                <label class="output-type-label checkbox-inline" for="print-options-outputtype-table" title="Grid">
+                  <input id="print-options-outputtype-table" class="px" type="radio" name="print-options-outputtype" value="grid" title="Grid"></input>
+                  <span class="lbl">Table</span>
+                </label>
+
+                <label class="output-type-label checkbox-inline" for="print-options-outputtype-chart" title="Chart">
+                  <input id="print-options-outputtype-chart" class="px" type="radio" name="print-options-outputtype" value="chart" title="Chart" ></input>
+                  <span class="lbl">Chart</span>
+                </label>
+            </div>
+                
+            </div>
+         </div>
+   </div>
+</div>

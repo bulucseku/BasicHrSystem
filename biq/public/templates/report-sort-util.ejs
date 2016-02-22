@@ -1,0 +1,84 @@
+﻿<div class="result-column-container">
+    <div class="result-column-header">
+        <div title="<%= name %>" class="result-column-name"><%= name %></div>
+
+        <% if (sortOrder==="A") {%>
+        <i class="result-column-sort-icon result-column-icons fa fa-sort-alpha-asc pull-right" title="Sort order" />
+        <% } else{%>
+        <i class="result-column-sort-icon result-column-icons fa fa-sort-alpha-desc pull-right" title="Sort order"  />
+        <% } %>
+        <div class="result-column-icons pull-right" title="Sort position">
+            <span class="result-column-sort-pos-num"> <%= pos%> </span>
+        </div>
+
+        <i class="result-column-icons result-column-hide-icon  fa fa-minus-circle pull-right text-danger" title="This column is hidden" />
+
+        <div style="clear: both;"></div>
+    </div>
+
+    <div class="report-sort-body">
+        <form>
+          <% if (colType === Sentrana.ColType.METRIC) {%>
+          <button class="btn btn-hide-column">Hide This column</button>
+          <%}%>
+            <div class="column-sorting-container row">
+                <div class="column-sort-element column-sort-order-pos-element col-xs-6">
+                    <div class="column-sort-text">
+                      SORT POSITION:
+                    </div>
+                    <div class="column-sort-order-pos">
+                        <span class="decimal-place-num"> <%= pos%> </span>
+                        <div class="decimal-place-indicator">
+                            <div class="increase-value fa fa-caret-up">
+
+                            </div>
+                            <div class="decrease-value fa fa-caret-down">
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="column-sort-element column-sort-order-element col-xs-6">
+                    <div class="column-sort-text">
+                      SORT ORDER:
+                    </div>
+                    <div class="column-sort-order">
+                        <div class="checkbox-wrapper">
+                            <label for="column-sort-order-asc-<%= oid %>" class="radio">
+                                <input type="radio" name="column-sort-order-<%= oid %>" class="ord-column-sort-order px" value="A" id="column-sort-order-asc-<%= oid %>"/>
+                                <span class="lbl">ASC</span></label>
+                        </div>
+                        <div class="checkbox-wrapper">
+                            <label for="column-sort-order-desc-<%= oid %>" class="radio">
+                                <input type="radio" name="column-sort-order-<%= oid %>" class="ord-column-sort-order px" value="D" id="column-sort-order-desc-<%= oid %>"/>
+                                <span class="lbl">DSC</span></label>
+                        </div>
+
+                    </div>
+
+                    <div style="clear: both;"></div>
+
+                </div>
+              <!--<% if (colType === Sentrana.ColType.METRIC) {%>
+                
+                <div class="column-sort-element btn-hide-column-container col-xs-4">
+                    <button class="btn btn-xs btn-success active btn-hide-column">HIDE</button>
+                </div>
+                
+              <%}%>-->
+                
+            </div>
+        </form>
+    </div>
+
+  <div class="report-filter-buttons">
+    <button type="button" class="btn btn-primary btn-apply-sort">OK</button>
+    <button class="btn btn-reset-sort">RESET</button>
+    <button class="btn btn-cancel-sort">CANCEL</button>
+    <div style="clear: both;"></div>
+  </div>
+  
+  <div style="clear: both;"></div>
+</div>

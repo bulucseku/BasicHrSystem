@@ -1,0 +1,30 @@
+<div class="accordion-panel">
+  <div class="margin-dock-panel clearfix">
+    <div class="button_wrapper_docked">
+      <div class="btn-gradient">
+        <div class="margin-dock-panel-image"></div>
+      </div>
+    </div>
+    <div class="vertical-text">
+      <%= pinHeaderText %>
+    </div>
+  </div>
+  <div class="accordion-whole-panel">
+    <div class="top-dock-panel">
+      <div class="top-dock-panel-text"><%= pinHeaderText %></div>
+      <div class="button_wrapper">
+        <div class="btn-gradient">
+          <div class="top-panel-image"></div>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-main">
+      <% for(var i=0; i<headers.length; i++) { %>
+      <h3>
+        <a href="#"><%= headers[i].headerText %></a>
+      </h3>
+      <div id="<%= headers[i].headerId %>"></div>
+      <% } %>
+    </div>
+  </div>
+</div>

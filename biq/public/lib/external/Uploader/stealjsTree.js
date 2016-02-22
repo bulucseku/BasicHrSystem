@@ -1,0 +1,1 @@
+steal('vendor/jstree/jquery.jstree.js', 'vendor/jstree/themes/apple/style.css');

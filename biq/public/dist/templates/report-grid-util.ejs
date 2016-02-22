@@ -1,0 +1,52 @@
+﻿<div class="grid-util-container">
+  <div class="column-util-hide-button" >Hide Column</div>
+  
+  <div class="column-sorting-container">
+    <div class="column-sort-element column-sort-order-pos-element">
+      <div class="column-sort-text">SORT ORDER:</div>
+      <div class="column-sort-order-pos">
+      <span class="decimal-place-num">
+        <%= pos%>
+      </span>
+      <div class="decimal-place-indicator">
+        <div class="increase-value"></div>
+        <div class="decrease-value"></div>
+      </div>
+      
+    </div>
+    </div>
+
+    <div class="column-sort-element column-sort-order-element">
+      <div class="column-sort-text">SORT:</div>
+      <div class="column-sort-order">
+      <div class="checkbox-wrapper">
+        <input type="radio" name="column-sort-order" class="ord-column-sort-order" value="A" id="column-sort-order-asc"/>
+        <label for="column-sort-order-asc">ASC</label>
+      </div>
+      <div class="checkbox-wrapper">
+        <input type="radio" name="column-sort-order" class="ord-column-sort-order" value="D" id="column-sort-order-desc"/>
+        <label for="column-sort-order-desc">DSC</label>
+      </div>
+      
+    </div>
+      
+    <div style="clear: both;"></div>
+      
+    </div>
+
+    <div style="clear: both;"></div>
+  </div>
+  
+  <div class="column-search-container">
+    <span>SEARCH:</span>
+    <input class="form-control accordion-search-input" type="text"></input>
+  </div>
+  
+  <div class="filter-items"> </div>
+
+  <div class="filter-submit-buttons">
+    <div class="filter-submit-button-ok" >OK</div>
+    <div class="filter-submit-button-cancel">Cancel</div>
+  </div>
+  
+</div>

@@ -1,0 +1,898 @@
+/* Overrides lib/external/pixel-admin/stylesheets/pages.css */
+
+#page-signin-bg img {
+    height: 100%;
+    /*width: auto;*/
+}
+
+
+@media (min-width: 1200px) {
+    #page-signin-bg img {
+        width: 100%;
+        /*height: auto;*/
+    }
+}
+
+@media (min-width: 768px) {
+    .page-signin .signin-container {
+        display: table;
+        width: 90%;
+        min-width: 700px;
+        max-width: 800px;
+        margin: 80px auto;
+        table-layout: fixed;
+    }
+
+    .page-signin .signin-info {
+        display: table-cell;
+        width: 40%;
+        padding: 30px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .page-signin .signin-form {
+        display: table-cell;
+        width: 60%;
+        vertical-align: top;
+    }
+}
+
+#page-signin-bg .overlay {
+    background: rgba(140,100,130,.3);
+}
+
+
+/* End of pages.css override*/
+
+@media (max-width: 1024px) {
+    .col {
+        width: 100% !important;
+    }
+}
+
+div.docPanelTitle {
+    line-height: 23px !important;
+}
+
+.dockablePanel-left,
+.dockablePanel-right {
+    min-height: 226px !important;
+}
+
+/* Make font for button icons slightly larger to avoid distortion */
+.cc-button .btn-sm .fa {
+    font-size: 14px;
+}
+
+
+.ui-slider {
+    position: relative !important;
+    text-align: left !important;
+    border-width: 0 !important;
+    border-radius: 20px !important;
+    background: #d7d7d7 !important;
+}
+
+#main-content {
+    margin-top: 46px;
+}
+
+.login-msg {
+    display: none;
+    margin-top: 115px;
+    margin-left: 75px;
+}
+
+.ui-dialog {
+    z-index: 1150;
+}
+
+.ui-dialog-titlebar {
+    cursor: move;
+}
+
+
+.tbl-user-management-filter,
+.tbl-data-dictionary-definition {
+    overflow: auto;
+    max-height: 500px;
+    margin-top: 10px;
+    border: 1px solid #dcdcdc;
+}
+
+.tbl-data-dictionary-definition {
+    display: none;
+}
+
+select::-ms-expand {
+    border: 0;
+    background: #fff;
+}
+
+.filterCalendarContainer {
+    margin: 5px 5px 5px -20px;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+}
+
+.element-filter-calendar-from,
+.element-filter-calendar-to {
+    width: 135px;
+    height: 25px;
+    margin: 5px;
+}
+
+.date-range-close-container {
+    margin: 3px 0 3px 8px;
+    padding: 10px;
+}
+
+.ui-datepicker-title select {
+    color: #000;
+}
+
+.formsRadio label.radio-inline {
+    margin-left: 0;
+}
+
+.ui-datepicker .ui-state-default {
+    border: none !important;
+}
+
+.ui-datepicker .ui-state-disabled {
+    color: #dedede;
+}
+
+.btn-hide-column-container .btn-group {
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.object-selector-wrapper > label {
+    margin-bottom: 3px;
+}
+
+.report-search-container-booklet {
+    margin-bottom: 0 !important;
+}
+
+.report-search-input-booklet {
+    width: auto;
+    height: auto !important;
+    padding: 0 0 0 5px !important;
+}
+
+.print-grid-body .table {
+    border: 1px solid #ededed;
+}
+
+.scrollable-panel {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+}
+
+.users-auto-complete-label {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.ui-widget-overlay {
+    z-index: 1100;
+}
+
+tr.group,
+tr.group:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #ddd !important;
+}
+
+.modal {
+    overflow: hidden;
+    overflow-y: hidden;
+}
+
+/*#biq-container {
+    min-width: 1032px;
+}*/
+
+.report-viewer-panel-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*Overriding the position of the check box in the chart options dialog*/
+.gt-ie8 .report-chart-options-dialog-container input.px {
+    position: absolute !important;
+}
+
+/*Hide the range filters with the grid temporarily*/
+.range-filter-cntr {
+    display: none !important;
+}
+
+/*http://stackoverflow.com/questions/17045132/scrollbar-overlay-in-ie10-how-do-you-stop-that*/
+@-ms-viewport {
+    width: auto !important;
+}
+
+.right-navbar-nav li {
+    cursor: pointer;
+}
+
+/*Overriding the slider handle cursor*/
+.ui-rangeSlider .ui-rangeSlider-handle {
+    cursor: pointer !important;
+}
+
+/*Remove the background image for the tree control for apple theme*/
+.jstree-apple > ul {
+    background: none !important;
+}
+
+.page-signin .password-reset-form {
+    position: relative !important;
+    padding: 0 !important;
+}
+
+body.modal-open {
+    overflow: auto !important;
+}
+
+.page-signin  .login-form {
+    display: none;
+}
+
+.report-details td,
+.booklet-details td {
+    padding-bottom: 5px;
+    vertical-align: top;
+}
+
+.data-dictionary-definition .DT-per-page {
+    border-right: none !important;
+}
+
+.chart-custom-btn-container {
+    margin-right: 8px;
+}
+
+.maximized-chart-container {
+    float: left;
+}
+
+#maximize-chart-dlg .modal-body {
+    padding-top: 5px;
+    padding-right: 5px;
+}
+.maximized-chart-dialogs-buttons {
+    float: right;
+}
+.maximized-chart-dialogs-buttons .cc-button {
+    float: left;
+    margin: 0 2px;
+}
+
+.maximized-chart-cntr {
+    width: 95%;
+    height: 95%;
+}
+
+.show-hide-report-filters {
+    z-index: 990;
+    right: 1px;
+    margin-top: 6px;
+    border: none;
+}
+.report-chart  .chart-type {
+    z-index: 990;
+}
+
+.show-hide-report-filters .panel-heading {
+    margin-bottom: 0;
+    padding: 0;
+    border: none;
+    background-color: #fff;
+}
+
+.show-hide-report-filters .panel-heading .indicator-icon {
+    font-size: 10px;
+    color: #aaa;
+    border: none;
+}
+
+.report-filters-container {
+    display: none;
+    clear: both;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.report-filter-element {
+    float: left;
+    width: 250px;
+    margin: 0 10px 5px 0;
+}
+
+.report-filters {
+    position: relative;
+    min-height: 100px;
+    padding: 0 130px 0 5px;
+}
+
+.btn-apply-filters {
+    font-size: 12px;
+    position: absolute !important;
+    right: 17px;
+    text-transform: capitalize !important;
+}
+
+.btn-reset-filters {
+    position: absolute;
+    right: 17px;
+    bottom: 5px;
+}
+
+
+/* Overriding datatables sorting image and hide sorting images*/
+/*
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, 
+table.dataTable thead .sorting_desc:after,table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:after{
+  content: none !important;
+}
+*/
+
+table.dataTable thead > tr > th {
+    padding-right: 22px !important;
+}
+
+table.dataTable th:after {
+    top: 30% !important;
+    width: 10px !important;
+}
+
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc {
+    background: rgba(0, 0, 0, 0) !important;
+}
+/*for sub menu*/
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+    top: 0;
+    left: -100%;
+    margin-top: -6px;
+    -webkit-border-radius: 4px;
+       -moz-border-radius: 4px;
+            border-radius: 4px;
+}
+
+.dropdown-submenu:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu > a:after {
+    display: block;
+    float: left;
+    width: 0;
+    height: 0;
+    margin-top: 5px;
+    margin-left: -20px;
+    content: " ";
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent;
+    border-right-color: #ccc;
+}
+
+.dropdown-submenu:hover > a:after {
+    border-right-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left > .dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+       -moz-border-radius: 6px 0 6px 6px;
+            border-radius: 6px 0 6px 6px;
+}
+
+.execution-monitor {
+    width: 100%;
+    /*padding-top: 10px;*/
+}
+
+.actionbar {
+    padding: 5px 0 5px 0;
+    vertical-align: top;
+}
+
+.execution-monitor,
+.actionbar {
+    display: table-cell;
+    width: 100%;
+    border: none;
+    background: inherit;
+    vertical-align: middle;
+}
+
+.actionButtonContainer {
+    display: inline-flex;
+}
+
+.actionButtonContainer button {
+    margin-right: 2px;
+}
+
+/*For custom range slider inputs*/
+.range-filter-custom-input-left {
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+
+.range-filter-custom-input-right {
+    float: right;
+    width: 45%;
+    text-align: right;
+}
+.report-viewer-panel-title {
+    padding-left: 0 !important;
+}
+
+.disabled-icon {
+    cursor: default;
+    opacity: .4;
+}
+
+/*Pivot Table*/
+
+.pivot-table-container {
+    width: 100%;
+    margin: auto;
+}
+
+.pivot-table-header,
+.pivot-elements-header {
+    font-size: 1.25em;
+    font-weight: bold;
+    line-height: 43px;
+    width: 100%;
+    text-align: center;
+    color: #555;
+    border-bottom: 1px solid #dcdcdc;
+    background-color: #f5f5f5;
+}
+
+
+
+
+
+
+
+.pivot-elements {
+    float: left;
+    overflow: auto;
+    width: 30%;
+    min-height: 180px;
+    max-height: 180px;
+    margin: 5px;
+    border: 1px solid #dcdcdc;
+}
+
+.pivot-elements-header {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.pivot-fields {
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.pivot-filters,
+.pivot-rows {
+    margin-left: 25px;
+}
+
+.pivot-rows,
+.pivot-values {
+    margin-top: 35px;
+}
+
+
+.pivot-element {
+    font-size: .9em;
+    font-weight: bold;
+    line-height: 30px;
+    float: left;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    background-color: #d9e6f0;
+}
+
+.pivot-element:hover {
+    border-color: #4ec697;
+}
+
+
+
+.pivot-definition,
+.pivot-definition-buttons {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.view-pivot {
+    float: right;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+.pivot-element {
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 25px;
+    width: 90%;
+    cursor: move;
+}
+
+.pivot-definition-buttons span {
+    float: right;
+    margin-top: 6px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+#maximized-pivot-cntr .blockUI {
+    position: inherit !important;
+}
+
+.webix_popup {
+    z-index: 1060 !important;
+}
+
+.webix_drag_zone {
+    z-index: 11001 !important;
+}
+.webix_inp_label {
+    font-weight: normal !important;
+    color: #555 !important;
+}
+
+.webix_img_btn_abs:hover {
+    color: #fff !important;
+    background-color: #52c89a !important;
+}
+
+.webix_pivot_transparent {
+    color: #555 !important;
+}
+.webix_toolbar.webix_layout_toolbar {
+    color: #555 !important;
+    background-color: #f8f8f8;
+}
+
+.webix_img_btn_abs {
+    color: #333 !important;
+    background-color: #e6e6e6;
+}
+
+.webix_header > div {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    background-color: #f5f5f5;
+}
+
+.webix_icon {
+    color: #333 !important;
+}
+
+.maximized-pivot-dialogs-buttons {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.maximized-pivot-dialogs-buttons .cc-button {
+    float: left;
+    margin: 0 2px;
+}
+.config-groups .panel-body {
+    padding: 10px !important;
+}
+
+/*Webix css override*/
+.webix_el_button button {
+    font-size: 13px;
+    color: #000;
+    border-color: #ddd;
+    border-bottom-color: #cecece;
+    border-radius: 0 !important;
+}
+
+.webix_el_button button:hover {
+    color: #000;
+    border-color: #ddd;
+    border-bottom-color: #cecece;
+}
+
+
+.webix_view {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.pivotrows .webix_cell:nth-child(2n-1) {
+    background-color: #f9f9f9;
+}
+
+.pivotrows .webix_cell:nth-child(2n) {
+    background-color: #fff;
+}
+
+.rows .webix_row_select {
+    background-color: green;
+}
+
+.pivotrows .webix_ss_header {
+    background: #fff !important;
+}
+
+.pivotrows .webix_hcell {
+    background: #fff;
+    color: #555;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.webix_ss_header td {
+    border-color: #ebebeb;
+}
+
+.webix_ss_body {
+    border-top: 1px solid #ebebeb;
+}
+
+.webix_dtable .webix_ss_vscroll_header {
+    border-bottom: none !important;
+}
+
+.webix_ss_vscroll_header {
+    background: none !important;
+    border-left: none !important;
+}
+
+.webix_view {
+    font-family: inherit !important;
+}
+
+.webix_hs_left {
+    border-right: 1px solid #ebebeb;
+}
+.webix_vscroll_y {
+    overflow-y: auto !important;
+}
+
+.webix_pivot_values {
+    overflow-y: auto !important;
+}
+
+table.dataTable thead .sorting{
+    background: none;
+}
+
+.repository-table-info, .repository-basic-info, .repository-data-dictionary, .lbl-repository-metadata, .repository-metadata-info-loading{
+    margin-bottom: 10px;
+}
+
+.pivot-chart-container {
+    padding-right: 20px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.btn-select-pivot-item {
+    position:relative;
+}
+
+.btn-select-pivot-column {
+    float: right;
+    margin: 5px -15px 0 0;
+}
+
+.btn-select-pivot-item .fa{
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+}
+
+.btn-select-pivot-column-element {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+    z-index: 100;
+}
+
+.pivot-chart-items-body {
+    border: 1px solid #ddd;
+    display: none;
+    position:absolute; 
+    z-index: 100;
+    min-width: 200px;
+    max-width: 200px;
+    background-color: #f8f8f8;
+}
+
+.btn-select-pivot-column-element .pivot-chart-items-body {
+    right: 0;
+    top: 0;
+}
+
+.btn-select-pivot-row {
+    float: left;
+    margin-left: 10px;
+}
+
+.btn-select-pivot-row-element {
+    float: left;
+    margin-left: 5px;
+}
+
+.btn-select-pivot-row-element .pivot-chart-items-body {
+    left: 0;
+    bottom: 0;
+}
+
+.btn-select-pivot-value {
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.btn-select-pivot-value .pivot-chart-items-body {
+    left: 0;
+    top: 0;
+}
+
+.pivot-chart-container .chart-option {
+    margin-left: 50px;
+    clear: none;
+    float: left;
+}
+
+.pivot-chart-container .dropdown-menu  a:hover{
+    color: #000 !important;
+    background-color: #ddd !important;
+}
+
+.tooltip-inner {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+    border: 1px solid gray;
+    box-shadow: 1px 1px 10px #888888;
+    -webkit-box-shadow: 1px 1px 10px #888888;
+    -moz-box-shadow:1px 1px 10px #888888;
+}
+
+.pivot-table-container .dropdown-submenu > .dropdown-menu {
+    left: -160px;
+}
+
+.pivot-chart-cntr{
+	overflow:hidden;
+    width: 100%;
+    float: left;
+}
+
+.pivot-chart {
+    min-height: 400px;
+}
+
+.pivot-chart .report-chart-warning {
+    float: left;
+    margin-top: 150px;
+}
+
+.webix_el_button{
+    float:right;
+}
+
+.webix_scroll_cont{
+    padding-right: 10px;
+}
+
+#sentrana-common-alert-dialog .modal{
+    z-index: 1070;
+}
+
+.ui-draggable-dragging {
+     background: #ddd; 
+     padding-top: 5px; 
+     padding-bottom: 5px; 
+     padding-right: 5px; 
+}
+
+.btn-report-filter-remove {
+    position: absolute;
+    top: 5px;
+    right: 1px;
+}
+
+.btn-report-filter-remove .btn{
+    color: red;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.sentrana_golden_layout {
+    /*padding-bottom: 3px;*/
+}
+
+.analytic-report-elements  .tab-pane {
+    padding: 0;    
+}
+
+.layout-page-content {
+
+    margin-left: 1px;
+}
+.layout-page-main-menu .navigation li.active {
+    border-right: 1px solid #dfe4e6;
+}
+
+.main-menu-right .layout-page-content {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.sentrana_report_element_view .chart-option {
+    display: none !important;
+}
+
+.lm_tabs, .lm_content {
+    background-color: #FFF !important;
+}
+
+.lm_header .lm_tab {
+    cursor: move;    
+}
+
+.sentrana_report_element_view_header .lm_title  {
+ margin-top: -5px;   
+}
+
+.sentrana_report_element_view_header .lm_title:after {
+    content: ":::";
+    margin-left: 50%;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.sentrana_report_element_view .starting-status {
+    background-color: #fff;
+}
+
+.lm_header .lm_tab {
+    box-shadow: none !important;
+
+}

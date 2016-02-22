@@ -1,0 +1,72 @@
+{
+  "name": "BIQ",
+  "version": "3.3.2",
+  "private": true,
+  "dependencies": {
+    "json2": "*",
+    "jquery": "1.11.3",
+    "jquery-ui": "1.11.4",
+    "highcharts-release": "4.0.1",
+    "jquery.cookie": "~1.4.1",
+    "jQuery.Hotkeys": "0.2.0",
+    "datatables": "1.10.7",
+    "datatables-plugins": "~1.0.1",
+    "bootstrap-select": "~1.6.3",
+    "qtip2": "2.2.0",
+    "blockui": "*",
+    "slimscroll": "~1.3.3",
+    "sffjs": "~1.10.0-alpha.8",
+    "jstree": "3.2.1",
+    "jquery-form": "3.50",
+    "jQuery-Smart-Wizard": "~3.3.1",
+    "jcarousel": "~0.3.3",
+    "datatables-colreorder": "~1.1.3"
+  },
+  "exportsOverride": {
+    "bootstrap-select": {
+      "/": "dist/{js,css}/*.{js,css,map}"
+    },
+    "datatables": {
+      "js": "media/js",
+      "css": "media/css",
+      "images": "media/images"
+    },
+    "datatables-colreorder": {
+      "js": "js",
+      "images": "images",
+      "css": "css"
+    },
+    "datatables-plugins": {
+      "js": "integration/bootstrap/3/*.js",
+      "css": "integration/bootstrap/3/*.css",
+      "images": "integration/bootstrap/images"
+    },
+    "/high(charts|maps)/": {
+      "/": "*.js",
+      "modules": "modules/*.js"
+    },
+    "jcarousel": {
+      "/": "dist/jquery.jcarousel.js"
+    },
+    "jquery": {
+      "/": "dist/*"
+    },
+    "jQuery-Smart-Wizard": {
+      "js": "js/*.js",
+      "styles": "styles/*.css",
+      "images": "images"
+    },
+    "jquery-ui": {
+      "/": "jquery-ui.min.js"
+    },
+    "jstree": {
+      "/": "dist"
+    },
+    "qtip2": {
+      "/": "*.{js,css,map}"
+    },
+    "sffjs": {
+      "/": "*.js"
+    }
+  }
+}

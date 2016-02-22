@@ -1,0 +1,157 @@
+<table class="form-table">
+  <tr>
+    <td><strong>Name</strong></td><td><strong>Column Type</strong></td>
+    <td><strong>Parent Attribute</strong></td><td><strong>Dimension</strong></td><td><strong>Metric Group</strong></td>
+    <td><strong>Attribute Value Type</strong></td><td><strong>Filter Control</strong></td><td><strong>Data Type</strong></td>
+    <td><strong>Dynamic Elements</strong></td><td><strong>Description</strong></td><td><strong>Attach Form/Fact</strong></td>
+    <td><strong>Delete</strong></td>
+  </tr>
+  <% can.each(colInfos, function(colInfo, i) { %>
+  <tr class="<%= colInfo.id%>" >
+    <td>
+      <input type="text" class="input-name" />
+    </td>
+    <td>
+      <select class="select-column-type">
+        <option value="0" <% if (colInfo.colType === 0) {%>selected<% }%>>Attribute</option>
+        <option value="1" <% if (colInfo.colType === 1) {%>selected<% }%>>Metric</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-parent-attribute" <% if (colInfo.colType === 1) {%>style= display:none; <% }%>>
+      </select>
+    </td>
+    <td>
+      <select class="select-dimension" <% if (colInfo.colType === 1) {%>style= display:none; <% }%>>    
+        <option value="" selected=""></option>
+        <option value="New">New</option>
+      </select>
+    </td>
+    <td>
+    <select class="select-metric-group" <% if (colInfo.colType === 0) {%>style= display:none; <% }%>>    
+        <option value="" selected=""></option>
+        <option value="New">New</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-attr-value-type" <% if (colInfo.colType === 1) {%>style= display:none; <% }%>>
+        <option value="DiscreteSeries">Discrete Series</option>
+        <option value="TimeSeries">Time Series</option>
+        <option value="ContinuousValues">Continuous Values</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-filter-control" <% if (colInfo.colType === 1) {%>style= display:none; <% }%>>
+        <option value="None">None</option>
+        <option value="Tree">Tree</option>
+        <option value="ListBox">ListBox<option>
+        <option value="Calendar">Calendar</option>
+      </select>
+    </td>
+    <td>
+      <select class="select-data-type">
+        <option value="0" <% if (colInfo.dataType === 0) {%>selected<% }%>>Datetime</option>
+        <option value="1" <% if (colInfo.dataType === 1) {%>selected<% }%>>String</option>
+        <option value="2" <% if (colInfo.dataType === 2) {%>selected<% }%>>Currency</option>
+        <option value="3" <% if (colInfo.dataType === 3) {%>selected<% }%>>Number</option>
+        <option value="4" <% if (colInfo.dataType === 4) {%>selected<% }%>>Percentage</option>
+        <option value="5" <% if (colInfo.dataType === 5) {%>selected<% }%>>Boolean</option>
+        <option value="6" <% if (colInfo.dataType === 6) {%>selected<% }%>>N/A</option>
+      </select>
+    </td>
+    <td>
+      <div class="button-dynamic-elements" <% if (colInfo.colType === 1) {%>style= display:none; <% }%>>Add Dynamic Element</div>
+    </td>
+    <td>
+      <img class="button-edit-description" src="images/info-icon.png" title="Edit Description"/>
+    </td>
+    <td>
+      <div class="button-attach-form-fact">Attach</div>
+    </td>
+    <td>
+      <div class="button-delete">Delete</div>
+    </td>
+  </tr>
+  <% }); %>
+</table>
+
+<div class="dialog-new-dimension" title="Enter new dimension name">
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td style="padding: 10px;">
+        <input type="text" class="input-name" size="60"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="dialog-new-metric-group" title="Enter new metric group name">
+  <table>
+    <tr>
+      <th>Name:</th>
+      <td style="padding: 10px;">
+        <input type="text" class="input-name" size="60"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="dialog-edit-metric" title="Edit Metric">
+  <table>
+    <tr><td><strong>Element</strong></td><td style="padding: 10px;"><strong>Value</strong></td></tr>
+    <tr>
+      <td>Name</td>
+      <td style="padding: 10px;">
+        <input type="text" name="name" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Description</th>
+      <td style="padding: 10px;">
+        <input type="text" name="description" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Datatype</th>
+      <td style="padding: 10px;">
+        <input type="text" name="datatype" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Operation</th>
+      <td style="padding: 10px;">
+        <input type="text" name="operation" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Format String</th>
+      <td style="padding: 10px;">
+        <input type="text" name="formatstring" size="50"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="dialog-edit-attribute" title="Edit Attribute">
+  <table>
+    <tr><td><strong>Element</strong></td><td style="padding: 10px;"><strong>Value</strong></td></tr>
+    <tr>
+      <td>Name</td>
+      <td style="padding: 10px;">
+        <input type="text" name="name" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Description</td>
+      <td style="padding: 10px;">
+        <input type="text" name="description" size="50"/>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<div class="dialog-selected-data" title="Select which columns ascribe to this form" style="height:500px;overflow:auto;">
+  <form class="form-data">
+  </form>
+</div>

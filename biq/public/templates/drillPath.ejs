@@ -1,0 +1,16 @@
+<table class="drill-path-table">
+<tr>
+<th>Drill&nbsp;Path:&nbsp;</th>
+<td>
+<% can.each(dpInfos, function(dpInfo, i) { %>
+<% if (i > 0) {%>
+»
+<% }%>
+<% if (i < dpInfos.length-1 ) {%>
+<a href="#" data-dpi="<%= dpInfo.dpIndex%>" class="drill-path-elem"><%= dpInfo.elems%></a>
+<% } else {%>
+<%= dpInfo.elems%>
+<% }%>
+<% }); %>
+</td>
+</table>

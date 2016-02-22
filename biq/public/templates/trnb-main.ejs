@@ -1,0 +1,56 @@
+<div class="nb-l1-bar">
+  <% can.each(entries, function(l1entry, i) { %>
+
+  <div class="nb-l1-btn" l1btn="<%= l1entry.btnID%>">
+    <% if (l1entry.iconImage ) {%>
+    <img src="images/<%= l1entry.iconImage%>" class="nav-bar-icon"/>
+    <% }%>
+    <%= l1entry.btnName%>
+  </div>
+
+
+  <% }); %>
+
+  <div style="clear: both;"></div>
+
+</div>
+<% can.each(entries, function(l1entry, i) { %>
+<% if (l1entry.children) {%>
+<div style="display: none;" class="nb-l2-bar" l1btn="<%= l1entry.btnID%>">
+  <% can.each(l1entry.children, function(l2entry, i) { %>
+  <div class="nb-l2-btn" l1btn="<%= l1entry.btnID%>" l2btn="<%= l2entry.btnID%>"><%= l2entry.btnName%></div>
+  <% }); %>
+  <div style="clear: both;"></div>
+</div>
+<% }%>
+<% }); %>
+
+<div class="lower_banner_bar">
+  <div class="lower_banner_bar_inside" style="min-height: 25px;">
+    <div class="booklet-button-container">
+      <div class="btn-add-booklet" style="display:none;">
+        <img class="btn-add-booklet-icon"  src="images/add_icon.png" />
+        Add Booklet
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+    <div class="booklet-button-container">
+      <div class="btn-show-hide-filmstrip" style="display:none;">
+        <div class="topLevelShowIcon"></div>
+        <span class="btn-show-hide-filmstrip-caption">Hide Filmstrip</span>
+      </div>
+      <div style="clear: both;"></div>
+    </div>
+
+  </div>
+</div>
+  
+<% can.each(entries, function(l1entry, i) { %>
+<% if (l1entry.children) {%>
+<% can.each(l1entry.children, function(l2entry, i) { %>
+<div style="display: none;" class="nb-body" l1btn="<%= l1entry.btnID%>" l2btn="<%= l2entry.btnID%>"></div>
+<% }); %>
+<% } else {%>
+<div style="display: none;" class="nb-body" l1btn="<%= l1entry.btnID%>"></div>
+<% }%>
+<% }); %>

@@ -1,0 +1,12 @@
+﻿<% if(userFilters.length>0){can.each(userFilters, function(filter, index) { %>
+<tr class=<%= (index % 2 == 0) ? "even-row" : "odd-row"%>>
+	<td><%= filter.appliedOn %></td>	
+	<td><%= filter.includedValues %></td>	
+	<td><%= filter.excludedValues %></td>	
+</tr>
+<% }); %>
+<% }else{%>
+<tr class="even-row">
+	<td colspan="3" align="center" >There is no implicit filter defined for you.</td>
+</tr>
+<% } %>

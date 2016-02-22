@@ -1,0 +1,1 @@
+steal('lib/sentrana/PlainList/PlainList.js', 'lib/sentrana/PlainList/css/plainlist.css');

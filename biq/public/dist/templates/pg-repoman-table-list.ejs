@@ -1,0 +1,8 @@
+<div class="clickable-menu">
+  <p class="section-header">Select at least one of the following tables as your data source.</p>
+  <ul>
+    <% can.each(tableList, function(tableInfo, i) { %>
+        <li><input type="checkbox" id="<%= tableInfo.tableName%>" class="checkbox-select-table" /><%= tableInfo.tableName%></li>
+    <% }); %>
+  </ul>
+</div>

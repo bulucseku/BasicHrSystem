@@ -1,0 +1,72 @@
+<table class="composite-metric-table form-table">
+	<div class="button-add-new">Add Composite Metric</div>
+	<tr class="comp-metric-header">
+		<td><strong>Name</strong></td><td><strong>Type</strong></td>
+    <td><strong>Metric 1</strong></td>
+    <td><strong>Metric 2</strong></td>
+    <td><strong>Description</strong></td>
+	</tr>
+	<% can.each(compMetrics, function(compMetric, i) { %>
+	<tr class="<%= compMetric.id%>">
+		<td>
+			<input type="text" class="input-name" value="<%= compMetric.name%>"/><button type="button">Update</button>
+		</td>
+		<td>
+			<select class="select-comp-type">
+				<option value="0" <% if (compMetric.compType === 0) {%>selected<% }%>>Percent Total Metric</option>
+				<option value="1" <% if (compMetric.compType === 1) {%>selected<% }%>>Per Metric</option>
+			</select>
+		</td>	
+		<td>
+			<select class="select-metric1">
+			</select>
+		</td>
+		<td>
+			<select class="select-metric2" <% if (compMetric.compType === 0) {%>style= display:none; <% }%>>
+			</select>
+		</td>
+		<td>
+			<img class="button-edit-description" src="images/info-icon.png" title="Edit Description"/>
+		</td>
+    <td>
+      <div class="button-delete"> Delete </div>
+    </td>
+	</tr>
+	<% }); %>
+</table>
+
+<div class="dialog-edit-comp-metric" title="Edit Metric">
+  <table>
+    <tr><td><strong>Element</strong></td><td style="padding: 10px;"><strong>Value</strong></td></tr>
+    <tr>
+      <td>Name</td>
+      <td style="padding: 10px;">
+        <input type="text" name="name" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Description</th>
+      <td style="padding: 10px;">
+        <input type="text" name="description" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Datatype</th>
+      <td style="padding: 10px;">
+        <input type="text" name="datatype" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Operation</th>
+      <td style="padding: 10px;">
+        <input type="text" name="operation" size="50"/>
+      </td>
+    </tr>
+    <tr>
+      <td>Format String</th>
+      <td style="padding: 10px;">
+        <input type="text" name="formatstring" size="50"/>
+      </td>
+    </tr>
+  </table>
+</div>

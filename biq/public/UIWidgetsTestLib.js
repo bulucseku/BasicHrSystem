@@ -1,0 +1,14 @@
+steal(
+    "lib/external/jquery/jquery-1.11.0/jquery-1.11.0.min.js",
+    "lib/external/CanJS/v2.2.6/can.custom.js",
+    "lib/external/pixel-admin/stealPixelAdmin.js",
+    "lib/sentrana/WidgetsBase/stealWidgetsBase.js",
+    "lib/external/stealjsTree.js"
+).then(
+    "lib/sentrana/PlainList/stealPlainList.js",
+    "lib/sentrana/PageWidget/stealPage.js",
+    "lib/sentrana/TreeWidget/stealTree.js",
+    "lib/sentrana/collapsible/StealCollapsibleContainer.js",
+    "lib/sentrana/InfoList/stealInfoList.js",
+    "lib/sentrana/DropdownMenu/stealDropdownMenu.js"
+);

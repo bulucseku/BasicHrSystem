@@ -1,0 +1,175 @@
+<p class="section-header">Repository Data Warehouse Definition</p>
+<div class="section">
+  <table class="form-table">
+    <tbody>
+      <tr>
+        <td>                          Repository ID:                      </td>
+        <td>
+          <div class="repository-id">
+            <input type="text" value="<%= repositoryId%>">
+          </div>
+        </td>
+        <td>                          Repository Name:                      </td>
+        <td>
+          <div class="repository-name">
+            <input type="text" value="<%= repositoryName%>">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>                          Database Type                      </td>
+        <td>
+          <div class="db-type">
+            <select class="select-db-type">
+              <option value="MSSqlServer" <% if (dataWarehouse.connection.dbType == "MSSqlServer") {%>selected<% }%>>MSSqlServer</option>
+              <option value="MySQL" <% if (dataWarehouse.connection.dbType == "MySQL") {%>selected<% }%>>MySQL</option>
+              <option value="PostgreSQL" <% if (dataWarehouse.connection.dbType == "PostgreSQL") {%>selected<% }%>>PostgreSQL</option>
+            </select>
+          </div>
+        </td>
+        <td>                          Database Server IP:                      </td>
+        <td>
+          <div class="db-server-ip">
+            <input type="text" value="<%= dataWarehouse.connection.ip%>">
+          </div>
+        </td>
+        <td>                          Port:                      </td>
+        <td>
+          <div class="db-server-port">
+            <input type="text" value="<%= dataWarehouse.connection.port%>">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>                            Instance Name:                        </td>
+        <td>
+          <div class="db-instance-name">
+            <input type="text" value="<%= dataWarehouse.connection.instance%>">
+          </div>
+        </td>
+        <td>                            User Name:                        </td>
+        <td>
+          <div class="db-user-name">
+            <input type="text" value="<%= dataWarehouse.connection.userName%>">
+          </div>
+        </td>
+        <td>                            Password:                        </td>
+        <td>
+          <div class="db-password">
+            <input type="text" value="<%= dataWarehouse.connection.password%>">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>                            Schema Name:                        </td>
+        <td>
+          <div class="schema-name">
+            <input type="text" value="Auto">
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p class="section-header">Attribute Form Configuration:</p>
+<div class="section">
+  <div class="column-mapping-information">
+    <table class="form-table">
+      <tr>
+        <td>Column Name</td><td>Parent Attribute</td><td>Dimension</td><td>Attribute Value Type</td><td>Data Type</td><td>Canonical Sort</td><td>Hidden</td>
+      </tr>
+      <% can.each(metadata.attributeForms, function(attributeForm, i) { %>
+      <tr class="<%= attributeForm.id%>">
+        <td><%= attributeForm.name%></td>
+        <td>
+          <select class="select-parent-attribute">
+            <option value="<%= attributeForm.name%>" selected><%= attributeForm.name%></option>
+          </select>
+        </td>
+        <td>
+          <select class="select-dimension">
+            <option value="Product" selected>Product</option>
+            <option value="New">New</option>
+          </select>
+        </td>
+        <td>
+          <select class="select-attr-value-type">
+            <option value="DISCRETESERIES">Discrete Series</option>
+            <option value="TIMESERIES">Time Series</option>
+            <option value="CONTINUOUS_VALUES">Continuous Values</option></select>
+        </td>
+        <td>
+          <select class="select-data-type">
+            <option value="0" <% if (attributeForm.dataType === 0) {%>selected<% }%>>Datetime</option>
+            <option value="1" <% if (attributeForm.dataType === 1) {%>selected<% }%>>String</option>
+            <option value="2" <% if (attributeForm.dataType === 2) {%>selected<% }%>>Currency</option>
+            <option value="3" <% if (attributeForm.dataType === 3) {%>selected<% }%>>Number</option>
+            <option value="4" <% if (attributeForm.dataType === 3) {%>selected<% }%>>Percentage</option>
+          </select>
+        </td>
+        <td>
+          <select class="select-canonical-sort">
+            <option value=true <% if (attributeForm.canonicalSort) {%>selected<% }%>>True</option>
+            <option value=false <% if (!attributeForm.canonicalSort) {%>selected<% }%>>False</option>
+          </select>
+        </td>
+        <td>
+          <select class="select-hidden">
+            <option value=true <% if (attributeForm.hidden) {%>selected<% }%>>True</option>
+            <option value=false <% if (!attributeForm.hidden) {%>selected<% }%>>False</option>
+          </select>
+        </td>
+      </tr>
+      <% }); %>
+    </table>
+  </div>
+</div>
+<p class="section-header">Fact Configuration:</p>
+<div class="section">
+  <div class="fact-configuration">
+    <table class="form-table">
+      <tr>
+        <td>Fact ID</td><td>Fact Name</td><td>Datum</td>
+      </tr>
+      <% can.each(metadata.facts, function(fact, i) { %>
+      <tr class="<%= fact.id%>">
+        <td><%= fact.id%></td>
+        <td><%= fact.name%></td>
+      </tr>
+      <% }); %>
+    </table>
+  </div>
+</div>
+<p class="section-header">Simple Metric Configuration:</p>
+<div class="section">
+  <div class="fact-configuration">
+    <table class="form-table">
+      <tr>
+        <td>Metric ID</td><td>Metric Name</td>
+      </tr>
+      <% can.each(metadata.metrics.simpleMetrics, function(metric, i) { %>
+      <tr class="<%= metric.id%>">
+        <td><%= metric.id%></td>
+        <td><%= metric.name%></td>
+      </tr>
+      <% }); %>
+    </table>
+  </div>
+</div>
+<p class="section-header">Composite Metric Configuration:</p>
+<div class="section">
+  <div class="fact-configuration">
+    <table class="form-table">
+      <tr>
+        <td>Metric ID</td><td>Metric Name</td>
+      </tr>
+      <% can.each(metadata.metrics.compositeMetrics, function(metric, i) { %>
+      <tr class="<%= metric.id%>">
+        <td><%= metric.id%></td>
+        <td><%= metric.name%></td>
+      </tr>
+      <% }); %>
+    </table>
+  </div>
+</div>
+

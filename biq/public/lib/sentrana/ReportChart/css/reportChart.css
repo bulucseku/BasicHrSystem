@@ -1,0 +1,111 @@
+.report-chart-cntr{
+	overflow:hidden;
+}
+
+.report-chart-warning {
+	color: red;
+	border: 1px solid red;
+	padding: 0.5em;
+	text-align: center;
+	margin: 1em;
+	font-size: 0.9em;
+}
+
+.chart-option {
+	padding: 0.55em 0 0 0;
+	clear: both;
+}
+
+.chart-option-button{
+	float:left;
+}
+
+.chart-restore-button{
+	float:left;
+}
+
+.chart-row-range{
+	width: 30%;
+	float: left;
+	padding: 0px;
+}
+
+.label-chart-row-range {
+	width: 50px;
+	border: 0;
+	color: #666;
+	font-size: 0.9em;
+}
+
+.slider-desc{
+	float: left;
+	padding-top: 3px;
+}
+
+.slider-desc label {
+	font-size: 0.9em;
+	padding: 0 0.5em 0 0;
+	font-style: italic;
+	color: #aaa;
+}
+
+.slider-wrapper{
+	float: left;
+	padding-left: 10px;
+	width: 40%;
+	padding-top: 0.5em;
+}
+
+.chart-type{
+	float: right;
+}
+
+.chart-user-options-dialog input[type='text']{
+	width: 180px;
+}
+
+.chart-user-options-dialog td{
+	padding-left: 5px;
+}
+
+.chart-user-options-dialog button span {
+	font-size: 1em !important;
+}
+
+.clear{
+	clear:both;
+}
+
+.ui-slider-horizontal {
+	height: 0.5em !important;
+}
+.ui-slider-handle {
+	top: -0.4em !important;
+	width: 0.6em !important;
+	height: 1.1em !important;
+}
+
+.ui-slider-range {
+	background: #b8bbff !important;
+	border: 1px solid #8588ff;
+}
+
+.dialog-button-row {
+	text-align: center;
+	padding: 1.2em 0 0 0;
+	font-size: 1.5em;
+}
+
+@media print {
+    .exportButton {
+        visibility: hidden
+    }
+    .printButton {
+        visibility: hidden
+    }
+}
+.highcharts-menu0 div div
+{
+    padding: 5px !important;
+    font-size: 12px !important;
+}

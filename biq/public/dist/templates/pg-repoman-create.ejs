@@ -1,0 +1,202 @@
+<div class="repository-create">
+  <div id="wizard" class="swMain">
+    <ul>
+      <li>
+        <a href="#step-0">
+          <span class="stepDesc">
+            <small>Data Source Options</small>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#step-1">
+          <span class="stepDesc">
+            <small>Select Data Source</small>            
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#step-2">
+          <span class="stepDesc">
+            <small>Configure Repository</small>
+          </span>
+        </a>
+      </li>
+      <li>
+        <a href="#step-3">
+          <span class="stepDesc">
+            <small>Review Repository and Upload</small>
+          </span>
+        </a>
+      </li>
+    </ul>
+    <div id="step-0">
+      <div class="step0 clickable-menu">
+        <p class="section-header"><h3>You have following options to create your data source for your repository:</h3></p>
+        <ul>
+          <li class="db-table">Database Table</li>
+          <li class="csv-file">Upload CSV</li>
+          <li class="paste-data">Directly Paste Tabular Data</li>
+        </ul>
+      </div>
+    </div>
+    <div id="step-1">
+
+      <div class="step1-1">
+        <div class="section">
+          <p class="section-header">Please provide following information of the database you want to connect to.</p>
+          <table class="form-table">
+            <tr>
+              <td>
+                Database Type
+              </td>
+              <td>
+                <div class="db-type">
+                  <select class="select-db-type">
+                    <option value="MSSqlServer">MSSqlServer</option>
+                    <option value="MySQL" selected>MySQL</option>
+                    <option value="PostgreSQL" selected>PostgreSQL</option>
+                  </select>
+                </div>
+              </td>
+              <td>
+                Database Server IP:
+              </td>
+              <td>
+                <div class="db-server-ip"><input type="text" value="10.46.33.120"/></div>
+              </td>
+              <td>
+                Port:
+              </td>
+              <td>
+                <div class="db-server-port"><input type="text" value="3306"/></div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Instance Name:
+              </td>
+              <td>
+                <div class="db-instance-name"><input type="text" value="lwander_sandbox"/></div>
+              </td>
+              <td>
+                User Name:
+              </td>
+              <td>
+                <div class="db-user-name"><input type="text" value=""/></div>
+              </td>
+              <td>
+                Password:
+              </td>
+              <td>
+                <div class="db-password"><input type="text" value=""/></div>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <br>
+        <table>
+          <td>
+            <button class="button-retrieve-table-list">Get Table List</button>
+          </td>
+          <td>
+            <button class="button-submit-table-list">Submit Table List</button>
+          </td>
+        </table>
+        <br>
+        <div class="table-list section" style="display: none"></div>
+      </div>
+      <div class="step1-2">
+        <p class="section-header"><h3>Please select the CSV file you want to upload</h3></p>
+        <p>You CSV file delimiter could be any of these '|', ',', '\t', ':'.</p>
+        <input type="text" class="csv-path" size="80">
+        <label class='label-holder'>
+          <div class="browse-file">Browse</div>
+          <input type="file" class="csv-uploader" name="csv_file">
+        </label>
+        <br>
+        <div class="upload-file">Upload</div>
+      </div>
+      <div class="step1-3">
+        <p class="section-header"><h3>Please paste your CSV data below:</h3></p>
+        <p>You CSV file delimiter could be any of these '|', ',', '\t', ':'.</p>
+        <div>
+          <textarea name="csv-data-input" class="csv-data-input" rows=20 cols=150></textarea>
+        </div>
+        <div>
+          <button class="button-upload-data">Upload</button>
+        </div>
+      </div>
+    </div>
+    <div id="step-2">
+      <br/>
+      <div>
+        <div class="metadata">
+          <div class="dw-config"></div>
+          <div class="table-metadata">
+            <p class="section-header">Review Data and Configure Repository</p>
+            <div class="section" style="overflow:scroll;">
+              <div class="table-content-review">
+              </div>
+              <br/>
+            </div>
+            <p class="section-header">Table Configuration:</p>
+            <div class="section" style="overflow:scroll;">
+              <div class="tables">
+              </div>
+              <br>
+            </div>
+            <p class="section-header">Attribute Form/Fact Configuration:</p>
+            <div class="section" style="overflow:scroll;">
+              <div class="form-mapping-information">
+              </div>
+              <br>
+            </div>
+            <p class="section-header">Attribute/Metric Configuration:</p>
+            <div class="section" style="overflow:scroll;">
+              <div class="column-mapping-information">
+              </div>
+              <br>
+            </div>
+            <p class="section-header">Composite Metrics:</p>
+            <div class="section" style="overflow:scroll;">
+              <div class="composite-metrics">
+              </div>
+              <br>
+            </div>
+          </div>
+          <div class="testing"></div>
+        </div>
+        <div>
+          <p class="section-header">Select which repository type you would like to create</p>
+          <form class="repo-type" style="padding: 10px;">
+            <input type="radio" name="repo" class="input-xml" checked="checked">XML Repository</input></br>
+            <input type="radio" name="repo" class="input-json">JSON Repository</input>
+          </form>
+        </div>
+        <div class="create-rep-status">
+        </div>
+      </div>
+    </div>
+    <div id="step-3">
+      <div class="step3-1">
+      <textarea name="repo-xml" class="repo-xml" rows=20 cols=150></textarea>
+      <p class="section-header">BIQ URL:<p>
+        <div>
+          <input type="text" class="upload-rep-path" size="60" value=""/>
+        </div>
+        <br>
+        <div>
+          <button class="button-upload-repository">Upload Repository</button>
+        </div>
+        <div class="upload-rep-status">
+        </div>
+        <br/>
+        <div>
+          <button class="button-create-new-repository">Create New Repository</button>
+        </div>
+      </div>
+      </div>
+      <div class="step3-2" style="display:none;">Repository succesfully uploaded!</div>
+    </div>
+  </div>

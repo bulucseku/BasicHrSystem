@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repository xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="MetadataModel.xsd" id="MMIB" name="MarketMover">
+  <metadata>
+    <dimensions>
+      <dimension name="Time">
+          <attribute id="FiscalMonth" name="Fiscal Month" desc="The fiscal month" attrValueType="TimeSeries">
+            <forms>
+              <attributeForm id="FiscalMonthId" name="Id" dataType="Number" default="true"/>
+            </forms>
+            <groupsBy>
+              <attribute id="FiscalQuarter" name="Fiscal Quarter" desc="The fiscal quarter" attrValueType="TimeSeries">
+                <forms>
+                  <attributeForm id="FiscalQuarterId" name="Id" dataType="Number" default="true" />
+                </forms>
+                <groupsBy>
+                  <attribute id="FiscalYear" name="Fiscal Year" desc="The fiscal year" attrValueType="TimeSeries">
+                    <forms>
+                      <attributeForm id="FiscalYear" name="Year" dataType="Number" default="true" />
+                    </forms>
+                  </attribute>
+                </groupsBy>
+              </attribute>
+            </groupsBy>
+          </attribute>
+      </dimension>
+      <dimension name="Customer">
+        <attribute id="Operator" name="Operator" desc="The individual operator" attrValueType="DiscreteSeries">
+          <groupsBy>
+            <attribute id="AccountType" name="Account Type" desc="The account type of the customer" attrValueType="DiscreteSeries" filterControl="ListBox">
+              <forms>
+                <attributeForm id="AccountType" name="Code" dataType="String" default="true" />
+              </forms>
+            </attribute>
+            <attribute id="OpCo" name="OpCo" desc="The Sysco operating company" attrValueType="DiscreteSeries" filterControl="ListBox">
+              <forms>
+                <attributeForm id="OpCoCode" name="Code" dataType="String" default="true" />
+                <attributeForm id="OpCoName" name="Name" dataType="String" />
+              </forms>
+            </attribute>
+            <attribute id="Cuisine" name="Cuisine" desc="The cuisine" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="CuisineCode" name="Code" dataType="String" default="true" />
+                <attributeForm id="CuisineName" name="Name" dataType="String" />
+              </forms>
+            </attribute>
+            <attribute id="CorpTypeOperation" name="Corporate Type of Operation" desc="The corporate type of operation" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="OpTypeCode" name="Code" dataType="String" />
+                <attributeForm id="OpTypeName" name="Name" dataType="String" default="true" />
+              </forms>
+            </attribute>
+            <attribute id="OpTypeSegment" name="Operator Type Segment" desc="The operator type segment" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="OpTypeSegmentName" name="Name" dataType="String" default="true" />
+              </forms>
+            </attribute>
+          </groupsBy>
+        </attribute>
+      </dimension>
+      <dimension name="Product">
+        <attribute id="SUPC" name="SUPC" desc="The individual Sysco item identifier" attrValueType="DiscreteSeries">
+          <forms>
+            <attributeForm id="SUPCNum" name="ID" dataType="String" default="true" cache="false"/>
+            <attributeForm id="SUPCDesc" name="Name" dataType="String" default="true" cache="false"/>
+            <attributeForm id="ExtendedItemDesc" name="Desc" dataType="String" cache="false"/>
+          </forms>
+          <groupsBy>
+            <attribute id="MinorClass" name="Minor Class" desc="The lowest level category of a product" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="MinorClassId" name="ID" dataType="String" />
+                <attributeForm id="MinorClassDesc" name="Name" dataType="String" default="true" />
+              </forms>
+              <groupsBy>
+                <attribute id="IntermediateClass" name="Intermediate Class" desc="The third level category of a product" attrValueType="DiscreteSeries">
+                  <forms>
+                    <attributeForm id="InterClassId" name="ID" dataType="String" />
+                    <attributeForm id="InterClassDesc" name="Name" dataType="String" default="true" />
+                  </forms>
+                  <groupsBy>
+                    <attribute id="MajorClass" name="Major Class" desc="The second level category of a product" attrValueType="DiscreteSeries" filterControl="None">
+                      <forms>
+                        <attributeForm id="MajorClassId" name="ID" dataType="String" />
+                        <attributeForm id="MajorClassDesc" name="Name" dataType="String" default="true" />
+                      </forms>
+                      <groupsBy>
+                        <attribute id="ItemCategory" name="Item Category" desc="The category of the item" attrValueType="DiscreteSeries" filterControl="Tree">
+                          <forms>
+                            <attributeForm id="ItemCategoryID" name="ID" dataType="String" />
+                            <attributeForm id="ItemCategoryDesc" name="Name" dataType="String" default="true" />
+                          </forms>
+                        </attribute>
+                      </groupsBy>
+                    </attribute>
+                  </groupsBy>
+                </attribute>
+              </groupsBy>
+            </attribute>
+            <attribute id="Brand" name="Brand" desc="The brand of the product" attrValueType="DiscreteSeries" filterControl="None">
+              <forms>
+                <attributeForm id="Brand" name="Name" dataType="String" default="true" />
+              </forms>
+            </attribute>
+            <attribute id="SizeDesc" name="Size Description" desc="The size of the package for the product" attrValueType="DiscreteSeries" filterControl="None">
+              <forms>
+                <attributeForm id="SizeDesc" name="Desc" dataType="String" default="true" />
+              </forms>
+            </attribute>
+            <attribute id="SyscoBrandInd" name="Sysco Brand Indicator" desc="Is this a Sysco brand?" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="SyscoBrandInd" name="Y/N" dataType="String" default="true" />
+              </forms>
+            </attribute>
+            <attribute id="PackDesc" name="Pack Description" desc="A description of the pack for the item" attrValueType="DiscreteSeries">
+              <forms>
+                <attributeForm id="PackDesc" name="Pack Description" dataType="String" default="true" />
+              </forms>
+            </attribute>
+          </groupsBy>
+        </attribute>
+      </dimension>
+    </dimensions>
+    <facts>
+      <fact id="Sales" name="Sales" />
+      <fact id="GrossProfit" name="GP" />
+      <fact id="CostOfGoodsSold" name="COGS" />
+      <fact id="CaseCount" name="Case Count" />
+      <fact id="SalesPerCase" name="Sales Per Case" />
+      <fact id="GpPerCase" name="GP Per Case" />
+      <fact id="GpMargin" name="GP Margin" />
+    </facts>
+    <metrics>
+      <simpleMetrics>
+        <simpleMetric id="Sales" name="Sales" desc="Net sales" dataType="Currency" operation="Sum" formatString="C0">
+          <fact id="Sales" />
+        </simpleMetric>
+        <simpleMetric id="GrossProfit" name="GP" desc="Gross profit" dataType="Currency" operation="Sum" formatString="C0">
+          <fact id="GrossProfit" />
+        </simpleMetric>
+        <simpleMetric id="CostOfGoodsSold" name="COGS" desc="Cost of goods sold" dataType="Currency" operation="Sum" formatString="C0">
+          <fact id="CostOfGoodsSold" />
+        </simpleMetric>
+        <simpleMetric id="CaseCount" name="Cases" desc="Number of cases (or case equivalent) sold" dataType="Number" operation="Sum" formatString="N0">
+          <fact id="CaseCount" />
+        </simpleMetric>
+      </simpleMetrics>
+      <compositeMetrics>
+        <perMetric id="SalesPerCase" name="Sales Per Case" desc="Average net sales per case sold" dataType="Currency" formatString="C2">
+          <metric id="Sales" />
+          <metric id="CaseCount" />
+        </perMetric>
+        <perMetric id="GpPerCase" name="GP Per Case" desc="Average gross profit per case sold" dataType="Currency" formatString="C2">
+          <metric id="GrossProfit" />
+          <metric id="CaseCount" />
+        </perMetric>
+        <perMetric id="CogsPerCase" name="COGS Per Case" desc="Average cost of goods sold per case sold" dataType="Currency" formatString="C2">
+          <metric id="CostOfGoodsSold" />
+          <metric id="CaseCount" />
+        </perMetric>
+        <perMetric id="GpMargin" name="GP Margin" desc="Gross profit, as a percentage of net sales" dataType="Percentage" formatString="#,##0.0%;(#,##0.0%)">
+          <metric id="GrossProfit" />
+          <metric id="Sales" />
+        </perMetric>
+      </compositeMetrics>
+    </metrics>
+    <constraints>
+    </constraints>
+  </metadata>
+  <datawarehouse factory="Sentrana.BIQ.Physical.Sql.MySql.MySqlDataWarehouseFactory">
+    <connection connectionString="Server=10.46.33.122;Database=marketmover;Uid=mm_datamart_dev;Pwd=catman?;port=5029;command timeout=1000" providerName="MySql.Data.MySqlClient" />
+    <configuration commandTimeout="120" rowLimit="1000000" />
+    <tables>
+      <table id="FiscalMonthDimension" databaseId="mm_datamart_dev.dimension_fiscal_month">
+        <columns>
+          <segment databaseId="fiscal_mth_id">
+            <attributeForm id="FiscalMonthId" />
+          </segment>
+          <segment databaseId="fiscal_qtr_id">
+            <attributeForm id="FiscalQuarterId" />"
+          </segment>
+          <segment databaseId="fiscal_yr_id">
+            <attributeForm id="FiscalYear" />
+          </segment>
+        </columns>
+      </table>
+      <table id="OpCoDimension" databaseId="mm_datamart_dev.company_codes">
+        <columns>
+          <segment databaseId="company_no">
+            <attributeForm id="OpCoCode" />
+          </segment>
+          <segment databaseId="company_name">
+            <attributeForm id="OpCoName" />"
+          </segment>
+        </columns>
+      </table>
+      <table id="CuisineDimension" databaseId="mm_datamart_dev.cuisine_codes">
+        <columns>
+          <segment databaseId="cuisine_cd">
+            <attributeForm id="CuisineCode" />
+          </segment>
+          <segment databaseId="cuisine_name">
+            <attributeForm id="CuisineName" />
+          </segment>
+        </columns>
+      </table>
+      <table id="AccountTypeDimension" databaseId="mm_datamart_dev.dimension_acct_type">
+        <columns>
+          <segment databaseId="acct_type">
+            <attributeForm id="AccountType" />
+          </segment>
+        </columns>
+      </table>
+      <table id="OperationTypeDimension" databaseId="mm_datamart_dev.operation_type_codes">
+        <columns>
+          <segment databaseId="corp_type_operation">
+            <attributeForm id="OpTypeCode" />
+          </segment>
+          <segment databaseId="operation_type_name">
+            <attributeForm id="OpTypeName" />
+          </segment>
+          <segment databaseId="operation_type_grouping">
+            <attributeForm id="OpTypeSegmentName" />
+          </segment>
+        </columns>
+      </table>
+      <table id="ProductDimension" databaseId="mm_datamart_dev.dimension_product">
+        <columns>
+          <segment databaseId="item_no">
+            <attributeForm id="SUPCNum" />
+          </segment>
+          <segment databaseId="item_desc">
+            <attributeForm id="SUPCDesc" />
+          </segment>
+          <segment databaseId="item_ext_desc">
+            <attributeForm id="ExtendedItemDesc" />
+          </segment>
+          <segment databaseId="pack_desc">
+            <attributeForm id="PackDesc" />
+          </segment>
+          <segment databaseId="size_desc">
+            <attributeForm id="SizeDesc" />
+          </segment>
+          <segment databaseId="brand_id">
+            <attributeForm id="Brand" />
+          </segment>
+          <segment databaseId="item_cat_id">
+            <attributeForm id="ItemCategoryID" />
+          </segment>
+          <segment databaseId="item_cat_desc">
+            <attributeForm id="ItemCategoryDesc" />
+          </segment>
+          <segment databaseId="major_class_id">
+            <attributeForm id="MajorClassId" />
+          </segment>
+          <segment databaseId="major_class_desc">
+            <attributeForm id="MajorClassDesc" />
+          </segment>
+          <segment databaseId="inter_class_id">
+            <attributeForm id="InterClassId" />
+          </segment>
+          <segment databaseId="inter_class_desc">
+            <attributeForm id="InterClassDesc" />
+          </segment>
+          <segment databaseId="minor_class_id">
+            <attributeForm id="MinorClassId" />
+          </segment>
+          <segment databaseId="minor_class_desc">
+            <attributeForm id="MinorClassDesc" />
+          </segment>
+        </columns>
+      </table>
+      <table id="ProductHierarchy" databaseId="mm_datamart_dev.product_hierarchy">
+        <columns>
+          <segment databaseId="item_cat_id">
+            <attributeForm id="ItemCategoryID" />
+          </segment>
+          <segment databaseId="item_cat_desc">
+            <attributeForm id="ItemCategoryDesc" />
+          </segment>
+          <segment databaseId="major_class_id">
+            <attributeForm id="MajorClassId" />
+          </segment>
+          <segment databaseId="major_class_desc">
+            <attributeForm id="MajorClassDesc" />
+          </segment>
+          <segment databaseId="inter_class_id">
+            <attributeForm id="InterClassId" />
+          </segment>
+          <segment databaseId="inter_class_desc">
+            <attributeForm id="InterClassDesc" />
+          </segment>
+        </columns>
+      </table>
+      <table id="MainFact" databaseId="mm_datamart_dev.trans_aggregate">
+        <columns>
+          <datum databaseId="total_sales">
+            <fact id="Sales" />
+          </datum>
+          <datum databaseId="gross_profit">
+            <fact id="GrossProfit" />
+          </datum>
+          <datum databaseId="total_cost">
+            <fact id="CostOfGoodsSold" />
+          </datum>
+          <datum databaseId="total_cases">
+            <fact id="CaseCount" />
+          </datum>
+          <segment databaseId="fiscal_mth_id">
+            <attributeForm id="FiscalMonthId" />
+          </segment>
+          <segment databaseId="fiscal_qtr_id">
+            <attributeForm id="FiscalQuarterId" />"
+          </segment>
+          <segment databaseId="fiscal_yr_id">
+            <attributeForm id="FiscalYear" />
+          </segment>
+          <segment databaseId="company_no">
+            <attributeForm id="OpCoCode" />
+          </segment>
+          <segment databaseId="company_name">
+            <attributeForm id="OpCoName" />"
+          </segment>
+          <segment databaseId="acct_type">
+            <attributeForm id="AccountType" />
+          </segment>
+          <segment databaseId="cuisine_cd">
+            <attributeForm id="CuisineCode" />
+          </segment>
+          <segment databaseId="cuisine_name">
+            <attributeForm id="CuisineName" />
+          </segment>
+          <segment databaseId="corp_type_operation">
+            <attributeForm id="OpTypeCode" />
+          </segment>
+          <segment databaseId="operation_type_name">
+            <attributeForm id="OpTypeName" />
+          </segment>
+          <segment databaseId="operation_type_grouping">
+            <attributeForm id="OpTypeSegmentName" />
+          </segment>
+          <segment databaseId="sysco_brand_ind">
+            <attributeForm id="SyscoBrandInd" />
+          </segment>
+          <segment databaseId="item_no">
+            <attributeForm id="SUPCNum" />
+          </segment>
+          <segment databaseId="item_desc">
+            <attributeForm id="SUPCDesc" />
+          </segment>
+          <segment databaseId="item_ext_desc">
+            <attributeForm id="ExtendedItemDesc" />
+          </segment>
+          <segment databaseId="pack_desc">
+            <attributeForm id="PackDesc" />
+          </segment>
+          <segment databaseId="size_desc">
+            <attributeForm id="SizeDesc" />
+          </segment>
+          <segment databaseId="brand_id">
+            <attributeForm id="Brand" />
+          </segment>
+          <segment databaseId="item_cat_id">
+            <attributeForm id="ItemCategoryID" />
+          </segment>
+          <segment databaseId="item_cat_desc">
+            <attributeForm id="ItemCategoryDesc" />
+          </segment>
+          <segment databaseId="major_class_id">
+            <attributeForm id="MajorClassId" />
+          </segment>
+          <segment databaseId="major_class_desc">
+            <attributeForm id="MajorClassDesc" />
+          </segment>
+          <segment databaseId="inter_class_id">
+            <attributeForm id="InterClassId" />
+          </segment>
+          <segment databaseId="inter_class_desc">
+            <attributeForm id="InterClassDesc" />
+          </segment>
+          <segment databaseId="minor_class_id">
+            <attributeForm id="MinorClassId" />
+          </segment>
+          <segment databaseId="minor_class_desc">
+            <attributeForm id="MinorClassDesc" />
+          </segment>
+        </columns>
+      </table>
+    </tables>
+  </datawarehouse>
+</repository>

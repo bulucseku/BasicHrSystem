@@ -1,0 +1,177 @@
+/**
+ * Overriding the default styling for rangeSlider with input.
+ *
+ * This brings the styling for the jqRangeSlider control into alignment with the pixel-admin slider styling and makes it more compatible with the overall
+ * look and feel of the application.  Note, this works well for the base jQRangeSlider control, but does not support tick marks and other advanced features.
+ *
+ * The original vesion of the source for this is found at lib/jQRangeSlider/classic.css.
+ *
+ *  Demetrios Kotsikopoulos - 08/09/2014*/
+
+
+
+.ui-rangeSlider{
+    height:22px;
+    max-width:400px;
+    margin-top:15px;
+}
+
+.chart-row-range .ui-rangeSlider{
+    margin-top:0px;
+    height:10px;
+}
+
+
+.ui-rangeSlider .ui-rangeSlider-innerBar{
+    height:6px;
+    margin:3px 6px;
+    background:#DDD;
+}
+
+.chart-row-range .ui-rangeSlider .ui-rangeSlider-innerBar{
+    margin:0px 6px;
+}
+
+
+.ui-rangeSlider .ui-rangeSlider-handle{
+    width:6px;
+    height:22px;
+    background:#AAA;
+    background:rgba(100,100,100, 0.3);
+    cursor:col-resize;
+    margin-top: -1px;
+}
+
+.ui-rangeSlider .ui-rangeSlider-handle:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 1000px;
+  background: red;
+  z-index: 3;
+  top: 4px;
+  left: 4px;
+  background: #bbb;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar{
+
+      position: absolute;
+  z-index: 1;
+  display: block;
+  border: 0;
+  background-position: 0 0;
+  border-radius: 1000px;
+    margin: 3px 0;
+    background:rgba(100,100,150, 0.2);
+    height:6px;
+    cursor:move;
+    cursor:grab;
+    cursor: -moz-grab;
+}
+
+.chart-row-range .ui-rangeSlider .ui-rangeSlider-bar{
+    margin:0;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar.ui-draggable-dragging{
+    cursor: -moz-grabbing;
+    cursor:grabbing;
+}
+
+.ui-rangeSlider-arrow{
+    height:16px;
+    margin:2px 0;
+    width:16px;
+    background-repeat:no-repeat;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-leftArrow{
+    background-position:center left;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-rightArrow{
+    background-position:center right;
+}
+
+.ui-rangeSlider-arrow-inner{
+    display: none;
+}
+
+.ui-rangeSlider-container{
+    height:22px;
+}
+
+.ui-rangeSlider-withArrows .ui-rangeSlider-container{
+    margin:0 11px;
+    margin-top:10px;
+}
+
+.ui-rangeSlider-noArrow .ui-rangeSlider-container{
+    margin:0;
+    margin-top:10px;
+}
+
+.chart-row-range .ui-rangeSlider-noArrow .ui-rangeSlider-container{
+    margin-top:0px;
+}
+
+.ui-rangeSlider-label{
+    margin:0 2px 2px;
+    background-position:bottom center;
+    background-repeat:no-repeat;
+  white-space: nowrap;
+  bottom:10px;
+  padding:3px 6px 7px;
+  cursor:col-resize;
+}
+
+.ui-rangeSlider-label-inner{
+    display:none;
+}
+
+/*
+ * Edit slider
+ */
+
+input.ui-editRangeSlider-inputValue{
+    width:3em;
+    vertical-align: middle;
+    text-align:center;
+    font-size:12px;
+}
+
+
+.ui-rangeSlider-innerBar {
+  background: #d7d7d7 !important;
+  border-radius: 20px !important;
+  position: relative !important;
+  text-align: left !important;
+}
+
+.theme-clean .ui-rangeSlider-handle.ui-state-active:before, .theme-clean .ui-rangeSlider .ui-rangeSlider-bar{
+   background: #67CEA6;
+}
+
+.ui-rangeSlider-handle {
+  position: absolute !important;
+  z-index: 2 !important;
+  width: 14px !important;
+  height: 14px !important;
+  cursor: default !important;
+  border-radius: 1000px !important;
+  border: 1px solid rgba(0, 0, 0, 0.4) !important;
+  background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #eaeaea 100%) !important;
+  background-image: linear-gradient(to bottom, #fcfcfc 0%, #eaeaea 100%) !important;
+  background-repeat: repeat-x !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcfcfc', endColorstr='#ffeaeaea', GradientType=0);
+}
+
+.chart-row-range .ui-rangeSlider .ui-rangeSlider-handle{
+    margin-top:-4px;
+}
+.ui-rangeSlider-bar {
+
+}

@@ -1,0 +1,36 @@
+﻿<% can.each(pageList, function(page, i) { %>
+      
+  <li role="presentation" pageId="<%= page.id %>" class="page-tab page-item-<%= page.id %>">
+    <a href="#<%= page.id %>" data-toggle="tab">
+		
+		<table>
+			<tr>
+				<td>
+					<label class="titleLabel"><%= page.title %></label>
+					<input class="titleInput" type="text" value="<%= page.title %>"></input>
+				</td>
+				<td>
+					<% if(isEditMode === true && pageCount > 1 ){%>
+						<span class="close closeTab" type="button" >×</span> 
+					<%}%>
+				</td>
+			</tr>
+		</table>
+		
+		<!--<% if(isEditMode === true && pageCount > 1 ){%>
+			<span class="close closeTab" type="button" >×</span> 
+		<%}%>
+		<label class="titleLabel"><%= page.title %></label>
+		<input class="titleInput" type="text" value="<%= page.title %>"></input>-->
+	</a>
+  </li>
+
+<% }); %>
+      
+<% if(isEditMode === true){%>
+	<li role="presentation" class="unsortable">
+	  <a class="add-page" title="Add new configuration">
+		<span class="fa fa-plus"></span>
+	  </a>
+	</li>
+<%}%>

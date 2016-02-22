@@ -1,0 +1,1 @@
+steal('lib/external/SmartSidebar/js/jquery.smartsidebar.js', 'lib/external/SmartSidebar/css/smartsidebar.css');

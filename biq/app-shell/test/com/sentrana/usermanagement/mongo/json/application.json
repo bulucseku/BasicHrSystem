@@ -1,0 +1,51 @@
+[
+    {
+        "id":"14",
+        "name":"ACRM",
+        "appRoles":[
+
+        ]
+    },
+    {
+        "id":"13",
+        "name":"Business IQ",
+        "appRoles":[
+            {
+                "id":"BIQ_USER",
+                "name":"BIQ User"
+            },
+            {
+                "id":"BIQ_ADMIN",
+                "name":"BIQ Administrator"
+            }
+        ]
+    },
+    {
+        "id":"11",
+        "name":"DashBoard",
+        "appRoles":[
+            {
+                "id":"DASHBOARD_USER",
+                "name":"DashBoard User"
+            },
+            {
+                "id":"DASHBOARD_ADMIN",
+                "name":"DashBoard Administrator"
+            }
+        ]
+    },
+    {
+        "id":"12",
+        "name":"UserManagement",
+        "appRoles":[
+            {
+                "id":"RESTRICTED_USER_ADMIN",
+                "name":"Restricted User Administrator"
+            },
+            {
+                "id":"UNRESTRICTED_USER_ADMIN",
+                "name":"Unrestricted User Administrator"
+            }
+        ]
+    }
+]

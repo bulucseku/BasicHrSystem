@@ -1,0 +1,48 @@
+<div class="formula-editor">
+  <div class="formula-defn-bar">
+    <label class="formula-bar-label">Enter formula:</label>
+    <textarea class="formula-bar form-control"  rows="2"></textarea>
+  </div>
+  <div style="clear:both;"></div>
+  <label class="formula-bar-label">Columns</label>
+  <div class="formula-builder-tree-container form-control">
+  </div>
+</div>
+
+<div class="formula-options">
+  <div class="form-horizontal">
+    <div class="form-group">
+    <label class="col-sm-4 control-label">Column Name:</label>
+    <div class="col-sm-8">
+    <input class="derived-column-name form-control" type="text" maxlength="50"></input>
+    </div>
+    </div>
+  </div>
+  <div>
+
+      <div class="derived-column-outputtype-container form-horizontal">
+          <div class="form-group">
+        <label class="control-label col-sm-4">Output Type:</label>
+        <div class="output-type-chooser col-sm-8">
+        </div>
+        </div>
+        <div class="decimal-place-chooser form-group">
+            <div class="row">
+          <label class="col-sm-4 control-label">Decimal Places: </label>
+          <div class="col-sm-8">
+          <span class="decimal-place-num">3</span>
+          <div class="decimal-place-indicator">
+            <div class="increase-value fa fa-caret-up" />
+            <div class="decrease-value fa fa-caret-down"/>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  </div>
+  <div class="reusable-checkbox-container form-group border-t padding-sm-vr no-padding-b no-margin-b">
+  <label for="chk-reusable-formula" class="chk-reusable-formula-item checkbox pull-right no-margin-b" title="Create this derived column as reusable">
+    <input id="chk-reusable-formula" type="checkbox" title="Create this derived column as reusable" class="chk-reusable-formula-item px"></input>
+    <span class="lbl">Re-use this column in other reports</span></label>
+  </div>  
+</div>

@@ -1,0 +1,19 @@
+﻿<div>
+  <div class="reusable-columns-list-popup-header">
+    <div class="reusable-columns-list-popup-add-button" title="Add new formula">ADD</div>
+  </div>
+  <div class="reusable-columns-list-popup-body">
+    <% can.each(derivedColumns, function(derivedColumn, i) { %>
+      <div class="reusable-columns-list-popup-item" title="<%= derivedColumn.name%>">
+        <span class="reusable-columns-list-popup-item-name"><%= derivedColumn.name%></span>
+        <div class="reusable-columns-list-popup-item-edit-button btn btn-xs" columnid="<%= derivedColumn.id%>" title="Edit this formula">
+          <i class="fa fa-edit" />
+        </div>
+        <div class="reusable-columns-list-popup-item-remove-button btn btn-xs" columnid="<%= derivedColumn.id%>" title="Remove this formula">
+          <i class="fa fa-times text-danger" />
+        </div>
+        <div style="clear:both"></div>
+      </div>
+    <% }); %>
+  </div>
+</div>

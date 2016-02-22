@@ -1,0 +1,20 @@
+<div class="dialog-dynamic-elements" title="Configure dynamic elements">
+  <table>
+    <tr>
+      <td style="padding: 10px;">In use</td><td style="padding: 10px;">Value</td><td style="padding: 10px;">Selector</td>
+    </tr>
+    <% can.each(selectors, function(selector, i) { %>
+    <tr class="<%= selector%>">
+      <td style="padding: 10px;">
+        <input type="checkbox" class="input-selected" />
+      </td>
+      <td style="padding: 10px;">
+        <input type="text" class="input-value"/>
+      </td>
+      <td style="padding: 10px;">
+        <%= selector%>
+      </td>
+    </tr>
+    <% }); %>
+  </table>
+</div>

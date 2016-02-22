@@ -1,0 +1,21 @@
+﻿<div>
+<% if (attr.forms.length > 1) {%>
+<div class="formsRadio">
+<label class="font-italic">Elements:</label>
+<% can.each(attr.forms, function(form, i) { %>
+    <label class="radio-inline">
+        <input class="px" id="<%= group + attr.oid + form.name%>" type="radio" name="forms.<%= attr.oid + tag%>" attrOID="<%= attr.oid%>" tag="<%= tag%>" value="<%= form.oid%>" <% if (form.oid === attr.defaultFormId) {%>checked="checked"<% }%> />
+        <span class="lbl" title="<%= attr.oid%>"><%= form.name%></span>
+    </label>
+<% }); %>
+</div>
+<% }%>
+<% can.each(attr.forms, function(form, i) { %>
+<div class="onlywhen-elements-<%= attr.oid%>-<%= form.oid%>-<%= tag%> onlywhen-formElements-<%= attr.oid%>" style="display: <% if (form.oid === attr.defaultFormId) {%>block<% } else { %>none<% }%>">
+<div class="accordion-search"><input class="form-control accordion-search-input" type="text" size="25" placeholder="Search <%= attr.name%>"></input></div>
+<div class="onlywhen-element-filter">
+</div>
+</div>
+<% }); %>
+<div style="clear: both;"></div>
+</div>

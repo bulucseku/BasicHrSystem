@@ -1,0 +1,115 @@
+﻿<div class="container page-signin theme-clean" style="margin-top:30px">
+    <div id="page-signin-bg">
+        <!-- Background overlay -->
+        <div class="overlay"></div>
+        <!-- Replace this with your bg image -->
+        <img src="images/login-background/bg-<%= Math.round(Math.random()*2.9+0.55) %>.jpg"  alt="">
+    </div>
+
+    <div class="signin-container">
+        <div class="signin-info">
+            <a href="default.htm" class="logo"> <img src="images/sentrana_logo_white_text_small.png" class="panel-wide" width="220px"> </a><!-- / .logo -->
+            <div class="slogan">
+                Precision Sales and Marketing in the Cloud.
+            </div>
+            <!-- / .slogan -->
+            <ul>
+                <li>
+                    <i class="fa fa-sitemap signin-icon"></i> Powerful analytics
+                </li>
+                <li>
+                    <i class="fa fa-flash signin-icon"></i> Rapid deployment
+                </li>
+                <li>
+                    <i class="fa fa-bullseye signin-icon"></i> Targeted recommendations
+                </li>
+                <li>
+                    <i class="fa  fa-bar-chart-o signin-icon"></i> Proven results
+                </li>
+            </ul>
+            <!-- / Info list -->
+        </div>
+
+        <div class="signin-form">
+            <div class="signin-main-form">
+                <form role="form">
+                    <div class="signin-text">
+                        <span>Sign In to your account</span>
+                    </div>
+                    <div class="alert alert-danger login-error"></div>
+                    <div class="alert alert-success password-reset-message"></div>
+                  
+                    <div class="form-group w-icon">
+                        <input type="text" class="form-control input-lg input-username" maxlength="30" name="username"
+                               placeholder="Enter username" >
+                        <span class="fa fa-user signin-form-icon"></span>
+                    </div>
+                    <div class="form-group w-icon">
+                        <input type="password" class="form-control input-lg input-password" maxlength="20" name="pwd"
+                               placeholder="Enter password" >
+                        <span class="fa fa-lock signin-form-icon"></span>
+                    </div>
+                    <div class="form-actions">
+                        <input type="button" id="login-submit" value="SIGN IN" class="signin-btn bg-primary login-submit">
+                        <a class="forgot-password" style="cursor:pointer" id="forgot-password-link">Forgot your
+                            password?</a>
+                    </div>
+                </form>
+            </div>
+            <!-- Password reset form -->
+            <div class="password-reset-form" id="password-reset-form">
+                <div class="header">
+                    <div class="signin-text">
+                        <span>Password reset</span>
+                        <div class="close forgot-password-button-cancel">
+                            &times;
+                        </div>
+                    </div>
+                    <!-- / .signin-text -->
+                </div>
+                <!-- / .header -->
+
+                <!-- Form -->
+                <form role="form" id="password-reset-form_id">
+                    <div class="alert alert-danger password-reset-error"></div>
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                                <input class="px" type="radio" name="forgotPassword" value="password" id="rdo-forgot-password"/>
+                                <span class="lbl">I forgot my password</span>
+                            </label>
+                        </div>
+
+                        <div class="radio">
+                            <label>
+                                <input class="px" type="radio" name="forgotPassword" value="username" id="rdo-forgot-username"/>
+                                <span class="lbl">I forgot my Username</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-group w-icon">
+                        <input type="text" name="password_reset_email" id="p_email_id" class="form-control input-lg input-forgot-password" placeholder="Enter your email"/>
+                        <span class="fa fa-envelope signin-form-icon"></span>
+                    </div>
+                    <!-- / Email -->
+
+                    <div class="form-actions">
+                        <input type="button" id="password-reset-button" value="SEND PASSWORD RESET LINK" class="signin-btn bg-primary"/>
+                    </div>
+                    <!-- / .form-actions -->
+                </form>
+                <!-- / Form -->
+            </div>
+            <!-- / Password reset form -->
+
+            <div class="dw-selector">
+            </div>
+            <div class="login-msg">
+            </div>
+        </div>
+        <!-- Right side -->
+    </div>
+
+</div>
+</div>

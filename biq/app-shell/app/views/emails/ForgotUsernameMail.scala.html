@@ -1,0 +1,19 @@
+@(userName: String, firstName: String, link: String)
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    @views.html.emails.EmailStyle()
+</head>
+<body>
+@views.html.emails.MailHeader()
+<div class="body-container">
+    <p>Hi @firstName,</p>
+    <p class="less-width">This email confirms that you requested your username. Please use the username and link below to login:</p>
+    <div><b>Username: </b>@userName</div>
+    <div class="page-link">@link</div>
+    <p class="less-width">If you have any questions, please contact your administrator.
+    </p>
+    @views.html.emails.MailFooter()
+</div>
+</body>
+</html>

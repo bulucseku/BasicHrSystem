@@ -1,0 +1,23 @@
+.info-list-container {
+    padding: 2px 4px;
+}
+
+.info-list{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info-list li {
+    padding: 3px 14px 3px 14px !important;
+}
+
+.info-list-item {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.info-list-item-title {
+	padding-right: 4px;
+}

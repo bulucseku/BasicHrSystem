@@ -1,0 +1,1 @@
+steal('lib/sentrana/Authentication/LoginController.js', "lib/sentrana/ChangePassword/ChangePasswordController.js", 'lib/sentrana/Authentication/css/authentication.css');

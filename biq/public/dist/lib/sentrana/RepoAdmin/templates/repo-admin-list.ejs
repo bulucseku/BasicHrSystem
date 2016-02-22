@@ -1,0 +1,36 @@
+<div style="padding:5px"  class="dashboard-list-content">
+  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+    <% can.each(repoIds, function(repo, i) { %>
+      <div class="panel panel-default">
+      <div class="panel-heading" role="tab">
+        <h4 class="panel-title">
+            <div id="<%=repo.repoId%>" class="panel-head-link <%= i > 0? 'collapsed':'' %>" data-toggle="collapse" data-parent="#accordion" href="#collapse<%=i%>" aria-expanded="true">
+              <%= repo.repoId%>
+            </div>
+        </h4>
+      </div>
+      <div id="collapse<%=i%>" class="panel-collapse collapse <%= i < 1? 'in':'' %>" role="tabpanel">
+      <div class="panel-body">
+          <div class="menu" style="">
+            <span id="download_<%= repo.repoId%>" action="download" class="item btn btn-xs">Download</span>
+            <span id="upload_<%= repo.repoId%>" action="upload" class="item btn btn-xs">Upload</span>
+            <span id="duplicate_<%= repo.repoId%>" action="duplicate" class="item btn btn-xs">Duplicate</span>
+            <span id="delete_<%= repo.repoId%>" action="delete" class="item btn btn-xs">Delete</span>
+          </div>
+        </div>
+      </div>
+    </div>
+      <% }); %>
+  </div>
+</div>
+
+<div id="duplicateDashboard" style="display:none;">
+  <div class="row">
+    <div class="col-lg-4">
+      <span>Client Name:</span>
+    </div>
+    <div class="col-lg-8">
+      <input id="clientName" class="form-control" type="text"></input>
+    </div>
+  </div>
+</div>

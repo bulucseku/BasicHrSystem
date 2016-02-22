@@ -1,0 +1,23 @@
+<div class="saved-report-search-container loading">
+	<p class="small-waitingwheel"><img src="images/loading_15px.gif" style="padding-right: 0.5em;"/><span>Looking for your reports...</span></p>
+</div>
+<div class="saved-report-search-container no-reports" style="display: none;">
+	<p>You do not have any saved reports.</p>
+	<p>Go to the Builder page and begin saving!</p>
+</div>
+<div class="saved-report-search-container has-reports" style="display: none;">
+  <p><strong>You have access to <span class="report-count"><%= model.count%></span> reports.</strong></p>
+  <span class="sort-caption">Sort reports by:</span>
+  <div class="sort-items-container btn-group">
+    <% can.each(model.getSortFieldNames(), function(sortitem, i) { %>
+      <label class="btn btn-default <% if(sortitem.key === model.field){%>active<%}else{%><%}%>">
+      <input type="radio" id="<%= sortitem.key%>" class="sort-field px" name="reportsort" value="<%= sortitem.value%>"></input>
+          <%= sortitem.value%>
+      </label>
+    <% }); %>
+  </div>
+  <div class="report-search-container">
+    <br><span><strong>SEARCH:</strong></span><input class="form-control accordion-search-input" type="text" size="25"></input>
+  </div>        
+</div>
+<div class="report-list"></div>

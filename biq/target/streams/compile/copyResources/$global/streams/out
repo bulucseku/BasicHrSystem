@@ -1,0 +1,15 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\application.conf,D:\git\biq\target\scala-2.11\classes\application.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\biq.routes,D:\git\biq\target\scala-2.11\classes\biq.routes)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\connection.conf,D:\git\biq\target\scala-2.11\classes\connection.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev,D:\git\biq\target\scala-2.11\classes\Dev)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\dev.conf,D:\git\biq\target\scala-2.11\classes\dev.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\logger.xml,D:\git\biq\target\scala-2.11\classes\logger.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\messages,D:\git\biq\target\scala-2.11\classes\messages)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\staging.conf,D:\git\biq\target\scala-2.11\classes\staging.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\test.conf,D:\git\biq\target\scala-2.11\classes\test.conf)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev\DataFilter,D:\git\biq\target\scala-2.11\classes\Dev\DataFilter)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev\Farmland.xml,D:\git\biq\target\scala-2.11\classes\Dev\Farmland.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev\MetadataModel-MM-IB.xml,D:\git\biq\target\scala-2.11\classes\Dev\MetadataModel-MM-IB.xml)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev\MetadataModel.xsd,D:\git\biq\target\scala-2.11\classes\Dev\MetadataModel.xsd)[0m
+[0m[[0mdebug[0m] [0m	(D:\git\biq\conf\Dev\DataFilter\DataFilterMapping.xml,D:\git\biq\target\scala-2.11\classes\Dev\DataFilter\DataFilterMapping.xml)[0m

@@ -1,0 +1,83 @@
+/* .collapsibleContainer
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #1c4066;
+	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.15);
+	background: #fff; 
+}
+
+.collapsibleContainer .collapsibleContainer {
+	border: 1px solid #999;
+}
+*/
+.sentrana_parameter_collapsible_container {
+    border-top: 1px solid #575758;
+    border-right: 1px solid #575758;
+    border-bottom: 1px solid #575758;
+    background: url(../images/secondary_nav_back.jpg);
+    background-repeat: repeat-x;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, .3);
+}
+.paramCollapsibleContainer {
+    background: url(../images/secondary_nav_light.png);
+    background-repeat: no-repeat;
+}
+.hideParamContainer {
+    display: none;
+}
+
+
+.topLevelFilterIcon {
+    float: left;
+    width: 35px;
+    height: 26px;
+    margin: 0;
+    border: 0;
+    background-image: url(../images/secondary_nav_filterIcon.png);
+    background-repeat: no-repeat;
+}
+.hideShowParams,
+.filter {
+    font-weight: bold;
+    float: left;
+    padding: .55em .75em .5em .75em;
+    border-top: 1px solid #fff;
+    border-bottom: 0;
+}
+.filter {
+    border-left: 1px solid #575758;
+}
+
+.collapsibleContainerContent {
+    width: 100%;
+}
+.paramCollapsibleContainerContent {
+    padding: 5px;
+    background-image: url(../images/filter_back.jpg);
+}
+
+.collapsibleContainerTitle .buttonBar {
+    margin-right: 20px;
+}
+
+.btn-icon {
+    width: 15px;
+    height: 15px;
+    margin: 4px 3px 3px 5px;
+    cursor: pointer;
+    background-image: url(../images/icons.png);
+}
+.export-icon {
+    width: 16px !important;
+    height: 16px !important;
+    background-position: -5px -5px;
+}
+.no-touch .export-icon:hover {
+    background-position: -31px -5px;
+}
+
+.container-drop-down {
+    position: absolute;
+    z-index: 10003;
+}

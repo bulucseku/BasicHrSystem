@@ -1,0 +1,6 @@
+<div style="display: none;" class="<%= uniqueID%> <%= box1className%>"><%= currentChoiceName%></div>
+<div style="display: none;" class="<%= uniqueID%> <%= box2className%>">
+<% can.each(choices, function(choice, i){ %>
+	<div class="box3"><%= choice[choicesLabelProp]%></div>
+<% }); %>
+</div>

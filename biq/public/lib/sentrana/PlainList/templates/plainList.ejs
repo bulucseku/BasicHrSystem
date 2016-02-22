@@ -1,0 +1,19 @@
+<div class="plain-list-container">
+    <ul class="plain-list">
+        <% can.each(items, function(item, index) { %>
+        <li>
+            <div class="clearfix">
+                <div class="pull-left">
+                    <i class="<%= item.iconClass%>"></i>
+                </div>
+                <div class="pull-right">
+                    <span class="label"><%= item.label%></span>
+                </div>
+                <div class="plain-list-item">
+                    <span style="cursor:pointer"><%= item.text%></span>
+                </div>
+            </div>
+        </li>
+        <% }); %>
+    </ul>
+</div>

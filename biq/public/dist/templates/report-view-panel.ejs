@@ -1,0 +1,34 @@
+﻿<div class="report-view-panel panel panel-default">
+    <div class="clearfix report-viewer-title panel-heading <%= titleCls%>">
+        <span class="col-xs-8 report-viewer-panel-title panel-title"></span>
+        <div class="panel-heading-controls buttonBar">
+            <i class="indicator text-xs fa fa-minus-square"></i>   
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div class="panel-body no-padding report-view-panel-body">
+        <div class="report-viewer-container"></div>
+        </div>
+    </div>
+</div>
+
+<% if (reportNameWithOutSpecialChar) { %>
+<div id="<%= reportNameWithOutSpecialChar %>" style="display:none;" title="Result transformation">
+</div>
+<% } else { %>
+  <div class="result-definition-dlg" style="display:none;" title="Result transformation">
+  </div>
+<% } %>
+
+
+  <div id="maximize-chart-dlg" style="display:none;">
+    <div class="maximized-chart-dialogs-buttons">  </div>
+    <div class="maximized-chart-container" >
+      <div class="maximized-chart-cntr"> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+
+<div id="print-setup-dialog" style="display:none;">
+  <div class="print-setup-dialog-body"></div>
+</div>

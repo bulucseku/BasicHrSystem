@@ -1,0 +1,15 @@
+<div>
+<% can.each(objects, function(object, i) { %>
+    <%if(object.name != undefined && object.name != null && object.name != ""){%>
+        <div class="object-selector-wrapper">
+            <label class="checkbox-labelL checkbox" for="<%= object.hid%>" title="<%= object.name%>">
+                <input id="<%= object.hid%>" type="checkbox" title="<%= object.name%>" hid="<%= object.hid%>" class="object-selector px">
+                </input>
+              <span class="lbl"><%= object.name%>
+              </span>
+            </label>
+        </div>
+    <%}%>
+<% }); %>
+</div>
+

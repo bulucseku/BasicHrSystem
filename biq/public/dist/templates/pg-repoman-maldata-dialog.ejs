@@ -1,0 +1,14 @@
+<div id="maltyped-data-dialog" title="You have entered Malformed data" style="overflow: auto; height: 300; width: 400px;">
+  <table style="width: 420px;" cellpadding="0" cellspacing="0">
+    <tr>
+      <th>Please fix the following types before proceding.</th>
+      <% can.each(maltypedElems, function(element, i) { %>
+      <tr>
+      	<td>
+          	<%= i+1%>) Column: <%= element.colName%>, Row: <%= element.rowInd%>, Value: <%= element.elem%>
+      	</td>
+  	  </tr>
+      <% }); %>
+    </tr>
+  </table>
+</div>

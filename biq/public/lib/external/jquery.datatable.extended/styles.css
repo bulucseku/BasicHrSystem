@@ -1,0 +1,11 @@
+﻿
+.DTExt_select_all_checkbox {
+    text-align: left;
+}
+.DTExt_select_checkbox {
+    text-align: left;
+}
+
+.DTExt_dynamic_column {
+    cursor: pointer;
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "filterId":"20",
+    "fieldId":"REPOSITORY_KEY",
+    "fieldDesc":"",
+    "dataType":"STRING",
+    "displayName":"Repository Key in BIQ",
+    "repositoryConnectionName":null,
+    "allowableValuesQuery":null,
+    "repositoryType" : "sql",
+    "showValueOnly":false
+  },
+  {
+    "filterId" : "23",
+    "fieldId" : "DASHBOARD_ID",
+    "fieldDesc" : "",
+    "dataType" : "STRING",
+    "displayName" : "Repository Key in Dashboard",
+    "repositoryConnectionName" : "dashboard",
+    "repositoryType" : "mongo",
+    "allowableValuesQuery" : "[{ $unwind: \"$dashboards\" },{ $project: { _id: 0, value: \"$dashboards.title\", key: { $concat: [\"$organizationName\", \"_\", \"$dashboards.id\"] }} }]",
+    "showValueOnly" : false,
+    "collectionName" : "dashboardMetaData"
+  },
+  {
+    "filterId":"22",
+    "fieldId":"MEMBER_TYPE",
+    "fieldDesc":"",
+    "dataType":"STRING",
+    "displayName":"Member",
+    "repositoryConnectionName":null,
+    "allowableValuesQuery":null,
+    "repositoryType" : "sql",
+    "showValueOnly":false
+  },
+  {
+    "filterId" : "4",
+    "fieldId" : "DASHBOARD_PAGE_ID",
+    "fieldDesc" : "",
+    "dataType" : "STRING",
+    "displayName" : "Dashboard PAge Id",
+    "repositoryConnectionName" : "dashboard",
+    "repositoryType" : "mongo",
+    "allowableValuesQuery" : "[{ $unwind: \"$dashboards\" },{ $project: { id: \"$dashboards.id\", title: \"$dashboards.title\", pages: \"$dashboards.pages\" }},{ $unwind: \"$pages\" },{ $project: { _id: 0, value: { $concat: [\"$title\", \"_\", \"$pages.title\"]}, key: { $concat: [\"$id\", \"_\", \"$pages.title\"]} } }]",
+    "collectionName" : "dashboardMetaData",
+    "showValueOnly" : false
+  },
+  {
+    "filterId" : "15",
+    "fieldId" : "STATE",
+    "fieldDesc" : "",
+    "dataType" : "STRING",
+    "displayName" : "State",
+    "repositoryConnectionName" : "richs_production",
+    "repositoryType" : "sql",
+    "allowableValuesQuery" : "select distinct state_filter as value, state_filter as display_text from dm_rem_geography order by state_filter",
+    "showValueOnly" : false
+  },
+  {
+    "filterId" : "14",
+    "fieldId" : "CITY",
+    "fieldDesc" : "",
+    "dataType" : "STRING",
+    "displayName" : "City",
+    "repositoryConnectionName" : "richs_production",
+    "repositoryType" : "sql",
+    "allowableValuesQuery" : "select distinct city_filter as value, city_filter as display_text from dm_rem_geography order by city_filter",
+    "showValueOnly" : false
+  },
+  {
+    "filterId" : "16",
+    "fieldId" : "PRODUCT_FOCUS",
+    "fieldDesc" : "",
+    "dataType" : "STRING",
+    "displayName" : "Product Focus Group",
+    "repositoryConnectionName" : "richs_production",
+    "repositoryType" : "sql",
+    "allowableValuesQuery" : "select distinct product_segment1 as value, product_segment1 as display_text from dm_rem_product order by product_segment1",
+    "showValueOnly" : false
+  }
+]

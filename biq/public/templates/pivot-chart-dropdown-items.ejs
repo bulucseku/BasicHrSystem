@@ -1,0 +1,5 @@
+﻿
+<% can.each(items, function(item, key) { %>
+        <li  <% if(selectedId == item.oid) {%>class="active"<% }%> ><a class="pivot-chart-dropdown-item" style="cursor:pointer" itemId="<%= item.oid %>" type="<%= type %>"><%= item.title %></a></li>
+ <%})%>
+ 

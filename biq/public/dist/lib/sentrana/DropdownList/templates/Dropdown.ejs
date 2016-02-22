@@ -1,0 +1,29 @@
+<div class="dropdownChecklist">
+  <div class="dropdownHeader">
+    <div class="cascade-indent"><img src="images/indent_icon.png" /></div>
+    <span class="text"></span>
+    <input type="hidden" value="" lookupFor="dropdownCheckList" class="lookup"></input>
+    <div style="clear:both;"></div>
+  </div>
+  <div class="itemList">
+    <input type="textbox" class="search-text" maxlength="30" value="Search"></input>
+    <div class="itemListitems">
+      <% if (isMultiSelect) {%>
+      <div>
+        <input type="checkbox" class="checkboxAll" name="" value="All"></input>
+        <label class="checkbox-label" title="All">All</label>
+      </div>
+      <% } else {%>
+      <div>
+       <label class="single-dd-label" title="<%= defaultText%>"><%= defaultText%></label>
+      </div>
+      <% }%>
+      <% can.each(lookupData, function(item, i) { %>
+      <div>
+        <input type="checkbox" class="checkboxItem" key="<%= item.key%>" value="<%= item.value%>" style="<% if (isMultiSelect) {%> display:''; <% } else {%> display:none; <% }%>"></input>
+        <label class="checkbox-label" title="<%= item.value%>"><%= item.value%></label>
+      </div>
+      <% }); %>
+    </div>
+  </div>
+</div>

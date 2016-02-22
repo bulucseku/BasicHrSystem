@@ -1,0 +1,61 @@
+<div class="button-add-table" style="float: right;">Add Table</div>
+<div style="padding: 20px;" />
+<div class="table-config">
+	<div class="<%= id%>">
+		<strong style="padding-bottom:10px">Primary Table</strong>
+		<div />
+		<select class="select-table" style="float: left;">
+			<% can.each(selectedRepos, function(table, i) { %>
+			<option value="<%= table%>"><%= table%></option>
+			<% }); %>
+		</select>
+		<div class="button-add-data" style="float: right;">Add Metrics</div>
+		<div class="button-add-segments" style="float: right;">Add Attributes</div>
+		<div class="button-add-filter" style="float: right;">Add Filter</div>
+		<div class="button-add-join" style="float: right;">Add Join</div>
+		<div class="<%= id%>_joinchild" style="padding-top: 10px; padding-left:30px;"/>
+	</div>
+	<div style="padding: 10px;" />
+</div>
+
+
+<div class="dialog-segments" title="Select Attributes For This Table">
+	<form class="form-data" />
+</div>
+
+<div class="dialog-datum" title="Select Metrics For This Table">
+	<form class="form-data" />
+</div>
+
+<div class="dialog-root-filter" title="Configure Root Filter">
+	<table>
+		<tr>
+			<td style="padding: 10px"><strong>Column Name</strong></td>
+			<td style="padding: 10px"><strong>Comparison</strong></td>
+			<td style="padding: 10px"><strong>Literal</strong></td>
+			<td style="padding: 10px"><strong>Run Query</strong></td>
+			<td style="padding: 10px"><strong>Query Result</strong></td>
+		</tr>
+		<tr>
+			<td style="padding: 10px">
+				<input type="text" class="input-name" />
+			</td>
+			<td style="padding: 10px">
+				<select class="select-comp">
+					<% can.each(comparisonOperators, function(compop, i) { %>
+					<option value="<%= i%>"><%= compop%></option>
+					<% }); %>
+				</select>
+			</td>
+			<td style="padding: 10px">
+				<input type="text" class="input-literal" />
+			</td>
+			<td style="padding: 10px">
+				<div class="button-run-query">Go!</div>
+			</td>
+			<td style="padding: 10px">
+				<div class="query-result"></div>
+			</td>
+		</tr>
+	</table>
+</div>

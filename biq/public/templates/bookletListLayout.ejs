@@ -1,0 +1,23 @@
+﻿<div class="saved-report-search-container loading">
+	<p class="small-waitingwheel"><img src="images/loading_15px.gif" style="padding-right: 0.5em;"/><span>Looking for your booklets...</span></p>
+</div>
+<div class="saved-report-search-container no-booklets" style="display: none;">
+	<p>You do not have any saved booklets.</p>
+	<p>Click "Add Booklet" button to create booklet!</p>
+</div>
+<div class="saved-report-search-container has-booklets" style="display: none;">
+	<p><strong>You have access to <span class="booklet-count"><%= model.count%></span> booklets.</strong></p>
+  <span class="sort-caption">Sort booklets by:</span>
+  <div class="sort-items-container btn-group">
+    <% can.each(model.getSortFieldNames(), function(sortitem, i) { %>
+      <label class="btn btn-default <% if(sortitem.key === model.field){%>active<%}else{%><%}%>">
+      <input type="radio" id="booklet_<%= sortitem.key%>" field="<%= sortitem.key%>"  class="sort-field px" name="bookletsort" value="<%= sortitem.value%>"></input>
+          <%= sortitem.value%>
+      </label>
+    <% }); %>
+  </div>
+  <div class="booklet-search-container">
+    <br><span><strong>SEARCH:</strong></span><input class="form-control accordion-search-input" type="text" size="25"></input>
+  </div>        
+</div>
+<div class="booklet-list"></div>

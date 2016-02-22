@@ -1,0 +1,14 @@
+{
+  "name": "BIQ",
+  "version": "2.1.0",
+  "description": "Sentrana BIQ Application",
+  "main": "public/main.js",
+  "devDependencies": {
+    "east": "^0.2.3",
+    "east-mongo": "^0.1.2",
+    "mongodb": "^2.0.27"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

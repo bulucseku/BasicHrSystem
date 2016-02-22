@@ -1,0 +1,1 @@
+steal('lib/sentrana/PageWidget/Page.js', 'lib/sentrana/PageWidget/PropertyModel.js', 'lib/sentrana/PageWidget/PropertyController.js', 'lib/sentrana/PageWidget/PageModel.js', 'lib/sentrana/PageWidget/css/page.css');

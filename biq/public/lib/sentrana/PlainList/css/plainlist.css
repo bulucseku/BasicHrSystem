@@ -1,0 +1,23 @@
+.plain-list-container{
+    padding: 2px 4px;
+}
+
+.plain-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plain-list li{
+   padding: 1px 0;
+}
+
+.plain-list-item {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.plain-list-item span{
+    padding: 0 2px;
+}

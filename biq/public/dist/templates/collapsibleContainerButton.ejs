@@ -1,0 +1,30 @@
+<div class="cc-button" title='<%= title%>'>
+    <div class="btn btn-sm <%= btnStyle%>">
+    	<span class="fa <%= cls%>"></span>
+
+    </div>
+            <div>
+                <% if (dropdown) { %>
+                <ul class="dropdown-menu container-drop-down" style="display: none;">
+                    <% can.each(menuItems, function(menu, i) { %>
+                    <% if (menu.submenuItems){ %>
+                    <li class="dropdown-submenu">
+                        <a href="#"><%= menu.name %></a>
+                        <ul class="dropdown-menu">
+                            <% can.each(menu.submenuItems, function(submenu, i) { %>
+                            <li class="container-button-menu" elementid="<%= submenu.id %>">
+                                <a><%= submenu.name %></a>
+                            </li>
+                            <%})%>
+                        </ul>
+                    </li>
+                    <% }else{ %>
+                    <li class="container-button-menu" elementid="<%= menu.id %>">
+                        <a><%= menu.name %></a>
+                    </li>
+                    <% } %>
+                    <% }); %>
+                </ul>
+                <% } %>
+        </div>
+</div>

@@ -1,0 +1,12 @@
+.theme-sentrana .collapsibleContainerTitle{
+    background-color: green !important;
+    color: white !important;
+}
+
+.theme-sentrana .panel-icon{
+    color: white;
+}
+
+.theme-sentrana .panel-title{
+    color: white;
+}

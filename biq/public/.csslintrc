@@ -1,0 +1,56 @@
+{
+    /**
+     * For each rule, a value of false or 0 ignores the rule, a value
+     * of 2 will set it to become an error. Otherwise all rules are considered
+     * warnings.
+     *
+     * For more details, see
+     * - http://csslint.net/about.html
+     * - https://github.com/CSSLint/csslint/wiki/Rules
+     */
+
+    /* Ignore */
+
+    "important"                   : 0,  // Be careful when using !important declaration
+    "adjoining-classes"           : 0,  // Don't use adjoining classes (IE6).
+    "box-sizing"                  : 0,  // The box-sizing properties isn't supported in IE6 and IE7.
+    "star-property-hack"          : 0,  // Checks for the star property hack (targets IE6/7)
+    "underscore-property-hack"    : 0,  // Checks for the underscore property hack (targets IE6)
+
+    /* Warning */
+
+    "known-properties"            : 1,  // Properties should be known (listed in CSS3 specification) or be a vendor-prefixed property.
+    "box-model"                   : 1,  // Don't use width or height when using padding or border.
+    "overqualified-elements"      : 1,  // Don't use classes or IDs with elements (a.foo or a#foo).
+    "display-property-grouping"   : 1,  // Certain properties shouldn't be used with certain display property values.
+    "bulletproof-font-face"       : 1,  // Use the bulletproof @font-face syntax to avoid 404's in old IE (http://www.fontspring.com/blog/the-new-bulletproof-font-face-syntax).
+    "compatible-vendor-prefixes"  : 1,  // Include all compatible vendor prefixes to reach a wider range of users.
+    "regex-selectors"             : 1,  // Selectors that look like regular expressions are slow and should be avoided.
+    "duplicate-background-images" : 1,  // Every background-image should be unique. Use a common class for e.g. sprites.
+    "duplicate-properties"        : 1,  // Duplicate properties must appear one after the other.
+    "empty-rules"                 : 1,  // Rules without any properties specified should be removed.
+    "selector-max-approaching"    : 1,  // Will warn when selector count is >= 3800 selectors.
+    "gradients"                   : 1,  // When using a vendor-prefixed gradient, make sure to use them all.
+    "fallback-colors"             : 1,  // For older browsers that don't support RGBA, HSL, or HSLA, provide a fallback color.
+    "font-sizes"                  : 1,  // Checks the number of font-size declarations.
+    "font-faces"                  : 1,  // Too many different web fonts in the same stylesheet.
+    "floats"                      : 1,  // This rule tests if the float property is used too many times
+    "outline-none"                : 1,  // Use of outline: none or outline: 0 should be limited to :focus rules.
+    "import"                      : 1,  // Don't use @import, use <link> instead.
+    "ids"                         : 1,  // Selectors should not contain IDs.
+    "rules-count"                 : 1,  // Track how many rules there are.
+    "qualified-headings"          : 1,  // Headings should not be qualified (namespaced).
+    "selector-max"                : 1,  // Will error when selector count is > 4095.
+    "shorthand"                   : 1,  // Use shorthand properties where possible.
+    "text-indent"                 : 1,  // Checks for text indent less than -99px
+    "unique-headings"             : 1,  // Headings should be defined only once.
+    "universal-selector"          : 1,  // The universal selector (*) is known to be slow.
+    "unqualified-attributes"      : 1,  // Unqualified attribute selectors are known to be slow.
+    "vendor-prefix"               : 1,  // When using a vendor-prefixed property, make sure to include the standard one.
+    "zero-units"                  : 1,  // You don't need to specify units when a value is 0.
+
+    /* Error */
+
+    "errors"                      : 2   // This rule looks for recoverable syntax errors.
+
+}

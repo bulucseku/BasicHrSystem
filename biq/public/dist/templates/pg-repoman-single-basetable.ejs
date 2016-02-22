@@ -1,0 +1,19 @@
+<div style="padding: 10px;" />
+<div class="table-config">
+	<div class="<%= id%>">
+		<strong style="padding-bottom:10px">Primary Table</strong>
+		<div />
+		<select class="select-table" style="float: left;">
+			<% can.each(selectedRepos, function(table, i) { %>
+			<option value="<%= table%>"><%= table%></option>
+			<% }); %>
+		</select>
+		<div class="button-add-data" style="float: right;">Add Metrics</div>
+		<div class="button-add-segments" style="float: right;">Add Attributes</div>
+		<div class="button-add-filter" style="float: right;">Add Filter</div>
+		<div class="button-add-join" style="float: right;">Add Join</div>
+		<div class="button-delete-basetable" style="float: right;">Delete</div>
+		<div class="<%= id%>_joinchild" style="padding-top: 10px; padding-left:30px;"/>
+	</div>
+	<div style="padding: 10px;" />
+</div>

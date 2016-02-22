@@ -1,0 +1,28 @@
+﻿<div class="report-filter-container">
+  <% if (colType !== Sentrana.ColType.METRIC) {%>
+    <div class="report-filter-header">
+        <i class="report-filter-header-updn-img fa fa-chevron-right" />
+        <div title="<%= name %>" class="report-filter-name">
+          <%= name %>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    <% } %>
+    
+    
+    <div class="report-filter-body <% if (colType !== Sentrana.ColType.METRIC) {%> filter-body-attribute <% } %>">
+      <% if (colType !== Sentrana.ColType.METRIC) {%>
+      <div class="filter-search-container row form-horizontal form-group">
+        <div class="col-xs-8">
+            <input class="accordion-search-input form-control input-filter-search" type="text"></input>
+        </div>
+     </div>
+     <% } %>
+
+        <div class="filter-items <% if (colType === Sentrana.ColType.METRIC) {%> filter-items-metric <% } %>">
+          <div class="loadingwheel">
+            <img class="loading-animation" src="images/loader.gif"/> Loading filters. Please wait...
+          </div>
+        </div>
+    </div>
+</div>

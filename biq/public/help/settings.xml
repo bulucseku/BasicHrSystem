@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <theme>
+    <layout>themes/Bootstrap%202.0/layout.html</layout>
+    <stylesheet>css/jquerymobile/dark/jquery.mobile.css</stylesheet>
+  </theme>
+  <references>
+    <join>themes/Bootstrap%202.0/settings.theme.xml</join>
+    <join>themes/Bootstrap%202.0/settings.en-us.xml</join>
+    <css>LinksExt/C1H_HTML.css</css>
+  </references>
+  <strings>
+    <pageHeaderText>BIQ v3.3.2 Help Documentation</pageHeaderText>
+    <emailAddress>support@mycompany.com</emailAddress>
+  </strings>
+  <windows>
+    <window>
+      <name>proc</name>
+      <features>left=680,top=10,height=500,width=315,resizable=1,scrollbars=1</features>
+    </window>
+  </windows>
+</settings>

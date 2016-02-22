@@ -1,0 +1,36 @@
+<div class="chart-option-button"><button class="btn-chart-option">OPTIONS</button></div>
+<div class="chart-restore-button"><button class="btn-chart-restore">RESTORE</button></div>
+<div class="chart-row-range">
+	<div class="slider-desc"><label for="label-chart-row-range">Rows:</label><input type="text" class="label-chart-row-range"/></div>
+	<div class="slider-wrapper"><div class="slider-chart-row-range"></div></div>
+</div>
+<div class="chart-type">
+{{if chartTypeSupported.line}}
+<input type="radio" id="line-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="line-chart-button-${reportChartID}">Line</label>
+{{/if}}
+{{if chartTypeSupported.pie}}
+<input type="radio" id="pie-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="pie-chart-button-${reportChartID}">Pie</label>
+{{/if}}
+{{if chartTypeSupported.column}}
+<input type="radio" id="column-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="column-chart-button-${reportChartID}">Column</label>
+{{/if}}
+{{if chartTypeSupported.bar}}
+<input type="radio" id="bar-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="bar-chart-button-${reportChartID}">Bar</label>
+{{/if}}
+{{if chartTypeSupported.stackedColumn}}
+<input type="radio" id="stacked-column-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="stacked-column-chart-button-${reportChartID}">Stacked Column</label>
+{{/if}}
+{{if chartTypeSupported.stackedBar}}
+<input type="radio" id="stacked-bar-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="stacked-bar-chart-button-${reportChartID}">Stacked Bar</label>
+{{/if}}
+{{if chartTypeSupported.scatter}}
+<input type="radio" id="scatter-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="scatter-chart-button-${reportChartID}">Scatter</label>
+{{/if}}
+{{if chartTypeSupported.bubble}}
+<input type="radio" id="bubble-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="bubble-chart-button-${reportChartID}">Bubble</label>
+{{/if}}
+{{if chartTypeSupported.histogram}}
+<input type="radio" id="histogram-chart-button-${reportChartID}" event="chart-type-button" name="chart-type-radio-${reportChartID}" /><label for="histogram-chart-button-${reportChartID}">Histogram</label>
+{{/if}}
+</div>
+<div class="clear"></div>

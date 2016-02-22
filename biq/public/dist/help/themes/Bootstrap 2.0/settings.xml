@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <theme>
+    <name>Bootstrap 2.0</name>
+    <predefined>false</predefined>
+    <baseTheme>Responsive</baseTheme>
+    <baseVersion>1.2.1</baseVersion>
+    <type>Responsive</type>
+  </theme>
+  <general>
+    <favicon>images/d2h-favicon.ico</favicon>
+  </general>
+</settings>

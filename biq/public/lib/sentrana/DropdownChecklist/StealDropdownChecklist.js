@@ -1,0 +1,1 @@
+steal('lib/sentrana/DropdownChecklist/DropdownChecklist.js', 'lib/sentrana/DropdownChecklist/css/checkboxListStyle.css');

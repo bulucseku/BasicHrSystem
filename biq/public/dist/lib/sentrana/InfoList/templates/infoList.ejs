@@ -1,0 +1,16 @@
+<div class="info-list-container">
+    <ul class="info-list">
+        <% can.each(items, function(item, index) { %>
+        <li>
+            <div class="clearfix">
+                <div class="pull-left">
+                    <span class="info-list-item-title"><strong><%= item.text%>:</strong></span>
+                </div>
+                <div class="info-list-item">
+                    <span class="info-list-item-description"><%= item.description%></span>
+                </div>
+            </div>
+        </li>
+        <% }); %>
+    </ul>
+</div>

@@ -1,0 +1,42 @@
+@(sharedObject: String, senderFirstName: String, sender: String, receiver: String, reportName: String, repositoryName: String, messageBody: String, applicationUrl: String)
+
+@objectTitle = @{
+    if(sharedObject == "report") {
+        "Report Title"
+    } else {
+        "Booklet Title"
+    }
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        @views.html.emails.EmailStyle()
+        @views.html.emailTemplates.BIQEmailStyle()
+    </head>
+    <body>
+        @views.html.emails.MailHeader()
+    <div class="body-container">
+        <p>Hi @receiver,</p>
+        <p>@sender has revoked the following BIQ @sharedObject from you:</p>
+        <table>
+            <tr>
+                <td> <span class="title"> @objectTitle </span></td>
+                <td>:</td>
+                <td><span> @reportName </span></td>
+            </tr>
+            <tr>
+                <td><span class="title"> Repository</span></td>
+                <td>:</td>
+                <td><span>@repositoryName</span></td>
+            </tr>
+        </table>
+
+        <p>This @sharedObject will no longer appear in your Saved Reports and Booklets page.
+           Please reach out to @senderFirstName if you would like to access the @sharedObject again.</p>
+
+        <p>You can log into the system at: <span> @applicationUrl </span></p>
+
+        @views.html.emails.MailFooter()
+    </div>
+    </body>
+</html>

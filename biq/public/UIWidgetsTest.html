@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>UIWidgets Showcase</title>
+    <link href="themes/default.css" rel="stylesheet" type="text/css">
+    <link href="themes/fresh.css" rel="stylesheet" type="text/css">
+    <style>
+        .widgets-sample-container{
+            border-top: solid 3px gray;
+            width: 250px;
+        }
+
+        .page-content{
+            padding: 0 !important;
+        }
+
+        .panel, .panel-default{
+            margin-bottom:  0px !important;
+        }
+
+        .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+            background: rgb(166,166,162) !important;
+            border-bottom: 2px solid rgb(166,166,162) !important;
+        }
+
+        body{
+            margin-left: 100px!important;
+        }
+
+        .semi-blue {
+            color: rgb(0, 140, 154) !important;
+        }
+
+        .semi-green {
+            color: rgb(134, 179, 0) !important;
+        }
+
+        .semi-red {
+            color: rgb(183, 140, 143) !important;
+        }
+    </style>
+</head>
+<body class="theme-ixora">
+
+<!--Plain list Widgets-->
+<div>
+    <h2>Plain List</h2>
+    <div class="widgets-sample-container">
+        <div class="panel-with-plain-list-single"></div>
+    </div>
+</div>
+
+<!--Info list Widgets-->
+<div>
+    <h2>Info List</h2>
+    <div class="widgets-sample-container">
+        <div class="panel-with-info-list-single"></div>
+    </div>
+</div>
+
+<!--Panel Widgets-->
+<div>
+    <h2>Panel</h2>
+    <div class="widgets-sample-container">
+        <div class="single-panel"></div>
+    </div>
+</div>
+
+<!--Dropdown Widgets-->
+<div>
+    <h2>Dropdown</h2>
+    <div class="widgets-sample-container">
+        <div class="panel-with-dropdown-single"></div>
+    </div>
+</div>
+
+<!--Composite Widgets-->
+<div>
+    <h2>Composite Widgets</h2>
+    <div class="widgets-sample-container">
+        <div style="width: 250px;">
+            <div id="panel-with-plain-list"></div>
+            <div id="panel-with-tab-and-drop-down-list"></div>
+            <div id="panel-with-drop-down-list"></div>
+            <div id="panel-with-tab-and-clickable-list"></div>
+            <div id="panel-with-info-list"></div>
+            <div id="page-control"></div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="steal/steal.js?//UIWidgetsTest.js"></script>
+</body>
+</html>

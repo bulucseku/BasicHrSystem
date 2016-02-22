@@ -1,0 +1,135 @@
+<div class="form-horizontal report-chart-options-dialog-container">
+		<% if (chartConfiguration.showChartOptions.chartTitle == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-chart-title">Chart Title:</label>
+			<div class="col-sm-7"><input class="form-control input-chart-option-dial-title" type="text" value="<%= model.chartTextOptions.chartTitle%>"></div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartSubtitle == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-chart-subtitle">Chart Subtitle:</label>
+			<div class="col-sm-7"><input class="form-control input-chart-option-dial-subtitle" type="text" value="<%= model.chartTextOptions.chartSubtitle%>"></div>
+		</div>
+		<% }%>
+		<% if (model.chartType !== 'pie') {%>
+		<% if (chartConfiguration.showChartOptions.chartXAxisLabel == true) {%>
+	   	<div class="form-group">
+			<label class="col-sm-5 control-label lbl-x-axis-label">X Axis Label:</label>
+			<div class="col-sm-7"><input class="form-control input-x-axis-label" type="text" value="<%= model.chartTextOptions.chartXAxisLabel%>"></div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartYAxisLabel == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-y-axis-label">Y Axis Label:</label>
+			<div class="col-sm-7"><input class="form-control input-y-axis-label" type="text" value="<%= model.chartTextOptions.chartYAxisLabel%>"></div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartXAxisLabelRotation == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-x-axis-label-rotation">X-Axis Label Rotation:</label>
+			<div class="col-sm-7">
+				<select class="form-control select-x-axis-label-rotation">
+					<option value="-90" <% if (-90 === model.chartTextOptions.chartXLabelRotation) {%>selected="selected"<% }%>>-90</option>
+					<option value="-45" <% if (-45 === model.chartTextOptions.chartXLabelRotation) {%>selected="selected"<% }%>>-45</option>
+					<option value="0" <% if (0 === model.chartTextOptions.chartXLabelRotation) {%>selected="selected"<% }%>>0</option>
+					<option value="45" <% if (45 === model.chartTextOptions.chartXLabelRotation) {%>selected="selected"<% }%>>45</option>
+					<option value="90" <% if (90 === model.chartTextOptions.chartXLabelRotation) {%>selected="selected"<% }%>>90</option>
+				</select>
+			</div>
+		</div>
+		<% }%>
+		<% }%>
+
+		<% if (model.chartType == 'histogram' ) {%>
+		<% if (chartConfiguration.showChartOptions.chartBinCount == true) {%>
+	    <div class="form-group">
+			<label class="col-sm-5 control-label lbl-bin-count">Number of Bins:</label>
+			<div class="col-sm-7">
+				<select class="form-control select-bin-count">
+					<option value="5" <% if (5 === model.binCount) {%>selected="selected"<% }%>>5</option>
+					<option value="10" <% if (10 === model.binCount) {%>selected="selected"<% }%>>10</option>
+					<option value="25" <% if (25 === model.binCount) {%>selected="selected"<% }%>>25</option>
+					<option value="50" <% if (50 === model.binCount) {%>selected="selected"<% }%>>50</option>
+					<option value="100" <% if (100 === model.binCount) {%>selected="selected"<% }%>>100</option>
+				</select>
+			</div>
+		</div>
+		<% }%>
+		<% }%>
+
+		<% if (model.chartType == 'scatter' || model.chartType == 'bubble') {%>
+		<% if (chartConfiguration.showChartOptions.chartLegendAttribute == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-legend-attribute">Legend Attribute:</label>
+			<div class="col-sm-7">
+				<select class="form-control select-legend-attribute">
+					<option <% if (model.chartLegendAttrColumnName=="" || model.chartLegendAttrColumnName=="None") {%>selected<% }%>>None</option>
+	            <% can.each(model.chartAttrColumnNames, function(value, i){ %>
+	                <option <% if (value==model.chartLegendAttrColumnName) {%>selected<% }%>><%= value%></option>
+	            <% }); %>
+				</select>
+			</div>
+		</div>
+		<% }%>
+		<% }%>
+
+		<% if (model.chartType != 'scatter' && model.chartType != 'bubble' && model.chartType != 'histogram') {%>
+      <% if (chartConfiguration.showChartOptions.chartCollapseTail == true && model.chartType != 'us map') {%>
+      <div class="form-group collapse-tail-container">
+			<label class="col-sm-5 control-label lbl-collapse-tail">Collapse Tail:</label>
+          <div class="col-sm-7 checkbox">
+            <label class="px-single checkbox-label">
+              <input class="px input-collapse-tail" type="checkbox" <% if (model.chartCollapseTail) {%>checked="true"<% }%> ><span class="lbl"></span>
+            </label>
+          </div>
+
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartCollapseItemName == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-chart-collapse-item-name">Chart Collapse Item Name:</label>
+			<div class="col-sm-7"><input class="form-control input-chart-collapse-item-name" type="text" value="<%=  model.chartCollapseItemName%>"></div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartCollapseRowLimit == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-chart-collapse-row-limit">Chart Collapse Row Limit:</label>
+			<div class="col-sm-7"><input class="form-control input-chart-collapse-row-limit" type="text" value="<%= model.chartCollapseRowLimit%>" maxlength="5"></div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartAutoSegmentation == true) {%>
+		<div class="form-group">
+			<label class="col-sm-5 control-label lbl-auto-segmentation user-option-checkbox-text">Auto Segmentation:</label>
+            <div class="col-sm-7 checkbox">
+                <label class="px-single checkbox-label">
+                    <input class="px input-auto-seg" type="checkbox" <% if (model.chartAutoSegmentation) {%>checked="true"<% }%> ><span class="lbl"></span>
+                </label>
+            </div>
+		</div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartAttrToSegment == true) {%>
+        <div class="form-group attr-to-segment-container">
+            <label class="col-sm-5 control-label bl-attribute-to-segment">Attribute to Segment:</label>
+            <div class="col-sm-7">
+                <select class="form-control select-attr-to-segment">
+                    <% can.each(model.chartAttrColumnNames, function(value, i){ %>
+                    <option <% if (value==model.chartSegAttrColumnName) {%>selected<% }%>><%= value%></option>
+                    <% }); %>
+                </select>
+            </div>
+        </div>
+		<% }%>
+		<% if (chartConfiguration.showChartOptions.chartMetricToSegment == true) {%>
+        <div class="form-group metric-to-segment-container">
+            <label class="col-sm-5 control-label lbl-metric-to-segment">Metric to Segment:</label>
+            <div class="col-sm-7">
+                <select class="form-control select-metric-to-segment">
+                    <% can.each(model.chartMetricColumnNames, function(value, i){ %>
+                    <option <% if (value==model.chartSegMetricColumnName) {%>selected<% }%>><%= value%></option>
+                    <% }); %>
+                </select>
+            </div>
+        </div>
+		<% }%>
+		<% }%>
+</div>

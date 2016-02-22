@@ -1,0 +1,31 @@
+/*
+ * These styles are used to affect the display of the "selector base". This is a segment of HTML which is "overlaid" with the Selector Overlay control
+ */
+.selbase {
+	font-size: 0.6em;
+	color: #999;
+	font-weight: bold;
+}
+.selbase .name, .selbase .arrow {
+	border: 1px solid #999;
+	padding: 0.5em;
+}
+.selbase .name {
+	border-radius: 0px;
+}
+.selbase .arrow {
+	border-radius: 0px;
+}
+.selbase .arrow img {
+	background-image: url(../images/downTri.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 10px;
+}
+.selbase:hover .name, .selbase:hover .arrow {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.selbase:hover .arrow img {
+	background-position: -10px 0px;
+}

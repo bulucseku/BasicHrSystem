@@ -1,0 +1,132 @@
+<div class="view-report-container">
+  <table class="report-defin-info-table">
+    <tr>
+      <td>
+        <div class="report-info-cntr">
+          <span class="report-info-loading"></span>
+          <span class="report-info-loading-msg"></span>
+        </div>
+        <div class="report-name-cntr">
+          <strong>Report: </strong>
+          <span class="report-name"></span>
+        </div>
+
+        <div class="report-column-cntr">
+          <strong>Column: </strong>
+          <span class="report-column"></span>
+        </div>
+
+        <div class="report-filter-cntr">
+          <strong>Filter: </strong>
+          <span class="report-filter"></span>
+        </div>
+
+        <div class="applied-range-filter-cntr">
+          <strong>Range Filter: </strong>
+          <span class="applied-range-filter"></span>
+        </div>
+      </td>
+        <!--Hide the range filters with the grid temporarily-->
+      <!--<td>-->
+        <!--<div class="btn-show-hide-range-filter pull-right btn btn-sm" title="Show range filter(s)">-->
+          <!--<span class="fa fa-tasks" style="font-size:14px;"/>-->
+        <!--</div>-->
+      <!--</td>-->
+    </tr>
+  </table> 
+
+  
+  <div class="range-filter-cntr"> </div>
+  
+  <div style="display: none;" class="summary">
+    <div class="execution-monitor">
+      <table style="width: 100%;">
+        <tr>
+          <td>            
+            <div class="report-execution-detail">
+              <div class="small-waitingwheel">
+                <img src="images/loading_15px.gif" class="spinner" />
+                <span class="execution-message"></span>
+
+                <div class="cancel-btn btn btn-primary pull-right">CANCEL</div>
+                <div class="num-rows-display-btns">
+                  <span class="show-as">Show As:</span>
+                  <div class="btn-group pull-right">
+                
+                    <div class="butWrap btn btn-sm show-as-btn-grid" display-type="grid" style="font-size:14px">
+                        <span class="fa fa-table"></span>
+                    </div>
+                    <div  class="butWrap btn btn-sm  show-as-btn-chart" display-type="chart" style="font-size:14px">
+                        <span class="fa  fa-bar-chart-o"></span>
+                    </div>
+                  </div>
+                </div>
+                <div class="separator">|</div>
+                <div class="num-rows"></div>
+                <div class="separator">|</div>
+                <div class="elapsed-time"></div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+      <div class="exception-info"></div>
+      <div class="drill-path"></div>
+    </div>
+  </div>
+
+  <div class="report-hidden-columns">    
+  </div>
+
+  <div class="panel panel-default show-hide-report-filters" title="Show filters">
+    <div class="clearfix panel-heading">
+      <div class="panel-heading-controls">
+
+        <div class="btn btn-xs" >
+            <i class="indicator-icon text-xs fa fa-plus-square"></i>
+        </div>
+        
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  
+  <div class="report-filters-container"></div>
+  
+</div>
+  
+  <div class="report-chart" style="display: none;">
+    <div class="chart-option"></div>
+    <div class="report-chart-cntr">
+    </div>
+  </div>
+  <div class="report-grid" style="display: none;">
+    <div class="report-grid-cntr table"></div>
+    <div style="clear: both;"></div>
+  </div>
+
+    <% if (allowDrill===true) {%>
+    <div class="drill-menu" style="display: none;">
+        <div class="hdr">Drill Menu</div>
+        <div class="selection"></div>
+        <div class="buttons">
+            <div class="drill-up btn btn-sm">
+                <img src="images/roll_up.png" class="drill-up-image" />
+                Roll Up
+            </div>
+            <div class="drill-down btn btn-sm">
+                <img src="images/drill_dn.png" class="drill-down-image"/>
+                Drill Down
+            </div>
+            <div class="drill-down-to"></div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+    <% }%>
+
+
+  <div class="column-filter-element"></div>
+  <div class="column-sort-element" style="display:none"></div>
+  <div class="column-util-element" style="display:none"></div>
+  <div class="hidden-column-element" style="display:none"></div>
+</div>

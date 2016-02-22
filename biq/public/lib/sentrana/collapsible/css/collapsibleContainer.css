@@ -1,0 +1,17 @@
+k.collapsibleContainerContent {
+    width: 100%;
+}
+
+.collapsibleContainerTitle .buttonBar {
+    margin-right:20px
+}
+
+.indicator {
+    color: #aaa;
+    font-size: 10px;
+    display: block;
+    line-height: 36px;
+    position: absolute;
+    top: 3px;
+    right: 15px;
+}
